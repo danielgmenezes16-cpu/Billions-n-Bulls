@@ -1,0 +1,308 @@
+<title>Raio-X Chill × Casual Finance</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: dossiê de redação em coluna única; faixa-título vermelha, placar comparativo, fichas em duas colunas (rótulo mono à esquerda, texto à direita). Visual escuro único, a pedido. */
+:root{
+  --bg:#131312; --panel:#1b1a19; --ink:#ece8e1; --muted:#a9a39a; --faint:#77726b; --rule:#34312d;
+  --accent:#e2553d; --accent-ink:#fde6df; --chip:#3a3835;
+  --cf:#e2553d; --cfh:#cdb98a; --good:#8fbf8a;
+  --display:"Oswald","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-block:40px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:64px}
+a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;font-weight:600;margin:0;text-wrap:balance;letter-spacing:.01em}
+p{margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+/* Cabeçalho */
+header{display:flex;flex-direction:column;gap:18px}
+.chip{align-self:flex-start;background:var(--chip);color:var(--ink);padding:6px 10px}
+.banner{background:var(--accent);padding:14px 18px 10px}
+.banner h1{color:var(--accent-ink);font-weight:700;font-size:clamp(40px,8vw,76px);line-height:.98}
+.lede{max-width:66ch;color:var(--ink);font-size:18px}
+.lede b{font-weight:700}
+.meta{color:var(--faint);line-height:1.7}
+
+/* Placar */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.tile{padding:16px 14px 18px;border-right:1px solid var(--rule);display:flex;flex-direction:column;gap:8px}
+.tile:last-child{border-right:0}
+.tile .v{font-family:var(--display);font-size:34px;font-weight:600;line-height:1}
+.tile .v.cf{color:var(--cf)} .tile .v.cfh{color:var(--cfh)}
+.tile .l{color:var(--muted);line-height:1.5}
+
+/* Seções */
+section{display:flex;flex-direction:column;gap:22px}
+.eyebrow{color:var(--accent)}
+.sec-head{display:flex;flex-direction:column;gap:8px}
+.sec-head h2{font-size:clamp(28px,4.4vw,38px)}
+.sec-head p{color:var(--muted);max-width:68ch}
+
+/* Tabela comparativa */
+.tbl-wrap{overflow-x:auto;border-top:1px solid var(--rule)}
+table{width:100%;border-collapse:collapse;min-width:560px}
+th,td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--rule)}
+thead th{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+thead th.cfh{color:var(--cfh)} thead th.cf{color:var(--cf)}
+tbody th{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:400;width:24%}
+td{font-variant-numeric:tabular-nums}
+td small{color:var(--muted);font-size:14px}
+
+/* Gráfico */
+figure{margin:0;display:flex;flex-direction:column;gap:12px}
+.legend{display:flex;flex-wrap:wrap;gap:18px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.dot.cf{background:var(--cf)} .dot.cfh{background:var(--cfh)}
+.chart{overflow-x:auto;background:var(--panel);padding:10px 6px 4px}
+.chart svg{display:block;width:100%;min-width:600px;height:auto}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.chart .grid.v{stroke-dasharray:2 4}
+.chart .ax{fill:var(--faint);font-family:var(--mono);font-size:11px}
+.chart .p-cfh{fill:var(--cfh);fill-opacity:.7}
+.chart .p-cf{fill:var(--cf);stroke:var(--bg);stroke-width:1.2}
+.chart .evt{stroke:var(--accent);stroke-dasharray:4 4;stroke-width:1.2}
+.chart .evtl{fill:var(--accent);font-family:var(--mono);font-size:11px;letter-spacing:.04em}
+figcaption{color:var(--faint);font-size:14.5px;max-width:72ch}
+
+/* Fichas (rótulo + texto) */
+.rows{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.row{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.row .lab{display:flex;flex-direction:column;gap:4px;color:var(--accent)}
+.row .lab .sub{color:var(--faint)}
+.row .body{display:flex;flex-direction:column;gap:8px;min-width:0}
+.row h3{font-size:20px;font-weight:600}
+.row p{color:#d6d1c9;max-width:68ch}
+.row p b{color:var(--ink)}
+.chan-tag{display:inline-flex;gap:10px;align-items:center}
+.chan-tag.cfh h2{color:var(--cfh)} .chan-tag.cf h2{color:var(--cf)}
+
+/* Temas */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.duo > div{min-width:0;display:flex;flex-direction:column;gap:10px}
+.duo h3{font-size:19px}
+.duo .cf-h{color:var(--cf)} .duo .cfh-h{color:var(--cfh)}
+.bars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.bars li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.bars .t{font-size:15.5px}
+.bars .n{font-family:var(--mono);font-size:13px;color:var(--ink);font-variant-numeric:tabular-nums;text-align:right}
+.bars .n small{color:var(--faint);font-size:11px}
+.bars .bar{grid-column:1 / -1;height:4px;background:var(--rule)}
+.bars .bar i{display:block;height:100%}
+.bars.cf .bar i{background:var(--cf)} .bars.cfh .bar i{background:var(--cfh)}
+.note{color:var(--faint);font-size:14.5px}
+
+/* Títulos */
+.titles{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.titles li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:9px 0;border-bottom:1px solid var(--rule);font-size:15.5px}
+.titles li span:last-child{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.formula{background:var(--panel);padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.formula p{font-size:16px}
+
+/* Destaque */
+.callout{border-left:3px solid var(--accent);background:var(--panel);padding:20px 22px;display:flex;flex-direction:column;gap:10px}
+.callout h3{font-size:24px}
+.callout p{max-width:68ch;color:#d6d1c9}
+
+/* Veredito */
+.verdict .row .lab{color:var(--good)}
+footer{color:var(--faint);font-size:14px;display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--rule);padding-top:18px}
+
+@media (max-width:680px){
+  .row{grid-template-columns:1fr;gap:10px}
+  .duo{grid-template-columns:1fr}
+  .tile{border-right:0;border-bottom:1px solid var(--rule)}
+  body{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="chip mono">Raio-X comparativo · 2 canais · 337 vídeos medidos</div>
+  <div class="banner"><h1>Volume × Precisão</h1></div>
+  <p class="lede">Dois canais dark de finanças em inglês nasceram com dois meses de diferença, em 2025. Um publicou <b>220 vídeos longos</b>, caiu para 5,5 mil views por vídeo e foi desmonetizado. O outro publicou <b>35</b> e tem mediana de <b>540 mil</b>. Este é o desmonte do que cada um fez e do que o Billions &amp; Bulls leva disso.</p>
+  <p class="mono meta">Dados coletados em 27/10/2026 · <a href="https://www.youtube.com/@chillfinancialhistorian">@chillfinancialhistorian</a> · <a href="https://www.youtube.com/@CasuallyFinance">@CasuallyFinance</a> · páginas públicas do YouTube</p>
+</header>
+
+<div class="tiles">
+  <div class="tile"><div class="v cf num">540 mil</div><div class="l mono">Mediana por vídeo longo · Casual Finance</div></div>
+  <div class="tile"><div class="v cfh num">5,5 mil</div><div class="l mono">Mediana dos últimos 100 longos · Chill Financial Historian</div></div>
+  <div class="tile"><div class="v num">35 × 220</div><div class="l mono">Vídeos longos publicados</div></div>
+  <div class="tile"><div class="v num">0,6 × 4,7</div><div class="l mono">Vídeos longos por semana</div></div>
+  <div class="tile"><div class="v cf num">16/09</div><div class="l mono">Chill Financial Historian desmonetizado</div></div>
+</div>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Ficha técnica</div>
+    <h2>Os dois, lado a lado</h2>
+    <p>Mesma língua, mesmo nicho amplo, mesma idade. A diferença está na máquina de produção.</p>
+  </div>
+  <div class="tbl-wrap">
+  <table>
+    <thead><tr><th></th><th class="cfh">Chill Financial Historian</th><th class="cf">Casual Finance</th></tr></thead>
+    <tbody>
+      <tr><th>Criado em</th><td>21/09/2025</td><td>16/07/2025</td></tr>
+      <tr><th>Inscritos</th><td>137 mil</td><td>426 mil</td></tr>
+      <tr><th>Views totais</th><td>8,67 mi</td><td>30,8 mi</td></tr>
+      <tr><th>Vídeos longos</th><td>220</td><td>35</td></tr>
+      <tr><th>Shorts</th><td>18</td><td>179</td></tr>
+      <tr><th>Ritmo de longos</th><td>4,7 por semana <small>(últimos 5 meses)</small></td><td>0,6 por semana <small>(0,9 nos últimos 3 meses)</small></td></tr>
+      <tr><th>Duração típica</th><td>41 min <small>(recentes) · 28 min nos hits</small></td><td>13 min <small>· 16,6 min nos últimos 3 meses</small></td></tr>
+      <tr><th>Mediana por longo</th><td>5,5 mil <small>(recentes) · 40 mil no top 100</small></td><td>540 mil <small>· 881 mil nos últimos 3 meses</small></td></tr>
+      <tr><th>Mediana por Short</th><td>~2 mil</td><td>24 mil</td></tr>
+      <tr><th>Views por inscrito</th><td>63</td><td>72</td></tr>
+      <tr><th>Assunto</th><td>Economia de países e geopolítica</td><td>Mercado e economia dos EUA, no presente</td></tr>
+      <tr><th>Thumbnail</th><td>Ilustração dramática de quadrinho + 2 a 4 palavras</td><td>Boneco de palito + gráfico real + frase curta em serifa</td></tr>
+      <tr><th>Situação</th><td>Desmonetizado em 16/09/2026; vive de comunidade paga de membros</td><td>Ativo; busca patrocínio pela descrição do canal</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">A curva</div>
+    <h2>Um sobe, o outro escorre</h2>
+    <p>Cada ponto é um vídeo longo. O eixo vertical é logarítmico: cada linha vale 10 vezes a de baixo.</p>
+  </div>
+  <figure>
+    <div class="legend mono"><span><i class="dot cf"></i>Casual Finance · 35 vídeos</span><span><i class="dot cfh"></i>Chill Financial Historian · 184 vídeos</span></div>
+    <div class="chart"><svg viewBox="0 0 880 420" role="img" aria-label="Views por vídeo longo ao longo do tempo, escala logarítmica" xmlns="http://www.w3.org/2000/svg"><line x1="64" x2="856" y1="340.6" y2="340.6" class="grid"/><text x="54" y="344.6" class="ax" text-anchor="end">1 mil</text><line x1="64" x2="856" y1="249.5" y2="249.5" class="grid"/><text x="54" y="253.5" class="ax" text-anchor="end">10 mil</text><line x1="64" x2="856" y1="158.5" y2="158.5" class="grid"/><text x="54" y="162.5" class="ax" text-anchor="end">100 mil</text><line x1="64" x2="856" y1="67.4" y2="67.4" class="grid"/><text x="54" y="71.4" class="ax" text-anchor="end">1 mi</text><line x1="177.1" x2="177.1" y1="24" y2="368" class="grid v"/><text x="177.1" y="390" class="ax" text-anchor="middle">out/25</text><line x1="346.9" x2="346.9" y1="24" y2="368" class="grid v"/><text x="346.9" y="390" class="ax" text-anchor="middle">jan/26</text><line x1="516.6" x2="516.6" y1="24" y2="368" class="grid v"/><text x="516.6" y="390" class="ax" text-anchor="middle">abr/26</text><line x1="686.3" x2="686.3" y1="24" y2="368" class="grid v"/><text x="686.3" y="390" class="ax" text-anchor="middle">jul/26</text><line x1="856.0" x2="856.0" y1="24" y2="368" class="grid v"/><text x="856.0" y="390" class="ax" text-anchor="middle">out/26</text><line x1="779.6" x2="779.6" y1="24" y2="368" class="evt"/><text x="773.6" y="36" class="evtl" text-anchor="end">CFH desmonetizado · 16/09</text><circle cx="281.0" cy="81.7" r="3.2" class="p-cfh"><title>Why France is POORER Than You Think (The Economic Truth) · 697K</title></circle><circle cx="266.2" cy="83.7" r="3.2" class="p-cfh"><title>Why Invading the United States is IMPOSSIBLE (It’s Not the Army) · 663K</title></circle><circle cx="314.3" cy="89.4" r="3.2" class="p-cfh"><title>The Slow DEATH of The Petrodollar (And What Comes Next) · 574K</title></circle><circle cx="294.9" cy="95.3" r="3.2" class="p-cfh"><title>Germany’s $500 Billion Mistake (The Green Energy Trap ) · 494K</title></circle><circle cx="216.4" cy="103.7" r="3.2" class="p-cfh"><title>Why Europe’s Economy is Collapsing (The 6 Fatal Wounds) · 400K</title></circle><circle cx="346.5" cy="110.9" r="3.2" class="p-cfh"><title>The Venezuela Economy That Nailed Maduro (The Verdict) · 333K</title></circle><circle cx="299.0" cy="130.9" r="3.2" class="p-cfh"><title>How Norway Got Rich (And Why They Don't Spend It) · 201K</title></circle><circle cx="359.4" cy="132.9" r="3.2" class="p-cfh"><title>Why the US Wants to BUY Greenland (It’s Not a Joke) · 191K</title></circle><circle cx="310.0" cy="136.4" r="3.2" class="p-cfh"><title>Why Italy Can’t Grow (The Curse of The Lira) · 175K</title></circle><circle cx="325.9" cy="144.1" r="3.2" class="p-cfh"><title>How Housing SWALLOWED Canada's Economy (The Real Estate Trap) · 144K</title></circle><circle cx="306.9" cy="145.8" r="3.2" class="p-cfh"><title>How America Became a Superpower (The Real Reason) · 138K</title></circle><circle cx="298.6" cy="150.3" r="3.2" class="p-cfh"><title>The End of Economic Growth (The Population Collapse) · 123K</title></circle><circle cx="265.2" cy="150.6" r="3.2" class="p-cfh"><title>Why The French Economy Is UNREFORMABLE (The Union Trap) · 122K</title></circle><circle cx="240.6" cy="152.3" r="3.2" class="p-cfh"><title>How The U.S. is Quietly Erasing $38T in Debt With Gold & Crypto (While You're Distracted) · 117K</title></circle><circle cx="300.1" cy="156.6" r="3.2" class="p-cfh"><title>Why German Engineers Are Obsolete (The Hidden Crisis) · 105K</title></circle><circle cx="289.6" cy="157.7" r="3.2" class="p-cfh"><title>How to Bankrupt a Country in 5 Easy Steps (The Venezuela Story) · 102K</title></circle><circle cx="334.9" cy="158.1" r="3.2" class="p-cfh"><title>The Balkan Economic DISASTER Explained (Why It Never Ends) · 101K</title></circle><circle cx="302.5" cy="159.3" r="3.2" class="p-cfh"><title>UK vs. EU: The Race to Economic Collapse (Who is Actually Doing Worse?) · 98K</title></circle><circle cx="250.4" cy="159.7" r="3.2" class="p-cfh"><title>Derivatives: The $600 Trillion Time Bomb (Why the Next Crash Will Be Worse Than 2008) · 97K</title></circle><circle cx="313.3" cy="160.9" r="3.2" class="p-cfh"><title>The Real Reason Africa Stays Poor (It’s Not What You Think) · 94K</title></circle><circle cx="272.5" cy="161.8" r="3.2" class="p-cfh"><title>How Dubai Got RICH (It Wasn’t Just Oil) · 92K</title></circle><circle cx="286.8" cy="165.4" r="3.2" class="p-cfh"><title>Why Hungary Is Winning While Germany Fails (The Orban Economy Part 2) · 84K</title></circle><circle cx="330.7" cy="165.9" r="3.2" class="p-cfh"><title>The Slow DEATH of Globalization (Why Trade is Retreating into Blocks) · 83K</title></circle><circle cx="273.5" cy="165.9" r="3.2" class="p-cfh"><title>Why The UK Economy Is Broken (The End of Empire) · 83K</title></circle><circle cx="314.7" cy="167.8" r="3.2" class="p-cfh"><title>The Death of Home Ownership (The New Feudalism) · 79K</title></circle><circle cx="402.0" cy="168.8" r="3.2" class="p-cfh"><title>The TRUE Reality of Bulgaria's Economy (The Fastest Dying Country?) · 77K</title></circle><circle cx="364.5" cy="168.8" r="3.2" class="p-cfh"><title>The REAL TRUTH About Lebanon’s Economy (The Greatest Ponzi Scheme) · 77K</title></circle><circle cx="274.3" cy="169.3" r="3.2" class="p-cfh"><title>The Polish Economic MIRACLE (How They Beat The West) · 76K</title></circle><circle cx="840.9" cy="170.9" r="3.2" class="p-cfh"><title>Why France’s Economy is Facing a Massive Shift · 73K</title></circle><circle cx="289.2" cy="172.0" r="3.2" class="p-cfh"><title>How Switzerland Became INSANELY Rich (With No Resources) · 71K</title></circle><circle cx="473.2" cy="172.0" r="3.2" class="p-cfh"><title>The REAL TRUTH About Croatia's Economy (Boom or Burst?) · 71K</title></circle><circle cx="248.3" cy="173.2" r="3.2" class="p-cfh"><title>The Economic Reason Countries Go to War (It’s Not About Freedom) · 69K</title></circle><circle cx="478.8" cy="174.3" r="3.2" class="p-cfh"><title>The REAL Truth About Belgium's Economy (It’s a Trap) · 67K</title></circle><circle cx="459.3" cy="174.3" r="3.2" class="p-cfh"><title>The REAL Truth About Portugal's Economy · 67K</title></circle><circle cx="266.0" cy="178.0" r="3.2" class="p-cfh"><title>Why France is Winning the Energy War (and Germany is Losing) · 61K</title></circle><circle cx="293.7" cy="181.4" r="3.2" class="p-cfh"><title>The Global Economy Needs Help (Here’s Why) · 56K</title></circle><circle cx="691.9" cy="182.9" r="3.2" class="p-cfh"><title>The True REALITY of Argentina's Economy · 54K</title></circle><circle cx="427.9" cy="184.3" r="3.2" class="p-cfh"><title>Why the World Can’t QUIT the USA (The Dollar Trap) · 52K</title></circle><circle cx="244.7" cy="185.1" r="3.2" class="p-cfh"><title>Why BRICS is "Dumping" U.S. Debt (And Buying Gold Instead) · 51K</title></circle><circle cx="295.0" cy="185.9" r="3.2" class="p-cfh"><title>The China Housing Crash: Why The Ghost Cities Are A Warning (The Property Bubble) · 50K</title></circle><circle cx="342.8" cy="185.9" r="3.2" class="p-cfh"><title>The 5 Monopolies Running Canada's Economy (Protected) · 50K</title></circle><circle cx="369.7" cy="185.9" r="3.2" class="p-cfh"><title>The END of the International Student Boom? (New Rules Analysis) · 50K</title></circle><circle cx="270.3" cy="187.5" r="3.2" class="p-cfh"><title>Luxembourg: The RICHEST Country You Know Nothing About · 48K</title></circle><circle cx="321.9" cy="188.3" r="3.2" class="p-cfh"><title>Why Southern Europe is LOSING Its Youth (The Great Youth Exodus Explained) · 47K</title></circle><circle cx="704.7" cy="189.2" r="3.2" class="p-cfh"><title>How Germany's Economy Broke (The Slow Death of 'Made in Germany') · 46K</title></circle><circle cx="332.8" cy="192.8" r="3.2" class="p-cfh"><title>The REAL TRUTH About Mexico's Economy (Boom or Bust?) · 42K</title></circle><circle cx="529.9" cy="192.8" r="3.2" class="p-cfh"><title>The REAL TRUTH About Serbia's Economy (It’s not What You Think) · 42K</title></circle><circle cx="242.9" cy="193.7" r="3.2" class="p-cfh"><title>The American Economic Cheat Code Explained (It's Rigged) · 41K</title></circle><circle cx="293.3" cy="194.7" r="3.2" class="p-cfh"><title>The REAL Cost of NATO Expansion (Financial Disaster) · 40K</title></circle><circle cx="308.8" cy="194.7" r="3.2" class="p-cfh"><title>Why Car Repossessions Are Skyrocketing (Worse Than 2008) · 40K</title></circle><circle cx="364.7" cy="194.7" r="3.2" class="p-cfh"><title>How Saudi Arabia Actually Got RICH (The Masterclass in Resource Control) · 40K</title></circle><circle cx="298.5" cy="197.8" r="3.2" class="p-cfh"><title>Nothing About Vanguard Is Normal (Here's Why) · 37K</title></circle><circle cx="439.0" cy="202.3" r="3.2" class="p-cfh"><title>The REAL TRUTH About Netherlands' Economy (It’s a Glitch) · 33K</title></circle><circle cx="276.0" cy="202.3" r="3.2" class="p-cfh"><title>The 1970s Are Back (STAGFLATION Explained) · 33K</title></circle><circle cx="357.4" cy="202.3" r="3.2" class="p-cfh"><title>The REALITY of Ireland Economy (Leprechaun Economics) · 33K</title></circle><circle cx="344.9" cy="203.5" r="3.2" class="p-cfh"><title>The Real TRUTH About Argentina’s Economy (The World’s Greatest Financial Laboratory) · 32K</title></circle><circle cx="282.3" cy="203.5" r="3.2" class="p-cfh"><title>Nothing About BlackRock Is Normal (Here's Why) · 32K</title></circle><circle cx="831.5" cy="204.8" r="3.2" class="p-cfh"><title>How Denmark Pays for Its Welfare State (Full Explanation) · 31K</title></circle><circle cx="370.4" cy="207.4" r="3.2" class="p-cfh"><title>Why Guyana is Doubling its Economy (The Oil Explosion) · 29K</title></circle><circle cx="331.6" cy="207.4" r="3.2" class="p-cfh"><title>Is Canada's Economy Actually INDEPENDENT? (The 51st State?) · 29K</title></circle><circle cx="467.1" cy="211.8" r="3.2" class="p-cfh"><title>The Sovereign Wealth Paradox (Why Richest Oil Nations Are Secretly Terrified Of Tomorrow) · 26K</title></circle><circle cx="391.8" cy="211.8" r="3.2" class="p-cfh"><title>Why Global Shipping is About to Collapse (The Chokepoint Crisis) · 26K</title></circle><circle cx="324.6" cy="211.8" r="3.2" class="p-cfh"><title>How Singapore Actually Got RICH (With No Resources) · 26K</title></circle><circle cx="698.6" cy="211.8" r="3.2" class="p-cfh"><title>The 7 Levels of POOR Countries (And Why They're Stuck) · 26K</title></circle><circle cx="228.8" cy="214.9" r="3.2" class="p-cfh"><title>The Coming Reset: When Money Meets Reckoning (Why it Matters) · 24K</title></circle><circle cx="462.8" cy="214.9" r="3.2" class="p-cfh"><title>How Sweden Actually Got Rich (The Capitalist Truth) · 24K</title></circle><circle cx="285.6" cy="214.9" r="3.2" class="p-cfh"><title>Why Hungary Is BLOCKING Europe (The Orban Economy) · 24K</title></circle><circle cx="584.4" cy="216.6" r="3.2" class="p-cfh"><title>How the UK Quietly Wiped Out Its Own Middle Class · 23K</title></circle><circle cx="333.6" cy="216.6" r="3.2" class="p-cfh"><title>The Slow DEATH of the American Housing Dream (The $1.7T Housing Reality) · 23K</title></circle><circle cx="829.7" cy="216.6" r="3.2" class="p-cfh"><title>Why Cambodia's Economy Runs on US Dollars (Full Explanation) · 23K</title></circle><circle cx="719.8" cy="216.6" r="3.2" class="p-cfh"><title>The True REALITY of Morocco's Economy Explained · 23K</title></circle><circle cx="559.1" cy="216.6" r="3.2" class="p-cfh"><title>How Thailand Got Old Before It Got Rich (Thailand Economy Explained) · 23K</title></circle><circle cx="335.1" cy="218.4" r="3.2" class="p-cfh"><title>How Australia Actually Got RICH (The Unstoppable Commodity Shield) · 22K</title></circle><circle cx="418.8" cy="218.4" r="3.2" class="p-cfh"><title>How Austria Actually Got RICH (The Quiet Wealth of Central Europe) · 22K</title></circle><circle cx="385.4" cy="220.2" r="3.2" class="p-cfh"><title>Why India is the NEW China (And Why It Might Fail) · 21K</title></circle><circle cx="314.0" cy="220.2" r="3.2" class="p-cfh"><title>How the SUPER RICH Actually CONTROL Governments (It's Not Lobbying) · 21K</title></circle><circle cx="337.1" cy="220.2" r="3.2" class="p-cfh"><title>Canada's Trillion Dollar OIL PROBLEM (The End of an Era) · 21K</title></circle><circle cx="729.0" cy="222.1" r="3.2" class="p-cfh"><title>How the Bahamas Actually Got Rich · 20K</title></circle><circle cx="290.6" cy="222.1" r="3.2" class="p-cfh"><title>How One Drug Saved Denmark (The OZEMPIC Economy ) · 20K</title></circle><circle cx="427.2" cy="222.1" r="3.2" class="p-cfh"><title>The Rise of CORPORATE Nations (Feudalism 2.0) · 20K</title></circle><circle cx="389.6" cy="226.3" r="3.2" class="p-cfh"><title>Spain's Youth Unemployment CRISIS is Worse Than You Think (The Real Truth) · 18K</title></circle><circle cx="569.7" cy="226.3" r="3.2" class="p-cfh"><title>The Economy of Egypt Explained · 18K</title></circle><circle cx="311.5" cy="228.6" r="3.2" class="p-cfh"><title>Is Europe A US Colony? (The Price of Sovereignty) · 17K</title></circle><circle cx="315.2" cy="231.0" r="3.2" class="p-cfh"><title>The American Economic Time Bomb (The Debt & Deficits) · 16K</title></circle><circle cx="354.7" cy="231.0" r="3.2" class="p-cfh"><title>Why the Saudi Pivot is Working (The Post-Oil Blueprint) · 16K</title></circle><circle cx="637.0" cy="233.5" r="3.2" class="p-cfh"><title>Britain Just Lost Another Prime Minister (Here's Why The Next One Won't Matter) · 15K</title></circle><circle cx="397.4" cy="236.2" r="3.2" class="p-cfh"><title>Why Uruguay is the Most Stable Nation in the South (And How They Did It) · 14K</title></circle><circle cx="689.5" cy="236.2" r="3.2" class="p-cfh"><title>How Volkswagen Broke (Germany's Industrial Crisis Explained) · 14K</title></circle><circle cx="336.9" cy="236.2" r="3.2" class="p-cfh"><title>How China Became Africa's Largest PARTNER  (The $280 Billion Trade Hub) · 14K</title></circle><circle cx="331.2" cy="236.2" r="3.2" class="p-cfh"><title>The REAL TRUTH about El Salvador’s Economy (The Bitcoin Gamble that Worked) · 14K</title></circle><circle cx="844.7" cy="236.2" r="3.2" class="p-cfh"><title>France’s 250 Years of Cost-of-Living Revolts: Bread, Fuel, Schools · 14K</title></circle><circle cx="304.6" cy="239.2" r="3.2" class="p-cfh"><title>The Nixon Shock 2.0: What Happens Next? (Capital Controls) · 13K</title></circle><circle cx="270.9" cy="239.2" r="3.2" class="p-cfh"><title>How the US Dollar Became the World’s Currency (The Bretton Woods System Explained) · 13K</title></circle><circle cx="759.0" cy="239.2" r="3.2" class="p-cfh"><title>The True Reality of Panama's Economy Explained · 13K</title></circle><circle cx="294.5" cy="239.2" r="3.2" class="p-cfh"><title>The End of the PRICE TAG: Why You Pay More... (The New Inflation) · 13K</title></circle><circle cx="695.4" cy="242.3" r="3.2" class="p-cfh"><title>The Real Truth About Russia's Economic Survival (Winning or Losing?) · 12K</title></circle><circle cx="682.5" cy="242.3" r="3.2" class="p-cfh"><title>The 7 Levels of RICH Countries Explained (Where Do You Live?) · 12K</title></circle><circle cx="653.2" cy="242.3" r="3.2" class="p-cfh"><title>Can Britain Just Print Its Debt Away? · 12K</title></circle><circle cx="228.1" cy="242.3" r="3.2" class="p-cfh"><title>Why Does China Own So Much U.S. Debt? (The Truth) · 12K</title></circle><circle cx="561.1" cy="245.8" r="3.2" class="p-cfh"><title>How South Korea's Economy Broke Its Middle Class (Wealth Illusion) · 11K</title></circle><circle cx="854.9" cy="309.4" r="3.2" class="p-cfh"><title>Anthropic's IPO Explained (Lost $80 Billion. Investors Still Want In) · 2.2K</title></circle><circle cx="854.2" cy="313.2" r="3.2" class="p-cfh"><title>How Somalia Runs an Economy Without Its Own Money (Somalia's Economy Explained) · 2K</title></circle><circle cx="852.2" cy="264.8" r="3.2" class="p-cfh"><title>Argentina Beat Inflation (It Came With a Bill) · 6.8K</title></circle><circle cx="848.5" cy="249.5" r="3.2" class="p-cfh"><title>Every Major School of Economics Explained (From Adam Smith to MMT) · 10K</title></circle><circle cx="837.1" cy="269.1" r="3.2" class="p-cfh"><title>How Bolivia Ran Out of Dollars, and the Plan to Get Them Back. · 6.1K</title></circle><circle cx="816.5" cy="252.8" r="3.2" class="p-cfh"><title>Why the Fed Started Raising Rates Again · 9.2K</title></circle><circle cx="816.5" cy="255.5" r="3.2" class="p-cfh"><title>California's Economy Explained (Rich State, Poor State) · 8.6K</title></circle><circle cx="803.4" cy="277.0" r="3.2" class="p-cfh"><title>The Economy of Houston Explained · 5K</title></circle><circle cx="803.4" cy="260.4" r="3.2" class="p-cfh"><title>Why Rich Countries Forgot How to Build | Abundance by Ezra Klein & Derek Thompson · 7.6K</title></circle><circle cx="788.9" cy="263.1" r="3.2" class="p-cfh"><title>Can AI Actually Destroy Humanity? (Here’s Your Answer) · 7.1K</title></circle><circle cx="806.9" cy="266.0" r="3.2" class="p-cfh"><title>YouTube Demonetized Chill Financial Historian — Here’s What Happens Next · 6.6K</title></circle><circle cx="796.4" cy="264.8" r="3.2" class="p-cfh"><title>Why the People Building AI Are Suddenly Asking It to Slow Down · 6.8K</title></circle><circle cx="794.5" cy="245.8" r="3.2" class="p-cfh"><title>The Economy of Paraguay Explained · 11K</title></circle><circle cx="755.8" cy="249.5" r="3.2" class="p-cfh"><title>How the Dominican Republic Became the Caribbean's Biggest Success Story · 10K</title></circle><circle cx="741.0" cy="276.2" r="3.2" class="p-cfh"><title>The Not So Secret Loop Funding AI (Circular Financing Explained) · 5.1K</title></circle><circle cx="760.5" cy="295.9" r="3.2" class="p-cfh"><title>The True REALITY of Haiti's Economy (Explained) · 3.1K</title></circle><circle cx="740.1" cy="306.0" r="3.2" class="p-cfh"><title>The Rise and Fall of Venezuela's Economy · 2.4K</title></circle><circle cx="752.8" cy="293.4" r="3.2" class="p-cfh"><title>Why Zuckerberg Wants to Give Everyone Superintelligence AI (His Real Argument) · 3.3K</title></circle><circle cx="750.7" cy="287.8" r="3.2" class="p-cfh"><title>The True REALITY of Chile's Economy Explained · 3.8K</title></circle><circle cx="751.8" cy="271.8" r="3.2" class="p-cfh"><title>Saudi Arabia, Pakistan, and Turkey Just Signed a Defense Agreement (Here's Why) · 5.7K</title></circle><circle cx="719.7" cy="245.8" r="3.2" class="p-cfh"><title>What It's Really Like To LIVE In London · 11K</title></circle><circle cx="721.0" cy="254.1" r="3.2" class="p-cfh"><title>The True REALITY of Peru's Economy Explained · 8.9K</title></circle><circle cx="731.9" cy="287.8" r="3.2" class="p-cfh"><title>The US is Buying Japanese Yen (Here's WHY) · 3.8K</title></circle><circle cx="756.0" cy="284.8" r="3.2" class="p-cfh"><title>What It's REALLY Like to Live in Manchester, UK · 4.1K</title></circle><circle cx="730.9" cy="284.8" r="3.2" class="p-cfh"><title>The Real TRUTH About Bangladesh Economy Explained · 4.1K</title></circle><circle cx="720.8" cy="249.5" r="3.2" class="p-cfh"><title>Why Spain Owns Two Cities in Africa (And What Ceuta Really Costs) · 10K</title></circle><circle cx="752.7" cy="265.4" r="3.2" class="p-cfh"><title>AI Debt is a Problem (And It's Worse Than You Think) · 6.7K</title></circle><circle cx="733.7" cy="311.3" r="3.2" class="p-cfh"><title>Why Nvidia, Meta, and Palantir Are Defending China's AI (The Open-Weight Letter) · 2.1K</title></circle><circle cx="752.6" cy="294.6" r="3.2" class="p-cfh"><title>Why China Is Very Protective of These Few Tiny Islands · 3.2K</title></circle><circle cx="738.9" cy="309.4" r="3.2" class="p-cfh"><title>Tunisia Was the Arab Spring's Only Success (Here's What Went Wrong) · 2.2K</title></circle><circle cx="723.2" cy="313.2" r="3.2" class="p-cfh"><title>How Parking Garages Actually Make Money (And Why Cities Keep Giving It Away) · 2K</title></circle><circle cx="747.7" cy="245.8" r="3.2" class="p-cfh"><title>The 7 Levels of Middle-Income Countries (Why China Is Still One) · 11K</title></circle><circle cx="758.5" cy="309.4" r="3.2" class="p-cfh"><title>The Rise and Fall of Lebanon's Economy · 2.2K</title></circle><circle cx="692.6" cy="283.8" r="3.2" class="p-cfh"><title>The Real TRUTH About De-Dollarisation (And Why It Keeps Failing) · 4.2K</title></circle><circle cx="711.6" cy="311.3" r="3.2" class="p-cfh"><title>Brazil Has a Plan to Lead the Global South (Can It Actually Work?) · 2.1K</title></circle><circle cx="666.5" cy="252.0" r="3.2" class="p-cfh"><title>The True REALITY of Spain's Economy Explained · 9.4K</title></circle><circle cx="678.7" cy="266.0" r="3.2" class="p-cfh"><title>New British PM - Andy Burnham Has a Plan to Fix Britain (Here's Whether It Can Actually Work) · 6.6K</title></circle><circle cx="704.3" cy="273.9" r="3.2" class="p-cfh"><title>China's AI Strategy Isn't What You Think (The Open-Source Play) · 5.4K</title></circle><circle cx="667.6" cy="293.4" r="3.2" class="p-cfh"><title>The Real Truth About Pakistan's Economy ( Bailouts & Brain Drain) · 3.3K</title></circle><circle cx="679.6" cy="278.6" r="3.2" class="p-cfh"><title>The True REALITY of India's Economy (Beyond the Headlines) · 4.8K</title></circle><circle cx="711.6" cy="306.0" r="3.2" class="p-cfh"><title>Why Sanctions Didn't Crash Russia's Economy (But Are Slowly Bleeding It) · 2.4K</title></circle><circle cx="666.8" cy="324.6" r="3.2" class="p-cfh"><title>Why Turkey Hosted the 2026 NATO Summit (and What Ankara Got Out of It) · 1.5K</title></circle><circle cx="677.5" cy="307.7" r="3.2" class="p-cfh"><title>NATO Has a Unity Problem — (And Why It Can't Agree on Its Own Enemy) · 2.3K</title></circle><circle cx="677.3" cy="294.6" r="3.2" class="p-cfh"><title>NATO 3.0: The Plan to Make Europe Defend Itself · 3.2K</title></circle><circle cx="671.5" cy="324.6" r="3.2" class="p-cfh"><title>Is it Possible to Scam an Entire Country? (Inside Nigeria's Fake Govt Agency Scandal) · 1.5K</title></circle><circle cx="665.8" cy="299.9" r="3.2" class="p-cfh"><title>Canada Just Bailed Out Failing Condo Developers (And Canadians Are Furious) · 2.8K</title></circle><circle cx="694.3" cy="261.4" r="3.2" class="p-cfh"><title>How the UK’s Growth Model Fragmented (The Two Britains) · 7.4K</title></circle><circle cx="677.8" cy="271.1" r="3.2" class="p-cfh"><title>Why German Engineering is Stalling (Inside the Volkswagen Crisis - Pt 2) · 5.8K</title></circle><circle cx="691.0" cy="287.8" r="3.2" class="p-cfh"><title>Canada’s Empty Condo Disaster (And Why Nobody Is Buying) · 3.8K</title></circle><circle cx="661.2" cy="263.6" r="3.2" class="p-cfh"><title>The Invisible COLLAPSE of British Businesses (The 48.8 Emergency) · 7K</title></circle><circle cx="706.6" cy="273.2" r="3.2" class="p-cfh"><title>Is America A Superpower at Its Peak — or Past It? (America at 250) · 5.5K</title></circle><circle cx="703.3" cy="288.9" r="3.2" class="p-cfh"><title>The REAL Truth About Canada’s 2026 Debt Crisis (Is 2026 the Breaking Point?) · 3.7K</title></circle><circle cx="682.7" cy="261.4" r="3.2" class="p-cfh"><title>What Exactly is Going on With the USA Car Market? · 7.4K</title></circle><circle cx="709.9" cy="259.9" r="3.2" class="p-cfh"><title>What Exactly is Happening to the USA Housing Market Right Now? · 7.7K</title></circle><circle cx="664.4" cy="295.9" r="3.2" class="p-cfh"><title>The REAL Danger of the Growing U.S. National Debt (It's Not the $39 Trillion) · 3.1K</title></circle><circle cx="674.3" cy="297.1" r="3.2" class="p-cfh"><title>First Anthropic, Now OpenAI: Washington Is Quietly Taking Over AI Releases (And What Comes Next) · 3K</title></circle><circle cx="605.8" cy="293.4" r="3.2" class="p-cfh"><title>Why Black America Stays Broke (And How to Escape It) · 3.3K</title></circle><circle cx="621.1" cy="322.0" r="3.2" class="p-cfh"><title>Why the U.S.-Iran Agreement is an MoU (And Why It Matters) · 1.6K</title></circle><circle cx="654.2" cy="317.3" r="3.2" class="p-cfh"><title>The True REALITY of Belarus' Economy · 1.8K</title></circle><circle cx="638.5" cy="306.0" r="3.2" class="p-cfh"><title>SUEZ CANAL — The Single Waterway That Controls 15% of Global Trade · 2.4K</title></circle><circle cx="622.6" cy="322.0" r="3.2" class="p-cfh"><title>The USA-Iran MoU Explained - What Each Party Actually Got · 1.6K</title></circle><circle cx="641.6" cy="272.5" r="3.2" class="p-cfh"><title>Inside the 14-Point U.S.-Iran Deal Everyone Is Talking About · 5.6K</title></circle><circle cx="640.6" cy="285.8" r="3.2" class="p-cfh"><title>The Economy of Qatar Explained (How a Desert Out-Earned the World) · 4K</title></circle><circle cx="617.8" cy="255.5" r="3.2" class="p-cfh"><title>The Economics of AI is BROKEN (The Next Dot-Com Crash?) · 8.6K</title></circle><circle cx="639.8" cy="271.8" r="3.2" class="p-cfh"><title>How SpaceX Became Worth $1.77 Trillion While Losing $4 Billion a Year (Road to SpaceX's IPO) · 5.7K</title></circle><circle cx="637.1" cy="345.0" r="3.2" class="p-cfh"><title>How the ICC - International Criminal Court Actually Works (And Why Most Powerful Nations Ignore It) · 894</title></circle><circle cx="635.3" cy="327.3" r="3.2" class="p-cfh"><title>What America's ZIP Codes Are Actually Telling You · 1.4K</title></circle><circle cx="612.4" cy="306.0" r="3.2" class="p-cfh"><title>The Hidden Economics of FIFA World Cup 2026 (Who Actually Profits?) · 2.4K</title></circle><circle cx="642.1" cy="311.3" r="3.2" class="p-cfh"><title>The Real TRUTH About Colombia's Economy · 2.1K</title></circle><circle cx="625.6" cy="273.2" r="3.2" class="p-cfh"><title>Hosting the World Cup Is a Terrible Investment (And Worth It Anyway) · 5.5K</title></circle><circle cx="626.1" cy="287.8" r="3.2" class="p-cfh"><title>How the Hormuz Crisis Broke the Global Economy (It's Not Just About Oil) · 3.8K</title></circle><circle cx="606.3" cy="282.9" r="3.2" class="p-cfh"><title>How the Netherlands — One of Europe's Richest Countries — Ran Out of Homes · 4.3K</title></circle><circle cx="637.0" cy="336.8" r="3.2" class="p-cfh"><title>Nothing About CREDIT Scores Is Normal (Here's Why) · 1.1K</title></circle><circle cx="608.5" cy="319.6" r="3.2" class="p-cfh"><title>Nothing About Subscription Models Is Normal (Here's Why) · 1.7K</title></circle><circle cx="610.4" cy="269.7" r="3.2" class="p-cfh"><title>How Japan Quietly Destroying Its Own Middle Class · 6K</title></circle><circle cx="619.4" cy="271.8" r="3.2" class="p-cfh"><title>How New Zealand Accidentally Broke Its Own Economy · 5.7K</title></circle><circle cx="646.0" cy="258.4" r="3.2" class="p-cfh"><title>Germany’s Middle Class is in TROUBLE (The Squeeze) · 8K</title></circle><circle cx="615.6" cy="245.8" r="3.2" class="p-cfh"><title>Why Nobody Can Fix Britain (It's Not What You Think) · 11K</title></circle><circle cx="638.5" cy="324.6" r="3.2" class="p-cfh"><title>Why Invading these US States is Impossible (It's not What You Think) · 1.5K</title></circle><circle cx="611.5" cy="271.8" r="3.2" class="p-cfh"><title>The Slow DEATH of China's Middle Class (They Did Everything Right) · 5.7K</title></circle><circle cx="611.4" cy="319.6" r="3.2" class="p-cfh"><title>The Rapid DECLINE of Nigeria’s Middle Class · 1.7K</title></circle><circle cx="577.4" cy="263.1" r="3.2" class="p-cfh"><title>The American Middle Class Didn't Die. It Got Worse Than That. · 7.1K</title></circle><circle cx="552.3" cy="274.6" r="3.2" class="p-cfh"><title>The Slow DEATH of Canada's Middle Class (The Numbers Don't Lie) · 5.3K</title></circle><circle cx="551.2" cy="262.5" r="3.2" class="p-cfh"><title>The $1.7 Trillion TRAP Destroying Brazil's Economy · 7.2K</title></circle><circle cx="854.7" cy="109.8" r="5" class="p-cf"><title>The Next Great European Crisis Starts With France · 343K</title></circle><circle cx="844.7" cy="72.5" r="5" class="p-cf"><title>This Time the Stock Market Crash Hits Everything · 881K</title></circle><circle cx="831.5" cy="73.8" r="5" class="p-cf"><title>The Money Squeeze That's Choking the Economy · 852K</title></circle><circle cx="816.5" cy="54.1" r="5" class="p-cf"><title>The Stock Market Is Being Used as a Dumping Ground · 1.4M</title></circle><circle cx="816.5" cy="34.5" r="5" class="p-cf"><title>The New American Housing Crisis Has Landed · 2.3M</title></circle><circle cx="787.9" cy="51.4" r="5" class="p-cf"><title>To Save the Economy... We’re About to Break It · 1.5M</title></circle><circle cx="780.9" cy="54.1" r="5" class="p-cf"><title>America Is Walking Into Something It Can't Stop · 1.4M</title></circle><circle cx="819.9" cy="44.2" r="5" class="p-cf"><title>The World's Safest Market Is Breaking · 1.8M</title></circle><circle cx="764.2" cy="77.7" r="5" class="p-cf"><title>Nobody Wants To Admit Why America Just Bailed Out Japan · 772K</title></circle><circle cx="741.1" cy="95.4" r="5" class="p-cf"><title>it’s boring, but it’s what bursts the ai bubble · 493K</title></circle><circle cx="761.4" cy="91.8" r="5" class="p-cf"><title>The AI Bubble Survives on $1.65 Trillion in Hidden Debt · 540K</title></circle><circle cx="706.7" cy="104.7" r="5" class="p-cf"><title>The Inflation Problem... It's Worse Than You Think · 390K</title></circle><circle cx="677.0" cy="82.6" r="5" class="p-cf"><title>The World's Smartest People Are Sprinting for the Same Exit · 682K</title></circle><circle cx="696.6" cy="91.4" r="5" class="p-cf"><title>The AI Bubble… We Need to Talk · 545K</title></circle><circle cx="648.4" cy="130.1" r="5" class="p-cf"><title>The Economy's Booming… Just Not For Everyone · 205K</title></circle><circle cx="644.4" cy="80.3" r="5" class="p-cf"><title>The $2.5 Trillion Credit Wave Nobody Sees Coming · 723K</title></circle><circle cx="583.9" cy="46.5" r="5" class="p-cf"><title>The SpaceX IPO... It's Worse Than You Think · 1.7M</title></circle><circle cx="548.9" cy="77.5" r="5" class="p-cf"><title>if war bad... why stocks go up? · 775K</title></circle><circle cx="505.7" cy="116.7" r="5" class="p-cf"><title>Why the Era of US Dominance is (Mathematically) Over · 288K</title></circle><circle cx="520.1" cy="96.2" r="5" class="p-cf"><title>The Recession's Already Here… Open Your Eyes · 483K</title></circle><circle cx="526.3" cy="145.8" r="5" class="p-cf"><title>Why the Oil Crisis Is (Secretly) Good... · 138K</title></circle><circle cx="474.8" cy="107.8" r="5" class="p-cf"><title>Bitcoin Is a Brilliant Scam and I Can Prove It (Again) · 360K</title></circle><circle cx="449.7" cy="40.0" r="5" class="p-cf"><title>Brace For Impact. · 2M</title></circle><circle cx="387.9" cy="145.5" r="5" class="p-cf"><title>this is not financial advice... it's AI · 139K</title></circle><circle cx="421.2" cy="152.6" r="5" class="p-cf"><title>The Stock Market is BROKEN (just accept it) · 116K</title></circle><circle cx="387.3" cy="160.5" r="5" class="p-cf"><title>The $12 Billion Trading Scam That Only Works If You Fail · 95K</title></circle><circle cx="357.9" cy="89.7" r="5" class="p-cf"><title>Something Feels Off About 2026... · 570K</title></circle><circle cx="324.9" cy="104.0" r="5" class="p-cf"><title>WTF Is Happening To Gold?! · 397K</title></circle><circle cx="268.3" cy="162.7" r="5" class="p-cf"><title>The (Inevitable) United States Debt Crisis · 90K</title></circle><circle cx="257.4" cy="151.3" r="5" class="p-cf"><title>America Is Quietly Drowning in Debt · 120K</title></circle><circle cx="209.9" cy="88.2" r="5" class="p-cf"><title>Crypto Is a Brilliant Scam and I Can Prove It · 592K</title></circle><circle cx="109.1" cy="186.7" r="5" class="p-cf"><title>Private Credit: The Secret Industry Taking Over Wall Street · 49K</title></circle><circle cx="145.6" cy="60.2" r="5" class="p-cf"><title>The 1973 Stock Market Crash that Nobody Remembers · 1.2M</title></circle><circle cx="139.6" cy="132.5" r="5" class="p-cf"><title>Every Type of Investor Explained in 6 Minutes · 193K</title></circle><circle cx="104.9" cy="124.0" r="5" class="p-cf"><title>Why The Dumbest Investors Win (it's not why you think) · 239K</title></circle></svg></div>
+    <figcaption>Do Chill Financial Historian entram os 100 vídeos longos mais recentes e os 100 mais populares (184 únicos). Os 36 vídeos antigos com menos de 11 mil views ficam de fora, então a fase antiga parece um pouco melhor do que foi. Do Casual Finance entram todos os 35. O YouTube informa a idade em meses, então a posição horizontal dos vídeos antigos é aproximada. Passe o mouse num ponto para ver o título.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="chan-tag cf"><h2>Casual Finance</h2></div>
+    <p>O que esse canal é, mecanicamente.</p>
+  </div>
+  <div class="rows">
+    <div class="row"><div class="lab mono">Cadência<span class="sub">0,6 longo/sem</span></div><div class="body"><h3>Menos de um vídeo longo por semana</h3><p>35 vídeos longos em 15 meses. Nos últimos 3 meses o ritmo subiu para perto de 1 por semana, e a mediana subiu junto, para <b>881 mil</b>. Quem mantém a frequência são os Shorts: cerca de 3 por semana.</p></div></div>
+    <div class="row"><div class="lab mono">Duração<span class="sub">14–20 min</span></div><div class="body"><h3>O canal cresceu quando os vídeos cresceram</h3><p>Nos primeiros 9 meses (17 vídeos), duração mediana de 9 min e <b>239 mil</b> views. Nos últimos 6 meses (18 vídeos), duração mediana de 16 min e <b>774 mil</b> views. Na faixa de 14 a 20 min a mediana é 772 mil; abaixo de 10 min, 239 mil.</p></div></div>
+    <div class="row"><div class="lab mono">Embalagem<span class="sub">thumbnail</span></div><div class="body"><h3>Uma frase, um gráfico de verdade</h3><p>Fundo branco, boneco de palito desenhado à mão e <b>um gráfico com dado real</b>: linha vermelha subindo, anos marcados ("2008", "2026"). Ao lado, 2 ou 3 palavras em serifa com ponto final: "It's Happening Again.", "Nobody Can Stop It.", "It's A Trap.". Os vídeos antigos e mais fracos que olhamos têm thumbs sem frase.</p></div></div>
+    <div class="row"><div class="lab mono">Shorts<span class="sub">179 · mediana 24 mil</span></div><div class="body"><h3>Short com afirmação e número</h3><p>Os melhores Shorts são uma afirmação com número: "Why You (Mathematically) Need Inflation" (425 mil), "58% More Home Sellers Than Buyers... So Why Are We Still Paying More?" (154 mil). Cerca de 79% das views do canal vêm dos vídeos longos. O Short leva gente até eles.</p></div></div>
+    <div class="row"><div class="lab mono">Tom<span class="sub">urgência com dado</span></div><div class="body"><h3>Alarme, mas sempre com um gráfico</h3><p>Títulos como "Brace For Impact." e "Open Your Eyes" puxam pela urgência. O que segura é que a thumb e o vídeo mostram um dado real. Esse é o tom que nós decidimos não usar; o que dá para pegar é a tensão que vem do número.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="chan-tag cfh"><h2>Chill Financial Historian</h2></div>
+    <p>O que esse canal é, mecanicamente.</p>
+  </div>
+  <div class="rows">
+    <div class="row"><div class="lab mono">Cadência<span class="sub">4,7 longos/sem</span></div><div class="body"><h3>Quase 5 vídeos de 40 minutos por semana</h3><p>100 vídeos longos em 5 meses, quase todos com mais de 35 min. Nesse período a mediana ficou em <b>5,5 mil</b>.</p></div></div>
+    <div class="row"><div class="lab mono">Fase 1<span class="sub">out/25 a fev/26</span></div><div class="body"><h3>A explosão veio no começo</h3><p>81 dos 100 vídeos mais vistos são dos primeiros 5 meses. "Why France is POORER Than You Think" fez <b>697 mil</b> e "Why Invading the United States is IMPOSSIBLE" fez <b>663 mil</b>, com 20 a 30 min cada. Canal novo pode estourar cedo.</p></div></div>
+    <div class="row"><div class="lab mono">Molde<span class="sub">série repetida</span></div><div class="body"><h3>A série que virou fórmula</h3><p>"The True REALITY of X's Economy Explained" se repete país após país, com Haiti em 3,1 mil e Chile em 3,8 mil. A tentativa de repetir o próprio hit ("Why Invading these US States is Impossible") fez <b>1,5 mil</b>.</p></div></div>
+    <div class="row"><div class="lab mono">Monetização<span class="sub">16/09/2026</span></div><div class="body"><h3>Desmonetizado</h3><p>O canal não divulgou o motivo. Nossa hipótese, sem confirmação: o padrão bate com a regra de conteúdo inautêntico de 16/07/2026: volume alto, títulos em série, ilustração com cara de IA e títulos de medo.</p></div></div>
+    <div class="row"><div class="lab mono">Sinal recente<span class="sub">8 dias</span></div><div class="body"><h3>"Where France's money goes"</h3><p>O melhor vídeo recente (<b>73 mil</b> em 8 dias) trocou o quadrinho por uma gravura vintage em papel, com uma balança e o texto "WHERE FRANCE'S MONEY GOES". É o nosso "follow the money" com o nosso visual de papel.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Temas</div>
+    <h2>O que rende em cada canal</h2>
+    <p>Mediana de views por tema. As barras comparam temas dentro do mesmo canal; as escalas dos dois são diferentes.</p>
+  </div>
+  <div class="duo">
+    <div>
+      <h3 class="cf-h">Casual Finance · todos os 35</h3>
+      <ul class="bars cf">
+        <li><span class="t">Moradia e custo de vida</span><span class="n">1,25 mi <small>· 2</small></span><span class="bar"><i style="width:100%"></i></span></li>
+        <li><span class="t">Bolsa e crash</span><span class="n">1,04 mi <small>· 8</small></span><span class="bar"><i style="width:83%"></i></span></li>
+        <li><span class="t">IA e IPOs</span><span class="n">540 mil <small>· 5</small></span><span class="bar"><i style="width:43%"></i></span></li>
+        <li><span class="t">Dívida, juros e macro</span><span class="n">440 mil <small>· 14</small></span><span class="bar"><i style="width:35%"></i></span></li>
+        <li><span class="t">Cripto e golpes</span><span class="n">360 mil <small>· 3</small></span><span class="bar"><i style="width:29%"></i></span></li>
+        <li><span class="t">Educativo atemporal</span><span class="n">216 mil <small>· 2</small></span><span class="bar"><i style="width:17%"></i></span></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="cfh-h">Chill Financial Historian · últimos 100</h3>
+      <ul class="bars cfh">
+        <li><span class="t">Como o país X ficou rico</span><span class="n">15 mil <small>· 4</small></span><span class="bar"><i style="width:100%"></i></span></li>
+        <li><span class="t">Economia de um país</span><span class="n">7,9 mil <small>· 28</small></span><span class="bar"><i style="width:53%"></i></span></li>
+        <li><span class="t">Dólar, dívida e macro</span><span class="n">6,1 mil <small>· 11</small></span><span class="bar"><i style="width:41%"></i></span></li>
+        <li><span class="t">Moradia e classe média</span><span class="n">5,7 mil <small>· 20</small></span><span class="bar"><i style="width:38%"></i></span></li>
+        <li><span class="t">IA e big tech</span><span class="n">5,4 mil <small>· 11</small></span><span class="bar"><i style="width:36%"></i></span></li>
+        <li><span class="t">Notícia e política</span><span class="n">2,75 mil <small>· 10</small></span><span class="bar"><i style="width:18%"></i></span></li>
+        <li><span class="t">Geopolítica</span><span class="n">2,7 mil <small>· 6</small></span><span class="bar"><i style="width:18%"></i></span></li>
+        <li><span class="t">Empresas</span><span class="n">2,4 mil <small>· 7</small></span><span class="bar"><i style="width:16%"></i></span></li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">O número depois do ponto é a quantidade de vídeos do tema. Temas com 2 a 4 vídeos são sinal, não prova.</p>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Títulos</div>
+    <h2>Duas fórmulas que funcionam</h2>
+  </div>
+  <div class="duo">
+    <div>
+      <div class="formula"><div class="mono" style="color:var(--cf)">Casual Finance</div><p>Uma frase curta de tensão sobre algo que está acontecendo agora. Mediana de 45 caracteres; 10 de 35 usam reticências.</p></div>
+      <ul class="titles">
+        <li><span>The New American Housing Crisis Has Landed</span><span>2,3 mi</span></li>
+        <li><span>Brace For Impact.</span><span>2,0 mi</span></li>
+        <li><span>The World's Safest Market Is Breaking</span><span>1,8 mi</span></li>
+        <li><span>The SpaceX IPO... It's Worse Than You Think</span><span>1,7 mi</span></li>
+        <li><span>To Save the Economy... We're About to Break It</span><span>1,5 mi</span></li>
+        <li><span>The 1973 Stock Market Crash that Nobody Remembers</span><span>1,2 mi</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="formula"><div class="mono" style="color:var(--cfh)">Chill Financial Historian</div><p>Why ou How + afirmação contra o senso comum + a virada entre parênteses. Os 20 mais vistos usam parênteses; entre os recentes, só metade.</p></div>
+      <ul class="titles">
+        <li><span>Why France is POORER Than You Think (The Economic Truth)</span><span>697 mil</span></li>
+        <li><span>Why Invading the United States is IMPOSSIBLE (It's Not the Army)</span><span>663 mil</span></li>
+        <li><span>The Slow DEATH of The Petrodollar (And What Comes Next)</span><span>574 mil</span></li>
+        <li><span>Germany's $500 Billion Mistake (The Green Energy Trap)</span><span>494 mil</span></li>
+        <li><span>How Norway Got Rich (And Why They Don't Spend It)</span><span>201 mil</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="callout">
+  <div class="mono eyebrow">O vídeo que mais parece com o nosso</div>
+  <h3>"The 1973 Stock Market Crash that Nobody Remembers"</h3>
+  <p><b>1,2 milhão de views, 8 min 50 s</b>, Casual Finance. É história pura, com um gancho no presente ("nobody remembers") e um gráfico real na thumb. É exatamente o formato de história com "follow the money" que o Billions &amp; Bulls quer fazer.</p>
+</div>
+
+<section class="verdict">
+  <div class="sec-head">
+    <div class="mono eyebrow" style="color:var(--good)">Veredito</div>
+    <h2>O que o Billions &amp; Bulls leva disso</h2>
+  </div>
+  <div class="rows">
+    <div class="row"><div class="lab mono">Ritmo</div><div class="body"><h3>1 vídeo longo por semana, no máximo 2</h3><p>O canal que publica menos tem 100 vezes mais views por vídeo. O que publica quase 5 por semana foi desmonetizado. Frequência extra vem dos Shorts: uns 3 por semana, cortados do vídeo longo.</p></div></div>
+    <div class="row"><div class="lab mono">Duração</div><div class="body"><h3>Mirar 14 a 18 min a partir do ep. 2</h3><p>Os dois canais acertaram acima de 14 min. O ep. 1 fica com 9 min 40 s, que já está pronto. Vídeo mais longo também ajuda a bater as horas de exibição do programa de parcerias.</p></div></div>
+    <div class="row"><div class="lab mono">Thumbnail</div><div class="body"><h3>Gráfico real na thumb</h3><p>Uma linha com dado de verdade, anos marcados e uma frase de 2 ou 3 palavras. Encaixa no nosso papel quadriculado e nos nossos cards de número, com o dourado no lugar do vermelho.</p></div></div>
+    <div class="row"><div class="lab mono">Título</div><div class="body"><h3>Curto, com uma tensão só</h3><p>Até uns 45 caracteres. "Robinhood Is Free. So Who's Paying?" tem 35 e já segue esse formato. A virada entre parênteses do Chill Financial Historian entra como variante para testar.</p></div></div>
+    <div class="row"><div class="lab mono">Tema</div><div class="body"><h3>História com gancho no presente</h3><p>O modelo é o vídeo do crash de 1973. Toda história do canal precisa de um motivo para ser vista hoje.</p></div></div>
+    <div class="row"><div class="lab mono">Shorts</div><div class="body"><h3>Afirmação + número no título</h3><p>No Casual Finance os Shorts têm mediana de 24 mil; no Chill Financial Historian, sem uma afirmação clara, ficam em 2 mil.</p></div></div>
+    <div class="row"><div class="lab mono">Molde</div><div class="body"><h3>Nunca repetir fórmula em série</h3><p>O mesmo título trocando só o país derrubou o Chill Financial Historian. Cada vídeo precisa de um título pensado para ele.</p></div></div>
+  </div>
+</section>
+
+<footer>
+  <p class="mono">Método</p>
+  <p>Dados lidos das páginas públicas do YouTube em 27/10/2026: página do canal, aba Sobre, playlist de vídeos longos, playlist de populares e playlist de Shorts. Do Casual Finance foram medidos os 35 vídeos longos e os 100 Shorts mais recentes; do Chill Financial Historian, 184 vídeos longos e os 18 Shorts. As views mudam todo dia e o YouTube arredonda (2,3 mi, 54 mil). Legendas e descrições dos vídeos não foram lidas, porque o YouTube passou a pedir login nas páginas de vídeo. Os temas foram agrupados pelos títulos.</p>
+</footer>
+
+</div>
