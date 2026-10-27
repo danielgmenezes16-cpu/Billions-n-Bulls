@@ -5,7 +5,7 @@ Narração recebida em 27/10/2026 e transcrita com Parakeet (palavra por palavra
 | Bloco | Duração | Volume original | Situação |
 | --- | --- | --- | --- |
 | A (Parts 1 e 2) | 3:05,8 | -23,5 LUFS | OK |
-| B (Parts 3 e 4) | 2:55,5 | — | 2 problemas (abaixo) |
+| B (Parts 3 e 4) | 2:56,6 depois da edição | — | Corrigido em `media/ep01/ep01-B-edit.wav` |
 | C (Part 5 ao fim) | 3:23,9 | — | OK |
 
 Total dos 3 blocos: 9:25. Com a abertura de ~35 s, o vídeo fica perto de 10:00.
@@ -17,3 +17,10 @@ Total dos 3 blocos: 9:25. Com a abertura de ~35 s, o vídeo fica perto de 10:00.
    - Texto para o ElevenLabs: `It was interest. Four hundred and eleven million dollars of it.`
    - Mesma voz e mesmos ajustes. Arquivo: `ep01-B-fix.mp3`.
    - Na montagem, a frase nova substitui o trecho antigo.
+
+## Correção aplicada (27/10/2026)
+
+- Frase regravada recebida (`ep01-B-fix.mp3`). Parakeet e Whisper ouvem "411 million".
+- Encaixe feito por `scripts/audio/ep01_fix_b.py`: corta 0,32 s do início, troca a frase nos silêncios em volta dela e baixa a regravação em 2,6 dB.
+- Volume na emenda: -24,0 LUFS antes, -23,9 na frase nova. Não dá para perceber a troca.
+- Para a montagem, o Bloco B oficial é `ep01-B-edit.wav`.
