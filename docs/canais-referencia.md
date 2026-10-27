@@ -7,7 +7,7 @@ Objetivo: canais em inglês, de histórias e curiosidades de dinheiro, com **2 a
 | Canal | Link | Proposta | Pilar mais próximo |
 | --- | --- | --- | --- |
 | Weird Finance | https://www.youtube.com/@wierdfinance | Políticas econômicas bizarras, crashes esquecidos, notas de trilhões, bancos centrais secretos | Dinheiro bizarro |
-| Chill Financial Historian | https://www.youtube.com/channel/UCyPM2GKrhFnQG4o-YtEuCFg | Rankings com humor: maiores desastres financeiros, golpes mais burros, fraudes absurdas | Golpes e desastres |
+| Chill Financial Historian | https://www.youtube.com/channel/UCyPM2GKrhFnQG4o-YtEuCFg | **Verificado em 27/10/2026:** 137 mil inscritos, economia de países e geopolítica (não rankings de golpes), mediana recente de ~5,5 mil views, desmonetizado em set/2026. Não é pequeno, mas é um ótimo estudo de caso. Ver `raio-x-chill-financial-historian.md` | Dinheiro bizarro / negócios escondidos |
 | The Fraud Files | https://www.youtube.com/channel/UCB4EXUs3h-d0SnkZKHzxNKQ | Documentários sobre fraudes, pirâmides e quebras de empresas | Golpes e desastres |
 | Financial Historian | https://www.youtube.com/channel/UCqexrtXzfOdqqREEiIR6lkQ | Ascensão e queda de bilionários, escândalos de Wall Street | Golpes e desastres |
 | Finance Historian | https://www.youtube.com/channel/UCqVHPJwB7sA1YfnjB9jo__w | Histórias de riqueza, bancos, impostos e impérios econômicos | Negócios escondidos |
