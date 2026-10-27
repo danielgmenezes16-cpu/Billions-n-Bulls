@@ -1,0 +1,286 @@
+<title>Mapa de Temas B&amp;B</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: mapa de temas no mesmo formato do dossiê em coluna única; faixa-título vermelha, placar comparativo, fichas em duas colunas (rótulo mono à esquerda, texto à direita). Visual escuro único, a pedido. */
+:root{
+  --bg:#131312; --panel:#1b1a19; --ink:#ece8e1; --muted:#a9a39a; --faint:#77726b; --rule:#34312d;
+  --accent:#e2553d; --accent-ink:#fde6df; --chip:#3a3835;
+  --cf:#e2553d; --cfh:#cdb98a; --good:#8fbf8a;
+  --display:"Oswald","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-block:40px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:64px}
+a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;font-weight:600;margin:0;text-wrap:balance;letter-spacing:.01em}
+p{margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+/* Cabeçalho */
+header{display:flex;flex-direction:column;gap:18px}
+.chip{align-self:flex-start;background:var(--chip);color:var(--ink);padding:6px 10px}
+.banner{background:var(--accent);padding:14px 18px 10px}
+.banner h1{color:var(--accent-ink);font-weight:700;font-size:clamp(40px,8vw,76px);line-height:.98}
+.lede{max-width:66ch;color:var(--ink);font-size:18px}
+.lede b{font-weight:700}
+.meta{color:var(--faint);line-height:1.7}
+
+/* Placar */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.tile{padding:16px 14px 18px;border-right:1px solid var(--rule);display:flex;flex-direction:column;gap:8px}
+.tile:last-child{border-right:0}
+.tile .v{font-family:var(--display);font-size:34px;font-weight:600;line-height:1}
+.tile .v.cf{color:var(--cf)} .tile .v.cfh{color:var(--cfh)}
+.tile .l{color:var(--muted);line-height:1.5}
+
+/* Seções */
+section{display:flex;flex-direction:column;gap:22px}
+.eyebrow{color:var(--accent)}
+.sec-head{display:flex;flex-direction:column;gap:8px}
+.sec-head h2{font-size:clamp(28px,4.4vw,38px)}
+.sec-head p{color:var(--muted);max-width:68ch}
+
+/* Tabela comparativa */
+.tbl-wrap{overflow-x:auto;border-top:1px solid var(--rule)}
+table{width:100%;border-collapse:collapse;min-width:560px}
+th,td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--rule)}
+thead th{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+thead th.cfh{color:var(--cfh)} thead th.cf{color:var(--cf)}
+tbody th{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:400;width:24%}
+td{font-variant-numeric:tabular-nums}
+td small{color:var(--muted);font-size:14px}
+
+/* Gráfico */
+figure{margin:0;display:flex;flex-direction:column;gap:12px}
+.legend{display:flex;flex-wrap:wrap;gap:18px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.dot.cf{background:var(--cf)} .dot.cfh{background:var(--cfh)}
+.chart{overflow-x:auto;background:var(--panel);padding:10px 6px 4px}
+.chart svg{display:block;width:100%;min-width:600px;height:auto}
+.chart .grid{stroke:var(--rule);stroke-width:1}
+.chart .grid.v{stroke-dasharray:2 4}
+.chart .ax{fill:var(--faint);font-family:var(--mono);font-size:11px}
+.chart .p-cfh{fill:var(--cfh);fill-opacity:.7}
+.chart .p-cf{fill:var(--cf);stroke:var(--bg);stroke-width:1.2}
+.chart .evt{stroke:var(--accent);stroke-dasharray:4 4;stroke-width:1.2}
+.chart .evtl{fill:var(--accent);font-family:var(--mono);font-size:11px;letter-spacing:.04em}
+figcaption{color:var(--faint);font-size:14.5px;max-width:72ch}
+
+/* Fichas (rótulo + texto) */
+.rows{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.row{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.row .lab{display:flex;flex-direction:column;gap:4px;color:var(--accent)}
+.row .lab .sub{color:var(--faint)}
+.row .body{display:flex;flex-direction:column;gap:8px;min-width:0}
+.row h3{font-size:20px;font-weight:600}
+.row p{color:#d6d1c9;max-width:68ch}
+.row p b{color:var(--ink)}
+.chan-tag{display:inline-flex;gap:10px;align-items:center}
+.chan-tag.cfh h2{color:var(--cfh)} .chan-tag.cf h2{color:var(--cf)}
+
+/* Temas */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.duo > div{min-width:0;display:flex;flex-direction:column;gap:10px}
+.duo h3{font-size:19px}
+.duo .cf-h{color:var(--cf)} .duo .cfh-h{color:var(--cfh)}
+.bars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.bars li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.bars .t{font-size:15.5px}
+.bars .n{font-family:var(--mono);font-size:13px;color:var(--ink);font-variant-numeric:tabular-nums;text-align:right}
+.bars .n small{color:var(--faint);font-size:11px}
+.bars .bar{grid-column:1 / -1;height:4px;background:var(--rule)}
+.bars .bar i{display:block;height:100%}
+.bars.cf .bar i{background:var(--cf)} .bars.cfh .bar i{background:var(--cfh)}
+.note{color:var(--faint);font-size:14.5px}
+
+/* Títulos */
+.titles{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.titles li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:9px 0;border-bottom:1px solid var(--rule);font-size:15.5px}
+.titles li span:last-child{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.formula{background:var(--panel);padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.formula p{font-size:16px}
+
+/* Destaque */
+.callout{border-left:3px solid var(--accent);background:var(--panel);padding:20px 22px;display:flex;flex-direction:column;gap:10px}
+.callout h3{font-size:24px}
+.callout p{max-width:68ch;color:#d6d1c9}
+
+/* Veredito */
+.verdict .row .lab{color:var(--good)}
+footer{color:var(--faint);font-size:14px;display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--rule);padding-top:18px}
+
+@media (max-width:680px){
+  .row{grid-template-columns:1fr;gap:10px}
+  .duo{grid-template-columns:1fr}
+  .tile{border-right:0;border-bottom:1px solid var(--rule)}
+  body{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+.tile .v.good{color:var(--good)}
+thead th.good-h{color:var(--good)}
+table.pairs td b,table.queue td b{font-weight:600;color:var(--ink)}
+table.pairs td small,table.queue td small{color:var(--muted);font-size:13.5px}
+td.x{font-family:var(--display);font-size:22px;color:var(--accent);white-space:nowrap}
+table.mult td{font-family:var(--mono);font-size:13.5px;white-space:nowrap}
+table.mult td:last-child{font-family:var(--serif);font-size:15px;white-space:normal;color:#d6d1c9;min-width:260px}
+td.up{color:var(--good)} td.down{color:var(--accent)} td.flat{color:var(--muted)} td.na{color:var(--faint)}
+table.queue td:nth-child(2){font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--cfh);white-space:nowrap}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="chip mono">Mapa de temas · 2 canais · 219 vídeos longos classificados</div>
+  <div class="banner"><h1>O ângulo vale mais que o assunto</h1></div>
+  <p class="lede">Venezuela rendeu <b>333 mil</b> views num título e <b>2,4 mil</b> em outro, no mesmo canal. O tema quase nunca decide sozinho: decide o ângulo. Este mapa separa o que funciona de forma consistente nos dois canais, o que parecia funcionar e não se sustenta, e o que o Billions &amp; Bulls deve copiar ou evitar.</p>
+  <p class="mono meta">Dados coletados em 27/10/2026 · 35 vídeos longos do Casual Finance · 184 do Chill Financial Historian · complementa o dossiê "Volume × Precisão"</p>
+</header>
+
+<div class="tiles">
+  <div class="tile"><div class="v cf num">140×</div><div class="l mono">Venezuela: melhor ângulo contra o pior, mesmo canal</div></div>
+  <div class="tile"><div class="v good num">×2,1</div><div class="l mono">Europa contra o resto · Chill, mesma fase</div></div>
+  <div class="tile"><div class="v cfh num">×0,66</div><div class="l mono">Notícia do momento · Chill, mesma fase</div></div>
+  <div class="tile"><div class="v cfh num">×0,59</div><div class="l mono">Empresa como assunto · Chill, mesma fase</div></div>
+  <div class="tile"><div class="v num">≈1×</div><div class="l mono">Título de medo · sem ganho consistente</div></div>
+</div>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Prova principal</div>
+    <h2>Mesmo assunto, ângulo diferente</h2>
+    <p>Pares do mesmo canal sobre o mesmo país ou ideia. Parte da diferença é a queda geral do Chill Financial Historian, mas ela explica no máximo uns 9× (de 48 mil para 5,5 mil de mediana). Os saltos abaixo são bem maiores.</p>
+  </div>
+  <div class="tbl-wrap">
+  <table class="pairs">
+    <thead><tr><th>Assunto</th><th class="good-h">Ângulo que funcionou</th><th class="cfh">Ângulo que não funcionou</th><th>Diferença</th></tr></thead>
+    <tbody>
+      <tr><th>Venezuela</th><td>The Venezuela Economy That Nailed Maduro <b>333 mil</b><br><small>How to Bankrupt a Country in 5 Easy Steps · 102 mil</small></td><td>The Rise and Fall of Venezuela's Economy <b>2,4 mil</b></td><td class="x">140×</td></tr>
+      <tr><th>Líbano</th><td>The REAL TRUTH About Lebanon's Economy (The Greatest Ponzi Scheme) <b>77 mil</b></td><td>The Rise and Fall of Lebanon's Economy <b>2,2 mil</b></td><td class="x">35×</td></tr>
+      <tr><th>Invadir os EUA</th><td>Why Invading the United States is IMPOSSIBLE <b>663 mil</b></td><td>Why Invading these US States is Impossible <b>1,5 mil</b> <small>(remake)</small></td><td class="x">440×</td></tr>
+      <tr><th>Alemanha</th><td>Germany's $500 Billion Mistake (The Green Energy Trap) <b>494 mil</b></td><td>Germany's Middle Class is in TROUBLE <b>8 mil</b></td><td class="x">62×</td></tr>
+      <tr><th>França</th><td>Why France is POORER Than You Think <b>697 mil</b><br><small>Why France's Economy is Facing a Massive Shift · 73 mil em 8 dias</small></td><td>France's 250 Years of Cost-of-Living Revolts <b>14 mil</b></td><td class="x">50×</td></tr>
+      <tr><th>Classe média</th><td>How the UK Quietly Wiped Out Its Own Middle Class <b>23 mil</b></td><td>A mesma ideia em 7 outros países: Coreia, Alemanha, EUA, Japão, China, Canadá, Nigéria <b>1,7 a 11 mil</b></td><td class="x">série</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">O padrão dos vencedores: uma afirmação concreta (um erro de US$ 500 bi, um esquema Ponzi, um presidente derrubado) sobre algo que alguém fez. O padrão dos perdedores: um panorama ("rise and fall", "250 years"), uma repetição ou uma série que só troca o nome do país.</p>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">O que os números dizem</div>
+    <h2>Alavancas testadas, fase por fase</h2>
+    <p>Cada número compara a mediana dos vídeos que têm a característica com a dos que não têm, dentro da mesma fase do mesmo canal. Acima de 1, ajudou; abaixo, atrapalhou. Amostras pequenas: leia como sinal.</p>
+  </div>
+  <div class="tbl-wrap">
+  <table class="mult">
+    <thead><tr><th>Característica do título</th><th class="cf">Casual · últimos 6 meses</th><th class="cf">Casual · antes</th><th class="cfh">Chill · últimos 5 meses</th><th>Leitura</th></tr></thead>
+    <tbody>
+      <tr><th>Europa (França, Alemanha, Reino Unido…)</th><td class="na">—</td><td class="na">—</td><td class="up">×2,08</td><td>O sinal mais forte do Chill. O vídeo do Casual sobre a França fez 343 mil em 16 horas.</td></tr>
+      <tr><th>EUA no título (America, Fed, Wall Street)</th><td class="up">×1,94</td><td class="down">×0,29</td><td class="down">×0,82</td><td>Inconclusivo: ajudou no Casual recente e atrapalhou antes. O que parece pesar é o assunto ser o bolso de quem assiste (moradia, bolsa), não o país.</td></tr>
+      <tr><th>Fala com o espectador (you, we)</th><td class="up">×1,32</td><td class="flat">×0,99</td><td class="up">×1,21</td><td>Leve vantagem nos dois.</td></tr>
+      <tr><th>Explicador ("Explained", "Full Explanation")</th><td class="na">—</td><td class="na">—</td><td class="up">×1,40</td><td>Título de busca. Dá piso, não dá pico.</td></tr>
+      <tr><th>"Como ficou rico" / sucesso</th><td class="na">—</td><td class="na">—</td><td class="up">×1,24</td><td>Estável e seguro. Os maiores têm um paradoxo junto: "And Why They Don't Spend It".</td></tr>
+      <tr><th>Medo e colapso</th><td class="flat">×1,10</td><td class="down">×0,52</td><td class="flat">×1,06</td><td>Sem ganho consistente. Nossa regra de não usar medo custa pouco.</td></tr>
+      <tr><th>Número no título</th><td class="down">×0,78</td><td class="up">×1,60</td><td class="flat">×1,02</td><td>Neutro no geral.</td></tr>
+      <tr><th>Segredo ("nobody", "hidden", "quietly")</th><td class="down">×0,85</td><td class="down">×0,45</td><td class="down">×0,79</td><td>Desgastado. Não ajuda em nenhum dos dois.</td></tr>
+      <tr><th>Parênteses com a virada</th><td class="na">—</td><td class="down">×0,47</td><td class="down">×0,77</td><td>Não é alavanca. No início do Chill, 79 de 81 vídeos tinham: era só o estilo da casa.</td></tr>
+      <tr><th>Empresa como assunto</th><td class="na">—</td><td class="na">—</td><td class="down">×0,59</td><td>"Nothing About Credit Scores Is Normal" fez 1,1 mil. A exceção é evento enorme: o IPO da SpaceX (1,7 mi).</td></tr>
+      <tr><th>Notícia e agenda do momento</th><td class="flat">×1,00</td><td class="up">×1,67</td><td class="down">×0,66</td><td>Para um canal de histórias, rende pouco: cúpula da OTAN 1,5 mil, acordo EUA-Irã 1,6 mil.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Temas que funcionam</div>
+    <h2>Seis territórios com prova nos dados</h2>
+  </div>
+  <div class="rows">
+    <div class="row"><div class="lab mono">Drama de terceiros<span class="sub">golpes e desastres</span></div><div class="body"><h3>Alguém errou feio, e dá para seguir o dinheiro</h3><p>Venezuela que derrubou Maduro (333 mil), o erro de US$ 500 bi da Alemanha (494 mil), o "Ponzi" do Líbano (77 mil), "Crypto Is a Brilliant Scam" (592 mil). O drama é de outra pessoa ou outro país, então não precisa assustar quem assiste.</p></div></div>
+    <div class="row"><div class="lab mono">Europa<span class="sub">França e Alemanha</span></div><div class="body"><h3>O dinheiro da Europa, com uma afirmação forte</h3><p>França aparece com 697 mil, 122 mil, 73 mil e 61 mil no Chill e com 343 mil em 16 horas no Casual. Alemanha, com 494 mil e 105 mil. Público de língua inglesa clica em história europeia.</p></div></div>
+    <div class="row"><div class="lab mono">Quem paga<span class="sub">o bolso do espectador</span></div><div class="body"><h3>O que está acontecendo com o seu dinheiro</h3><p>Moradia (2,3 mi) e bolsa (mediana de 1 mi) são os temas mais fortes do Casual. É o mesmo gancho do nosso ep. 1: você está pagando e não sabe.</p></div></div>
+    <div class="row"><div class="lab mono">Ficou rico<span class="sub">com paradoxo</span></div><div class="body"><h3>Como alguém ficou rico, e o detalhe estranho</h3><p>"How Norway Got Rich (And Why They Don't Spend It)" fez 201 mil; Suíça "With No Resources", 71 mil. Nos últimos meses é o tema mais estável do Chill (mediana de 15 mil contra 5,5 mil do canal).</p></div></div>
+    <div class="row"><div class="lab mono">Dinheiro estranho<span class="sub">moedas e dólar</span></div><div class="body"><h3>Quem usa o dinheiro de quem</h3><p>"The Slow DEATH of The Petrodollar" fez 574 mil. "Why Cambodia's Economy Runs on US Dollars" fez 23 mil em 2 semanas, acima de quase tudo recente do canal.</p></div></div>
+    <div class="row"><div class="lab mono">História<span class="sub">com gancho atual</span></div><div class="body"><h3>O passado, contado como se importasse hoje</h3><p>"The 1973 Stock Market Crash that Nobody Remembers" fez 1,2 mi. "Rise and Fall of…" e "250 Years of…" ficaram entre 2 mil e 14 mil. A diferença é a promessa: um evento específico, não um panorama.</p></div></div>
+  </div>
+</section>
+
+<section class="verdict">
+  <div class="sec-head">
+    <div class="mono eyebrow" style="color:var(--good)">Replicar</div>
+    <h2>O que o Billions &amp; Bulls copia</h2>
+  </div>
+  <div class="rows">
+    <div class="row"><div class="lab mono">Ângulo</div><div class="body"><h3>Um fato concreto, com alguém responsável</h3><p>Todo título nomeia um evento, um erro ou um paradoxo específico. Nada de panorama. Teste rápido: o título cabe numa manchete de jornal?</p></div></div>
+    <div class="row"><div class="lab mono">Europa</div><div class="body"><h3>Incluir histórias europeias na fila</h3><p>França, Alemanha e Reino Unido, sempre pelo "follow the money": quem pagou, quem ganhou.</p></div></div>
+    <div class="row"><div class="lab mono">Drama</div><div class="body"><h3>Golpes e desastres como pilar forte</h3><p>É o território com mais hits nos dois canais e o que melhor combina com o nosso "follow the money". O tom fica no drama da história, não na ameaça a quem assiste.</p></div></div>
+    <div class="row"><div class="lab mono">Bolso</div><div class="body"><h3>Quando der, ligar a história ao dinheiro de quem assiste</h3><p>Funciona no Casual e já é o gancho do ep. 1 e do ep. 2 (Visa).</p></div></div>
+    <div class="row"><div class="lab mono">Busca</div><div class="body"><h3>Um título reserva no formato de busca</h3><p>"How X makes money" ou "X explained" dá piso de views. Fica como título reserva, se o principal tiver CTR baixo.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Evitar</div>
+    <h2>O que já dá para riscar</h2>
+  </div>
+  <div class="rows avoid">
+    <div class="row"><div class="lab mono">Panorama</div><div class="body"><h3>"Rise and Fall of…", "250 Years of…"</h3><p>De 2,2 mil a 14 mil, contra centenas de milhares do mesmo assunto com um ângulo concreto.</p></div></div>
+    <div class="row"><div class="lab mono">Série</div><div class="body"><h3>A mesma ideia trocando o país</h3><p>Classe média em 8 países, "The True REALITY of X's Economy" em mais de 10. Rende pouco e é exatamente o que a regra de conteúdo inautêntico pune.</p></div></div>
+    <div class="row"><div class="lab mono">Remake</div><div class="body"><h3>Refazer o próprio hit</h3><p>663 mil no original, 1,5 mil na nova versão.</p></div></div>
+    <div class="row"><div class="lab mono">Notícia</div><div class="body"><h3>Agenda do momento como gancho principal</h3><p>Cúpulas, acordos e trocas de governo ficaram entre 1,5 mil e 6,6 mil. A notícia pode entrar como gancho de uma história, não ser a história.</p></div></div>
+    <div class="row"><div class="lab mono">Fora do tema</div><div class="body"><h3>Sair do dinheiro</h3><p>Segurança de IA, Tribunal Penal Internacional (894 views), OTAN. Quando o Chill saiu do dinheiro, o público não foi junto.</p></div></div>
+    <div class="row"><div class="lab mono">Empresa solta</div><div class="body"><h3>Empresa como assunto, sem drama</h3><p>"Nothing About Credit Scores Is Normal" fez 1,1 mil; Subscriptions, 1,7 mil. A empresa entra como personagem de uma história, que é o nosso posicionamento.</p></div></div>
+    <div class="row"><div class="lab mono">Muletas</div><div class="body"><h3>"Nobody", "hidden", "quietly" e parênteses</h3><p>Nenhum dos dois ajuda nos dados. Não vale construir a fórmula de título em cima deles.</p></div></div>
+  </div>
+</section>
+
+<div class="callout">
+  <div class="mono eyebrow">Revisão do que dissemos antes</div>
+  <h3>Parênteses e medo não são alavancas</h3>
+  <p>No primeiro raio-x eu recomendei testar a virada entre parênteses. Comparando dentro da mesma fase, ela não ajuda (×0,47 e ×0,77): era só o estilo da fase boa do Chill. O mesmo vale para o título de medo, que não tem ganho consistente. Os dois saem da lista de recomendações.</p>
+</div>
+
+<section>
+  <div class="sec-head">
+    <div class="mono eyebrow">Fila sugerida</div>
+    <h2>Dez temas para o Billions &amp; Bulls</h2>
+    <p>Cada um com a prova que o sustenta. Títulos de trabalho, em inglês. Todo número precisa ser checado na fonte antes de entrar no roteiro.</p>
+  </div>
+  <div class="tbl-wrap">
+  <table class="queue">
+    <thead><tr><th>Título de trabalho</th><th>Pilar</th><th>Por que entra</th></tr></thead>
+    <tbody>
+      <tr><td><b>Robinhood Is Free. So Who's Paying?</b> <small>ep. 1, pronto</small></td><td>Quem paga o grátis</td><td>O bolso do espectador; título curto com uma tensão.</td></tr>
+      <tr><td><b>Who Really Gets Paid When You Tap Your Card?</b> <small>ep. 2</small></td><td>Quem paga o grátis</td><td>Já prometido no fim do ep. 1. Bolso do espectador.</td></tr>
+      <tr><td><b>Venezuela Had the Most Oil on Earth. Where Did the Money Go?</b></td><td>Golpes e desastres</td><td>Venezuela fez 333 mil e 102 mil com ângulo concreto. "Where did the money go" é o nosso formato.</td></tr>
+      <tr><td><b>Lebanon's Banks Ran a Ponzi Scheme. Who Got Out First?</b></td><td>Golpes e desastres</td><td>Líbano: 77 mil com o ângulo "Ponzi", 2,2 mil com "rise and fall".</td></tr>
+      <tr><td><b>Norway Has Trillions Saved. Why Won't It Spend Them?</b></td><td>Negócios escondidos</td><td>Noruega: 201 mil. Ficou rico + paradoxo.</td></tr>
+      <tr><td><b>Germany Spent Billions on Green Energy. Who Got the Money?</b></td><td>Golpes e desastres</td><td>Alemanha: 494 mil. Europa + erro bilionário, contado pelo caminho do dinheiro.</td></tr>
+      <tr><td><b>Who Pays for France's Pensions?</b></td><td>Negócios escondidos</td><td>França é o assunto mais forte dos dois canais.</td></tr>
+      <tr><td><b>Ireland Was Owed Billions by Apple. It Didn't Want Them.</b></td><td>Dinheiro bizarro</td><td>Europa + empresa como personagem + paradoxo.</td></tr>
+      <tr><td><b>The Countries That Run on Someone Else's Money</b></td><td>Dinheiro bizarro</td><td>Camboja em dólar fez 23 mil em 2 semanas; petrodólar, 574 mil.</td></tr>
+      <tr><td><b>The Day Wall Street Lost 22%</b> <small>Black Monday, 1987</small></td><td>Golpes e desastres</td><td>O modelo é o crash de 1973 do Casual (1,2 mi): um evento específico, não um panorama.</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<footer>
+  <p class="mono">Método</p>
+  <p>Os títulos foram classificados por palavras-chave (por exemplo, "collapse", "death", "crash" para medo; nomes de países europeus para Europa) e conferidos à mão nos casos ambíguos. As comparações são feitas dentro da mesma fase de cada canal, porque os dois mudaram muito de patamar: o Casual Finance cresceu e o Chill Financial Historian caiu. A fase antiga do Chill tem só os vídeos do top 100, então ela não entra na tabela de alavancas. Grupos com 2 a 5 vídeos são sinal, não prova. Views coletadas em 27/10/2026.</p>
+</footer>
+
+</div>

@@ -114,7 +114,7 @@ Leitura:
 ## O que levar para o Billions & Bulls
 
 1. **Canal novo pode estourar cedo.** Esse fez 697K num vídeo nos primeiros 2 meses. O algoritmo testa canais novos, então a embalagem dos primeiros vídeos importa muito.
-2. **Usar a fórmula de título com a virada nos parênteses**, sem o medo deles. Ex.: "Robinhood Is Free. So Who's Paying? (It's Not You. Yet.)". Testar como variante.
+2. **Revisado em 27/10/2026:** os parênteses não ajudam quando comparados dentro da mesma fase (ver `dossies/mapa-de-temas.html`). O que funciona é o ângulo concreto.
 3. **Curiosidade positiva funciona e é segura.** "How Norway Got Rich" e "How Switzerland Became Rich" vão bem sem título de medo. Medo e colapso funcionaram no curto prazo, mas é o tipo de coisa que a política de conteúdo inautêntico pune.
 4. **Volume alto com fórmula fixa derruba o canal.** Quase 5 vídeos por semana, títulos em série e queda de 40K para 5,5K de mediana, seguida da desmonetização. Isso confirma que é melhor ter 2 vídeos longos bem feitos do que 4 em série.
 5. **Thumb com 2 a 4 palavras que dão a conclusão**, como já está nas nossas regras, mais um personagem ou objeto com emoção. A gravura vintage em papel validou o nosso estilo.
