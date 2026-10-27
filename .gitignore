@@ -12,3 +12,6 @@ __pycache__/
 node_modules/
 .venv/
 .DS_Store
+
+# Áudio e vídeo de trabalho (fora do git)
+media/
