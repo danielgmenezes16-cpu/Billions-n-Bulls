@@ -1,0 +1,14 @@
+# Arquivos de mídia pesados (guardar fora do git)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.psd
+
+# Ambiente / segredos
+.env
+.env.*
+__pycache__/
+node_modules/
+.venv/
+.DS_Store
