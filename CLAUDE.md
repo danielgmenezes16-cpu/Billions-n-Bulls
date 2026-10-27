@@ -9,6 +9,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - `docs/posicionamento.md` — o posicionamento atual (decidido em 27/10/2026). Vale por cima do resumo onde os dois divergirem.
 - `docs/resumo-canal.md` — tudo o que foi definido antes (formato, visual, voz, thumbnails, monetização). Ainda vale em tudo que o posicionamento não mudou.
 - `docs/dossies/` — raio-X dos canais de referência e mapa de temas. A seção "Blueprint" abaixo resume o que foi adotado deles.
+- `docs/fluxo-de-producao.md` — ferramentas e passo a passo de cada vídeo, com quem faz cada etapa. Seguir esse fluxo em todo episódio.
 
 ## Acordo de trabalho
 - Bastidores (conversa, docs, planejamento) em **português**: respostas diretas, informais, curtas e opinativas.
