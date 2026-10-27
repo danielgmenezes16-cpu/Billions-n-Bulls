@@ -18,11 +18,11 @@ Criado em 27/10/2026. Quando o processo mudar, este arquivo muda junto.
 | --- | --- | --- | --- |
 | **Claude Code** (este repositório) | Pesquisa, roteiro, checagem, montagem no Remotion, thumbs, legenda, Shorts, pacote de upload | Claude | Assinatura do Claude que o Daniel já tem |
 | **GitHub** (repositório Billions-n-Bulls) | Guarda roteiros, docs, código do Remotion e decisões | Claude | Grátis |
-| **ElevenLabs** — plano Starter ou acima | Narração. Voz Lucan Rook, modelo Multilingual v2, velocidade 1,06, estilo 40% | Daniel | Pago (o grátis não tem licença comercial) |
+| **Dark Planner** (usa a base do ElevenLabs) | Narração. Voz Lucan Rook, modelo Multilingual v2, velocidade 1,06, estilo 40%. O Daniel confirmou em 27/10/2026 que o plano dele permite uso comercial; guardar um print dos termos e do plano para o caso de uma revisão do YouTube | Daniel | Pago |
 | **Remotion 4.0.539** | Animação e montagem do vídeo e das thumbs (código React) | Claude | Grátis para uso individual |
 | **sherpa-onnx** (Whisper small + Parakeet) | Mede o tempo de cada palavra da narração para sincronizar o texto na tela | Claude | Grátis |
 | **ffmpeg** | Junta e normaliza o áudio (-14 LUFS), mixa trilha e efeitos | Claude | Grátis |
-| **Biblioteca de áudio do YouTube** | Trilha de fundo | Daniel escolhe 2 ou 3 faixas | Grátis |
+| **Trilha original** (`scripts/audio/trilha.py`) | Trilha de fundo sintetizada pelo Claude: sem direitos de terceiros e sem risco de reivindicação do Content ID. A Biblioteca de áudio do YouTube continua como alternativa, escolhida pelo Daniel (o Claude não acessa o Studio) | Claude | Grátis |
 | **Bancos de imagem** | Wikimedia Commons, Library of Congress, Pexels, Unsplash, SEC EDGAR, sites de RI das empresas | Claude | Grátis (licença conferida item a item) |
 | **YouTube Studio** | Upload, Test & Compare de thumbs, legenda, tela final, cards, Analytics | Daniel | Grátis |
 
@@ -35,7 +35,7 @@ Criado em 27/10/2026. Quando o processo mudar, este arquivo muda junto.
 | **Google Drive** | Plano B para transferir o vídeo final se o arquivo for grande demais para o app | Os dois |
 | **Instagram / TikTok** | Repostar os Shorts, mais adiante | Daniel, opcional |
 
-**Custo fixo hoje:** só o ElevenLabs. Todo o resto é grátis.
+**Custo fixo hoje:** só o Dark Planner (narração). Todo o resto é grátis.
 
 ---
 
