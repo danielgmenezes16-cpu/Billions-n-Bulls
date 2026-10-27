@@ -1,11 +1,13 @@
 # Billions & Bulls — Canal YouTube Dark
 
-Canal dark (sem rosto), em **inglês**, que explica **como o setor financeiro ganha dinheiro** (bancos, bandeiras, gestoras, corretoras, market makers). Empresas-âncora: Visa, BlackRock, Citadel. Moldura de todo vídeo: **"follow the money"**.
+Canal dark (sem rosto), em **inglês**, de **histórias e curiosidades de dinheiro**: finanças com cara de entretenimento, como o Cargo & Capital faz com a economia física. Cada vídeo responde uma **pergunta curiosa** e segue o dinheiro até a resposta. Moldura de todo vídeo: **"follow the money"**.
 Canal irmão: Cargo & Capital (economia física), com collabs.
 
 Este repositório é independente do projeto DentalPRO — não misturar contexto, código ou decisões entre os dois.
 
-**Fonte da verdade:** `docs/resumo-canal.md` (tudo o que foi definido até 27/10/2026). Consultar antes de decidir qualquer coisa sobre formato, visual, voz, thumbnails ou monetização.
+**Fontes da verdade:**
+- `docs/posicionamento.md` — o posicionamento atual (decidido em 27/10/2026). Vale por cima do resumo onde os dois divergirem.
+- `docs/resumo-canal.md` — tudo o que foi definido antes (formato, visual, voz, thumbnails, monetização). Ainda vale em tudo que o posicionamento não mudou.
 
 ## Acordo de trabalho
 - Bastidores (conversa, docs, planejamento) em **português**: respostas diretas, informais, curtas e opinativas.
