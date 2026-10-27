@@ -2,7 +2,7 @@
 
 Objetivo: canais em inglês, de histórias e curiosidades de dinheiro, com **2 a 5 mil views por vídeo**. Servem de base para tema, ritmo e embalagem, sem disputar com os canais de milhões.
 
-**Status: candidatos ainda não verificados.** O ambiente do Claude não acessa o YouTube, então inscritos e views precisam ser conferidos pelo Daniel.
+**Status:** só o Chill Financial Historian foi verificado até agora. O YouTube foi liberado no ambiente do Claude em 27/10/2026, então os outros podem ser conferidos direto daqui.
 
 | Canal | Link | Proposta | Pilar mais próximo |
 | --- | --- | --- | --- |

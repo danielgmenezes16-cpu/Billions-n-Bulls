@@ -13,7 +13,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - Bastidores (conversa, docs, planejamento) em **português**: respostas diretas, informais, curtas e opinativas.
 - Tudo o que vai ao ar em **inglês**: narração, título, descrição, tags, thumbnail, legenda, comentário fixado.
 - Ferramentas grátis sempre que possível. Chave de API ou ferramenta paga só se indispensável, e perguntar antes.
-- O ambiente do Claude não acessa YouTube, Google Trends nem ElevenLabs: narração (MP3) e dados do Analytics vêm do Daniel.
+- O ambiente do Claude lê as páginas públicas do YouTube (liberado em 27/10/2026), mas não acessa Google Trends, ElevenLabs nem o YouTube Studio: narração (MP3) e dados do Analytics vêm do Daniel.
 
 ## Estrutura
 - `docs/` — estratégia e referências do canal (`resumo-canal.md`).
