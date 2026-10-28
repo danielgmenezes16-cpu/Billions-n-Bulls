@@ -9,7 +9,7 @@ ensureFonts();
 
 // Thumbnails do episódio 1 (1280×720), feitas com os mesmos objetos do vídeo.
 // Regras: no máximo 3 palavras, texto com 1/4 da altura, canto inferior direito livre (duração do vídeo).
-export type ThumbProps = {variant: 'A' | 'B' | 'C'};
+export type ThumbProps = {variant: 'A' | 'B' | 'C' | 'D'};
 
 const BUY_GREEN = '#1FAF66'; // verde universal de "comprar" nos apps de corretora
 const STAMP_RED = '#C8372D';
@@ -127,5 +127,46 @@ const VariantC: React.FC = () => (
 	</AbsoluteFill>
 );
 
+// D (blueprint): frase curta + gráfico com dado real (receitas do 4º tri de 2025) + o ponto dourado
+const VariantD: React.FC = () => {
+	const bars = [
+		{label: 'STOCKS', value: 94, display: '$94M'},
+		{label: 'OPTIONS', value: 314, display: '$314M'},
+		{label: 'INTEREST', value: 411, display: '$411M', gold: true},
+	];
+	const base = 560;
+	const maxH = 400;
+	return (
+		<AbsoluteFill>
+			<Background id="tD" drift={0} lines={false} />
+			<Spot />
+			<div style={{position: 'absolute', left: 60, top: 150, fontFamily: FONT, fontWeight: 900, fontSize: 210, lineHeight: 0.95, color: DARK, letterSpacing: -8}}>
+				FREE?
+			</div>
+			<div style={{position: 'absolute', left: 70, top: 370, fontFamily: FONT, fontWeight: 700, fontSize: 44, color: INK, letterSpacing: 2}}>
+				$0 trades.
+			</div>
+			<svg width={1280} height={720} style={{position: 'absolute', inset: 0}}>
+				<line x1={640} x2={1200} y1={base} y2={base} stroke={INK} strokeOpacity={0.5} strokeWidth={4} />
+				{bars.map((b, i) => {
+					const h = (maxH * b.value) / 411;
+					const x = 660 + i * 180;
+					return (
+						<g key={b.label}>
+							<rect x={x} y={base - h} width={140} height={h} rx={8} fill={b.gold ? GOLD : DARK} fillOpacity={b.gold ? 1 : 0.75} />
+							<text x={x + 70} y={base - h - 18} fontFamily={FONT} fontWeight={900} fontSize={40} fill={DARK} textAnchor="middle">{b.display}</text>
+							<text x={x + 70} y={base + 44} fontFamily={FONT} fontWeight={700} fontSize={26} fill={INK} textAnchor="middle" letterSpacing={3}>{b.label}</text>
+						</g>
+					);
+				})}
+				{/* o ponto dourado: o dinheiro que não aparece no comprovante */}
+				<circle cx={1090} cy={base - 400 - 70} r={18} fill={GOLD} />
+				<path d="M 300 470 C 520 520, 820 120, 1072 88" fill="none" stroke={GOLD} strokeWidth={8} strokeLinecap="round" strokeDasharray="4 16" />
+			</svg>
+			<Vignette />
+		</AbsoluteFill>
+	);
+};
+
 export const Thumbnail: React.FC<ThumbProps> = ({variant}) =>
-	variant === 'A' ? <VariantA /> : variant === 'B' ? <VariantB /> : <VariantC />;
+	variant === 'A' ? <VariantA /> : variant === 'B' ? <VariantB /> : variant === 'D' ? <VariantD /> : <VariantC />;

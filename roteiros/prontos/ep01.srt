@@ -1,0 +1,795 @@
+1
+00:00:00,240 --> 00:00:03,470
+If trading is free, who pays?
+
+2
+00:00:03,520 --> 00:00:07,950
+Every day, millions of people open a
+trading app, tap buy and pay nothing.
+
+3
+00:00:08,000 --> 00:00:11,436
+No commission, no fee, zero dollars.
+
+4
+00:00:11,486 --> 00:00:15,736
+And yet, the companies behind
+those apps are worth billions.
+
+5
+00:00:15,966 --> 00:00:19,353
+So, if trading is free, who's paying?
+
+6
+00:00:19,663 --> 00:00:24,093
+To find out, we're going to follow one
+single trade from the moment you tap
+
+7
+00:00:24,143 --> 00:00:26,813
+that button to a firm you've
+probably never heard of,
+
+8
+00:00:26,863 --> 00:00:29,354
+sitting right in the
+middle of Wall Street.
+
+9
+00:00:29,424 --> 00:00:31,454
+This is Billions and Bulls.
+
+10
+00:00:31,504 --> 00:00:33,834
+Let's follow the money.
+
+11
+00:00:34,837 --> 00:00:40,547
+Part 1 The $0 Trade When you tap buy,
+your order usually doesn't go straight
+
+12
+00:00:40,597 --> 00:00:41,794
+to the stock exchange.
+
+13
+00:00:41,844 --> 00:00:45,234
+It goes to a market maker, a
+firm like Citadel Securities,
+
+14
+00:00:45,284 --> 00:00:48,514
+that pays your broker
+for the right to fill it.
+
+15
+00:00:48,564 --> 00:00:51,190
+It's called payment for order flow.
+
+16
+00:00:51,240 --> 00:00:56,070
+The market maker earns a tiny slice of
+the spread, the gap between what buyers
+
+17
+00:00:56,120 --> 00:00:58,930
+pay and what sellers receive.
+
+18
+00:00:59,160 --> 00:01:03,099
+Fractions of a cent per share,
+millions of times a day.
+
+19
+00:01:03,329 --> 00:01:05,039
+Here's what that looks like.
+
+20
+00:01:05,089 --> 00:01:08,539
+Imagine a stock where
+buyers are bidding $99.98
+
+21
+00:01:09,249 --> 00:01:11,819
+and sellers are asking $100.02.
+
+22
+00:01:12,223 --> 00:01:15,053
+That four cent gap is the spread.
+
+23
+00:01:15,103 --> 00:01:16,973
+A market maker stands in the middle.
+
+24
+00:01:17,023 --> 00:01:21,879
+It buys from the sellers, sells to
+the buyers, and keeps the difference.
+
+25
+00:01:21,949 --> 00:01:26,139
+To win your order, it will often give
+you a slightly better price than the one
+
+26
+00:01:26,189 --> 00:01:29,000
+on your screen. Maybe $100.01
+
+27
+00:01:29,070 --> 00:01:30,919
+instead of $100.02.
+
+28
+00:01:31,229 --> 00:01:34,635
+You save a penny. The market
+maker keeps the rest.
+
+29
+00:01:34,685 --> 00:01:39,195
+Minus a small cut, it pays your
+broker for sending you there.
+
+30
+00:01:39,245 --> 00:01:41,794
+Now multiply that by millions of orders.
+
+31
+00:01:41,844 --> 00:01:47,074
+In October 2025, Robinhood sent its
+customer stock orders to six of these firms
+
+32
+00:01:47,124 --> 00:01:52,689
+Virtu, G1, Jane Street, Citadel Securities,
+Hudson River Trading and Two Sigma.
+
+33
+00:01:52,739 --> 00:01:56,609
+every single one of them paid for the
+privilege, together about forty million
+
+34
+00:01:56,659 --> 00:01:59,149
+dollars in one month.
+
+35
+00:01:59,699 --> 00:02:02,243
+But stocks are the smaller
+part of this story.
+
+36
+00:02:02,293 --> 00:02:05,203
+The real money is somewhere
+most beginners never look,
+
+37
+00:02:05,253 --> 00:02:07,583
+and we'll get there.
+
+38
+00:02:08,053 --> 00:02:12,587
+Part 2 The Firm in the Middle First,
+meet the biggest of these firms.
+
+39
+00:02:12,637 --> 00:02:17,627
+Citadel Securities says it handles more
+than 35% of all retail trading volume
+
+40
+00:02:17,677 --> 00:02:20,827
+in the United States and
+about 30% of all U.S.
+
+41
+00:02:20,877 --> 00:02:22,860
+listed options trading.
+
+42
+00:02:22,929 --> 00:02:29,119
+In the first three months of 2025 alone,
+it reportedly made a record $3.4 billion
+
+43
+00:02:29,169 --> 00:02:30,943
+in trading revenue.
+
+44
+00:02:31,173 --> 00:02:35,283
+So why would a firm that big pay for
+orders from people buying three shares
+
+45
+00:02:35,333 --> 00:02:40,060
+at a time? Because your order is one
+of the safest orders in the market.
+
+46
+00:02:40,110 --> 00:02:44,060
+When a giant hedge fund starts buying,
+it might be the first slice of a huge
+
+47
+00:02:44,110 --> 00:02:47,660
+position, and the price is about to
+move against whoever sold to it.
+
+48
+00:02:47,710 --> 00:02:50,445
+Your order is just your order.
+
+49
+00:02:50,514 --> 00:02:55,004
+Small, random, and unlikely to
+know something the market doesn't.
+
+50
+00:02:55,075 --> 00:02:56,784
+Think of it like car insurance.
+
+51
+00:02:56,834 --> 00:03:01,275
+Insurers love careful drivers because
+they rarely cost them anything.
+
+52
+00:03:01,325 --> 00:03:05,915
+To a market maker, retail orders are
+the careful drivers of the stock market.
+
+53
+00:03:05,965 --> 00:03:07,595
+That's the best flow there is.
+
+54
+00:03:07,645 --> 00:03:10,705
+So, it pays for the right
+to trade against it.
+
+55
+00:03:10,934 --> 00:03:15,764
+And that creates the conflict critics
+point to: your broker is being paid by
+
+56
+00:03:15,814 --> 00:03:18,475
+the firm on the other side of your trade.
+
+57
+00:03:18,625 --> 00:03:23,375
+In December 2020, the SEC said Robinhood
+had misled customers about exactly
+
+58
+00:03:23,425 --> 00:03:28,662
+this. Between 2015 and 2018, According
+to the SEC Robinhood's customers got
+
+59
+00:03:28,712 --> 00:03:32,182
+worse prices, costing them thirty
+four point one million dollars,
+
+60
+00:03:32,232 --> 00:03:34,022
+even after the commissions they saved.
+
+61
+00:03:34,072 --> 00:03:36,806
+Robinhood paid sixty five
+million dollars to settle.
+
+62
+00:03:36,856 --> 00:03:39,905
+without admitting or denying the findings.
+
+63
+00:03:40,605 --> 00:03:43,835
+Part 3: Where the real money is.
+
+64
+00:03:43,885 --> 00:03:47,275
+Now, remember that place
+most beginners never look?
+
+65
+00:03:47,325 --> 00:03:49,004
+Look at Robinhood's own numbers.
+
+66
+00:03:49,054 --> 00:03:54,284
+In the last three months of 2025,
+stock trading brought in $94 million.
+
+67
+00:03:54,334 --> 00:03:56,524
+Options brought in $314
+
+68
+00:03:56,574 --> 00:03:59,725
+million, more than three times as much.
+
+69
+00:03:59,875 --> 00:04:03,985
+Options are contracts that let you bet
+on where a stock will be by a certain
+
+70
+00:04:04,035 --> 00:04:08,305
+date. They're complex, they move
+fast, and people trade them often.
+
+71
+00:04:08,355 --> 00:04:11,196
+Each contract usually covers 100 shares.
+
+72
+00:04:11,246 --> 00:04:15,016
+and market makers pay
+Robinhood for every contract.
+
+73
+00:04:15,326 --> 00:04:19,436
+In October twenty twenty five alone,
+market makers paid Robinhood more than
+
+74
+00:04:19,486 --> 00:04:22,747
+fifty million dollars for its
+customers' options orders,
+
+75
+00:04:22,797 --> 00:04:26,347
+About four in every ten of
+those orders went to one firm,
+
+76
+00:04:26,397 --> 00:04:28,487
+Citadel Securities.
+
+77
+00:04:28,877 --> 00:04:33,157
+Crypto added another $221
+million in that same quarter.
+
+78
+00:04:33,207 --> 00:04:35,397
+And the fastest growing line of all?
+
+79
+00:04:35,447 --> 00:04:37,237
+Bets on real world events.
+
+80
+00:04:37,287 --> 00:04:39,557
+Robinhood calls them prediction markets.
+
+81
+00:04:39,607 --> 00:04:43,725
+Customers traded eight point five billion
+event contracts in those three months.
+
+82
+00:04:43,775 --> 00:04:46,845
+and the revenue line that includes them
+grew more than three hundred percent
+
+83
+00:04:46,895 --> 00:04:50,205
+in a year, and on these
+Robinhood charges a commission,
+
+84
+00:04:50,255 --> 00:04:52,745
+up to a cent per contract.
+
+85
+00:04:53,055 --> 00:04:54,528
+The pattern is simple.
+
+86
+00:04:54,578 --> 00:04:57,408
+The more complex the product
+and the more often you trade it,
+
+87
+00:04:57,458 --> 00:05:00,668
+the more money someone
+makes from your order.
+
+88
+00:05:00,818 --> 00:05:03,568
+Quick thing: if you want more
+videos that follow the money,
+
+89
+00:05:03,618 --> 00:05:08,378
+subscribe. It's free, and
+unlike trading, It actually is
+
+90
+00:05:09,008 --> 00:05:11,758
+Part 4: The Money You Forgot About.
+
+91
+00:05:11,808 --> 00:05:13,111
+But here's the twist.
+
+92
+00:05:13,161 --> 00:05:18,071
+In the last three months of 2025, Robinhood's
+single biggest revenue line wasn't
+
+93
+00:05:18,121 --> 00:05:20,791
+options or crypto or stocks.
+
+94
+00:05:20,841 --> 00:05:26,468
+It was interest. four hundred
+and eleven million dollars of it
+
+95
+00:05:26,518 --> 00:05:29,188
+Out of every dollar Robinhood
+made in those three months,
+
+96
+00:05:29,238 --> 00:05:31,471
+about thirty two cents came from interest.
+
+97
+00:05:31,521 --> 00:05:35,711
+25 from options, 17 from
+crypto, 11 from other trading,
+
+98
+00:05:35,761 --> 00:05:40,979
+like prediction markets, only 7 from
+stocks, and 8 from everything else.
+
+99
+00:05:41,209 --> 00:05:43,640
+That interest comes from three places.
+
+100
+00:05:43,690 --> 00:05:46,999
+One, the cash customers
+leave sitting uninvested.
+
+101
+00:05:47,049 --> 00:05:50,359
+Robinhood sweeps it to partner
+banks, earns interest on it,
+
+102
+00:05:50,409 --> 00:05:52,586
+and passes only part of that on.
+
+103
+00:05:52,636 --> 00:05:57,386
+two. Margin. Customers borrow money to
+trade and pay interest on the loan.
+
+104
+00:05:57,436 --> 00:05:59,306
+three. Securities lending.
+
+105
+00:05:59,356 --> 00:06:03,306
+Robinhood lends out shares to traders
+who want to bet against a stock and earns
+
+106
+00:06:03,356 --> 00:06:06,161
+a fee. Your idle cash isn't idle.
+
+107
+00:06:06,211 --> 00:06:09,550
+It's working, just not entirely for you.
+
+108
+00:06:09,780 --> 00:06:15,650
+Add it all up, and in 2025 Robinhood
+brought in $4.5 billion in revenue and
+
+109
+00:06:15,700 --> 00:06:18,246
+kept $1.9 billion as profit.
+
+110
+00:06:18,296 --> 00:06:22,086
+It now has twenty seven
+million funded customers.
+
+111
+00:06:22,136 --> 00:06:25,766
+By Robinhood's own math, it makes about
+a hundred and ninety one dollars a
+
+112
+00:06:25,816 --> 00:06:30,068
+year from the average one, from
+an app that's supposedly free.
+
+113
+00:06:30,378 --> 00:06:35,048
+And 4.2 million of those customers now
+pay for a subscription called Robinhood
+
+114
+00:06:35,098 --> 00:06:36,548
+Gold.
+
+115
+00:06:37,397 --> 00:06:42,787
+Part 5 The Day It Broke Free trading
+works beautifully until everyone trades
+
+116
+00:06:42,837 --> 00:06:44,607
+at once.
+
+117
+00:06:44,677 --> 00:06:47,063
+January 28th, 2021
+
+118
+00:06:47,113 --> 00:06:51,303
+GameStop, a struggling video game retailer,
+had gone from two dollars and fifty
+
+119
+00:06:51,353 --> 00:06:55,143
+seven cents a share in April twenty
+twenty to as high as four hundred eighty
+
+120
+00:06:55,193 --> 00:06:56,663
+three dollars that day.
+
+121
+00:06:56,713 --> 00:07:00,936
+Millions of people were piling
+in, many of them on Robinhood.
+
+122
+00:07:00,986 --> 00:07:04,136
+Then Robinhood did something
+its users never expected.
+
+123
+00:07:04,186 --> 00:07:05,736
+It stopped them from buying.
+
+124
+00:07:05,786 --> 00:07:08,506
+They could sell. They just couldn't buy.
+
+125
+00:07:08,556 --> 00:07:11,846
+That day, GameStop fell 44%.
+
+126
+00:07:12,507 --> 00:07:16,137
+The Internet exploded with
+theories, but the explanation,
+
+127
+00:07:16,187 --> 00:07:17,417
+later laid out by a U.S.
+
+128
+00:07:17,467 --> 00:07:21,077
+House committee, was more
+boring and more revealing.
+
+129
+00:07:21,446 --> 00:07:24,756
+Back then, a stock trade
+took two days to settle.
+
+130
+00:07:24,806 --> 00:07:28,676
+To cover the risk in between, brokers
+post collateral at a clearinghouse called
+
+131
+00:07:28,726 --> 00:07:30,039
+the NSCC.
+
+132
+00:07:30,089 --> 00:07:35,559
+As the trading went wild, the NSCC
+demanded $3.7 billion in collateral from
+
+133
+00:07:35,609 --> 00:07:37,107
+Robinhood.
+
+134
+00:07:37,337 --> 00:07:41,687
+Robinhood agreed to restrict buying in
+13 stocks, and the demand was cut to
+
+135
+00:07:41,737 --> 00:07:46,817
+about 1.4 billion. Within days it raised
+three point four billion dollars from
+
+136
+00:07:46,867 --> 00:07:49,377
+its investors to make
+sure it could keep up.
+
+137
+00:07:49,427 --> 00:07:53,777
+Three weeks later, Robinhood's CEO
+was testifying before Congress.
+
+138
+00:07:53,827 --> 00:07:56,988
+So was Ken Griffin, The head of Citadel.
+
+139
+00:07:57,299 --> 00:08:01,009
+For a few days, millions of people saw
+the plumbing behind the free button.
+
+140
+00:08:01,059 --> 00:08:04,188
+It ran on billions of
+dollars in collateral.
+
+141
+00:08:05,002 --> 00:08:07,992
+Part 6. So, is free trading a scam?
+
+142
+00:08:08,042 --> 00:08:10,181
+No, not exactly.
+
+143
+00:08:10,251 --> 00:08:16,421
+In 2019, before the big brokers
+dropped to zero, Schwab charged $4.95
+
+144
+00:08:16,731 --> 00:08:18,347
+for an online stock trade.
+
+145
+00:08:18,397 --> 00:08:22,087
+TD Ameritrade and E-Trade charged $6.95.
+
+146
+00:08:22,877 --> 00:08:26,039
+Today, that same trade
+costs nothing upfront.
+
+147
+00:08:26,089 --> 00:08:30,039
+And the industry argues market makers
+often give you a better price than the
+
+148
+00:08:30,089 --> 00:08:32,039
+public, quote.
+
+149
+00:08:32,089 --> 00:08:33,819
+But not everyone is convinced.
+
+150
+00:08:33,869 --> 00:08:37,739
+In the United Kingdom, payment for order
+flow has effectively been banned since
+
+151
+00:08:37,789 --> 00:08:41,019
+twenty twelve. The European
+Union banned it too.
+
+152
+00:08:41,069 --> 00:08:45,231
+Its last exemption in Germany
+ended in june twenty twenty six.
+
+153
+00:08:45,281 --> 00:08:49,952
+In the US, the SEC proposed sending
+retail orders into open auctions,
+
+154
+00:08:50,002 --> 00:08:53,451
+then withdrew that proposal in June 2025.
+
+155
+00:08:54,241 --> 00:08:56,423
+And it's not only about prices.
+
+156
+00:08:56,473 --> 00:09:01,303
+In twenty twenty, Massachusetts regulators
+accused Robinhood of treating trading
+
+157
+00:09:01,353 --> 00:09:05,543
+like a game, with confetti raining
+down on the screen after trades.
+
+158
+00:09:05,593 --> 00:09:08,306
+Robinhood dropped the confetti
+in twenty twenty one,
+
+159
+00:09:08,356 --> 00:09:14,306
+In 2024, it paid $7.5
+million to settle the case.
+
+160
+00:09:14,356 --> 00:09:17,377
+So, if trading is free, who's paying?
+
+161
+00:09:17,607 --> 00:09:21,317
+Partly the market makers who pay for
+your orders because they make money on
+
+162
+00:09:21,367 --> 00:09:25,877
+them, and partly you, through the spread,
+through the interest on cash you forgot
+
+163
+00:09:25,927 --> 00:09:30,567
+about. And through every extra trade
+you make because it feels like it costs
+
+164
+00:09:30,617 --> 00:09:32,067
+nothing.
+
+165
+00:09:32,137 --> 00:09:35,987
+The price isn't zero, it's
+just not on the receipt.
+
+166
+00:09:36,624 --> 00:09:40,255
+Next time, we follow the money
+behind the card in your wallet,
+
+167
+00:09:40,305 --> 00:09:43,592
+who really gets paid
+every time you tap to pay.
+
+168
+00:09:43,642 --> 00:09:46,392
+And if you want the other side
+of the economy, the ships,
+
+169
+00:09:46,442 --> 00:09:50,472
+planes and rockets behind everything
+you buy, check out our sister channel,
+
+170
+00:09:50,522 --> 00:09:52,612
+Cargo and Capital.
+
+171
+00:09:52,842 --> 00:09:56,731
+This is Billions and Bulls,
+This video explains a business.
+
+172
+00:09:56,781 --> 00:09:58,490
+It is not financial advice.
+
+173
+00:09:58,540 --> 00:10:01,437
+Subscribe and let's keep
+following the money.
