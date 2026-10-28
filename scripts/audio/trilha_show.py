@@ -5,7 +5,8 @@ Presets:
   heist  – mistério de "golpe": pizzicato em Lá menor, tic-tac de relógio, baixo pulsando, 96 BPM
   spark  – curiosidade leve: plucks sincopados em Ré maior, palmas no 2 e 4, glockenspiel, 108 BPM
 
-As duas abrem esparsas (4 compassos) e entram no groove; a cada 8 compassos um riser leva para a volta.
+As duas abrem esparsas (4 compassos) e entram no groove; a cada 16 compassos há 4 de respiro sem bateria,
+e a cada 8 compassos um riser leva para a volta.
 """
 import sys
 import numpy as np
@@ -131,7 +132,8 @@ def build(name: str, total: float) -> np.ndarray:
     t = 0.0
     while t < total:
         root, notes = cfg["bars"][k % 4]
-        intro = k < 4
+        # intro sem bateria; depois, a cada 16 compassos, 4 de respiro sem bateria para não cansar
+        intro = k < 4 or (k >= 16 and k % 16 >= 12)
         place(music, pad([hz(m) for m in cfg["pad"][k % 4]], bar + 1.0), t, 0.18)
         if name == "heist":
             for i in range(8):  # pizzicato em colcheias

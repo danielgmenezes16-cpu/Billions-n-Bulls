@@ -22,7 +22,7 @@ Criado em 27/10/2026. Quando o processo mudar, este arquivo muda junto.
 | **Remotion 4.0.539** | Animação e montagem do vídeo e das thumbs (código React) | Claude | Grátis para uso individual |
 | **sherpa-onnx** (Whisper small + Parakeet) | Mede o tempo de cada palavra da narração para sincronizar o texto na tela | Claude | Grátis |
 | **ffmpeg** | Junta e normaliza o áudio (-14 LUFS), mixa trilha e efeitos | Claude | Grátis |
-| **Trilha original** (`scripts/audio/trilha.py`) | Trilha de fundo sintetizada pelo Claude: sem direitos de terceiros e sem risco de reivindicação do Content ID. A Biblioteca de áudio do YouTube continua como alternativa, escolhida pelo Daniel (o Claude não acessa o Studio) | Claude | Grátis |
+| **Trilha original** (`scripts/audio/trilha_show.py`, preset **Spark**, escolhido pelo Daniel em 28/10/2026; alternativas calmas em `trilha.py`) | Trilha de fundo sintetizada pelo Claude: sem direitos de terceiros e sem risco de reivindicação do Content ID. A Biblioteca de áudio do YouTube continua como alternativa, escolhida pelo Daniel (o Claude não acessa o Studio) | Claude | Grátis |
 | **Bancos de imagem** | Wikimedia Commons, Library of Congress, Pexels, Unsplash, SEC EDGAR, sites de RI das empresas | Claude | Grátis (licença conferida item a item) |
 | **YouTube Studio** | Upload, Test & Compare de thumbs, legenda, tela final, cards, Analytics | Daniel | Grátis |
 

@@ -56,7 +56,8 @@ const SFX: {at: number; src: string; vol: number; len: number}[] = [
 	{at: atFrame(29.76), src: 'audio/sfx-boom.wav', vol: 0.45, len: 40},
 ];
 
-export const Opener: React.FC = () => (
+// `muted`: no episódio, o áudio da abertura (já mixado) vem dentro da narração completa
+export const Opener: React.FC<{muted?: boolean}> = ({muted}) => (
 	<AbsoluteFill style={{backgroundColor: '#E0E0D7'}}>
 		{SHOTS.map((s, i) => {
 			const from = CUTS[i];
@@ -82,6 +83,8 @@ export const Opener: React.FC = () => (
 				</Sequence>
 			);
 		})}
+		{muted ? null : (
+			<>
 		{/* Narração, normalizada para cerca de -15 LUFS */}
 		<Sequence from={AUDIO_OFFSET}>
 			<Audio
@@ -101,5 +104,7 @@ export const Opener: React.FC = () => (
 				<Audio src={staticFile('audio/whoosh.wav')} volume={0.22} />
 			</Sequence>
 		))}
+			</>
+		)}
 	</AbsoluteFill>
 );
