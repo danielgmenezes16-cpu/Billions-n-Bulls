@@ -156,7 +156,7 @@ Tudo o que foi definido até 27/10/2026. Os detalhes completos estão nos docs l
   - Modelo Multilingual v2, o que respeita as tags `<break>`.
   - Velocidade 1,06 e estilo 40%.
 - **Por que essa voz:** o Daniel gostou da linha de narração do vídeo do Cargo & Capital (youtube.com/watch?v=gjjikhpg5fA).
-- **Ponto de atenção:** a pesquisa recomenda vozes diferentes entre canais irmãos, porque dois canais com a mesma voz e o mesmo visual parecem fazenda de conteúdo. Se for exatamente a mesma voz do Cargo & Capital, vale diferenciar.
+- **Ponto de atenção:** a pesquisa recomenda vozes diferentes entre canais irmãos, porque dois canais com a mesma voz e o mesmo visual parecem fazenda de conteúdo. **Resolvido em 28/10/2026:** o Daniel confirmou que o Cargo & Capital usa outra voz. O visual pode usar os efeitos do Cargo & Capital como base, mantendo a identidade própria do Billions & Bulls (papel, dourado, ponto que segue o dinheiro).
 - **Regra do narrador:** nunca apresentar a voz como uma pessoa real (sem nome, rosto ou histórias pessoais inventadas).
 
 ### Som
@@ -516,7 +516,7 @@ No feed simulado, a C foi a mais legível em tamanho pequeno e a A a que conta a
 - O levantamento de canais parecidos e o texto do prompt do logo foram feitos no chat e não ficaram salvos em nenhum doc.
 - O público-alvo ainda não virou uma persona formal.
 - O veredito da pesquisa de nichos (história industrial) está desatualizado.
-- Confirmar se a voz é a mesma do Cargo & Capital.
+- ~~Confirmar se a voz é a mesma do Cargo & Capital.~~ Resolvido: as vozes são diferentes.
 
 ## Docs do projeto
 
