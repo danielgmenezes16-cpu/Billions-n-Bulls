@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Background} from './Background';
-import {PAPER, TIMING} from '../brand';
+import {NAVY, PAPER, TIMING} from '../brand';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const easeOutStrong = Easing.bezier(0.16, 1, 0.3, 1);
@@ -29,10 +29,11 @@ const SHUTTER = 1; // abertura de 1 frame (360°)
 // Câmera de cada cena: entra ainda afastando, sai com zoom-out acelerando até o corte.
 // Nos trechos rápidos, desenha várias cópias em escalas vizinhas (motion blur de câmera).
 // Por cima de tudo: grão de papel animado e vinheta leve.
-export const Shot: React.FC<{id: string; enter?: boolean; exit?: boolean; children: React.ReactNode}> = ({
+export const Shot: React.FC<{id: string; enter?: boolean; exit?: boolean; dark?: boolean; children: React.ReactNode}> = ({
 	id,
 	enter,
 	exit,
+	dark,
 	children,
 }) => {
 	const frame = useCurrentFrame();
@@ -42,7 +43,7 @@ export const Shot: React.FC<{id: string; enter?: boolean; exit?: boolean; childr
 	const n = speed > 0.003 ? SAMPLES : 1;
 	const content = (
 		<>
-			<Background id={id} />
+			<Background id={id} dark={dark} />
 			{children}
 		</>
 	);
@@ -50,7 +51,7 @@ export const Shot: React.FC<{id: string; enter?: boolean; exit?: boolean; childr
 	const gx = -random(`gx-${id}-${g}`) * 440;
 	const gy = -random(`gy-${id}-${g}`) * 330;
 	return (
-		<AbsoluteFill style={{backgroundColor: n > 1 ? '#000' : PAPER, isolation: 'isolate'}}>
+		<AbsoluteFill style={{backgroundColor: n > 1 ? '#000' : dark ? NAVY : PAPER, isolation: 'isolate'}}>
 			{n === 1 ? (
 				<AbsoluteFill style={{transform: `scale(${s(frame)})`}}>{content}</AbsoluteFill>
 			) : (

@@ -96,11 +96,12 @@ export const TextBlock: React.FC<{
 	cues?: number[];
 	cardStart?: number;
 	heroUnderline?: boolean;
-}> = ({lines, x, y, heroSize = 150, apoioSize = 46, center = false, cues, cardStart = 0, heroUnderline = false}) => {
+	dark?: boolean;
+}> = ({lines, x, y, heroSize = 150, apoioSize = 46, center = false, cues, cardStart = 0, heroUnderline = false, dark = false}) => {
 	const s = scheduleWords(lines, cues, cardStart);
 	const row = (words: Word[]) => words.map((w, i) => <RevealWord key={i} w={w} isLast={i === words.length - 1} />);
 	const block = (
-		<div style={{display: 'inline-flex', flexDirection: 'column', fontFamily: FONT, color: INK}}>
+		<div style={{display: 'inline-flex', flexDirection: 'column', fontFamily: FONT, color: dark ? '#E0E0D7' : INK}}>
 			<div style={{fontSize: apoioSize, fontWeight: 400, alignSelf: 'flex-start', marginLeft: 8}}>{row(s.apoio)}</div>
 			<div style={{display: 'inline-flex', flexDirection: 'column', alignSelf: 'flex-start'}}>
 				<div style={{fontSize: heroSize, fontWeight: 700, letterSpacing: -0.02 * heroSize, lineHeight: 1.02, marginTop: 4}}>
@@ -109,7 +110,7 @@ export const TextBlock: React.FC<{
 				{heroUnderline && s.hero.length > 0 ? <Underline start={s.hero[s.hero.length - 1].start + s.hero[s.hero.length - 1].fade + 2} /> : null}
 			</div>
 			{s.comp.length > 0 ? (
-				<div style={{fontSize: apoioSize, fontWeight: 400, color: SOFT, alignSelf: 'flex-end', marginTop: 18}}>{row(s.comp)}</div>
+				<div style={{fontSize: apoioSize, fontWeight: 400, color: dark ? '#AEB6C2' : SOFT, alignSelf: 'flex-end', marginTop: 18}}>{row(s.comp)}</div>
 			) : null}
 		</div>
 	);

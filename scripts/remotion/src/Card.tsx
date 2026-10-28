@@ -1,5 +1,5 @@
 import React from 'react';
-import {Easing, interpolate, useCurrentFrame} from 'remotion';
+import {Easing, interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Shot} from './components/Shot';
 import {Stroke} from './components/Stroke';
 import {scheduleWords, TextBlock, TextLines} from './components/TextBlock';
@@ -27,6 +27,7 @@ export type CardProps = TextLines & {
 	cardStart?: number; // frame absoluto em que a cena começa (para converter os cues)
 	actionAt?: number; // segundo da narração em que o objeto age (toque no BUY, barras disparam)
 	heroUnderline?: boolean; // sublinhado dourado no herói (cards sem objeto dourado ou com número-chave)
+	dark?: boolean; // cena de tensão: fundo azul-marinho, texto claro
 };
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -57,6 +58,9 @@ const STROKES = {
 
 export const Card: React.FC<CardProps> = (p) => {
 	const frame = useCurrentFrame();
+	const {durationInFrames} = useVideoConfig();
+	// em cards longos, o objeto desliza no máximo o equivalente a ~4 s, para não cobrir o texto
+	const slow = Math.min(1, 120 / durationInFrames);
 	const cardStart = p.cardStart ?? 0;
 	const objSide: 'left' | 'right' = p.textSide === 'left' ? 'right' : 'left';
 	const action = p.actionAt !== undefined ? atFrame(p.actionAt) - cardStart : undefined;
@@ -64,8 +68,8 @@ export const Card: React.FC<CardProps> = (p) => {
 	// Objeto: entra pela borda (só no 1º card) e depois deriva devagar em direção ao centro
 	const pl = place(p.object, objSide);
 	const inT = p.objectSlide ? interpolate(frame, [0, TIMING.objectEnter], [1, 0], {...clamp, easing: Easing.out(Easing.cubic)}) : 0;
-	const ox = pl.fromX * inT + pl.vx * frame;
-	const oy = pl.fromY * inT + pl.vy * frame;
+	const ox = pl.fromX * inT + pl.vx * frame * slow;
+	const oy = pl.fromY * inT + pl.vy * frame * slow;
 	const el =
 		p.object === 'card' ? <CreditCard /> :
 		p.object === 'phone' ? <Phone tapFrame={action} /> :
@@ -83,7 +87,7 @@ export const Card: React.FC<CardProps> = (p) => {
 	const strokes = center ? STROKES.center : p.textSide === 'left' ? STROKES.right : STROKES.left;
 
 	return (
-		<Shot id={p.id} enter={p.enter} exit={p.exit}>
+		<Shot id={p.id} enter={p.enter} exit={p.exit} dark={p.dark}>
 			<svg width={1920} height={1080} style={{position: 'absolute', inset: 0, overflow: 'visible'}}>
 				<Stroke d={strokes[0]} start={done + 6} duration={14} />
 				<Stroke d={strokes[1]} start={done + 16} duration={20} />
@@ -112,6 +116,7 @@ export const Card: React.FC<CardProps> = (p) => {
 					cues={p.cues}
 					cardStart={cardStart}
 					heroUnderline={p.heroUnderline}
+					dark={p.dark}
 				/>
 			</div>
 		</Shot>

@@ -1,10 +1,11 @@
 import React from 'react';
 import {AbsoluteFill, Audio, interpolate, Sequence, staticFile} from 'remotion';
-import {Card, CardProps} from '../Card';
 import {Opener, OPENER_FRAMES} from '../Opener';
 import {FirmsShot} from '../shots/FirmsShot';
 import {LadderShot} from '../shots/LadderShot';
 import {RouteShot} from '../shots/RouteShot';
+import {card, SceneDef} from './helpers';
+import {PARTS_2_TO_6, SFX_2_TO_6} from './scenes2to6';
 import {fr, n} from './time';
 import timeline from './timeline.json';
 
@@ -12,11 +13,7 @@ import timeline from './timeline.json';
 // Tempos em segundos do vídeo, tirados de timeline.json (palavras medidas na narração).
 // Cortes sempre na pausa antes da frase seguinte.
 
-type Scene = {from: number; to: number; el: (start: number) => React.ReactNode};
-
-const card = (props: Omit<CardProps, 'cues'> & {cues: number[]}) => (start: number) => (
-	<Card {...props} cues={props.cues.map(n)} cardStart={start} />
-);
+type Scene = SceneDef;
 
 // ---------------- Parte 1 — The Zero-Dollar Trade (0:34,8 a 2:08) ----------------
 const PART1: Scene[] = [
@@ -49,7 +46,7 @@ const PART1: Scene[] = [
 		from: 63.0, to: 81.7,
 		el: (s) => (
 			<LadderShot id="p1-ladder-b" start={s} mode="spread" enter exit
-				at={{bid: fr(66.21), bidPrice: fr(67.09), ask: fr(69.49), askPrice: fr(70.37), gap: fr(72.62), maker: fr(75.26), buys: fr(77.18), sells: fr(78.46), keeps: fr(79.98)}} />
+				at={{title: fr(63.33), bid: fr(66.21), bidPrice: fr(67.09), ask: fr(69.49), askPrice: fr(70.37), gap: fr(72.62), maker: fr(75.26), buys: fr(77.18), sells: fr(78.46), keeps: fr(79.98)}} />
 		),
 	},
 	{
@@ -93,7 +90,7 @@ const PART1: Scene[] = [
 	},
 ];
 
-export const SCENES: Scene[] = [...PART1];
+export const SCENES: Scene[] = [...PART1, ...PARTS_2_TO_6];
 
 // Efeitos: [segundo do vídeo, arquivo, volume]
 const SFX: [number, string, number][] = [
@@ -103,10 +100,11 @@ const SFX: [number, string, number][] = [
 	[91.39, 'show/ding', 0.6], [96.2, 'sfx-tick', 0.5], [100.61, 'show/counter', 0.6],
 	[107.12, 'sfx-tick', 0.35], [107.84, 'sfx-tick', 0.35], [108.4, 'sfx-tick', 0.35], [109.12, 'sfx-tick', 0.35], [110.32, 'sfx-tick', 0.35], [111.6, 'sfx-tick', 0.35],
 	[113.94, 'show/ding', 0.4], [115.86, 'show/hit', 0.5], [126.3, 'show/swell', 0.45],
+	...SFX_2_TO_6,
 ];
 
 // A música para nessas janelas (segundos do vídeo) para a frase seguinte cair no silêncio
-const DROPS: [number, number][] = [[63.1, 65.05]];
+const DROPS: [number, number][] = [[63.1, 65.05], [311.65, 313.15], [553.9, 557.5]];
 
 const voiceActive: number[] = timeline.voiceActive;
 

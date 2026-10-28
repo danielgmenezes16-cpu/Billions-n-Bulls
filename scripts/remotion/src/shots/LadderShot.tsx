@@ -128,9 +128,9 @@ export const LadderShot: React.FC<LadderShotProps> = (p) => {
 					MARKET MAKER KEEPS THE REST
 				</text>
 				{/* uma lasca vai para a corretora */}
-				<g opacity={cut} transform={`translate(${200 * cut} 0)`}>
+				<g opacity={cut} transform={`translate(0 ${60 * cut})`}>
 					<rect x={X1 - 120} y={bottom - 34} width={120} height={34} fill={GOLD} />
-					<text x={X1 + 20} y={bottom - 6} fontFamily={FONT} fontWeight={700} fontSize={30} letterSpacing={3} fill={INK}>→ YOUR BROKER</text>
+					<text x={X1 - 120} y={bottom + 90} fontFamily={FONT} fontWeight={700} fontSize={30} letterSpacing={3} fill={INK}>A SLIVER TO YOUR BROKER</text>
 				</g>
 			</>
 		);
@@ -146,6 +146,11 @@ export const LadderShot: React.FC<LadderShotProps> = (p) => {
 						</marker>
 					</defs>
 					<line x1={X0 - 2} x2={X0 - 2} y1={200} y2={860} stroke={LINE} strokeWidth={3} />
+					{p.at.title !== undefined ? (
+						<text x={960} y={560} opacity={on('title', 8) * (1 - on('bid', 8))} fontFamily={FONT} fontWeight={700} fontSize={84} letterSpacing={2} fill={INK} textAnchor="middle">
+							Here's what that looks like.
+						</text>
+					) : null}
 					{body}
 				</svg>
 			</div>
