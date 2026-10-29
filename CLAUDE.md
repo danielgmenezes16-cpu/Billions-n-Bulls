@@ -27,7 +27,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 ## Roteiros
 - Nome do arquivo: `epNN-slug-do-titulo.md` (ex.: `ep02-visa-who-gets-paid.md`).
 - Vídeo longo de 14 a 18 min a partir do ep. 2 (~172 palavras/min → 2.400 a 3.100 palavras). O ep. 1 fica com ~9 min 40 s. Nunca abaixo de 8 min nem acima de ~25.
-- Estrutura: linha de título falada → abertura de ~35 s (pergunta, números de impacto, promessa, "This is Billions and Bulls. Let's follow the money.") → 6 partes `[Part N – Nome]` de 80 a 95 s → fechamento (resposta, frase-síntese, teaser do próximo, menção ao Cargo & Capital, aviso, pedido de inscrição, assinatura).
+- Estrutura: linha de título falada → abertura de ~35 s (pergunta, números de impacto, promessa, "This is Billions and Bulls. Let's follow the money.") → 6 partes `[Part N – Nome]` de 80 a 95 s no ep. 1 e de ~2 a 2,5 min a partir do ep. 2 → fechamento (resposta, frase-síntese, teaser do próximo, menção ao Cargo & Capital, aviso, pedido de inscrição, assinatura).
 - Pausas no formato ElevenLabs: `<break time="1.0s" />` entre parágrafos, `<break time="1.5s" />` antes de cada parte e no fim da abertura.
 - Tom calmo, curioso, de documentário; frases curtas; mostra os dois lados; tirada leve de vez em quando.
 - Todo número tem fonte e entra numa tabela de checagem no próprio arquivo. "reportedly" para dado de notícia, "says" quando é a própria empresa, "up to" quando varia.
