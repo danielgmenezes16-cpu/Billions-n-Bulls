@@ -1,33 +1,25 @@
 # Fila de vídeos
 
-Meta do plano de 90 dias: 10 roteiros na fila. Hoje: 1 pronto.
-Critérios de escolha: `docs/dossies/mapa-de-temas.html` (27/10/2026). Todo título é de trabalho e todo número precisa ser checado na fonte antes do roteiro.
+Aprovada em 29/10/2026: alternar "bolso" (RPM alto) com "colapso" (alcance). Todos os temas são de economia financeira (ver a divisão com o Cargo & Capital em `docs/posicionamento.md`).
+Títulos de trabalho; todo número precisa ser checado na fonte antes do roteiro.
 
-| # | Título de trabalho | Pilar | Status / por que entra |
-| --- | --- | --- | --- |
-| 1 | **Robinhood Is Free. So Who's Paying?** | Quem paga o grátis | Roteiro, thumbs, pacote de upload e checagem prontos; falta narração e montagem |
-| 2 | **Who Really Gets Paid When You Tap Your Card?** (Visa) | Quem paga o grátis | Prometido no fim do ep. 1. Bolso do espectador |
-| — | Venezuela Had the Most Oil on Earth. Where Did the Money Go? | Golpes e desastres | Venezuela: 333 mil e 102 mil com ângulo concreto no Chill; 2,4 mil com "rise and fall" |
-| — | Lebanon's Banks Ran a Ponzi Scheme. Who Got Out First? | Golpes e desastres | Líbano: 77 mil com "Ponzi", 2,2 mil com "rise and fall" |
-| — | Norway Has Trillions Saved. Why Won't It Spend Them? | Negócios escondidos | Noruega: 201 mil. Ficou rico + paradoxo |
-| — | Germany Spent Billions on Green Energy. Who Got the Money? | Golpes e desastres | Alemanha: 494 mil. Europa + erro bilionário |
-| — | Who Pays for France's Pensions? | Negócios escondidos | França é o assunto mais forte dos dois canais |
-| — | Ireland Was Owed Billions by Apple. It Didn't Want Them. | Dinheiro bizarro | Europa + empresa como personagem + paradoxo |
-| — | The Countries That Run on Someone Else's Money | Dinheiro bizarro | Camboja em dólar: 23 mil em 2 semanas; petrodólar: 574 mil |
-| — | The Day Wall Street Lost 22% (Black Monday, 1987) | Golpes e desastres | Modelo: "The 1973 Stock Market Crash that Nobody Remembers" (1,2 mi no Casual Finance) |
-| — | The Man Who Sold the Eiffel Tower | Golpes e desastres | História pura, imagens de domínio público. Sem prova direta nos dados; entra como teste |
-| — | BlackRock / Citadel | Negócios escondidos | Temas-âncora antigos. Só entram com um ângulo de história; empresa como assunto rende pouco |
+| Ep. | Título de trabalho | Pilar | Papel | Status |
+| --- | --- | --- | --- | --- |
+| 1 | Robinhood Is Free. So Who's Paying? | Quem paga o grátis | Estreia | Montado; aguardando revisão do Daniel |
+| 2 | Who Really Gets Paid When You Tap Your Card? (Visa) | Quem paga o grátis | Bolso, prometido no ep. 1 | Em pesquisa |
+| 3 | How a 167-Year-Old Bank Died in a Weekend (Credit Suisse) | Golpes e desastres | Colapso + Europa | Na fila |
+| 4 | Why Your Bank Pays You Almost Nothing | Negócios escondidos | Bolso | Na fila |
+| 5 | How One Man Lost $20 Billion in Two Days (Archegos) | Golpes e desastres | Colapso | Na fila |
 
-O comentário fixado do ep. 1 pergunta ao público qual vem depois: Visa, BlackRock ou Citadel.
+## Reserva (por grupo)
+
+- **Bolso:** Buy Now, Pay Later: Who Pays When You Don't? · The Hidden Fees Eating Your 401(k) · Why Car Insurance Keeps Going Up
+- **Wall Street por dentro:** Citadel: The Firm Behind Your Trades · How Hedge Funds Get Paid Even When They Lose · Who Actually Owns the Stock Market? · The Day Wall Street Lost 22% (1987) · Why BlackRock Owns a Piece of Everything
+- **Colapsos:** Where Did Wirecard's $2 Billion Go? · Where Did FTX's Missing Billions Go? · Lebanon's Banks Ran a Ponzi Scheme
+- **Dinheiro bizarro:** Who Owns the Gold in Fort Knox? · The $1 Trillion Coin · A $100 Bill Costs Pennies to Make. Who Keeps the Rest? · Where Does Unclaimed Money Go?
 
 ## O que evitar na escolha de tema
-- Panorama: "Rise and Fall of…", "250 Years of…".
-- Série que só troca o nome do país.
-- Remake de um vídeo que já foi bem.
+- Panorama ("Rise and Fall of…"), série que só troca o nome do país, remake de vídeo que já foi bem.
 - Notícia do momento como assunto principal.
-- Sair do dinheiro (IA, tribunais, alianças militares).
+- Economia física (território do Cargo & Capital) e assuntos fora do dinheiro.
 - Empresa como assunto sem drama.
-
-## Títulos reserva do ep. 1
-- "How Robinhood Makes Billions From 'Free' Trades"
-- "If Trading Is Free, Who's Paying?"

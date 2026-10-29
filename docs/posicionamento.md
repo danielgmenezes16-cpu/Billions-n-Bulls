@@ -9,6 +9,19 @@ Substitui o "explicador de modelo de negócio" (how X makes money) do `resumo-ca
 - **Tema aberto ao público geral:** quem não liga para finanças também clica.
 - **Menos sobreposição com os canais grandes** de "how X makes money".
 
+## Divisão com o Cargo & Capital (29/10/2026)
+
+| | Cargo & Capital | Billions & Bulls |
+| --- | --- | --- |
+| Economia | Física: navios, aviões, foguetes, minas, fábricas | Financeira: o dinheiro em si |
+| Pergunta | Como as coisas são feitas e transportadas, e quem ganha com isso | Para onde vai o dinheiro, e quem ganha no caminho |
+
+Regra prática: se a história é sobre uma **coisa** se movendo, é deles; se é sobre **dinheiro** se movendo, é nossa. Economia de países (o forte do Chill Financial Historian) só entra pelo ângulo financeiro: bancos, moedas, golpes, mercados.
+
+## Prioridade: monetização
+
+Na escolha de tema, alternar **"bolso"** (finanças pessoais: banco, cartão, aposentadoria, seguro — os anúncios que mais pagam) com **"colapso"** (golpes e quebras financeiras — o maior alcance).
+
 ## Pilares
 
 | Pilar | Ideia | Exemplos de título |
