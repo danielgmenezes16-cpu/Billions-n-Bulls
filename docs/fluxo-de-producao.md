@@ -174,8 +174,21 @@ No começo, com as telas ainda sendo construídas, a montagem vai levar mais tem
 - [ ] Padrões de upload no Studio (categoria Education, idioma English, descrição com o aviso padrão).
 - [ ] Playlist por pilar (Who Pays · Scams & Disasters · Strange Money · Hidden Businesses).
 - [ ] Marca d'água de inscrição (a moeda B&B).
-- [ ] ElevenLabs no plano Starter ou acima.
+- [ ] Dark Planner (base ElevenLabs) com licença comercial; print dos termos e do plano guardado.
 - [ ] Conferir a política de atividades externas da Ford antes de monetizar.
+
+## Aquecimento do canal (3 a 7 dias antes da estreia)
+
+O que ajuda de verdade é o canal completo, verificado e com cara de real. A ideia de "treinar o algoritmo" com o histórico do dono não tem comprovação: o YouTube recomenda cada vídeo pelo comportamento de quem assiste (clique, retenção, satisfação).
+
+- [ ] Verificação por telefone feita (item acima). É o mais importante.
+- [ ] Foto, banner e descrição no ar antes do primeiro vídeo.
+- [ ] Padrões de upload configurados no Studio.
+- [ ] Todo dia: assistir até o fim e comentar de verdade em vídeos dos canais de referência (Casual Finance e `docs/canais-referencia.md`), sem divulgar o próprio canal. Anotar temas e dúvidas que aparecem nos comentários: viram ideias para a fila.
+- [ ] Usar sempre o mesmo aparelho e a mesma rede, sem VPN.
+- [ ] Não publicar no mesmo dia em que o canal ficar pronto, nem subir vários vídeos de uma vez.
+- [ ] Nunca comprar inscritos ou views, nem trocar inscrição com outros canais.
+- [ ] Estreia: ep. 1 numa terça, ao meio-dia de Nova York (14h de Brasília); Shorts nos dias seguintes, às 18h de Nova York.
 
 ## Quando o canal for monetizar
 
