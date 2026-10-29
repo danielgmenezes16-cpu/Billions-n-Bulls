@@ -1,0 +1,245 @@
+Why Your Bank Pays You Almost Nothing
+
+<break time="1.0s" />
+
+Put ten thousand dollars in a standard savings account at one of America's biggest banks. Leave it there for a year.
+You could earn about one dollar.
+
+<break time="1.0s" />
+
+That same year, your bank can park money at the Federal Reserve, overnight, with zero risk. And earn three point nine percent. On ten thousand dollars, that's three hundred and ninety.
+
+<break time="1.0s" />
+
+So where do the other three hundred and eighty-nine dollars go? And why do so many people never ask?
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – The One-Dollar Account]
+Let's start with the numbers. Because they're stranger than they sound.
+
+<break time="1.0s" />
+
+In 2026, rate trackers listed the standard savings accounts at Chase, Bank of America and Wells Fargo at about point zero one percent a year. One hundredth of one percent.
+That's ten cents a year for every thousand dollars.
+
+<break time="1.0s" />
+
+Across all American banks, it's better, but not by much. In October 2026, the national average savings rate, as published by the FDIC, the agency that insures bank deposits, was about point three eight percent.
+On our ten thousand dollars, that's thirty-eight dollars a year. Better than one dollar. Still not much.
+
+<break time="1.0s" />
+
+Now look at the rate the whole system runs on.
+In September 2026, the Federal Reserve raised its benchmark rate to a range of three point seven five to four percent. In October, it held it there.
+And money market funds, which mostly hold short-term government debt, have been paying savers close to that rate. They now hold almost eight trillion dollars.
+
+<break time="1.0s" />
+
+And this isn't new. In 2022 and 2023, the Fed raised rates from near zero to above five percent, its fastest climb in decades.
+The national average savings rate? According to FDIC figures, it topped out at about point four seven percent.
+
+<break time="1.0s" />
+
+Even some banks pay a lot more. Online savings accounts, including some from big banks, have been paying over three percent.
+
+<break time="1.0s" />
+
+So picture twenty-five thousand dollars. At the national average, about ninety-five dollars a year in interest. At a top online rate of around three point seven five percent, according to rate trackers, more than nine hundred.
+Same money. Same safety, if it's insured. A difference of about eight hundred and forty dollars a year.
+
+<break time="1.0s" />
+
+That gap isn't an accident. It's a business.
+And to understand it, we need to follow your deposit after you hand it over.
+
+<break time="1.5s" />
+
+[Part 2 – Where Your Deposit Goes]
+When you put money in the bank, it doesn't sit in a drawer with your name on it.
+Legally, you're lending it to the bank. The bank owes you the money back, whenever you ask. And in the meantime, it puts that money to work.
+
+<break time="1.0s" />
+
+Some of it becomes loans. Mortgages. Car loans. Business loans.
+And credit cards. According to Federal Reserve data, the average interest rate on credit card accounts that pay interest has been around twenty-one to twenty-two percent.
+Lend our ten thousand dollars on credit cards at twenty-one percent, and that's two thousand one hundred dollars a year in interest. If the borrowers pay. Some won't, and the bank has to cover those losses.
+
+<break time="1.0s" />
+
+Some of it goes into government bonds, which pay close to the Fed's rate.
+And some of it goes back to the Federal Reserve itself. Banks keep reserves there, and the Fed pays them interest on those reserves. It only started doing that in 2008, during the financial crisis. In the fall of 2026, that rate was three point nine percent.
+
+<break time="1.0s" />
+
+The difference between what a bank earns on its money and what it pays for it has a name. Net interest income.
+It's the heart of how most banks make money.
+
+<break time="1.0s" />
+
+In 2025, JPMorgan Chase, the biggest bank in the country, reported ninety-five point four billion dollars in net interest income. In one year.
+And across all FDIC-insured banks, net income for 2025 came to two hundred and ninety-five point six billion dollars. Higher interest income was one of the main reasons it went up.
+
+<break time="1.0s" />
+
+So deposits are the raw material. And the cheaper the raw material, the bigger the margin.
+Which raises the obvious question. If your money is worth so much to the bank, why doesn't the bank have to pay more to keep it?
+
+<break time="1.5s" />
+
+[Part 3 – The Money That Doesn't Move]
+The answer is one of the most valuable things in banking. Inertia.
+
+<break time="1.0s" />
+
+Think about your main bank account. Your salary lands there. Your bills come out of it. Your card is linked to it. Your apps are linked to it.
+Moving all that is a chore. So most people don't. Even when they could earn more somewhere else.
+
+<break time="1.0s" />
+
+Economists have measured this.
+In a well-known 2017 study, three economists at New York University found that when the Federal Reserve raises rates, banks pass only part of the increase on to savers. They widen the gap instead.
+And the gap widens the most in places where only a few banks compete. Where customers have fewer places to go, they get paid less.
+
+<break time="1.0s" />
+
+People in the industry have a polite name for this kind of money. Sticky deposits.
+It means money that stays put, even when the rate is bad.
+For a bank, sticky deposits are gold. They're cheap, they're stable, and they don't run away when the Fed moves.
+Analysts even have a number for it. The deposit beta. It measures how much of each Fed rate rise actually reaches savers. A beta of one means savers get all of it. Close to zero means they get almost nothing.
+
+<break time="1.0s" />
+
+But inertia has limits. In the year to June 2023, deposits at FDIC-insured banks fell four point eight percent. The FDIC said it was the first annual decline in its data going back to the mid-1990s. Part of that money went to money market funds, chasing higher rates.
+And when savers get scared instead of just annoyed, money can move in hours. That's what happened to Silicon Valley Bank, in the story we followed in our Credit Suisse episode.
+
+<break time="1.0s" />
+
+To be fair, that low rate isn't pure profit.
+A bank account comes with branches, ATMs, a debit card, fraud protection, an app, and customer service. Running all that costs money.
+And deposits are insured by the FDIC, up to two hundred and fifty thousand dollars per depositor, per bank, per account category. Banks pay for that insurance.
+
+<break time="1.0s" />
+
+But the gap between one hundredth of a percent and almost four percent pays for a lot of ATMs.
+
+<break time="1.0s" />
+
+Quick thing. If you like videos that follow the money, subscribe. It costs nothing. Which, for once, is roughly what your savings account pays.
+
+<break time="1.5s" />
+
+[Part 4 – When Saving Paid Less by Law]
+There was a time when banks paying you very little wasn't just a choice. It was the law.
+
+<break time="1.0s" />
+
+In 1933, in the middle of the Great Depression, thousands of American banks had failed. Lawmakers blamed part of it on banks competing too hard for deposits, by promising high rates.
+So the Federal Reserve created a rule called Regulation Q.
+It banned interest on checking accounts. And it set a ceiling on what banks could pay on savings.
+
+<break time="1.0s" />
+
+For decades, nobody minded much. Then came the 1970s.
+Inflation climbed into double digits. In 1979 and 1980, prices rose more than twelve percent a year. But savings rates were stuck under the legal ceiling, around five percent.
+Banks couldn't compete on rates, so they competed on gifts. Open an account, and some banks would famously hand you a toaster.
+Savers were losing money every year, just by saving.
+
+<break time="1.0s" />
+
+So the money found a way out.
+In the early 1970s, a new kind of fund appeared. The money market fund. It wasn't a bank, so the ceiling didn't apply. It could pay market rates.
+And savers poured in.
+
+<break time="1.0s" />
+
+Banks lost deposits, and lobbied for change. In 1980, Congress passed a law to phase out the ceilings on savings rates. The last ones were gone by 1986.
+The ban on interest for checking accounts lasted even longer. It was only lifted in July 2011.
+By then, it barely mattered. From late 2008 to the end of 2015, and again from 2020 to 2022, the Fed kept its rate near zero. When the central bank pays almost nothing, nobody expects much from a savings account.
+The problem is what happened when rates came back. Many savings rates didn't.
+
+<break time="1.0s" />
+
+So today, no law stops your bank from paying you more.
+It just doesn't have to.
+And sometimes, as one bank found out, keeping that rate low can come with a price.
+
+<break time="1.5s" />
+
+[Part 5 – The Account That Got Left Behind]
+Capital One had a popular online account called 360 Savings.
+When interest rates started to rise in 2022, according to the New York Attorney General, Capital One froze the rate on 360 Savings at point three percent.
+
+<break time="1.0s" />
+
+It also had a newer account, launched in 2019. 360 Performance Savings.
+Nearly identical. Same bank. Same app. But with a much higher rate. At one point, the attorney general says, more than fourteen times higher.
+
+<break time="1.0s" />
+
+According to the lawsuits, customers with the old account weren't moved over. And according to New York, employees were told not to bring up the new account, unless a customer asked about it directly.
+
+<break time="1.0s" />
+
+In January 2025, the federal consumer watchdog, the CFPB, sued. It claimed long-time customers had lost more than two billion dollars in interest. A few weeks later, under new leadership, the agency dropped the case.
+Then, in May 2025, New York sued on its own. Capital One said it disagreed with the claims, and would defend itself.
+
+<break time="1.0s" />
+
+Meanwhile, customers had filed a class action. Capital One agreed to settle it for four hundred and twenty-five million dollars.
+But in November 2025, a federal judge rejected the deal. He wrote that it would pay customers less than ten percent of the interest they had actually lost. And that millions of customers would keep experiencing, in his words, "the same financial harm they have already experienced for years."
+He also pointed to an email Capital One had sent, telling customers about the better account. Fewer than half opened it. And only about one percent of the people who read it did anything.
+
+<break time="1.0s" />
+
+One percent. That's inertia, in a single number.
+
+<break time="1.0s" />
+
+In January 2026, a new deal was announced. Four hundred and twenty-five million dollars in restitution, plus a promise to pay old 360 Savings customers the same rate as the newer account. The judge approved it in April. As this video was made, an appeal was still delaying the payments.
+In early October 2026, Capital One listed its Performance Savings rate at three point one percent. Ten times the old rate that customers were stuck with.
+
+<break time="1.0s" />
+
+And Capital One isn't the only case. In January 2025, the SEC said Wells Fargo and Merrill Lynch would pay sixty million dollars over their cash sweep programs, where clients' idle cash earned low rates. The firms neither admitted nor denied the findings.
+
+<break time="1.5s" />
+
+[Part 6 – So, Why Does Your Bank Pay You Almost Nothing?]
+Let's go back to our ten thousand dollars, and follow it one last time.
+You hand it to your bank. The bank lends some of it out, buys government bonds with some, and parks some at the Federal Reserve. Every one of those earns more than you do.
+The bank keeps the gap. And the bigger the gap, and the longer you stay, the more it keeps.
+
+<break time="1.0s" />
+
+Your bank pays you about a dollar a year to hold it.
+It can earn close to four hundred on that same money, without lending it to anyone. And a lot more, if it lends it out on a credit card.
+Part of that gap pays for branches, apps, insurance and the risk of running a bank. And part of it is profit.
+That's also why banks that don't have branches often pay more. They spend less on buildings, and they need to give people a reason to move.
+
+<break time="1.0s" />
+
+So, why does your bank pay you almost nothing?
+Not because your money is worth nothing. It's worth a lot.
+It's because the bank knows most money doesn't move. Not when rates go up. Not when a better account opens at the same bank. Not even when the bank sends you an email about it.
+
+<break time="1.0s" />
+
+The rate on your savings account isn't a fixed fact of nature. It's a price. And like any price, it's set by what people are willing to accept.
+
+<break time="1.0s" />
+
+This isn't a recommendation of any bank or account. But here's the takeaway.
+A savings account is a loan. From you, to your bank.
+The only question is the interest rate.
+
+<break time="1.5s" />
+
+Next time, we follow the money behind one of the fastest fortunes ever lost. A man who reportedly built a fortune of around twenty billion dollars, and lost it in two days.
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.

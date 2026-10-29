@@ -8,7 +8,7 @@ Títulos de trabalho; todo número precisa ser checado na fonte antes do roteiro
 | 1 | Robinhood Is Free. So Who's Paying? | Quem paga o grátis | Estreia | Montado; aguardando revisão do Daniel |
 | 2 | Who Really Gets Paid When You Tap Your Card? (Visa) | Quem paga o grátis | Bolso, prometido no ep. 1 | Roteiro pronto (`roteiros/rascunhos/ep02-visa-who-gets-paid.md`); aguardando aprovação do Daniel |
 | 3 | How a 167-Year-Old Bank Died in a Weekend (Credit Suisse) | Golpes e desastres | Colapso + Europa | Roteiro pronto (`roteiros/rascunhos/ep03-credit-suisse-weekend.md`); aguardando aprovação do Daniel |
-| 4 | Why Your Bank Pays You Almost Nothing | Negócios escondidos | Bolso | Na fila |
+| 4 | Why Your Bank Pays You Almost Nothing | Negócios escondidos | Bolso | Roteiro pronto (`roteiros/rascunhos/ep04-bank-pays-almost-nothing.md`); aguardando aprovação do Daniel |
 | 5 | How One Man Lost $20 Billion in Two Days (Archegos) | Golpes e desastres | Colapso | Na fila |
 
 ## Reserva (por grupo)
