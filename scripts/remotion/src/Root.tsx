@@ -3,6 +3,8 @@ import {Composition, Series, Still} from 'remotion';
 import {Card, CardProps} from './Card';
 import {Opener, OPENER_FRAMES} from './Opener';
 import {Thumbnail} from './Thumbnail';
+import {EpThumb, EP_THUMBS} from './thumbs/EpThumbs';
+import {Avatar, Banner, Watermark} from './thumbs/ChannelArt';
 import {Ep01, EP01_FRAMES, EP01_TEST_FRAMES} from './ep01/Ep01';
 import {Ep02, EP02_FRAMES} from './ep02/Ep02';
 import {Ep03, EP03_FRAMES} from './ep03/Ep03';
@@ -58,5 +60,11 @@ export const RemotionRoot: React.FC = () => (
 		<Still id="ThumbB" component={Thumbnail} width={1280} height={720} defaultProps={{variant: 'B' as const}} />
 		<Still id="ThumbC" component={Thumbnail} width={1280} height={720} defaultProps={{variant: 'C' as const}} />
 		<Still id="ThumbD" component={Thumbnail} width={1280} height={720} defaultProps={{variant: 'D' as const}} />
+		<Still id="Banner" component={Banner} width={2560} height={1440} />
+		<Still id="Avatar" component={Avatar} width={800} height={800} />
+		<Still id="Watermark" component={Watermark} width={150} height={150} />
+		{EP_THUMBS.map((v) => (
+			<Still key={v} id={`Thumb${v}`} component={EpThumb} width={1280} height={720} defaultProps={{v}} />
+		))}
 	</>
 );
