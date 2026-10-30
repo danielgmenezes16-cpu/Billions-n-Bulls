@@ -319,7 +319,7 @@ Two former Archegos executives pleaded guilty, and testified against him.
 
 In July 2024, a jury convicted Hwang on ten criminal counts, including securities fraud, wire fraud and market manipulation.
 The firm's chief financial officer, Patrick Halligan, was convicted at the same trial. He later received eight years.
-In November 2024, a judge sentenced him to eighteen years in prison. He was also ordered to pay more than nine billion dollars in restitution to seven banks and a group of former employees.
+In November 2024, a judge sentenced Hwang to eighteen years in prison. He was also ordered to pay more than nine billion dollars in restitution to seven banks and a group of former employees.
 His lawyers said he would appeal.
 
 <break time="1.0s" />

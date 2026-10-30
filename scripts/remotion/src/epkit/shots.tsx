@@ -187,3 +187,47 @@ export const CounterShot: React.FC<{id: string; start: number; label: string; la
 		</Scene>
 	);
 };
+
+// ---------- Gráfico de linha de preço: os pontos entram um a um, o último em dourado ----------
+export type PricePoint = {label: string; value: number; display: string; at: number};
+export const PriceShot: React.FC<{id: string; start: number; title: string; titleAt: number; points: PricePoint[]; source?: string; dark?: boolean; stamp?: {text: string; at: number}}> = (p) => {
+	const {on, popIn, frame} = useOn(p.start);
+	const max = Math.max(...p.points.map((x) => x.value)) * 1.1;
+	const x0 = 260;
+	const x1 = 1660;
+	const base = 860;
+	const h = 560;
+	const xs = p.points.map((_, i) => x0 + ((x1 - x0) * i) / Math.max(1, p.points.length - 1));
+	const ys = p.points.map((x) => base - (h * x.value) / max);
+	const light = p.dark ? '#E6EAF0' : INK;
+	let d = '';
+	p.points.forEach((pt, i) => {
+		if (i === 0) {
+			d = `M ${xs[0]} ${ys[0]}`;
+			return;
+		}
+		const k = interpolate(frame, [pt.at - p.start - 10, pt.at - p.start + 8], [0, 1], clamp);
+		if (k <= 0) return;
+		d += ` L ${xs[i - 1] + (xs[i] - xs[i - 1]) * k} ${ys[i - 1] + (ys[i] - ys[i - 1]) * k}`;
+	});
+	return (
+		<Scene id={p.id} dark={p.dark} drift={-0.1}>
+			<Txt x={228} y={180} o={on(p.titleAt)} size={46} color={light}>{p.title}</Txt>
+			<line x1={x0 - 40} x2={x1 + 40} y1={base} y2={base} stroke={light} strokeOpacity={0.45} strokeWidth={3} />
+			<path d={d} fill="none" stroke={light} strokeWidth={8} strokeLinejoin="round" strokeLinecap="round" opacity={on(p.points[0].at)} />
+			{p.points.map((pt, i) => {
+				const last = i === p.points.length - 1;
+				const k = popIn(pt.at);
+				return (
+					<g key={i} opacity={Math.min(1, k)}>
+						<circle cx={xs[i]} cy={ys[i]} r={last ? 22 : 14} fill={last ? GOLD : light} />
+						<Txt x={xs[i]} y={ys[i] - 40} size={50} weight={800} anchor="middle" color={last ? GOLD : light}>{pt.display}</Txt>
+						<Tag x={xs[i]} y={base + 56} anchor="middle" size={26} color={p.dark ? '#AEB6C2' : SOFT}>{pt.label}</Tag>
+					</g>
+				);
+			})}
+			{p.stamp ? <Stamp x={1420} y={300} k={on(p.stamp.at, 12)} text={p.stamp.text} color={GOLD} size={64} /> : null}
+			{p.source ? <Source text={p.source} o={on(p.titleAt)} dark={p.dark} /> : null}
+		</Scene>
+	);
+};

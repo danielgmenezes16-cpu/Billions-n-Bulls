@@ -39,4 +39,4 @@ Depois de uns 10 vídeos, ler os dados e dobrar no pilar que o público quer.
 - Identidade visual, voz, formato do vídeo longo e regras de thumbnail do `resumo-canal.md`.
 
 ## Em aberto
-- **Ritmo:** o Daniel quer 3 a 4 vídeos por semana. Proposta do Claude: 2 longos por semana + Shorts diários como laboratório de temas, subindo para 3 longos quando o pipeline do Remotion estiver maduro. Limites: créditos do ElevenLabs (Starter ≈ 3 vídeos/mês), tempo do Daniel e a regra de conteúdo inautêntico.
+- **Ritmo:** o Daniel quer 3 a 4 vídeos por semana. Hoje: 1 longo por semana; Shorts suspensos em 30/10/2026 (decisão do Daniel), reavaliar depois de ~10 vídeos. Limites: créditos do ElevenLabs (Starter ≈ 3 vídeos/mês), tempo do Daniel e a regra de conteúdo inautêntico.
