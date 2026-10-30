@@ -216,6 +216,8 @@ Pedido do Daniel e do sócio: mais imagens reais entre as telas animadas. Regra:
 | Library of Congress | Fotos históricas dos EUA | Não |
 | Pixabay | Cenas genéricas (pagar com cartão, loja, celular) e **vídeos** | Sim, grátis (`~/.config/bnb/pixabay_key`, nunca no repositório) |
 
+Observação: pela API grátis, as **fotos** do Pixabay vêm com no máximo 1280 px (viram "foto impressa"); os **vídeos** vêm em 1080p e entram em tela cheia. Para cena genérica, preferir vídeo (`--fonte pixabay-video`).
+
 Passo a passo:
 1. `python3 scripts/imagens/buscar.py ep02 p1-store "small shop owner counter" --fonte pixabay` → folha de contato em `media/imagens/ep02/candidatos/`.
 2. Revisar a folha: sem logo de empresa, sem pessoa identificável em destaque, combina com a frase.

@@ -1,4 +1,19 @@
 {
+ "c-savings": {
+  "kind": "image",
+  "full": "https://pixabay.com/get/gc676467703e63156c3f8b9fb03447e3ca2373309dddc27bcc4bf9e5508899241c0ae671fef5731414ec042eaa6ed6b2596ddf82678c288ea11bddd6832a52120_1280.jpg",
+  "title": "piggy bank, save up, piggy, economical, ceramic, finance, pig, euro, cash injection, money, save money, porcelain, piggy bank, piggy bank, piggy bank, piggy bank, piggy bank, money, money, save money",
+  "creator": "andibreit",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/photos/piggy-bank-save-up-piggy-economical-1595992/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "piggy bank coins",
+  "file": "img/ep03/c-savings.jpg",
+  "w": 1280,
+  "h": 853
+ },
  "p1-bank2008": {
   "kind": "image",
   "full": "https://live.staticflickr.com/7307/12881250604_0bb2abcc14_b.jpg",
@@ -104,6 +119,21 @@
   "w": 1024,
   "h": 768
  },
+ "p2-detective": {
+  "kind": "image",
+  "full": "https://pixabay.com/get/g87487a05d9bf5de8491f0ffa454eca5f320eb5e9ed630fa9ad8a474be8d40dd34eb88ba6ecd8adb2ccfcb60b0d5720ed90cb8828105ec93765bb06e477f44870_1280.jpg",
+  "title": "cctv surveillance camera, cctv, security, camera, surveillance, privacy, monitoring, spy, control, wall, guard, protection, technology, cctv, cctv, cctv, cctv, cctv, security, security, security, security, surveillance, privacy, privacy",
+  "creator": "WebTechExperts",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/photos/cctv-surveillance-camera-cctv-7267551/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "private investigator surveillance",
+  "file": "img/ep03/p2-detective.jpg",
+  "w": 1280,
+  "h": 853
+ },
  "p2-maputo": {
   "kind": "image",
   "full": "https://live.staticflickr.com/56/117180936_de059284ec_b.jpg",
@@ -163,6 +193,21 @@
   "file": "img/ep03/p3-snb.jpg",
   "w": 1024,
   "h": 683
+ },
+ "p3-svb": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2022/12/12/142641-780599369_large.mp4",
+  "title": "man, phone, smartphone, mobile",
+  "creator": "u_etjkkdz15b",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-142641/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "smartphone bank app transfer",
+  "file": "img/ep03/p3-svb.mp4",
+  "w": 1920,
+  "h": 1080
  },
  "p3-vault": {
   "kind": "image",

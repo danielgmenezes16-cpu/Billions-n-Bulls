@@ -14,6 +14,36 @@
   "w": 1024,
   "h": 724
  },
+ "o-checkout": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2023/04/16/159164-818219669_large.mp4",
+  "title": "shopping, supermarket, customers, economy, products, consumer, business, food, barcelona",
+  "creator": "DocumentaciónAudiovisual",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-159164/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "supermarket checkout cashier",
+  "file": "img/ep02/o-checkout.mp4",
+  "w": 1920,
+  "h": 1080
+ },
+ "o-tap": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2024/04/25/209456_large.mp4",
+  "title": "card, payment, terminal, contactless, to pay, roses, flowers, crowd, purchase, sale, colorful, nature, florist",
+  "creator": "adria_moreno",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-209456/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "contactless payment card",
+  "file": "img/ep02/o-tap.mp4",
+  "w": 1920,
+  "h": 1080
+ },
  "p1-datacenter": {
   "kind": "image",
   "full": "https://live.staticflickr.com/3096/2340202215_77aae06ebc_b.jpg",
@@ -43,6 +73,21 @@
   "file": "img/ep02/p1-night.jpg",
   "w": 1024,
   "h": 683
+ },
+ "p1-store": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2019/10/16/27999-366978301_large.mp4",
+  "title": "the hague, the netherlands, shopping street, small street, time lapse",
+  "creator": "watchitnow",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-27999/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "small shop owner",
+  "file": "img/ep02/p1-store.mp4",
+  "w": 1920,
+  "h": 1080
  },
  "p2-airport": {
   "kind": "image",
@@ -134,6 +179,36 @@
   "w": 1724,
   "h": 1639
  },
+ "p3-lounge": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2026/10/18/383350_large.mp4",
+  "title": "outside, view, airplane, wing, airliner, window, sunset, clouds, flight, travel, sky, aviation, golden hour, above the clouds, sun, journey, vacation, aerial, plane, horizon, tourism, ai generated",
+  "creator": "doktorkleinmusic",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-383350/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "airplane window flight",
+  "file": "img/ep02/p3-lounge.mp4",
+  "w": 1920,
+  "h": 1080
+ },
+ "p3-online": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2016/05/03/2988-165221419_large.mp4",
+  "title": "ipad, imac, tablet, desktop, iphone, monitor, computer, display, mobile, network, technology, banking, paying, payment, people, retail, system, transaction, business, app, hand, buy, electronics, high-definition, industry, movie, search, analytics, youtube, office space, small business, ecommerce, e-learning, online shopping, information, data, digital marketing",
+  "creator": "starroom",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-2988/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "online shopping laptop",
+  "file": "img/ep02/p3-online.mp4",
+  "w": 1920,
+  "h": 1080
+ },
  "p4-bostonfed": {
   "kind": "image",
   "full": "https://live.staticflickr.com/3521/5763919600_80d7efb9ff_b.jpg",
@@ -148,6 +223,21 @@
   "file": "img/ep02/p4-bostonfed.jpg",
   "w": 1024,
   "h": 768
+ },
+ "p4-cash": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2019/01/20/20857-312437286_large.mp4",
+  "title": "pay, money, dollar, hands, currency, bank note, finance, business, paper money, cash and cash equivalents, bank, seem, award, pension, loose change, flowers, counterfeit money",
+  "creator": "RoyBuri",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-20857/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "paying cash money",
+  "file": "img/ep02/p4-cash.mp4",
+  "w": 1920,
+  "h": 1080
  },
  "p4-eccles": {
   "kind": "image",
@@ -223,6 +313,21 @@
   "file": "img/ep02/p5-doj.jpg",
   "w": 1024,
   "h": 658
+ },
+ "p5-phone": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2024/03/04/202987-919379330_large.mp4",
+  "title": "phone, smartphone, mobile, portable, screen, digital, communication, texting, business, work",
+  "creator": "Natures_Embrace",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-202987/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "mobile banking app",
+  "file": "img/ep02/p5-phone.mp4",
+  "w": 1920,
+  "h": 1080
  },
  "p5-smallbank": {
   "kind": "image",
