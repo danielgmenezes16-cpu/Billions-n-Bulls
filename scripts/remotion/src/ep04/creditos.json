@@ -119,6 +119,21 @@
   "w": 1920,
   "h": 1080
  },
+ "p3-svb": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2022/12/12/142641-780599369_large.mp4",
+  "title": "man, phone, smartphone, mobile",
+  "creator": "u_etjkkdz15b",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-142641/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "smartphone bank app transfer",
+  "file": "img/ep04/p3-svb.mp4",
+  "w": 1920,
+  "h": 1080
+ },
  "p4-1933": {
   "kind": "image",
   "full": "https://tile.loc.gov/storage-services/service/pnp/habshaer/al/al0000/al0016/photos/002256pv.jpg",
