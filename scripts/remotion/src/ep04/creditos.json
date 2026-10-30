@@ -1,4 +1,19 @@
 {
+ "c-wallst": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2020/06/18/42489-431756111_large.mp4",
+  "title": "city, architecture, buildings, skyscraper, urban, skyline, cityscape, new, business, downtown, york, office, new york, tower, manhattan, night, sky, high, tall, usa, view, chicago, town",
+  "creator": "DesignScape",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-42489/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "wall street new york",
+  "file": "img/ep04/c-wallst.mp4",
+  "w": 1920,
+  "h": 1080
+ },
  "o-fed": {
   "kind": "image",
   "full": "https://pixabay.com/get/g5d79b85cc23c919353b71ce1f224eb58c9d6bbea7ced32847a6588bd2e8222216b557f13484bb8585355af52600cde18d1b75441c7bfddaf8ea3d66580cfe239_1280.jpg",
@@ -163,6 +178,21 @@
   "file": "img/ep04/p5-app.mp4",
   "w": 1920,
   "h": 1080
+ },
+ "p5-court": {
+  "kind": "image",
+  "full": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:17900:17966/full/pct:25/0/default.jpg",
+  "title": "Pioneer Courthouse is a federal courthouse in Portland, Oregon",
+  "creator": "highsmith, carol m.",
+  "license": "No known restrictions (Library of Congress)",
+  "license_url": "https://www.loc.gov/legal/understanding-copyright/",
+  "page": "http://www.loc.gov/item/2011636160/",
+  "provider": "Library of Congress",
+  "needs_credit": false,
+  "query": "courthouse",
+  "file": "img/ep04/p5-court.jpg",
+  "w": 1609,
+  "h": 1250
  },
  "p5-email": {
   "kind": "video",
