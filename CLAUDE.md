@@ -23,6 +23,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - `roteiros/rascunhos/` e `roteiros/prontos/` — roteiros por episódio (`ep01-robinhood-who-pays.md` é cópia do doc do Episódio 1).
 - `thumbnails/` — conceitos e textos de thumbnail.
 - `scripts/` — automações (Remotion, áudio, sincronia, feed simulado).
+- `scripts/montar_episodio.py epNN --trilha spark|heist [--render]` — da narração ao vídeo final num comando (checagem do áudio, sincronia, trilha, legenda, render e master a -14 LUFS).
 
 ## Roteiros
 - Nome do arquivo: `epNN-slug-do-titulo.md` (ex.: `ep02-visa-who-gets-paid.md`).
@@ -34,7 +35,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - Encerramento fixo: "This video explains a business. It is not financial advice."
 
 ## Blueprint (adotado em 27/10/2026, a partir dos dossiês)
-- **Ritmo:** 1 vídeo longo por semana, sempre no mesmo dia, ao meio-dia de Nova York (13h de Brasília até 31/10; 14h a partir de 01/11). Shorts às 18h de NY, uns 3 por semana, cortados do longo; quando um longo pegar, série de 3 a 5 Shorts dele.
+- **Ritmo:** 1 vídeo longo por semana, sempre no mesmo dia, ao meio-dia de Nova York (13h de Brasília até 31/10; 14h a partir de 01/11). **Shorts suspensos** (decisão do Daniel em 30/10/2026): o canal começa só com vídeos longos; reavaliar depois de ~10 vídeos com os dados do Analytics.
 - **Tema:** um fato concreto com alguém responsável (erro, golpe, paradoxo), de preferência ligado ao bolso de quem assiste ou à Europa. História entra por um evento específico com gancho no presente. Evitar panorama ("Rise and Fall of…"), série trocando só o país, remake de hit, notícia do momento como assunto e temas fora do dinheiro.
 - **Título:** curto (até ~45 caracteres), uma tensão só. Parênteses e palavras como "nobody/hidden/quietly" não são alavanca. Repetir assunto pode, com dado e título novos; repetir título, não.
 - **Thumbnail:** estrutura fixa com dado novo a cada vídeo: papel quadriculado, frase de 2 a 3 palavras, gráfico com dado real em dourado e o ponto dourado que segue o dinheiro como personagem recorrente. Evitar sublinhado vermelho e personagem de terno (identidade atual do Chill Financial Historian).

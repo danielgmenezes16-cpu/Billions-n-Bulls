@@ -48,6 +48,7 @@ const Pending: React.FC<{id: string; slot: string; hero?: string}> = ({id, slot,
 export const makeEpisode = (tl: Timeline, credits: Record<string, Credit>) => {
 	const c = makeCues(tl);
 	const scenes: Built[] = [];
+	const autoSfx: [number, string, number][] = []; // batida na entrada de cada parte
 
 	const add = (phrase: string, build: (start: number) => React.ReactNode) => {
 		const from = scenes.length === 0 ? 0 : c.cut(phrase);
@@ -55,6 +56,7 @@ export const makeEpisode = (tl: Timeline, credits: Record<string, Credit>) => {
 		if (scenes.length) scenes[scenes.length - 1].to = from;
 		const start = fr(from);
 		scenes.push({from, to: tl.duration, node: build(start)});
+		if (/^Part \d/.test(phrase)) autoSfx.push([from + 0.1, 'show/hit', 0.4]);
 	};
 
 	// Card do template com as palavras na tela sincronizadas com a narração
@@ -94,7 +96,7 @@ export const makeEpisode = (tl: Timeline, credits: Record<string, Credit>) => {
 				})}
 				{voice && !tl.provisional ? <Audio src={staticFile(voice)} /> : null}
 				{music ? <Audio src={staticFile(music)} volume={musicVolume} /> : null}
-				{sfx.map(([t, src, vol], i) => (
+				{[...autoSfx, ...sfx].map(([t, src, vol], i) => (
 					<Sequence key={`sfx-${i}`} from={fr(t)} durationInFrames={60}>
 						<Audio src={staticFile(`audio/${src}.wav`)} volume={vol} />
 					</Sequence>

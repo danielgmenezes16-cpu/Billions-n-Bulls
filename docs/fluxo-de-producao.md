@@ -226,3 +226,16 @@ Passo a passo:
 5. Na publicação: `escolher.py ep02 --creditos` gera o bloco de créditos da descrição.
 
 As cenas apontam para frases do roteiro (`src/epkit/cues.ts`), não para segundos. Antes da narração, `scripts/sync/timeline_provisoria.py` estima os tempos; quando o MP3 chega, a transcrição substitui o `timeline.json` e tudo se realinha.
+
+## Da narração ao vídeo (desde o ep. 2)
+
+1. Daniel salva os blocos do Dark Planner em `media/epNN/epNN-A.mp3` … `epNN-F.mp3` (pode mandar por aqui que eu salvo).
+2. `python3 scripts/montar_episodio.py epNN --trilha spark` (bolso) ou `--trilha heist` (colapso).
+3. Ler `media/epNN/checagem-audio.md`: trecho do roteiro que não bate com a fala. Números escritos de outro jeito ("$99.98") são normais; frase pulada ou palavra trocada → Daniel regenera só aquela frase.
+4. `python3 scripts/montar_episodio.py epNN --trilha … --render` → `out/epNN-final.mp4` (1080p, -14 LUFS) e `roteiros/prontos/epNN.srt`.
+
+As cenas não precisam de ajuste manual: elas apontam para frases do roteiro e se realinham com a fala real.
+
+## Shorts
+
+Suspensos em 30/10/2026 (decisão do Daniel). O canal começa só com vídeos longos; reavaliar depois de ~10 vídeos.
