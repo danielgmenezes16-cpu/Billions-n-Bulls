@@ -194,6 +194,21 @@
   "w": 1024,
   "h": 683
  },
+ "p5-courthouse": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/7684/17290471884_a590b51636_b.jpg",
+  "title": "Supreme Court, 60 Centre Street, Lower Manhattan",
+  "creator": "Jeffrey",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/48889052497@N01/17290471884",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "federal courthouse New York",
+  "file": "img/ep02/p5-courthouse.jpg",
+  "w": 1024,
+  "h": 576
+ },
  "p5-doj": {
   "kind": "image",
   "full": "https://live.staticflickr.com/7279/8164007249_84bed7511a_b.jpg",

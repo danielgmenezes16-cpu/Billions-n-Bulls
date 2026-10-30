@@ -44,6 +44,36 @@
   "w": 1024,
   "h": 683
  },
+ "p1-newyork1870": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/3144/2665799060_bdf1a9922e_b.jpg",
+  "title": "NY New York 1870",
+  "creator": "snapshotsofthepast.com",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/28496558@N02/2665799060",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "New York 1870s",
+  "file": "img/ep03/p1-newyork1870.jpg",
+  "w": 1024,
+  "h": 703
+ },
+ "p1-paradeplatz": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/7428/11756944523_454b3a9fe4_b.jpg",
+  "title": "Paradeplatz",
+  "creator": "Thomas8047",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/93482748@N02/11756944523",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "Paradeplatz",
+  "file": "img/ep03/p1-paradeplatz.jpg",
+  "w": 1024,
+  "h": 680
+ },
  "p1-zurich1800": {
   "kind": "image",
   "full": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/07900/07929v.jpg",
@@ -58,6 +88,21 @@
   "file": "img/ep03/p1-zurich1800.jpg",
   "w": 1024,
   "h": 766
+ },
+ "p2-maputo": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/56/117180936_de059284ec_b.jpg",
+  "title": "Maputo skyline from cruiseship East Africa",
+  "creator": "moron noodle",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/29105233@N00/117180936",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "Maputo",
+  "file": "img/ep03/p2-maputo.jpg",
+  "w": 1024,
+  "h": 768
  },
  "p2-tuna": {
   "kind": "image",
@@ -74,6 +119,21 @@
   "w": 1023,
   "h": 731
  },
+ "p3-riyadh": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/360/19635135252_5573f393e0_b.jpg",
+  "title": "The North Side Of Riyadh City",
+  "creator": "MNmagic",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page": "https://www.flickr.com/photos/21416599@N08/19635135252",
+  "provider": "flickr",
+  "needs_credit": false,
+  "query": "Riyadh skyline",
+  "file": "img/ep03/p3-riyadh.jpg",
+  "w": 1024,
+  "h": 576
+ },
  "p3-vault": {
   "kind": "image",
   "full": "https://live.staticflickr.com/3153/2291139919_cd960c5aa0_b.jpg",
@@ -88,5 +148,65 @@
   "file": "img/ep03/p3-vault.jpg",
   "w": 1024,
   "h": 683
+ },
+ "p4-tokyo": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/7155/6646814881_5217a122e4_b.jpg",
+  "title": "Tokyo Stock Exchange",
+  "creator": "Dick Thomas Johnson",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/31029865@N06/6646814881",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "Tokyo Stock Exchange",
+  "file": "img/ep03/p4-tokyo.jpg",
+  "w": 1024,
+  "h": 768
+ },
+ "p4-zurichnight": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/56/168970020_b11549db27_b.jpg",
+  "title": "Gold Coast",
+  "creator": "ForsterFoto",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/50624154@N00/168970020",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "Zurich night lake",
+  "file": "img/ep03/p4-zurichnight.jpg",
+  "w": 1024,
+  "h": 768
+ },
+ "p5-ecb": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/8679/16114265110_d3a8af12d3_b.jpg",
+  "title": "European Central Bank Frankfurt LX100",
+  "creator": "Dinu Dominic Manns",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/64159156@N00/16114265110",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "European Central Bank Frankfurt",
+  "file": "img/ep03/p5-ecb.jpg",
+  "w": 1024,
+  "h": 576
+ },
+ "p6-swissflag": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/1351/765211081_4bb36c493a_b.jpg",
+  "title": "Zurich, Switzerland, Lake Excursion with Swiss Flag",
+  "creator": "moonjazz",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page": "https://www.flickr.com/photos/8398907@N02/765211081",
+  "provider": "flickr",
+  "needs_credit": false,
+  "query": "Swiss flag Zurich",
+  "file": "img/ep03/p6-swissflag.jpg",
+  "w": 1024,
+  "h": 768
  }
 }
