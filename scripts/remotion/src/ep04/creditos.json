@@ -119,6 +119,21 @@
   "w": 738,
   "h": 1024
  },
+ "p4-inflation": {
+  "kind": "image",
+  "full": "https://pixabay.com/get/gf8013e39f60a8937c05bb96a30baace619e5dc14237981a7f33746742f338d8217be4dcd2afb3b666364c9d13069647fad6f04846e3ce34799336138636f4f93_1280.jpg",
+  "title": "retail, grocery, supermarket, store, food, shopping, market, shop, customer, people, sale, grocery store, business, grocery shopping, buy, consumer, mall, buying, purchase, groceries, commerce, hypermarket, lifestyle, retail shopping, retail store, products, healthy, brown shopping, brown shop, brown grocery, brown sales, brown groceries, supermarket, supermarket, grocery store, grocery store, grocery store, hypermarket, hypermarket, hypermarket, hypermarket, hypermarket",
+  "creator": "Tariq786",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/photos/retail-grocery-supermarket-store-1424041/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "supermarket price tags",
+  "file": "img/ep04/p4-inflation.jpg",
+  "w": 1280,
+  "h": 853
+ },
  "p4-toaster": {
   "kind": "image",
   "full": "https://pixabay.com/get/g9931e8b7de8c5fe2f2d4fecc470e55bcc774b73ae816153c6112614c1ad355c6ec8a3c7371bd67c9e7fc13b94de88154_1280.jpg",
