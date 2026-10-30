@@ -1,0 +1,303 @@
+How One Man Lost $20 Billion in Two Days
+
+<break time="1.0s" />
+
+In March 2021, a man most people had never heard of was, on paper, one of the richest people in the world. His fortune was reportedly around twenty billion dollars.
+
+<break time="1.0s" />
+
+He didn't run a famous company. He didn't manage a fund you could invest in. He traded his own money, quietly, from an office in New York.
+
+<break time="1.0s" />
+
+Two days later, the fortune was gone. And the banks that had lent him money lost more than ten billion dollars.
+So how do you lose twenty billion dollars that fast? And who ends up paying for it?
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – The Tiger Cub]
+His name is Sung Kook Hwang. On Wall Street, everyone called him Bill.
+
+<break time="1.0s" />
+
+He learned the business in the 1990s at Tiger Management, one of the most famous hedge funds of its time, run by a legendary investor named Julian Robertson.
+Robertson trained a whole generation of fund managers. People called them the Tiger Cubs. Bill Hwang was one of them.
+
+<break time="1.0s" />
+
+In 2001, he started his own fund, Tiger Asia, with Robertson's backing. It focused on stocks in China, Japan and Korea. And for years, it did very well.
+
+<break time="1.0s" />
+
+Then, in 2012, it ran into trouble with the law.
+The SEC said Hwang and his firm had used confidential information to bet against three Chinese bank stocks. Hwang and his firms agreed to pay forty-four million dollars to settle. Tiger Asia pleaded guilty to wire fraud.
+Hong Kong went further. In 2014, Hwang was reportedly barred from trading there for four years.
+
+<break time="1.0s" />
+
+For most people, that would be the end of a career managing money. Hwang found another way.
+He closed the fund to outside investors, and turned it into a family office. A firm that only manages one family's money. His own.
+
+<break time="1.0s" />
+
+He called it Archegos. It comes from a Greek word that can mean "the one who leads the way."
+
+<break time="1.0s" />
+
+And here's why the structure mattered.
+In the United States, a family office doesn't have to register with regulators the way a regular investment fund does. It doesn't have outside clients to report to. It can stay almost invisible.
+That exemption came from a rule the SEC wrote in 2011, after the financial crisis. The idea was to spare families managing their own wealth from paperwork meant for big funds. Nobody imagined a family office with tens of billions of dollars in bets.
+
+<break time="1.0s" />
+
+For a while, that was the whole point. Archegos could grow without anyone outside really watching.
+And grow it did.
+
+<break time="1.5s" />
+
+[Part 2 – The Invisible Bet]
+According to prosecutors, between March 2020 and March 2021, Hwang's fortune went from about one and a half billion dollars to about thirty-five billion.
+That's more than twenty times bigger. In one year.
+
+<break time="1.0s" />
+
+How do you grow that fast? Not just by picking good stocks. By borrowing. A lot.
+And the tool Archegos used for that has a very boring name. A total return swap.
+
+<break time="1.0s" />
+
+Here's how it works.
+Instead of buying a stock yourself, you ask a bank to buy it. The bank owns the shares. But you get everything the stock does. If it goes up, the bank pays you the gain. If it goes down, you pay the bank the loss.
+In return, you pay the bank a fee, and you put down some money as collateral. Often just a fraction of the position.
+
+<break time="1.0s" />
+
+So with one dollar of your own, you can control several dollars of stock.
+That's called leverage. And it works in both directions.
+
+<break time="1.0s" />
+
+Here's a simple example. Say you put down ten million dollars, and control fifty million dollars of stock.
+If the stock rises twenty percent, you make ten million. You just doubled your money.
+If the stock falls twenty percent, you lose ten million. Everything you put in. Gone.
+Same move in the market. Five times the effect on you.
+
+<break time="1.0s" />
+
+But swaps had another feature Archegos liked.
+When an investor buys more than five percent of a company, they usually have to tell the public. With swaps, the bank holds the shares. So Archegos's name didn't show up anywhere.
+
+<break time="1.0s" />
+
+And it didn't use just one bank. It used several. Credit Suisse, Nomura, Morgan Stanley, Goldman Sachs, UBS and others.
+Each bank saw only its own piece. None of them saw the whole picture.
+
+<break time="1.0s" />
+
+Prosecutors later said that, at its peak, Archegos controlled about one hundred and sixty billion dollars in stock positions. Built on top of a fortune of about thirty-five billion.
+And much of it was concentrated in just a handful of companies. Like ViacomCBS, the media company. And Chinese companies like Baidu and Tencent Music.
+
+<break time="1.0s" />
+
+Prosecutors said something else, too. That Archegos didn't just buy these stocks. It bought them in a way designed to push their prices up, which made its own fortune look even bigger, and let it borrow even more.
+
+<break time="1.0s" />
+
+Prosecutors also said that Archegos lied to its banks about how big and how concentrated its positions really were.
+Hwang denied it. A jury would later decide.
+
+<break time="1.0s" />
+
+But first, a question. Why would the biggest banks in the world lend so much, to a man with that history?
+
+<break time="1.5s" />
+
+[Part 3 – The Banks That Said Yes]
+The answer, as usual, is money. But maybe not as much money as you'd think.
+
+<break time="1.0s" />
+
+Banks that serve big traders are called prime brokers. They lend money, they hold the trades, and they earn fees and interest.
+A client like Archegos was valuable. It traded a lot, and it borrowed a lot.
+
+<break time="1.0s" />
+
+So how much did Credit Suisse actually earn from Archegos?
+In 2020, about seventeen and a half million dollars in fees.
+
+<break time="1.0s" />
+
+And how much was Credit Suisse lending? Its exposure to Archegos reportedly grew to more than twenty billion dollars.
+
+<break time="1.0s" />
+
+Keep that fee number in mind. Seventeen and a half million.
+Because a few months later, Credit Suisse would lose about five and a half billion dollars on the same client.
+That's more than three hundred times what it earned from Archegos in a whole year.
+
+<break time="1.0s" />
+
+Quick thing. If you like videos that follow the money, subscribe. It's free. And it comes with zero leverage.
+
+<break time="1.0s" />
+
+After the collapse, Credit Suisse hired a law firm to investigate what went wrong. The report was brutal.
+It described a "fundamental failure of management and controls" in the investment bank.
+Archegos had broken its risk limits again and again. People inside the bank had raised the alarm. And the bank kept lending anyway.
+
+<break time="1.0s" />
+
+To be fair to the banks, there's another side. According to prosecutors, Archegos misled them on purpose. Some banks were told that Archegos's positions were smaller and more spread out than they really were.
+
+<break time="1.0s" />
+
+And the regulators? Archegos wasn't registered as an investment adviser, and its swaps weren't public. Nobody outside had the full view.
+
+<break time="1.0s" />
+
+Still, it's hard to ignore the math.
+The banks were taking a risk measured in billions, to earn fees measured in millions.
+As long as the stocks kept going up, it looked like free money.
+
+<break time="1.0s" />
+
+And then one of them went down.
+
+<break time="1.5s" />
+
+[Part 4 – Two Days in March]
+On Monday, March 22, 2021, ViacomCBS stock closed at a record high, just above one hundred dollars a share.
+It had more than doubled since the start of the year. Investors were excited about streaming, and ViacomCBS had just launched its own service, Paramount Plus.
+A big part of that rise, it would later turn out, came from Archegos's own buying.
+
+<break time="1.0s" />
+
+That evening, ViacomCBS announced it would sell new shares, to raise billions of dollars. It made sense for the company. Its stock was expensive, so it was a good time to sell.
+But the market didn't like it. By Wednesday, the deal was priced at eighty-five dollars a share. About fifteen percent below Monday's record.
+And the stock dropped with it.
+
+<break time="1.0s" />
+
+For a normal investor, that's a bad week.
+For Archegos, it was a disaster. Remember the leverage. When the stock fell, the banks asked for more collateral. It's called a margin call.
+And Archegos didn't have the cash.
+
+<break time="1.0s" />
+
+On Thursday, the banks reportedly met with Archegos, to talk about selling the stocks slowly, together, so they wouldn't crash the market.
+They couldn't agree.
+
+<break time="1.0s" />
+
+It's a classic trap. If every bank sells slowly, everyone loses a little. But if one bank sells first, it gets the best prices, and everyone else gets what's left.
+So nobody wants to wait.
+
+<break time="1.0s" />
+
+So, on Friday, it became a race. Each bank wanted to sell before the others.
+Huge blocks of stock hit the market at once. ViacomCBS. Discovery. Baidu. Tencent Music.
+By the end of that Friday, ViacomCBS had fallen to about forty-eight dollars. Less than half of where it was on Monday.
+
+<break time="1.0s" />
+
+Prosecutors later said that more than one hundred billion dollars in market value disappeared from nearly a dozen companies, within days.
+And Bill Hwang's own fortune, reported at around twenty billion dollars, was gone in about two days.
+
+<break time="1.0s" />
+
+But here's the thing about a race. Somebody finishes last.
+
+<break time="1.5s" />
+
+[Part 5 – Who Paid]
+The banks that sold first did best.
+Goldman Sachs moved early, and reportedly came out almost unscathed.
+The banks that hesitated were left holding stocks that were falling fast.
+
+<break time="1.0s" />
+
+Credit Suisse lost about five and a half billion dollars. The biggest loss of all. That's about twice what the whole bank had earned in profit in 2020.
+Nomura, Japan's biggest investment bank, lost about two point nine billion.
+Morgan Stanley lost about nine hundred million. UBS, about eight hundred and sixty million. Mitsubishi UFJ, about two hundred and seventy million.
+
+<break time="1.0s" />
+
+Add it up, and the banks lost more than ten billion dollars. On one family office most people had never heard of.
+
+<break time="1.0s" />
+
+At Credit Suisse, the damage didn't stop there. Its head of investment banking and its chief risk officer left. The bank cut its dividend, and reportedly had to raise new capital from investors. The loss became one more crack in the bank's reputation.
+Two years later, Credit Suisse itself collapsed. That's the story we told in our Credit Suisse episode.
+
+<break time="1.0s" />
+
+Not everyone lost, though. ViacomCBS itself did just fine. It had sold its new shares at eighty-five dollars, raising billions, days before the crash.
+
+<break time="1.0s" />
+
+But there were other people on the losing side.
+Investors who bought ViacomCBS and the other stocks near the top, without knowing that a single hidden buyer had pushed the prices up.
+And Archegos's own employees. Some had money tied up in the firm. They lost it too.
+
+<break time="1.0s" />
+
+So who paid for Bill Hwang's twenty billion dollars?
+Mostly, the money was never really there. It was borrowed.
+When it disappeared, the banks that had lent it paid the bill. And through them, their shareholders.
+
+<break time="1.5s" />
+
+[Part 6 – The Verdict, and the Rule That Never Came]
+In April 2022, Bill Hwang was arrested and charged with fraud and market manipulation. The Justice Department, the SEC and the CFTC all brought cases at the same time.
+Two former Archegos executives pleaded guilty, and testified against him.
+
+<break time="1.0s" />
+
+In July 2024, a jury convicted Hwang on ten criminal counts, including securities fraud, wire fraud and market manipulation.
+The firm's chief financial officer, Patrick Halligan, was convicted at the same trial. He later received eight years.
+In November 2024, a judge sentenced him to eighteen years in prison. He was also ordered to pay more than nine billion dollars in restitution to seven banks and a group of former employees.
+His lawyers said he would appeal.
+
+<break time="1.0s" />
+
+But what about the hidden part? The swaps that let one man control one hundred and sixty billion dollars of stock, without the public knowing?
+
+<break time="1.0s" />
+
+In December 2021, the SEC proposed a rule. Anyone holding very large positions through swaps would have to report them publicly.
+The industry pushed back. It argued that regulators already receive swap data, and that public disclosure could hurt investors.
+In June 2025, the SEC withdrew the proposal.
+
+<break time="1.0s" />
+
+So, today, regulators do see much more swap data than before. But the public still can't see a bet like Archegos building up.
+
+<break time="1.0s" />
+
+So, how does one man lose twenty billion dollars in two days?
+
+<break time="1.0s" />
+
+He borrows most of it. He hides it in swaps, spread across many banks. And he puts it into a few stocks.
+On the way up, leverage looks like genius. On the way down, it moves just as fast.
+
+<break time="1.0s" />
+
+Leverage doesn't create money. It only borrows it from the future.
+And sometimes, the future calls the loan in two days.
+
+<break time="1.0s" />
+
+Remember the name? Archegos. The one who leads the way.
+In the end, it did lead the way. Into one of the biggest losses Wall Street's banks had seen in years.
+
+<break time="1.5s" />
+
+Next time, we'll follow the money into another story where billions went somewhere nobody expected.
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.

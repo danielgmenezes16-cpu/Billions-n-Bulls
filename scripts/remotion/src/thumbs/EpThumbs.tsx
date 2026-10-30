@@ -204,7 +204,50 @@ const E4C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C};
+
+// ---------------- Ep. 5 — Archegos ----------------
+const E5A = () => (
+	<AbsoluteFill>
+		<Background id="t5A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['2', 'DAYS']} size={230} x={60} y={120} mark={0} sub="$20 BILLION, GONE" />
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<line x1={760} x2={1180} y1={560} y2={560} stroke={INK} strokeOpacity={0.5} strokeWidth={4} />
+			<rect x={800} y={150} width={170} height={410} rx={8} fill="none" stroke={DARK} strokeWidth={5} strokeDasharray="14 12" />
+			<text x={885} y={128} fontFamily={FONT} fontWeight={900} fontSize={44} fill={DARK} textAnchor="middle">$20B</text>
+			<rect x={1010} y={552} width={150} height={8} rx={3} fill={GOLD} />
+			<text x={1085} y={520} fontFamily={FONT} fontWeight={900} fontSize={52} fill={GOLD} textAnchor="middle">$0</text>
+			<circle cx={1085} cy={460} r={18} fill={GOLD} />
+			<path d="M 885 160 C 960 170, 1060 300, 1085 440" fill="none" stroke={GOLD} strokeWidth={8} strokeLinecap="round" strokeDasharray="4 16" />
+		</svg>
+		<Vignette />
+	</AbsoluteFill>
+);
+const E5B = () => (
+	<AbsoluteFill>
+		<Background id="t5B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['300×']} size={250} x={56} y={170} mark={0} sub="FEES vs. LOSS" />
+		<Bars x={820} base={560} maxH={360} bw={150} gap={60} min={4}
+			bars={[{label: 'FEES', value: 17.5, display: '$17.5M'}, {label: 'LOSS', value: 5500, display: '$5.5B', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E5C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t5C" />
+		<div style={{position: 'absolute', left: 50, top: 70, fontFamily: FONT, fontWeight: 900, fontSize: 330, lineHeight: 1, letterSpacing: -16,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$160B
+		</div>
+		<Words lines={['HIDDEN', 'BET']} size={120} x={66} y={400} dark />
+		<Bars x={800} base={600} maxH={190} bw={110} gap={40} dark dot={false}
+			bars={[{label: 'OWN', value: 35, display: '$35B'}, {label: 'BET', value: 160, display: '$160B', gold: true}]} />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];
