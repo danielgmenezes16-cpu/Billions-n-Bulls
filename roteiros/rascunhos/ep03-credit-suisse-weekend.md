@@ -428,7 +428,10 @@ finanzen.at (Reuters), UBS to buy Credit Suisse for more than $3 billion: https:
 Legal500, Federal Administrative Court annuls FINMA decision on AT1: https://www.legal500.com/intelligence/switzerland/government-public-sector/the-swiss-federal-administrative-court-has-annulled-finma's-decision-on-credit-suisse-at1-bonds-b-2334-2023
 ERIH, Alfred Escher biography: https://www.erih.net/how-it-started/stories-about-people-biographies/biography/escher
 
-All visuals in this video are original, designed and animated for Billions & Bulls.
+Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
+
+Photos and footage
+[gerar com: python3 scripts/imagens/escolher.py ep03 --creditos]
 
 This video explains a business. It is not financial advice. Billions & Bulls is not affiliated with any company mentioned.
 

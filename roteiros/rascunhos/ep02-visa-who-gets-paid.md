@@ -421,7 +421,10 @@ Regulation (EU) 2015/751 on interchange fees: https://eur-lex.europa.eu/eli/reg/
 European Commission, study on the Interchange Fee Regulation (Finextra): https://www.finextra.com/pressarticle/81810/european-commission-hails-success-of-interchange-fee-caps
 Payments Journal, The Telegraph on EU caps and UK reward cards: https://www.paymentsjournal.com/?p=9431
 
-All visuals in this video are original, designed and animated for Billions & Bulls.
+Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
+
+Photos and footage
+[gerar com: python3 scripts/imagens/escolher.py ep02 --creditos]
 
 This video explains a business. It is not financial advice. Billions & Bulls is not affiliated with any company mentioned.
 

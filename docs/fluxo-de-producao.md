@@ -205,3 +205,22 @@ O que ajuda de verdade é o canal completo, verificado e com cara de real. A ide
 | MP3 das músicas escolhidas | 1º corte em 720p |
 | Ajustes do 1º corte, com minutagem | Vídeo final em 1080p |
 | Prints do Analytics | 3 thumbs, `.srt`, Shorts e o texto da descrição, tags e comentário fixado |
+
+## B-roll: fotos e vídeos de arquivo (desde o ep. 2)
+
+Pedido do Daniel e do sócio: mais imagens reais entre as telas animadas. Regra: cada foto passa pelo tratamento da marca (duotone tinta/papel ou azul-marinho, zoom lento, grão, destaque dourado) para o vídeo não virar colagem de banco de imagens.
+
+| Fonte | Para quê | Chave |
+| --- | --- | --- |
+| Openverse (indexa Wikimedia Commons, Flickr…) | Lugares, prédios, objetos | Não (200 buscas/dia) |
+| Library of Congress | Fotos históricas dos EUA | Não |
+| Pixabay | Cenas genéricas (pagar com cartão, loja, celular) e **vídeos** | Sim, grátis (`~/.config/bnb/pixabay_key`, nunca no repositório) |
+
+Passo a passo:
+1. `python3 scripts/imagens/buscar.py ep02 p1-store "small shop owner counter" --fonte pixabay` → folha de contato em `media/imagens/ep02/candidatos/`.
+2. Revisar a folha: sem logo de empresa, sem pessoa identificável em destaque, combina com a frase.
+3. `python3 scripts/imagens/escolher.py ep02 p1-store 3` → baixa em alta para `scripts/remotion/public/img/ep02/` e registra autor e licença em `src/ep02/creditos.json`.
+4. Na cena: `photo('p1-store', {...})`. Foto com menos de 1.500 px vira "foto impressa" automaticamente; cena sem foto escolhida aparece como "B-ROLL PENDENTE".
+5. Na publicação: `escolher.py ep02 --creditos` gera o bloco de créditos da descrição.
+
+As cenas apontam para frases do roteiro (`src/epkit/cues.ts`), não para segundos. Antes da narração, `scripts/sync/timeline_provisoria.py` estima os tempos; quando o MP3 chega, a transcrição substitui o `timeline.json` e tudo se realinha.

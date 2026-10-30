@@ -406,7 +406,10 @@ Bloomberg Law, Capital One $425 million deal tossed as inadequate: https://news.
 Mahoning Matters, Capital One loses $425 million fight over savings account: https://www.mahoningmatters.com/news/business/article315518036.html
 U.S. Bureau of Labor Statistics, CPI history: https://www.bls.gov/cpi/
 
-All visuals in this video are original, designed and animated for Billions & Bulls.
+Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
+
+Photos and footage
+[gerar com: python3 scripts/imagens/escolher.py ep04 --creditos]
 
 This video explains a business. It is not financial advice, and it is not a recommendation of any bank or account. Billions & Bulls is not affiliated with any company mentioned.
 

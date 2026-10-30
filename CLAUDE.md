@@ -38,7 +38,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - **Tema:** um fato concreto com alguém responsável (erro, golpe, paradoxo), de preferência ligado ao bolso de quem assiste ou à Europa. História entra por um evento específico com gancho no presente. Evitar panorama ("Rise and Fall of…"), série trocando só o país, remake de hit, notícia do momento como assunto e temas fora do dinheiro.
 - **Título:** curto (até ~45 caracteres), uma tensão só. Parênteses e palavras como "nobody/hidden/quietly" não são alavanca. Repetir assunto pode, com dado e título novos; repetir título, não.
 - **Thumbnail:** estrutura fixa com dado novo a cada vídeo: papel quadriculado, frase de 2 a 3 palavras, gráfico com dado real em dourado e o ponto dourado que segue o dinheiro como personagem recorrente. Evitar sublinhado vermelho e personagem de terno (identidade atual do Chill Financial Historian).
-- **Descrição:** número-tese no primeiro parágrafo, lista "In this video", capítulos, fontes e a frase de originalidade: "All visuals in this video are original, designed and animated for Billions & Bulls."
+- **Descrição:** número-tese no primeiro parágrafo, lista "In this video", capítulos, fontes e a frase de originalidade: "Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below." seguida do bloco de créditos (`scripts/imagens/escolher.py epNN --creditos`). Vídeo sem foto de terceiros pode usar "All visuals in this video are original, designed and animated for Billions & Bulls."
 - **Renda:** planejar patrocínio ou uma segunda fonte desde cedo; não depender só do AdSense.
 
 ## Regras que não podem ser quebradas
@@ -48,6 +48,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - Cada vídeo com roteiro, pesquisa e telas próprias — nunca template repetido (política de "conteúdo inautêntico").
 - Nada sobre a Ford nem informação interna dela.
 - Licença de toda imagem e música conferida item a item; fontes sempre na descrição.
+- B-roll (fotos e vídeos) só pelo `scripts/imagens/` (buscar.py → folha de contato → escolher.py): aceita CC0, domínio público, CC BY, "No known restrictions" da Library of Congress e Pixabay; nada de BY-SA, NC, ND nem Google Imagens. Revisar cada foto: sem logo de empresa, sem pessoa identificável em destaque.
 
 ## Identidade visual (resumo)
 - Papel `#E0E0D7`, grade `#BDBDB6`, texto `#585652`, apoio `#7B7A73`, objetos `#2E2D2B`, destaque dourado `#D4AF37` (uma cor de destaque por quadro), tensão em azul-marinho `#0B1A2E`.
