@@ -163,7 +163,7 @@ add('The Swiss state also offered', (s) => (
 		]} />
 ));
 add('And the Swiss National Bank promised', card({id: 'p4-100', apoio: 'Extra loans, backed by the government:', hero: 'CHF 100 BILLION', textSide: 'left', object: 'coin', heroSize: 150, dark: true}));
-add('There were other options', photo('p1-bank2008', {id: 'p4-options', tone: 'navy', apoio: 'Reportedly considered:', hero: 'NATIONALIZE IT?', complemento: 'All the risk on taxpayers. UBS looked safer.'}));
+add('There were other options', card({id: 'p4-options', apoio: 'Reportedly considered:', hero: 'NATIONALIZE IT?', complemento: 'All the risk on taxpayers. A sale to UBS looked safer.', textSide: 'left', object: 'none', heroSize: 140, dark: true}));
 add('Remember 2008', (s) => (
 	<TimelineShot id="p4-flip" start={s} dark title="The roles flip"
 		events={[
@@ -250,7 +250,7 @@ add('And UBS?', (s) => (
 		]} />
 ));
 add('But the story isn\'t over', photo('p6-swissflag', {id: 'p6-giant', apoio: 'Switzerland now has', hero: 'ONE GIANT BANK', complemento: 'and no rival left to rescue it'}));
-add('So lawmakers want UBS', photo('p6-parliament', {apoio: 'Extra capital UBS says the plan could cost:', hero: '~$16 BILLION', complemento: 'Upper house vote, September 2026'}));
+add('So lawmakers want UBS', photo('p1-bank2008', {id: 'p6-capital', apoio: 'Extra capital UBS says the plan could cost:', hero: '~$16 BILLION', complemento: 'Upper house vote, September 2026'}));
 add('A Swiss parliamentary inquiry', (s) => (
 	<DocLinesShot id="p6-inquiry" start={s} title="Parliamentary inquiry, December 2024" titleAt={s + 4} source="Source: Swissinfo"
 		lines={[

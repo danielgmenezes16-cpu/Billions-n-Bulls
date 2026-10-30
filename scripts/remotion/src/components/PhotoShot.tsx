@@ -155,7 +155,7 @@ export const PhotoShot: React.FC<PhotoProps> = (p) => {
 		>
 			{p.apoio && <div style={{fontSize: 46, fontWeight: 400, opacity: k(0), transform: `translateY(${12 * (1 - k(0))}px)`}}>{p.apoio}</div>}
 			{p.hero && (
-				<div style={{fontSize: layout === "print" ? 92 : 118, fontWeight: 700, lineHeight: 1.02, letterSpacing: -2, opacity: k(1), transform: `translateY(${16 * (1 - k(1))}px)`}}>
+				<div style={{fontSize: layout === "print" ? (Math.max(...p.hero.split(" ").map((w) => w.length)) > 10 ? 74 : 92) : 118, fontWeight: 700, lineHeight: 1.02, letterSpacing: -2, opacity: k(1), transform: `translateY(${16 * (1 - k(1))}px)`}}>
 					{p.hero}
 					<div style={{height: 10, width: `${interpolate(frame, [textAt[1] + 6, textAt[1] + 20], [0, 100], ease)}%`, maxWidth: 420, background: GOLD, marginTop: 10, marginLeft: p.textPos === 'bottom-right' ? 'auto' : p.textPos === 'center' ? 'auto' : 0, marginRight: p.textPos === 'center' ? 'auto' : 0}} />
 				</div>

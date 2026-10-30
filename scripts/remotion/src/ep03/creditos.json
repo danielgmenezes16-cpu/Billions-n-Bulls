@@ -89,6 +89,21 @@
   "w": 1024,
   "h": 766
  },
+ "p2-court": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/5732/23553126946_93b60e0938_b.jpg",
+  "title": "1897 Courtroom",
+  "creator": "D-Stanley",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/79721788@N00/23553126946",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "courtroom",
+  "file": "img/ep03/p2-court.jpg",
+  "w": 1024,
+  "h": 768
+ },
  "p2-maputo": {
   "kind": "image",
   "full": "https://live.staticflickr.com/56/117180936_de059284ec_b.jpg",
@@ -133,6 +148,21 @@
   "file": "img/ep03/p3-riyadh.jpg",
   "w": 1024,
   "h": 576
+ },
+ "p3-snb": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/65535/48683041652_57160d1a47_b.jpg",
+  "title": "Zürich - Schweizerische Nationalbank",
+  "creator": "corno.fulgur75",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/129231073@N06/48683041652",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "Swiss National Bank",
+  "file": "img/ep03/p3-snb.jpg",
+  "w": 1024,
+  "h": 683
  },
  "p3-vault": {
   "kind": "image",
@@ -179,6 +209,21 @@
   "w": 1024,
   "h": 768
  },
+ "p5-bond": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/8098/8549540973_193486e921.jpg",
+  "title": "Coupon from a Cleveland, Cincinnati, Chicago & St. Louis Railway Company bond certificate, 1893",
+  "creator": "crackdog",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page": "https://www.flickr.com/photos/88645472@N00/8549540973",
+  "provider": "flickr",
+  "needs_credit": false,
+  "query": "bond certificate",
+  "file": "img/ep03/p5-bond.jpg",
+  "w": 499,
+  "h": 169
+ },
  "p5-ecb": {
   "kind": "image",
   "full": "https://live.staticflickr.com/8679/16114265110_d3a8af12d3_b.jpg",
@@ -193,6 +238,36 @@
   "file": "img/ep03/p5-ecb.jpg",
   "w": 1024,
   "h": 576
+ },
+ "p5-supremecourt": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/54/117048243_7cc6bb0b87_b.jpg",
+  "title": "Courtroom One Gavel",
+  "creator": "Joe Gratz",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page": "https://www.flickr.com/photos/63126465@N00/117048243",
+  "provider": "flickr",
+  "needs_credit": false,
+  "query": "courtroom",
+  "file": "img/ep03/p5-supremecourt.jpg",
+  "w": 1024,
+  "h": 683
+ },
+ "p6-office": {
+  "kind": "image",
+  "full": "https://live.staticflickr.com/591/21605168839_600d241a1e_b.jpg",
+  "title": "Prime Tower",
+  "creator": "Rosmarie Voegtli",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "page": "https://www.flickr.com/photos/94212497@N00/21605168839",
+  "provider": "flickr",
+  "needs_credit": true,
+  "query": "Zurich office building",
+  "file": "img/ep03/p6-office.jpg",
+  "w": 1024,
+  "h": 729
  },
  "p6-swissflag": {
   "kind": "image",

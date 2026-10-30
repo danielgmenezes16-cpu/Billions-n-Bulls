@@ -28,7 +28,8 @@ export const creditLine = (c: Credit) => {
 	const kind = c.file.endsWith('.mp4') ? 'Footage' : 'Photo';
 	const prov = ({flickr: 'Flickr', wikimedia: 'Wikimedia Commons'} as Record<string, string>)[c.provider] ?? c.provider;
 	const lic = prov === 'Pixabay' ? 'Pixabay' : c.license.startsWith('No known') ? prov : `${prov}, ${c.license}`;
-	return `${kind}: ${who ? who + ' / ' : ''}${lic}`;
+	const by = who && who.toLowerCase() !== prov.toLowerCase() ? who + ' / ' : '';
+	return `${kind}: ${by}${lic}`;
 };
 
 // Tela de espera para B-roll que ainda não foi escolhido
