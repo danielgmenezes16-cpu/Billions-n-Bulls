@@ -146,8 +146,8 @@
   "needs_credit": false,
   "query": "bank closed 1933",
   "file": "img/ep04/p4-1933.jpg",
-  "w": 738,
-  "h": 1024
+  "w": 694,
+  "h": 984
  },
  "p4-inflation": {
   "kind": "image",
