@@ -455,7 +455,19 @@ Federal Register, the 2021 swap position reporting proposal: https://www.federal
 Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
 
 Photos and footage
-[gerar com: python3 scripts/imagens/escolher.py ep05 --creditos]
+New York Stock Exchange. Trading floor I — gottscho-schleisner, inc, No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2018727881/
+Prime Tower — Rosmarie Voegtli, CC BY 2.0 (flickr): https://www.flickr.com/photos/94212497@N00/21605168839
+analysis, banking, broker, business, the crisis, cryptography, currenc — Gam-Ol, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-33805/
+buildings, hong kong, china, city, landmark, urban, skyline, business, — TungArt7, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-267743/
+city, manhattan, midtown, skyscraper, midtown manhattan, bird's eye vi — mariohagen, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-47335/
+city, new york, building, night, cement, crystal — carl_watermark, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-6782/
+museum, dc, washington, historic, building, neighborhood, landmark, fa — BruceEmmerling, Pixabay Content License (Pixabay): https://pixabay.com/photos/museum-dc-washington-historic-4325720/
+on air, broadcast, podcast, desk, microphone, mic, studio, chair, stre — Natsu_444, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-201676/
+palace, justice, brussels, court, architecture, building, perspective, — LVER, Pixabay Content License (Pixabay): https://pixabay.com/photos/palace-justice-brussels-court-4781576/
+penthouse, prague, building, office, panorama, night, city — Scrudgerello, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-24136/
+phone, smartphone, mobile, portable, screen, digital, communication, t — Natures_Embrace, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-202987/
+stock market crash, financial crisis concept, technical analysis tradi — MrWashingt0n, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-338955/
+us, united states, capitol, government, capital city, washington dc — InOldNews, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-239278/
 
 This video explains a business. It is not financial advice. Billions & Bulls is not affiliated with any company or person mentioned.
 

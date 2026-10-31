@@ -5,6 +5,8 @@ Canal irmão: Cargo & Capital (economia física), com collabs.
 
 Este repositório é independente do projeto DentalPRO — não misturar contexto, código ou decisões entre os dois.
 
+**Ao abrir uma sessão nova, ler primeiro `docs/estado.md`** (onde cada episódio está, pendências e como retomar).
+
 **Fontes da verdade:**
 - `docs/posicionamento.md` — o posicionamento atual (decidido em 27/10/2026). Vale por cima do resumo onde os dois divergirem.
 - `docs/resumo-canal.md` — tudo o que foi definido antes (formato, visual, voz, thumbnails, monetização). Ainda vale em tudo que o posicionamento não mudou.

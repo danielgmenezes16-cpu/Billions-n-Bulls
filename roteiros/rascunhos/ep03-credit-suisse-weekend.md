@@ -431,7 +431,28 @@ ERIH, Alfred Escher biography: https://www.erih.net/how-it-started/stories-about
 Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
 
 Photos and footage
-[gerar com: python3 scripts/imagens/escolher.py ep03 --creditos]
+1897 Courtroom — D-Stanley, CC BY 2.0 (flickr): https://www.flickr.com/photos/79721788@N00/23553126946
+6953_commecial_fishing_boat_munsel_odfw.jpg — Oregon Department of Fish & Wildlife, Public domain (flickr): https://www.flickr.com/photos/39743308@N07/4404586429
+Bundeshaus, Bern, Switzerland — jan.remund, CC BY 2.0 (flickr): https://www.flickr.com/photos/118705982@N02/12881250604
+Code — Anonymous Account, CC BY 2.0 (flickr): https://www.flickr.com/photos/37053322@N00/2291139919
+Coupon from a Cleveland, Cincinnati, Chicago & St. Louis Railway Compa — crackdog, Public domain (flickr): https://www.flickr.com/photos/88645472@N00/8549540973
+Courtroom One Gavel — Joe Gratz, CC0 (flickr): https://www.flickr.com/photos/63126465@N00/117048243
+European Central Bank Frankfurt LX100 — Dinu Dominic Manns, CC BY 2.0 (flickr): https://www.flickr.com/photos/64159156@N00/16114265110
+Gold Coast — ForsterFoto, CC BY 2.0 (flickr): https://www.flickr.com/photos/50624154@N00/168970020
+Maputo skyline from cruiseship East Africa — moron noodle, CC BY 2.0 (flickr): https://www.flickr.com/photos/29105233@N00/117180936
+NY New York 1870 — snapshotsofthepast.com, CC BY 2.0 (flickr): https://www.flickr.com/photos/28496558@N02/2665799060
+Paradeplatz — Thomas8047, CC BY 2.0 (flickr): https://www.flickr.com/photos/93482748@N02/11756944523
+Prime Tower — Rosmarie Voegtli, CC BY 2.0 (flickr): https://www.flickr.com/photos/94212497@N00/21605168839
+Railway tunnel portal Göschenen — Kecko, CC BY 2.0 (flickr): https://www.flickr.com/photos/70981241@N00/15174912056
+The North Side Of Riyadh City — MNmagic, Public domain (flickr): https://www.flickr.com/photos/21416599@N08/19635135252
+Tokyo Stock Exchange — Dick Thomas Johnson, CC BY 2.0 (flickr): https://www.flickr.com/photos/31029865@N06/6646814881
+Zurich, Switzerland, Lake Excursion with Swiss Flag — moonjazz, Public domain (flickr): https://www.flickr.com/photos/8398907@N02/765211081
+Zürich - Alfred-Escher-Denkmal — corno.fulgur75, CC BY 2.0 (flickr): https://www.flickr.com/photos/129231073@N06/48682263656
+Zürich - Schweizerische Nationalbank — corno.fulgur75, CC BY 2.0 (flickr): https://www.flickr.com/photos/129231073@N06/48683041652
+[From Utoquay, Zurich, Switzerland] — Library of Congress, No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2001703361/
+cctv surveillance camera, cctv, security, camera, surveillance, privac — WebTechExperts, Pixabay Content License (Pixabay): https://pixabay.com/photos/cctv-surveillance-camera-cctv-7267551/
+man, phone, smartphone, mobile — u_etjkkdz15b, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-142641/
+piggy bank, save up, piggy, economical, ceramic, finance, pig, euro, c — andibreit, Pixabay Content License (Pixabay): https://pixabay.com/photos/piggy-bank-save-up-piggy-economical-1595992/
 
 This video explains a business. It is not financial advice. Billions & Bulls is not affiliated with any company mentioned.
 

@@ -424,7 +424,32 @@ Payments Journal, The Telegraph on EU caps and UK reward cards: https://www.paym
 Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
 
 Photos and footage
-[gerar com: python3 scripts/imagens/escolher.py ep02 --creditos]
+2 euro coin — Images_of_Money, CC BY 2.0 (flickr): https://www.flickr.com/photos/59937401@N07/5474437939
+A full-sized model Amish horse and buggy above supermarket food shelve — highsmith, carol m., No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2016632640/
+Eccles Federal Reserve — bettrichard873, Public domain (flickr): https://www.flickr.com/photos/196068675@N06/52212266435
+European Parliament Building — Fotomoe, CC BY 2.0 (flickr): https://www.flickr.com/photos/60445767@N00/36174633552
+Federal Bureau of Investigation, Department of Justice Building, Washi — Boston Public Library, CC BY 2.0 (flickr): https://www.flickr.com/photos/24029425@N06/8164007249
+Federal Reserve Bank of Boston — sporst, CC BY 2.0 (flickr): https://www.flickr.com/photos/37799356@N05/5763919600
+Flughafen München - Airport Munich — digital cat , CC BY 2.0 (flickr): https://www.flickr.com/photos/14646075@N03/4581765179
+Fresno Motel sign, Fresno, California — margolies, john, No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2017710592/
+Mailman picking up mail, job opportunity posters — o'halloran, thomas j., No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2017657530/
+Midtown skyline looking east, NYC — Dimitry B, CC BY 2.0 (flickr): https://www.flickr.com/photos/61533954@N00/9636312625
+Oxford Street Shoppers — Waterford_Man, CC BY 2.0 (flickr): https://www.flickr.com/photos/47121377@N00/34472005135
+Pacific Coast Highway at Night — Schlüsselbein2007, CC BY 2.0 (flickr): https://www.flickr.com/photos/23860276@N05/5082074277
+Pennsylvania Turnpike, Pennsylvania. Toll booths — rothstein, arthur, No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2017834267/
+San Antonio data center — Robert Scoble, CC BY 2.0 (flickr): https://www.flickr.com/photos/35034363287@N01/2340202215
+Supreme Court, 60 Centre Street, Lower Manhattan — Jeffrey, CC BY 2.0 (flickr): https://www.flickr.com/photos/48889052497@N01/17290471884
+The Farmers National Bank Building, now (as of 2014) housing a law fir — highsmith, carol m., No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2015630059/
+United States Capitol — Phil Roeder, CC BY 2.0 (flickr): https://www.flickr.com/photos/88876166@N00/5596155149
+card, payment, terminal, contactless, to pay, roses, flowers, crowd, p — adria_moreno, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-209456/
+in life getting from A to B has its price...THIRSTY..? [vinyl solution — asboluv, CC BY 2.0 (flickr): https://www.flickr.com/photos/68224853@N00/475279200
+ipad, imac, tablet, desktop, iphone, monitor, computer, display, mobil — starroom, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-2988/
+outside, view, airplane, wing, airliner, window, sunset, clouds, fligh — doktorkleinmusic, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-383350/
+pay, money, dollar, hands, currency, bank note, finance, business, pap — RoyBuri, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-20857/
+phone, smartphone, mobile, portable, screen, digital, communication, t — Natures_Embrace, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-202987/
+rainy day — Thomas8047, CC BY 2.0 (flickr): https://www.flickr.com/photos/93482748@N02/14721678248
+shopping, supermarket, customers, economy, products, consumer, busines — DocumentaciónAudiovisual, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-159164/
+the hague, the netherlands, shopping street, small street, time lapse — watchitnow, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-27999/
 
 This video explains a business. It is not financial advice. Billions & Bulls is not affiliated with any company mentioned.
 

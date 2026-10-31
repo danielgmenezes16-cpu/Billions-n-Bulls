@@ -409,7 +409,22 @@ U.S. Bureau of Labor Statistics, CPI history: https://www.bls.gov/cpi/
 Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
 
 Photos and footage
-[gerar com: python3 scripts/imagens/escolher.py ep04 --creditos]
+Eastern Bank of Alabama, 201 Broad Street, Eufaula, Barbour County, AL — historic american buildings survey, No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/al0016/
+Pioneer Courthouse is a federal courthouse in Portland, Oregon — highsmith, carol m., No known restrictions (Library of Congress) (Library of Congress): http://www.loc.gov/item/2011636160/
+billet, bank, debt, pen — andrepazleal, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-13477/
+bread machine, household appliances, home appliances, bread machine, h — TonyZhu, Pixabay Content License (Pixabay): https://pixabay.com/photos/bread-machine-household-appliances-6047/
+city, architecture, buildings, skyscraper, urban, skyline, cityscape,  — DesignScape, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-42489/
+clouds, home from a bar, house — Sid74, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-9741/
+coins, currency, euro, money, finance, inflation, growth, business, sa — NickyPe, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-138315/
+keyboard, typing, writing, notebook, computer, technology, laptop, bus — Coverr-Free-Footage, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-10822/
+man, phone, smartphone, mobile — u_etjkkdz15b, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-142641/
+money, income, salary, dollars, counting cash, payment, counting, fina — Hassas_Arts, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-50622/
+new york city skyline, urban development, architectural innovation, fi — MrWashingt0n, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-348020/
+piggy bank, world savings day, coins, dollar bill, paper money, money, — NickyPe, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-93550/
+profits, stock market, money, gold, business, graph, growth, disagram, — tommyvideo, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-5372/
+retail, grocery, supermarket, store, food, shopping, market, shop, cus — Tariq786, Pixabay Content License (Pixabay): https://pixabay.com/photos/retail-grocery-supermarket-store-1424041/
+smartphone, iphone, typing, writing, ios, app, mobile, device, modern, — Coverr-Free-Footage, Pixabay Content License (Pixabay): https://pixabay.com/videos/id-3176/
+u s dollar, dollar, money, banknote, one dollar, currency, note, usa,  — 422737, Pixabay Content License (Pixabay): https://pixabay.com/photos/u-s-dollar-dollar-money-banknote-462373/
 
 This video explains a business. It is not financial advice, and it is not a recommendation of any bank or account. Billions & Bulls is not affiliated with any company mentioned.
 
