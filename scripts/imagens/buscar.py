@@ -116,6 +116,8 @@ def pixabay(q, n, video=False):
     d = get_json(base + urllib.parse.urlencode(params))
     out = []
     for h in d.get('hits', []):
+        if 'ai generated' in h.get('tags', '').lower():
+            continue  # nada de imagem gerada por IA: o canal usa só foto e vídeo reais
         if video:
             v = h['videos'].get('large') or h['videos'].get('medium')
             thumb = v.get('thumbnail') or h['videos']['tiny'].get('thumbnail')

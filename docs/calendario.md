@@ -11,9 +11,9 @@
 | 24/11 | 3 · How a 167-Year-Old Bank Died in a Weekend | Colapso + Europa | Supremo suíço sobre os AT1 · semana do Thanksgiving nos EUA (público em casa) |
 | 01/12 | 4 · Why Your Bank Pays You Almost Nothing | Bolso | Taxas (FDIC, bancos, Capital One) e a reunião do Fed de dezembro |
 | 08/12 | 5 · How One Man Lost $20 Billion in Two Days | Colapso | Recurso de Hwang · trocar o teaser pelo ep. 6 |
-| 15/12 | 6 · (a definir: reserva "colapso" ou "bolso") | | |
-| 22/12 | 7 · (a definir) | | Semana de Natal: views costumam cair; dá para usar o tema mais "evergreen" |
-| 29/12 | 8 · (a definir) | | |
+| 15/12 | 6 · Who Pays When You Buy Now, Pay Later? | Bolso | Números novos de Klarna/Affirm; temporada de compras em andamento |
+| 22/12 | 7 · Where Did Wirecard's $2 Billion Go? | Colapso + Europa | Andamento do julgamento de Markus Braun |
+| 29/12 | 8 · A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro (evergreen) | Semana de festas: tema que não envelhece |
 | 05/01 | 9 | | |
 | 12/01 | 10 | | Com ~10 vídeos: media kit e primeiros contatos de patrocínio (`docs/renda.md`) |
 | 19/01 | 11 | | |

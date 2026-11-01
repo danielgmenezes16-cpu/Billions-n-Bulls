@@ -11,6 +11,9 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 3 | How a 167-Year-Old Bank Died in a Weekend | Aguarda aprovação | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | — |
 | 4 | Why Your Bank Pays You Almost Nothing | Aguarda aprovação | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | — |
 | 5 | How One Man Lost $20 Billion in Two Days | Aguarda aprovação | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | — |
+| 6 | Who Pays When You Buy Now, Pay Later? | Aguarda aprovação | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | — |
+| 7 | Where Did Wirecard's $2 Billion Go? | A escrever | — | — | — | — |
+| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | A escrever | — | — | — | — |
 
 - Roteiros completos (pacote, blocos do Dark Planner, plano visual, checagem, descrição com créditos): `roteiros/rascunhos/epNN-*.md`. Texto-fonte de cada roteiro: `roteiros/rascunhos/fonte/epNN-roteiro.txt` (é dele que as cenas leem as frases).
 - Thumbnails (3 por episódio, Daniel ainda não escolheu): `roteiros/rascunhos/thumbs/` e `scripts/remotion/src/thumbs/EpThumbs.tsx`.
@@ -19,7 +22,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 ## Quando chegar a narração de um episódio
 
 1. Salvar os 6 blocos em `media/epNN/epNN-A.mp3` … `epNN-F.mp3`.
-2. `python3 scripts/montar_episodio.py epNN --trilha spark` (eps. 2 e 4) ou `--trilha heist` (eps. 3 e 5).
+2. `python3 scripts/montar_episodio.py epNN --trilha spark` (eps. 2, 4, 6 e 8) ou `--trilha heist` (eps. 3, 5 e 7).
 3. Mandar ao Daniel o resumo de `media/epNN/checagem-audio.md` (frases puladas ou trocadas).
 4. `… --render` → `out/epNN-final.mp4` + `roteiros/prontos/epNN.srt`.
 
@@ -39,7 +42,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Próximas tarefas do Claude (sem depender do Daniel)
 
-- Roteiros dos eps. 6 a 8, a partir da reserva em `ideias/fila.md` (alternar bolso e colapso). Sugestão: fazer depois que o Daniel aprovar os atuais, para não acumular texto sem revisão.
+- Roteiros e telas dos eps. 7 (Wirecard) e 8 (nota de US$ 100), no mesmo padrão do ep. 6.
 - Media kit quando houver ~10 vídeos (`docs/renda.md`).
 
 ## Ambiente (o que se perde quando o contêiner reinicia)

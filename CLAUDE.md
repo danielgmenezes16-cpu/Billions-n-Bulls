@@ -51,7 +51,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - Cada vídeo com roteiro, pesquisa e telas próprias — nunca template repetido (política de "conteúdo inautêntico").
 - Nada sobre a Ford nem informação interna dela.
 - Licença de toda imagem e música conferida item a item; fontes sempre na descrição.
-- B-roll (fotos e vídeos) só pelo `scripts/imagens/` (buscar.py → folha de contato → escolher.py): aceita CC0, domínio público, CC BY, "No known restrictions" da Library of Congress e Pixabay; nada de BY-SA, NC, ND nem Google Imagens. Revisar cada foto: sem logo de empresa, sem pessoa identificável em destaque.
+- B-roll (fotos e vídeos) só pelo `scripts/imagens/` (buscar.py → folha de contato → escolher.py): aceita CC0, domínio público, CC BY, "No known restrictions" da Library of Congress e Pixabay; nada de BY-SA, NC, ND nem Google Imagens. Revisar cada foto: sem logo de empresa, sem pessoa identificável em destaque, nada marcado como gerado por IA.
 
 ## Identidade visual (resumo)
 - Papel `#E0E0D7`, grade `#BDBDB6`, texto `#585652`, apoio `#7B7A73`, objetos `#2E2D2B`, destaque dourado `#D4AF37` (uma cor de destaque por quadro), tensão em azul-marinho `#0B1A2E`.

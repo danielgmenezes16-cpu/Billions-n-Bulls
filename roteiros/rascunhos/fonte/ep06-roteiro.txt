@@ -1,0 +1,258 @@
+Who Pays When You Buy Now, Pay Later?
+
+<break time="1.0s" />
+
+Cyber Monday, 2025. In a single day, Americans spent more than one billion dollars online with buy now, pay later. A record.
+
+<break time="1.0s" />
+
+Pay in four. No interest. No fees, if you pay on time. It sounds like a loan where nobody gets paid.
+
+<break time="1.0s" />
+
+But one of these companies went public in 2025 at a value of about fifteen billion dollars. Somebody is paying for all of this. So we're going to follow one purchase, and find out who.
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – Four Little Payments]
+Say you want a four-hundred-dollar jacket. At checkout, you see a new button. Pay in four.
+
+<break time="1.0s" />
+
+You pay one hundred dollars today. Then one hundred dollars every two weeks, three more times. Six weeks later, the jacket is paid off.
+No interest. No credit card. Often, just a quick check that takes a few seconds.
+
+<break time="1.0s" />
+
+The idea isn't new. Stores have sold things in installments for more than a century.
+In the 1850s, the Singer company sold its sewing machines for a few dollars a month. Families who could never pay the full price at once suddenly could. Furniture, pianos and cars followed.
+What's new is the speed. And the scale.
+
+<break time="1.0s" />
+
+The modern version took off in the 2010s, with companies like Klarna from Sweden, Afterpay from Australia, and Affirm from the United States.
+In 2021, the payments company Square, now called Block, agreed to buy Afterpay in a deal reportedly worth about twenty-nine billion dollars.
+
+<break time="1.0s" />
+
+According to the Consumer Financial Protection Bureau, buy now, pay later loans in the United States went from about two billion dollars in 2019 to more than twenty-four billion in 2021.
+And it kept growing. Over the 2025 holiday season, Adobe says Americans spent a record twenty billion dollars online with buy now, pay later.
+
+<break time="1.0s" />
+
+It's not just a US thing. In the UK, the Financial Conduct Authority says almost eleven million adults used it in 2024.
+
+<break time="1.0s" />
+
+And it's not just jackets anymore.
+In a 2026 survey by LendingTree, twenty-nine percent of buy now, pay later users said they had used it to buy groceries.
+
+<break time="1.0s" />
+
+So here's the puzzle. If you pay exactly four hundred dollars for a four-hundred-dollar jacket, where does the money come from?
+The first answer is someone you never see at checkout.
+
+<break time="1.5s" />
+
+[Part 2 – The Store Pays]
+When you click pay in four, the buy now, pay later company pays the store right away. Not in four parts. All at once.
+Minus a fee.
+
+<break time="1.0s" />
+
+That fee is the heart of the business. It's called the merchant discount.
+In its 2022 report, the CFPB found that the average merchant fee was about three point four percent in 2019. As more companies joined the market, it fell to about two and a half percent by 2021. Depending on the store and the plan, it can be higher.
+
+<break time="1.0s" />
+
+On our four-hundred-dollar jacket, two and a half percent is ten dollars. Paid by the store.
+And for longer plans with zero percent interest, the store usually pays more. Someone has to cover the cost of waiting a whole year for the money. When the shopper pays no interest, that someone is often the store.
+
+<break time="1.0s" />
+
+Remember our episode on credit cards? Stores already pay to accept cards. So why would a store pay a similar fee, or a bigger one, to offer this?
+
+<break time="1.0s" />
+
+Because, according to the companies selling it, people buy more.
+Affirm tells merchants they can see much bigger orders. One figure it has used is a seventy percent lift in average order value. A Klarna executive has claimed twenty percent more sales completed at checkout.
+Those numbers come from the companies themselves. But the logic is simple. A four-hundred-dollar jacket feels a lot cheaper when the screen says one hundred.
+
+<break time="1.0s" />
+
+For Klarna, the biggest name in this market, that's where most of the money comes from. In the year before its IPO, Klarna said about three quarters of its revenue came from transaction and service fees, most of it paid by merchants.
+
+<break time="1.0s" />
+
+So in the classic pay in four, the shopper pays nothing extra. The store pays to make the sale easier.
+And just like with card fees, that cost becomes part of what the store charges everyone.
+
+<break time="1.0s" />
+
+There's also a simple competitive reason. Once one store in a market offers four easy payments, the store next door feels it has to offer them too. Nobody wants to be the only shop where a four-hundred-dollar jacket still costs four hundred dollars today.
+
+<break time="1.0s" />
+
+But the store's fee is only one part of the story. Because someone still has to hand over the four hundred dollars on day one.
+
+<break time="1.5s" />
+
+[Part 3 – Where the Money Really Comes From]
+Here's the thing about pay in four. The store gets paid today. You pay over six weeks.
+In between, someone has to put up the cash.
+
+<break time="1.0s" />
+
+Sometimes it's the company's own money. Often, it's borrowed. Lines of credit from big banks. Or investors who buy bundles of these loans, the same way investors buy bundles of mortgages.
+In the United States, many of these loans aren't even made by the app you see. They're made by partner banks in the background, and then passed on.
+
+<break time="1.0s" />
+
+That's why interest rates matter so much to this business. When rates were near zero, borrowing the cash for six weeks cost almost nothing. When rates went up, the cash in the middle became expensive. And the free part of the business got squeezed.
+
+<break time="1.0s" />
+
+Klarna went a step further. It has a banking license in Sweden, and it takes deposits from savers. Part of the money you borrow at checkout can come from someone else's savings account.
+
+<break time="1.0s" />
+
+And then there's the other half of the business. The part that isn't free.
+
+<break time="1.0s" />
+
+Not every plan is pay in four. For bigger purchases, these companies also offer longer loans. Twelve months. Twenty-four months. Sometimes longer. And those can come with interest. Affirm says its rates go up to thirty-six percent a year.
+
+<break time="1.0s" />
+
+Here's what that can look like. Take a twelve-hundred-dollar laptop, paid over twelve months at thirty percent a year. By our math, that's about two hundred dollars in interest. The same laptop, with the same button at checkout. Just a different plan.
+
+<break time="1.0s" />
+
+For Affirm, this is now the biggest part of the money.
+In its 2025 fiscal year, Affirm reported about one point six billion dollars in interest income. Its fees from merchants were about eight hundred and eighty million.
+It also earned about three hundred and eighty million dollars by selling loans to investors.
+
+<break time="1.0s" />
+
+So there are really two businesses hiding behind the same button.
+The free one, paid for by stores. And the paid one, paid for by borrowers.
+
+<break time="1.0s" />
+
+Quick thing. If you like videos that follow the money, subscribe. It's free. And you can pay for it in four installments of zero.
+
+<break time="1.5s" />
+
+[Part 4 – The People Who Pay Late]
+Now, the obvious suspect. Late fees.
+If you miss a payment, many plans charge a fee. In its 2022 report, the CFPB found typical late fees of around seven to eight dollars. Some companies charge no late fees at all.
+
+<break time="1.0s" />
+
+You might think late fees are the secret engine of the whole industry. The data says they're not.
+In a 2025 report, the CFPB looked at data from six big providers. In 2023, only about four percent of loans were charged a late fee. And late fees brought in less than one fifth of one percent of the money that went through these companies.
+
+<break time="1.0s" />
+
+Losses were going down, too. The same report found that the share of loans that were never paid back fell in 2023.
+
+<break time="1.0s" />
+
+So late fees aren't where the money is. But late payments are still a warning sign.
+In LendingTree's 2026 survey, forty-seven percent of buy now, pay later users said they had paid late at least once in the past year. Most said they were only a few days behind.
+
+<break time="1.0s" />
+
+The bigger worry is something critics call phantom debt.
+Each plan looks small. One hundred dollars here. Fifty there. But people can have several at once, with different companies. And for years, most of those loans didn't show up on credit reports. So no lender, and sometimes not even the borrower, could see the full picture.
+
+<break time="1.0s" />
+
+That's starting to change. In 2025, FICO launched new credit scores that include buy now, pay later data. Paying on time could help a score. Paying late could hurt it.
+Whether lenders actually use those new scores is up to them. But the days of completely invisible installment loans may be ending.
+
+<break time="1.0s" />
+
+To be fair, there's another side. For someone who pays on time, pay in four really can cost nothing. Compared with a credit card that charges more than twenty percent interest, it can even be the cheaper option.
+The risk isn't the price. It's how easy it is to say yes.
+
+<break time="1.5s" />
+
+[Part 5 – Rules That Came and Went]
+For years, buy now, pay later lived in a gap in the rules. It wasn't quite a credit card. It wasn't quite a traditional loan.
+
+<break time="1.0s" />
+
+In May 2024, the CFPB decided it was close enough to a credit card. It said these companies had to give users some of the same protections. Like the right to dispute a charge, and to get refunds handled properly.
+A year later, under new leadership, the CFPB withdrew that rule. And said it wouldn't issue a new one.
+
+<break time="1.0s" />
+
+The UK went the other way. Since July 15, 2026, buy now, pay later companies there must be regulated by the Financial Conduct Authority. They have to check whether customers can afford what they're borrowing.
+They also have to give clearer information up front, and help customers who fall into financial trouble. The FCA says the UK market was worth about thirteen billion pounds in 2024.
+
+<break time="1.0s" />
+
+So, depending on where you live, the same button can come with very different protections. In London, the lender has to ask if you can afford it. In New York, that's mostly up to the company.
+
+<break time="1.0s" />
+
+Meanwhile, the business kept changing.
+Even Apple tried it. Apple Pay Later launched in the United States in 2023. About a year later, Apple shut it down, and moved to offering other companies' installment plans instead.
+
+<break time="1.0s" />
+In 2021, at the height of the boom, Klarna was valued at more than forty-five billion dollars.
+When it finally went public in New York in September 2025, it was valued at about fifteen billion. A third of its old price.
+On its first day of trading, the shares still jumped about fifteen percent. The business was smaller than the hype, but it was real.
+
+<break time="1.0s" />
+
+Investors had learned something. Lending money for free is a great business when interest rates are near zero. When rates go up, the money you lend costs more. And the store's fee has to cover a lot more.
+
+<break time="1.5s" />
+
+[Part 6 – So, Who Pays?]
+Let's go back to our four-hundred-dollar jacket.
+
+<break time="1.0s" />
+
+You pay four hundred dollars. Not a cent more, if you pay on time.
+The store pays a fee, maybe ten dollars, maybe more. And that cost gets spread into its prices for everyone.
+Banks, investors and savers put up the cash, and get paid back with interest.
+And some shoppers pay late fees. But less than you'd think.
+
+<break time="1.0s" />
+
+The real money is on the other side of the button. The longer loans. The ones with interest.
+And in the hope that once you've said yes to four little payments, you'll say yes again.
+
+<break time="1.0s" />
+
+That's the quiet shift in this business. The apps don't just sit at checkout anymore. They want to be where you start shopping. A place to browse deals, track orders, and split the next purchase.
+Every time you open the app, the store's fee, and the chance of a longer loan, come with you.
+
+<break time="1.0s" />
+
+So, who pays when you buy now, pay later?
+Mostly, the store. And, through the store, everyone who shops there.
+
+<break time="1.0s" />
+
+Is that a bad deal? Not necessarily. For a careful shopper, pay in four can be a free, short loan that a credit card would charge for. For a store, it can mean more sales.
+The trouble starts when four little payments turn into twelve, across five different apps, and nobody, not even you, is keeping count.
+
+<break time="1.0s" />
+
+Buy now, pay later doesn't make things cheaper. It makes them easier to buy.
+And that's exactly what the store is paying for.
+
+<break time="1.5s" />
+
+Next time, we follow the money behind one of Europe's biggest frauds. A German payments company that said it had almost two billion euros in the bank. It didn't.
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.

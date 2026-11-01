@@ -247,7 +247,46 @@ const E5C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C};
+
+// ---------------- Ep. 6 — Buy now, pay later ----------------
+const E6A = () => (
+	<AbsoluteFill>
+		<Background id="t6A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['WHO', 'PAYS?']} size={200} x={56} y={150} mark={1} sub="PAY IN 4, NO INTEREST" />
+		<Bars x={790} base={560} maxH={240} bw={78} gap={22} dot={false}
+			bars={[{label: '$100', value: 100, display: ''}, {label: '$100', value: 100, display: ''}, {label: '$100', value: 100, display: ''}, {label: '$100', value: 100, display: '', gold: true}]} />
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<path d="M 1129 300 C 1150 230, 1120 170, 1080 130" fill="none" stroke={GOLD} strokeWidth={8} strokeLinecap="round" strokeDasharray="4 16" />
+			<circle cx={1070} cy={118} r={18} fill={GOLD} />
+			<text x={1060} y={84} fontFamily={FONT} fontWeight={900} fontSize={40} fill={DARK} textAnchor="end">STORE −$10</text>
+		</svg>
+		<Vignette />
+	</AbsoluteFill>
+);
+const E6B = () => (
+	<AbsoluteFill>
+		<Background id="t6B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['NOT', 'FREE']} size={220} x={56} y={150} mark={1} sub="AFFIRM, FISCAL 2025" />
+		<Bars x={800} base={560} maxH={340} bw={150} gap={60}
+			bars={[{label: 'MERCHANT FEES', value: 0.88, display: '$0.9B'}, {label: 'INTEREST', value: 1.61, display: '$1.6B', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E6C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t6C" />
+		<div style={{position: 'absolute', left: 60, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 420, lineHeight: 1, letterSpacing: -20,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$20B
+		</div>
+		<Words lines={['HOLIDAY', 'LOAN']} size={120} x={70} y={440} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];
