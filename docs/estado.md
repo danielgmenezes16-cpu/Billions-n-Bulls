@@ -6,7 +6,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 | Ep. | Título | Roteiro | Telas (Remotion) | B-roll | Narração | Vídeo final |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Robinhood Is Free. So Who's Paying? | Pronto | Pronto | — (só animação) | Feita | Render entregue; **aguarda ajustes do Daniel** |
+| 1 | Robinhood Is Free. So Who's Paying? | Pronto | Pronto | — (só animação) | Feita | **Enviado e agendado para 17/11, 14h**; faltam as thumbs (verificação) |
 | 2 | Who Really Gets Paid When You Tap Your Card? | Aguarda aprovação | Pronto (`src/ep02`) | Completo (26 itens) | **Falta** | — |
 | 3 | How a 167-Year-Old Bank Died in a Weekend | Aguarda aprovação | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | — |
 | 4 | Why Your Bank Pays You Almost Nothing | Aguarda aprovação | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | — |
@@ -28,7 +28,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Coisas que vencem (checar antes de publicar)
 
-- Ep. 2: decisão final do acordo das taxas de cartão (audiência em 16/11/2026).
+- Ep. 2 (sai 24/11): decisão final do acordo das taxas de cartão (audiência em 16/11/2026). O Daniel gera os blocos A–D e F antes; o bloco E (Parte 5) só depois de conferir o resultado. Blocos: `roteiros/rascunhos/ep02-blocos-dark-planner.txt`.
 - Ep. 3: Supremo suíço sobre os títulos AT1.
 - Ep. 4: taxas (FDIC, grandes bancos, Capital One) e a reunião do Fed de dezembro.
 - Ep. 5: recurso de Bill Hwang; trocar o teaser do fechamento pelo ep. 6.
@@ -38,7 +38,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 1. Aprovar os roteiros dos eps. 2 a 5 e gerar as narrações no Dark Planner.
 2. Escolher a thumb de cada episódio.
 3. Ajustes do corte final do ep. 1.
-4. Configurar o canal (verificação por telefone, banner e About em `docs/canal-textos.md` e `docs/arte-canal/`). Estreia sugerida: terça, 10/11, 14h de Brasília (`docs/calendario.md`).
+4. Configurar o canal (verificação por telefone, banner e About em `docs/canal-textos.md` e `docs/arte-canal/`). Estreia: terça, 17/11, 14h de Brasília (`docs/calendario.md`).
 
 ## Próximas tarefas do Claude (sem depender do Daniel)
 

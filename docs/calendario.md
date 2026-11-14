@@ -2,22 +2,21 @@
 
 30/10/2026. Um vídeo longo por semana, **terça ao meio-dia de Nova York (14h de Brasília**, horário de verão dos EUA acabou em 1º/11). Sem Shorts por enquanto (decisão do Daniel).
 
-**Estreia sugerida: terça, 10/11.** Dá a semana de 2 a 9/11 para configurar e aquecer o canal (verificação por telefone, banner, About, padrões de upload, 3 a 7 dias de uso normal). Estrear em 03/11 é possível, mas apertado.
+**Estreia: terça, 17/11** (vídeo enviado e agendado em 14/11; faltam só as thumbs, que dependem da verificação por telefone). Dá a semana de 2 a 9/11 para configurar e aquecer o canal (verificação por telefone, banner, About, padrões de upload, 3 a 7 dias de uso normal). Estrear em 03/11 é possível, mas apertado.
 
 | Data (terça) | Episódio | Papel | Checar na semana da publicação |
 | --- | --- | --- | --- |
-| 10/11 | 1 · Robinhood Is Free. So Who's Paying? | Estreia (bolso) | Ajustes do Daniel no corte final |
-| 17/11 | 2 · Who Really Gets Paid When You Tap Your Card? | Bolso | **Audiência final do acordo das taxas em 16/11**: se o juiz decidir, regenerar 1 frase da Parte 5 |
-| 24/11 | 3 · How a 167-Year-Old Bank Died in a Weekend | Colapso + Europa | Supremo suíço sobre os AT1 · semana do Thanksgiving nos EUA (público em casa) |
-| 01/12 | 4 · Why Your Bank Pays You Almost Nothing | Bolso | Taxas (FDIC, bancos, Capital One) e a reunião do Fed de dezembro |
-| 08/12 | 5 · How One Man Lost $20 Billion in Two Days | Colapso | Recurso de Hwang · trocar o teaser pelo ep. 6 |
-| 15/12 | 6 · Who Pays When You Buy Now, Pay Later? | Bolso | Números novos de Klarna/Affirm; temporada de compras em andamento |
-| 22/12 | 7 · Where Did Wirecard's $2 Billion Go? | Colapso + Europa | Andamento do julgamento de Markus Braun |
-| 29/12 | 8 · A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro (evergreen) | Semana de festas: tema que não envelhece |
-| 05/01 | 9 | | |
-| 12/01 | 10 | | Com ~10 vídeos: media kit e primeiros contatos de patrocínio (`docs/renda.md`) |
-| 19/01 | 11 | | |
-| 26/01 | 12 | | **Última chance** de pedir o nível 2 do YPP antes de 1º/02 (se tiver 1.000 inscritos e 4.000 h) |
+| 17/11 | 1 · Robinhood Is Free. So Who's Paying? | Estreia (bolso) | Thumbs liberadas após a verificação por telefone |
+| 24/11 | 2 · Who Really Gets Paid When You Tap Your Card? | Bolso | **Audiência final do acordo das taxas em 16/11**: gerar o bloco E só depois de conferir o resultado |
+| 01/12 | 3 · How a 167-Year-Old Bank Died in a Weekend | Colapso + Europa | Supremo suíço sobre os AT1 |
+| 08/12 | 4 · Why Your Bank Pays You Almost Nothing | Bolso | Taxas (FDIC, bancos, Capital One) e a reunião do Fed de dezembro |
+| 15/12 | 5 · How One Man Lost $20 Billion in Two Days | Colapso | Recurso de Hwang · trocar o teaser pelo ep. 6 |
+| 22/12 | 6 · Who Pays When You Buy Now, Pay Later? | Bolso | Números novos de Klarna/Affirm; fim da temporada de compras |
+| 29/12 | 7 · Where Did Wirecard's $2 Billion Go? | Colapso + Europa | Andamento do julgamento de Markus Braun |
+| 05/01 | 8 · A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro (evergreen) | |
+| 12/01 | 9 | | |
+| 19/01 | 10 | | Com ~10 vídeos: media kit e primeiros contatos de patrocínio (`docs/renda.md`) |
+| 26/01 | 11 | | **Última chance** de pedir o nível 2 do YPP antes de 1º/02 (se tiver 1.000 inscritos e 4.000 h) |
 
 ## Semana-tipo (para cada episódio)
 
