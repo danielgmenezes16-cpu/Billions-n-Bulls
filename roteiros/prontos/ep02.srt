@@ -1,0 +1,1328 @@
+1
+00:00:00,333 --> 00:00:03,533
+Who Really Gets Paid When
+You Tap Your Card?
+
+2
+00:00:03,693 --> 00:00:05,533
+You tap your card.
+
+3
+00:00:05,533 --> 00:00:07,853
+Two seconds later, it beeps.
+
+4
+00:00:08,173 --> 00:00:09,173
+Done.
+
+5
+00:00:09,485 --> 00:00:13,005
+But in those two seconds, your money
+started a trip through at least three
+
+6
+00:00:13,005 --> 00:00:14,045
+companies.
+
+7
+00:00:14,045 --> 00:00:16,313
+And every one of them takes a cut.
+
+8
+00:00:16,633 --> 00:00:20,633
+Together, those cuts cost American stores
+more than one hundred and ninety-eight
+
+9
+00:00:20,633 --> 00:00:22,073
+billion dollars a year.
+
+10
+00:00:22,073 --> 00:00:24,073
+Some of it pays for your rewards points.
+
+11
+00:00:24,073 --> 00:00:25,073
+And some of it...
+
+12
+00:00:24,793 --> 00:00:27,942
+is paid by people who never
+used a card at all.
+
+13
+00:00:28,262 --> 00:00:30,742
+So we're going to follow
+one single purchase.
+
+14
+00:00:30,742 --> 00:00:32,822
+One hundred dollars, cent by cent.
+
+15
+00:00:32,822 --> 00:00:34,662
+This is Billions and Bulls.
+
+16
+00:00:34,662 --> 00:00:36,582
+Let's follow the money.
+
+17
+00:00:37,222 --> 00:00:39,620
+Part 1 The Two-Second Trip
+
+18
+00:00:39,860 --> 00:00:43,300
+Say you spend one hundred dollars at a
+store, and you pay with a rewards
+
+19
+00:00:43,300 --> 00:00:44,300
+credit card.
+
+20
+00:00:44,180 --> 00:00:45,860
+You don't even swipe anymore.
+
+21
+00:00:46,660 --> 00:00:51,700
+In September 2025, Visa says, four out of
+five of its in-person payments
+
+22
+00:00:51,700 --> 00:00:54,180
+around the world were made with a tap.
+
+23
+00:00:54,926 --> 00:00:58,926
+The moment you tap, the card reader sends
+a message to the store's bank,
+
+24
+00:00:58,926 --> 00:01:01,406
+or to the payment company the store uses.
+
+25
+00:01:01,406 --> 00:01:04,313
+People in the industry call
+it the acquirer.
+
+26
+00:01:04,473 --> 00:01:07,753
+The acquirer passes the message
+to the card network.
+
+27
+00:01:07,753 --> 00:01:09,513
+In this case, Visa.
+
+28
+00:01:09,513 --> 00:01:12,953
+And Visa sends it to the bank
+that gave you the card.
+
+29
+00:01:12,953 --> 00:01:14,311
+The issuer.
+
+30
+00:01:14,711 --> 00:01:16,871
+Your bank checks two things.
+
+31
+00:01:16,871 --> 00:01:18,311
+Is this really you?
+
+32
+00:01:18,311 --> 00:01:21,031
+And do you have the money, or
+the credit, to pay?
+
+33
+00:01:21,031 --> 00:01:24,871
+If the answer is yes, the approval
+races all the way back.
+
+34
+00:01:24,871 --> 00:01:25,871
+Beep.
+
+35
+00:01:26,762 --> 00:01:29,162
+Now multiply that by the whole planet.
+
+36
+00:01:29,162 --> 00:01:34,522
+In its 2025 fiscal year, Visa says its
+own network processed two hundred
+
+37
+00:01:34,522 --> 00:01:36,559
+and fifty-eight billion transactions.
+
+38
+00:01:36,719 --> 00:01:40,319
+That's roughly eight thousand every
+single second, day and night.
+
+39
+00:01:41,599 --> 00:01:44,159
+But the beep is only a promise.
+
+40
+00:01:44,159 --> 00:01:45,731
+No money has moved yet.
+
+41
+00:01:45,970 --> 00:01:50,530
+That happens later, usually overnight, in
+two steps the industry calls clearing
+
+42
+00:01:50,530 --> 00:01:51,530
+and settlement.
+
+43
+00:01:51,490 --> 00:01:54,417
+The store's bank sends in
+the day's purchases.
+
+44
+00:01:54,577 --> 00:01:56,417
+The banks settle up through Visa.
+
+45
+00:01:56,417 --> 00:02:00,177
+And only then does money land
+in the store's account.
+
+46
+00:02:00,177 --> 00:02:01,177
+And here's the thing.
+
+47
+00:02:01,137 --> 00:02:03,137
+It isn't your one hundred dollars.
+
+48
+00:02:03,137 --> 00:02:05,967
+Your bank sends the money, minus a fee.
+
+49
+00:02:06,127 --> 00:02:08,767
+Visa charges its own fees along the way.
+
+50
+00:02:08,767 --> 00:02:11,583
+And the store's payment
+company takes a cut too.
+
+51
+00:02:11,743 --> 00:02:16,143
+By the time it arrives, the store keeps
+somewhere around ninety-seven dollars.
+
+52
+00:02:16,303 --> 00:02:17,903
+With some cards, a little more.
+
+53
+00:02:17,903 --> 00:02:19,819
+With others, a little less.
+
+54
+00:02:20,219 --> 00:02:22,379
+Three dollars doesn't sound like much.
+
+55
+00:02:22,379 --> 00:02:23,419
+But it adds up.
+
+56
+00:02:23,419 --> 00:02:28,059
+In 2025, American merchants paid a record of
+more than one hundred and ninety-eight
+
+57
+00:02:28,779 --> 00:02:33,339
+billion dollars in card processing fees,
+according to the Nilson Report.
+
+58
+00:02:33,339 --> 00:02:36,059
+That's more than half a billion dollars.
+
+59
+00:02:36,059 --> 00:02:38,379
+Every single day.
+
+60
+00:02:38,379 --> 00:02:40,859
+So who ends up with all that money?
+
+61
+00:02:40,859 --> 00:02:43,463
+Let's start with the name on the card.
+
+62
+00:02:44,995 --> 00:02:47,395
+Part 2 The Toll Road
+
+63
+00:02:47,395 --> 00:02:50,835
+The story starts in 1958, in
+Fresno, California.
+
+64
+00:02:50,835 --> 00:02:54,755
+Bank of America mailed about sixty
+thousand credit cards to people who had
+
+65
+00:02:54,755 --> 00:02:55,792
+never asked for one.
+
+66
+00:02:56,032 --> 00:02:57,152
+No application.
+
+67
+00:02:57,152 --> 00:03:00,352
+The card just showed up in the
+mailbox, ready to use.
+
+68
+00:03:00,352 --> 00:03:02,352
+It was called the BankAmericard.
+
+69
+00:03:02,352 --> 00:03:06,628
+And stores that took it reportedly paid
+a fee of around six percent.
+
+70
+00:03:06,948 --> 00:03:08,788
+The launch was messy.
+
+71
+00:03:08,788 --> 00:03:11,108
+Fraud and unpaid bills piled up.
+
+72
+00:03:11,108 --> 00:03:12,628
+But the idea spread.
+
+73
+00:03:12,628 --> 00:03:17,028
+Other banks joined in, and in 1976
+the system got a new name.
+
+74
+00:03:17,028 --> 00:03:18,028
+Visa.
+
+75
+00:03:17,735 --> 00:03:21,015
+For decades, Visa was owned by
+the banks that used it.
+
+76
+00:03:21,015 --> 00:03:23,487
+Then, in 2008, it went public.
+
+77
+00:03:23,487 --> 00:03:27,647
+The IPO reportedly raised about seventeen
+point nine billion dollars, the
+
+78
+00:03:27,647 --> 00:03:30,367
+biggest in American history at the time.
+
+79
+00:03:30,367 --> 00:03:32,693
+And here's what most people
+get wrong about Visa.
+
+80
+00:03:32,853 --> 00:03:34,533
+Visa doesn't give you a credit card.
+
+81
+00:03:34,533 --> 00:03:35,813
+It doesn't lend you money.
+
+82
+00:03:35,813 --> 00:03:37,493
+It doesn't set your interest rate.
+
+83
+00:03:37,493 --> 00:03:40,213
+And it doesn't lose a cent if
+you never pay your bill.
+
+84
+00:03:40,213 --> 00:03:43,370
+Visa says so itself, in its annual report.
+
+85
+00:03:43,530 --> 00:03:45,450
+It is not a financial institution.
+
+86
+00:03:45,450 --> 00:03:48,970
+It does not issue cards, and it
+does not extend credit.
+
+87
+00:03:49,690 --> 00:03:50,730
+So what is it?
+
+88
+00:03:50,730 --> 00:03:53,299
+Think of it as a toll road for money.
+
+89
+00:03:53,619 --> 00:03:55,299
+Banks own the cars.
+
+90
+00:03:55,299 --> 00:03:57,219
+Visa owns the road.
+
+91
+00:03:57,219 --> 00:04:01,539
+And every time money drives across
+it, Visa charges a small toll.
+
+92
+00:04:01,619 --> 00:04:03,060
+The tolls are tiny.
+
+93
+00:04:03,060 --> 00:04:04,685
+But the traffic is enormous.
+
+94
+00:04:04,685 --> 00:04:09,565
+In the twelve months to September 2025,
+about fourteen point two trillion
+
+95
+00:04:09,565 --> 00:04:13,965
+dollars in payments moved on Visa's
+network, on nearly five billion Visa
+
+96
+00:04:13,965 --> 00:04:16,026
+cards and other payment credentials.
+
+97
+00:04:16,186 --> 00:04:19,706
+Visa charges banks for the volume
+they push across the road.
+
+98
+00:04:19,706 --> 00:04:22,346
+It charges for every message it processes.
+
+99
+00:04:22,346 --> 00:04:26,026
+And some of its richest tolls come from
+cross-border payments, when you
+
+100
+00:04:26,026 --> 00:04:27,336
+pay in another currency.
+
+101
+00:04:27,336 --> 00:04:31,656
+That line alone brought in more than
+fourteen billion dollars.
+
+102
+00:04:31,816 --> 00:04:32,978
+But there's a twist.
+
+103
+00:04:32,978 --> 00:04:35,138
+Visa also pays the banks.
+
+104
+00:04:35,138 --> 00:04:39,778
+Almost sixteen billion dollars last year,
+in what it calls client incentives.
+
+105
+00:04:39,778 --> 00:04:43,138
+Money to put Visa's name on more cards,
+and to keep the traffic coming.
+
+106
+00:04:44,695 --> 00:04:48,775
+Add it all up, and Visa brought in forty
+billion dollars in net revenue
+
+107
+00:04:48,775 --> 00:04:50,855
+in its 2025 fiscal year.
+
+108
+00:04:50,855 --> 00:04:53,124
+Its net income was about twenty billion.
+
+109
+00:04:53,284 --> 00:04:56,644
+Visa kept roughly half of
+everything it made as profit.
+
+110
+00:04:56,644 --> 00:04:59,844
+Spread across all those payments, that's
+roughly twenty-eight cents for
+
+111
+00:04:59,844 --> 00:05:01,834
+every hundred dollars on its network.
+
+112
+00:05:02,153 --> 00:05:06,794
+So if the store loses about three
+dollars, and Visa takes only a fraction
+
+113
+00:05:06,794 --> 00:05:07,794
+of that...
+
+114
+00:05:07,673 --> 00:05:08,953
+where does the rest go?
+
+115
+00:05:08,953 --> 00:05:10,840
+To the biggest player in this story.
+
+116
+00:05:11,080 --> 00:05:14,040
+And it's not the one whose
+name is on your card.
+
+117
+00:05:16,304 --> 00:05:19,424
+Part 3 The Fee Visa Sets, but Doesn't Keep
+
+118
+00:05:19,424 --> 00:05:21,184
+It's called the interchange fee.
+
+119
+00:05:21,184 --> 00:05:24,798
+When you pay with a card, the store's
+bank pays a fee to your bank.
+
+120
+00:05:24,958 --> 00:05:29,118
+Visa sets the default rates, and publishes
+them in a public table that runs
+
+121
+00:05:29,118 --> 00:05:30,558
+for dozens of pages.
+
+122
+00:05:30,558 --> 00:05:32,318
+But Visa doesn't keep that fee.
+
+123
+00:05:32,318 --> 00:05:34,318
+Your bank does.
+
+124
+00:05:34,318 --> 00:05:35,911
+Why does it exist at all?
+
+125
+00:05:35,911 --> 00:05:38,791
+Visa's argument is that it
+balances the system.
+
+126
+00:05:38,791 --> 00:05:40,951
+Your bank takes the risk
+that you won't pay.
+
+127
+00:05:40,951 --> 00:05:41,991
+It fights fraud.
+
+128
+00:05:41,991 --> 00:05:43,337
+It gives you time to pay.
+
+129
+00:05:43,337 --> 00:05:46,857
+And the store gets a customer who can
+spend money they don't have in their
+
+130
+00:05:46,857 --> 00:05:48,057
+pocket.
+
+131
+00:05:48,217 --> 00:05:50,702
+But the rate depends on
+the card you carry.
+
+132
+00:05:50,702 --> 00:05:54,702
+According to Visa's own rate table, for a
+purchase at a regular store, a
+
+133
+00:05:54,702 --> 00:05:57,822
+basic credit card carries a fee of
+one point four three percent,
+
+134
+00:05:58,462 --> 00:05:59,847
+plus ten cents.
+
+135
+00:06:00,007 --> 00:06:02,967
+On our hundred dollars, that's
+a dollar fifty-three.
+
+136
+00:06:02,967 --> 00:06:07,127
+A premium card like Visa Infinite can
+carry two point three percent, plus
+
+137
+00:06:07,127 --> 00:06:08,327
+ten cents.
+
+138
+00:06:08,327 --> 00:06:10,167
+Two dollars and forty cents.
+
+139
+00:06:10,167 --> 00:06:11,167
+To your bank.
+
+140
+00:06:11,289 --> 00:06:15,129
+Buy the same thing online, and the premium
+rate can go up to two point six
+
+141
+00:06:15,129 --> 00:06:16,969
+percent, plus ten cents.
+
+142
+00:06:16,969 --> 00:06:19,369
+Two dollars and seventy cents.
+
+143
+00:06:19,529 --> 00:06:22,534
+Now pay with a debit card from
+a big bank instead.
+
+144
+00:06:22,694 --> 00:06:27,334
+In the United States, that fee is capped
+by law at twenty-one cents, plus
+
+145
+00:06:27,334 --> 00:06:31,035
+five hundredths of a percent, plus
+one cent for fraud prevention.
+
+146
+00:06:31,275 --> 00:06:35,115
+On the same hundred dollars, that's
+about twenty-seven cents.
+
+147
+00:06:35,355 --> 00:06:36,475
+Same store.
+
+148
+00:06:36,475 --> 00:06:38,075
+Same hundred dollars.
+
+149
+00:06:38,075 --> 00:06:41,675
+About nine times more money for the bank,
+just because of the card in your
+
+150
+00:06:41,675 --> 00:06:42,675
+wallet.
+
+151
+00:06:42,875 --> 00:06:46,475
+So why would a bank want you to
+carry the expensive card?
+
+152
+00:06:46,475 --> 00:06:49,195
+Because that fee is what
+pays for the perks.
+
+153
+00:06:49,195 --> 00:06:50,195
+The points.
+
+154
+00:06:50,075 --> 00:06:51,075
+The cash back.
+
+155
+00:06:51,131 --> 00:06:52,131
+The travel miles.
+
+156
+00:06:52,091 --> 00:06:53,371
+The airport lounges.
+
+157
+00:06:53,371 --> 00:06:57,451
+Your bank collects more from the store,
+and hands some of it back to you
+
+158
+00:06:57,451 --> 00:06:58,811
+as rewards.
+
+159
+00:06:58,811 --> 00:07:01,804
+The more you spend, the more it collects.
+
+160
+00:07:01,963 --> 00:07:06,203
+So banks compete hard for the
+people who spend the most.
+
+161
+00:07:06,204 --> 00:07:10,043
+That's why the cards with the best
+rewards are usually the ones that cost
+
+162
+00:07:10,043 --> 00:07:11,163
+stores the most.
+
+163
+00:07:11,163 --> 00:07:12,909
+And the store can't see that coming.
+
+164
+00:07:13,069 --> 00:07:16,429
+The card is in your pocket until
+the very last second.
+
+165
+00:07:16,669 --> 00:07:17,709
+Quick thing.
+
+166
+00:07:17,709 --> 00:07:20,909
+If you like videos that follow
+the money, subscribe.
+
+167
+00:07:20,909 --> 00:07:22,109
+It costs nothing.
+
+168
+00:07:22,109 --> 00:07:23,773
+And unlike your rewards points...
+
+169
+00:07:23,932 --> 00:07:26,732
+nobody else is paying for it.
+
+170
+00:07:27,708 --> 00:07:30,908
+Part 4 The People Who Pay Without Swiping
+
+171
+00:07:30,908 --> 00:07:32,668
+So the store pays the fee.
+
+172
+00:07:32,668 --> 00:07:34,108
+But who pays the store?
+
+173
+00:07:34,108 --> 00:07:35,963
+Stores have a few options.
+
+174
+00:07:36,123 --> 00:07:37,123
+In most U.S.
+
+175
+00:07:37,003 --> 00:07:39,963
+states, they're allowed to add a
+surcharge for credit cards.
+
+176
+00:07:39,963 --> 00:07:43,083
+Under Visa's rules, it's
+capped at three percent.
+
+177
+00:07:43,083 --> 00:07:46,203
+Some gas stations do it, and
+give you a cash price.
+
+178
+00:07:46,203 --> 00:07:47,804
+But most stores don't.
+
+179
+00:07:47,964 --> 00:07:49,884
+Surcharges annoy customers.
+
+180
+00:07:49,884 --> 00:07:53,244
+So instead, they raise their
+prices a little...
+
+181
+00:07:53,244 --> 00:07:54,764
+for everyone.
+
+182
+00:07:55,427 --> 00:07:58,467
+And everyone includes people
+paying with cash.
+
+183
+00:07:58,467 --> 00:08:01,107
+And people paying with a basic debit card.
+
+184
+00:08:01,107 --> 00:08:05,128
+They pay the same higher price, and
+they get no points back.
+
+185
+00:08:05,528 --> 00:08:10,408
+In 2010, economists at the Federal Reserve
+Bank of Boston tried to measure
+
+186
+00:08:10,408 --> 00:08:12,328
+how big that hidden transfer is.
+
+187
+00:08:12,328 --> 00:08:16,488
+They estimated that, on average, each
+household paying with cash was paying
+
+188
+00:08:16,488 --> 00:08:19,768
+one hundred and forty-nine
+dollars a year to card users.
+
+189
+00:08:19,768 --> 00:08:22,865
+And each card-paying household was
+receiving one thousand, one hundred and
+
+190
+00:08:22,865 --> 00:08:23,865
+thirty-three dollars
+
+191
+00:08:24,408 --> 00:08:26,108
+a year from cash users.
+
+192
+00:08:26,428 --> 00:08:30,668
+They also estimated that about
+seventy-nine percent of banks' revenue from
+
+193
+00:08:30,668 --> 00:08:34,734
+credit card merchant fees came,
+indirectly, from cash payers.
+
+194
+00:08:34,894 --> 00:08:38,174
+And the money flowed from poorer
+households to richer ones.
+
+195
+00:08:38,174 --> 00:08:41,534
+The lowest-income households paid
+about twenty-one dollars a year.
+
+196
+00:08:41,534 --> 00:08:45,539
+The highest-income households received
+about seven hundred and fifty.
+
+197
+00:08:45,859 --> 00:08:50,899
+That study is from 2010, and some payments
+experts dispute its assumptions.
+
+198
+00:08:50,899 --> 00:08:53,259
+But newer research points the same way.
+
+199
+00:08:53,259 --> 00:08:57,979
+A 2023 study published by the Federal
+Reserve estimated that rewards cards
+
+200
+00:08:57,979 --> 00:09:01,019
+redistribute about fifteen
+billion dollars a year.
+
+201
+00:09:01,019 --> 00:09:04,059
+From less educated people to
+more educated ones.
+
+202
+00:09:04,059 --> 00:09:07,339
+And from poorer areas to richer ones.
+
+203
+00:09:07,659 --> 00:09:09,419
+There's a second split, too.
+
+204
+00:09:09,419 --> 00:09:12,619
+Inside the group of people who
+do use credit cards.
+
+205
+00:09:12,619 --> 00:09:16,299
+The people who gain the most are the ones
+who pay their bill in full every
+
+206
+00:09:16,299 --> 00:09:17,299
+month.
+
+207
+00:09:17,131 --> 00:09:20,011
+They collect the points, and never
+pay a cent of interest.
+
+208
+00:09:20,011 --> 00:09:23,611
+The ones who carry a balance end up paying
+more in interest than they ever
+
+209
+00:09:23,611 --> 00:09:25,531
+get back in rewards.
+
+210
+00:09:25,919 --> 00:09:28,879
+To be fair, cards aren't just a cost.
+
+211
+00:09:28,879 --> 00:09:31,199
+They protect you from fraud.
+
+212
+00:09:31,199 --> 00:09:34,661
+They let stores skip the risk of
+handling piles of cash.
+
+213
+00:09:34,821 --> 00:09:39,381
+And the industry argues that cards help
+stores sell more, which pays for
+
+214
+00:09:39,381 --> 00:09:41,061
+part of the fee.
+
+215
+00:09:41,061 --> 00:09:42,581
+But the points?
+
+216
+00:09:42,581 --> 00:09:44,581
+Those were never free.
+
+217
+00:09:46,165 --> 00:09:48,245
+Part 5 The Twenty-Year Fight
+
+218
+00:09:48,245 --> 00:09:51,925
+Stores have been fighting these
+fees for a long time.
+
+219
+00:09:51,925 --> 00:09:57,755
+In 2005, merchants filed a giant class
+action against Visa, Mastercard and
+
+220
+00:09:57,755 --> 00:09:58,755
+the big banks.
+
+221
+00:09:58,635 --> 00:10:02,476
+More than twenty years later, it
+still isn't fully over.
+
+222
+00:10:02,476 --> 00:10:07,436
+In 2012, the two sides agreed on a
+settlement worth about seven billion
+
+223
+00:10:07,436 --> 00:10:08,436
+dollars.
+
+224
+00:10:08,591 --> 00:10:11,471
+An appeals court threw it out in 2016.
+
+225
+00:10:11,471 --> 00:10:15,311
+A second deal, for at least five and a
+half billion dollars, was approved
+
+226
+00:10:15,311 --> 00:10:16,671
+in 2019.
+
+227
+00:10:16,671 --> 00:10:17,971
+That covered the money.
+
+228
+00:10:18,211 --> 00:10:20,771
+The fight over the rules kept going.
+
+229
+00:10:20,771 --> 00:10:25,491
+Meanwhile, in 2010, Congress stepped
+in, but only for debit cards.
+
+230
+00:10:25,491 --> 00:10:29,688
+The Durbin Amendment led to the cap we
+saw earlier, twenty-one cents plus
+
+231
+00:10:29,688 --> 00:10:31,528
+a little, for big banks.
+
+232
+00:10:31,528 --> 00:10:33,928
+Credit cards were left alone.
+
+233
+00:10:34,248 --> 00:10:36,787
+And here's where the money
+found a side door.
+
+234
+00:10:36,947 --> 00:10:41,187
+The cap only applies to banks with more
+than ten billion dollars in assets.
+
+235
+00:10:41,187 --> 00:10:44,387
+Smaller banks can still charge
+the old, higher rates.
+
+236
+00:10:44,387 --> 00:10:47,878
+So a whole new kind of company
+grew up around that gap.
+
+237
+00:10:48,118 --> 00:10:50,949
+App-based banks that partner
+with small banks.
+
+238
+00:10:51,189 --> 00:10:56,869
+Chime, for example, said in its 2025 IPO
+filing that debit card interchange
+
+239
+00:10:56,869 --> 00:10:59,429
+made up about half of its revenue.
+
+240
+00:11:00,132 --> 00:11:02,132
+In 2024, the U.S.
+
+241
+00:11:02,132 --> 00:11:06,772
+Justice Department sued Visa, accusing it
+of illegally monopolizing debit
+
+242
+00:11:06,772 --> 00:11:07,772
+payments.
+
+243
+00:11:07,588 --> 00:11:10,308
+The government said more than
+sixty percent of U.S.
+
+244
+00:11:10,308 --> 00:11:14,468
+debit transactions run on Visa's network,
+and that Visa collects more than
+
+245
+00:11:14,468 --> 00:11:17,508
+seven billion dollars a year
+in fees from them.
+
+246
+00:11:17,508 --> 00:11:20,348
+Visa denies it, and is fighting the case.
+
+247
+00:11:20,348 --> 00:11:24,908
+But in 2025, a judge
+refused to throw it out.
+
+248
+00:11:24,908 --> 00:11:29,323
+Back in the big merchant case, a judge
+rejected a new settlement in 2024,
+
+249
+00:11:29,563 --> 00:11:31,323
+saying it didn't go far enough.
+
+250
+00:11:31,323 --> 00:11:32,683
+So they tried again.
+
+251
+00:11:32,683 --> 00:11:37,825
+In June 2026, a federal judge gave
+preliminary approval to another deal.
+
+252
+00:11:38,064 --> 00:11:42,064
+It would cut credit card interchange rates
+by a tenth of a percentage point,
+
+253
+00:11:42,064 --> 00:11:43,265
+for five years.
+
+254
+00:11:43,265 --> 00:11:47,184
+It would cap the rate on standard credit
+cards at one point two five percent,
+
+255
+00:11:47,184 --> 00:11:48,184
+for eight years.
+
+256
+00:11:48,336 --> 00:11:51,776
+And it would let stores refuse
+some premium cards.
+
+257
+00:11:51,776 --> 00:11:55,188
+A tenth of a percentage point.
+
+258
+00:11:55,188 --> 00:11:57,828
+On our hundred dollars, that's ten cents.
+
+259
+00:11:57,828 --> 00:12:01,989
+The premium card goes from two dollars
+forty to two dollars thirty.
+
+260
+00:12:01,989 --> 00:12:05,441
+Some of the biggest retailers
+objected that it's far too little.
+
+261
+00:12:05,441 --> 00:12:10,001
+As this video was made, the deal
+still needed final approval.
+
+262
+00:12:10,001 --> 00:12:11,001
+Part 6 So, Who Pays for Your Points?
+
+263
+00:12:10,012 --> 00:12:11,012
+For a very different answer,
+look across the Atlantic.
+
+264
+00:12:10,023 --> 00:12:11,023
+In 2015, the European Union
+capped interchange fees.
+
+265
+00:12:10,034 --> 00:12:11,034
+Point three percent on
+consumer credit cards.
+
+266
+00:12:10,043 --> 00:12:11,043
+Point two percent on debit cards.
+
+267
+00:12:10,051 --> 00:12:11,051
+On a hundred-euro purchase, that's
+thirty cents for the bank.
+
+268
+00:12:10,064 --> 00:12:11,064
+Not two dollars and forty.
+
+269
+00:12:10,071 --> 00:12:11,071
+A study commissioned by the European
+Commission found that interchange on
+
+270
+00:12:10,085 --> 00:12:11,085
+consumer cards dropped by about
+thirty-five percent.
+
+271
+00:12:10,095 --> 00:12:11,095
+More than two billion euros a year
+that stayed with stores.
+
+272
+00:12:10,109 --> 00:12:11,109
+And with fees capped that low, banks have
+far less money to hand back as
+
+273
+00:12:10,129 --> 00:12:11,129
+points.
+
+274
+00:12:10,130 --> 00:12:11,130
+In the UK, some banks reportedly dropped
+their rewards cards before the
+
+275
+00:12:10,146 --> 00:12:11,146
+cap even took effect.
+
+276
+00:12:10,151 --> 00:12:11,151
+So Europe made a trade.
+
+277
+00:12:10,158 --> 00:12:11,158
+Cheaper fees for stores.
+
+278
+00:12:10,163 --> 00:12:11,163
+Fewer perks for card users.
+
+279
+00:12:10,170 --> 00:12:11,170
+America made the opposite one.
+
+280
+00:12:10,177 --> 00:12:11,177
+So, when you tap your card,
+who really gets paid?
+
+281
+00:12:10,190 --> 00:12:11,190
+Visa takes a toll.
+
+282
+00:12:10,195 --> 00:12:11,195
+A few cents, on trillions of dollars.
+
+283
+00:12:10,204 --> 00:12:11,204
+And it pays some of that back to the
+banks, to keep its name on the card.
+
+284
+00:12:10,227 --> 00:12:11,227
+The store's payment company takes its cut.
+
+285
+00:12:10,236 --> 00:12:11,236
+Your bank takes the biggest slice, and hands
+some of it back to you as points.
+
+286
+00:12:10,257 --> 00:12:11,257
+And the bill is split between the
+store, its customers...
+
+287
+00:12:10,270 --> 00:12:11,270
+and people who never tapped a card at all.
+
+288
+00:12:10,282 --> 00:12:11,282
+Your points aren't free.
+
+289
+00:12:10,287 --> 00:12:11,287
+Everyone at the checkout chips in.
+
+290
+00:12:10,295 --> 00:12:11,295
+Next time, we follow the money behind one
+of the oldest banks in the world.
+
+291
+00:12:10,315 --> 00:12:11,315
+Credit Suisse survived for one
+hundred and sixty-seven years.
+
+292
+00:12:10,327 --> 00:12:11,327
+Then it died in a single weekend.
+
+293
+00:12:10,336 --> 00:12:11,336
+And if you want the other side of the
+economy, the ships, planes and rockets
+
+294
+00:12:10,356 --> 00:12:11,356
+behind everything you buy, check out our
+sister channel, Cargo and Capital.
+
+295
+00:12:10,372 --> 00:12:11,372
+This is Billions and Bulls.
+
+296
+00:12:10,379 --> 00:12:11,379
+This video explains a business.
+
+297
+00:12:10,385 --> 00:12:11,385
+It is not financial advice.
+
+298
+00:12:10,392 --> 00:12:11,392
+Subscribe, and let's keep
+following the money.
