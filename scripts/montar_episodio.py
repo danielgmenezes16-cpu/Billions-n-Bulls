@@ -247,7 +247,7 @@ def main():
         (ROOT / 'out').mkdir(exist_ok=True)
         raw = ROOT / f'out/{ep}-render.mp4'
         comp = 'Ep' + ep[2:]
-        subprocess.run([str(REMOTION / 'node_modules/.bin/remotion'), 'render', comp, str(raw), '--crf', '18', '--concurrency', '4',
+        subprocess.run([str(REMOTION / 'node_modules/.bin/remotion'), 'render', comp, str(raw), '--crf', '18', '--concurrency', '4', '--timeout', '120000',
                         '--browser-executable', '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome', '--chrome-mode', 'chrome-for-testing'],
                        cwd=REMOTION, check=True)
         master(raw, ROOT / f'out/{ep}-final.mp4')
