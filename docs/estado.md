@@ -21,6 +21,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Quando chegar a narração de um episódio
 
+0. Blocos prontos para colar: `roteiros/rascunhos/epNN-blocos-dark-planner.txt`. No Dark Planner: Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x** (1.1x saiu 11% rápido demais no ep. 2), legenda desligada.
 1. Salvar os 6 blocos em `media/epNN/epNN-A.mp3` … `epNN-F.mp3`.
 2. `python3 scripts/montar_episodio.py epNN --trilha spark` (eps. 2, 4, 6 e 8) ou `--trilha heist` (eps. 3, 5 e 7).
 3. Mandar ao Daniel o resumo de `media/epNN/checagem-audio.md` (frases puladas ou trocadas).
