@@ -12,7 +12,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 4 | Why Your Bank Pays You Almost Nothing | **Aprovado** (18/11) | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | — |
 | 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | — |
 | 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | — |
-| 7 | Where Did Wirecard's $2 Billion Go? | A escrever | — | — | — | — |
+| 7 | Where Did Wirecard's $2 Billion Go? | Rascunho (18/11), aguardando aprovação | — | — | — | Sai 29/12 |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | A escrever | — | — | — | — |
 
 - Roteiros completos (pacote, blocos do Dark Planner, plano visual, checagem, descrição com créditos): `roteiros/rascunhos/epNN-*.md`. Texto-fonte de cada roteiro: `roteiros/rascunhos/fonte/epNN-roteiro.txt` (é dele que as cenas leem as frases).
@@ -33,6 +33,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 - Ep. 3: Supremo suíço sobre os títulos AT1.
 - Ep. 4: taxas (FDIC, grandes bancos, Capital One) e a reunião do Fed de dezembro.
 - Ep. 5: recurso de Bill Hwang; trocar o teaser do fechamento pelo ep. 6.
+- Ep. 7 (sai 29/12): sentença do julgamento de Markus Braun em Munique, possível antes do Natal (prazo da defesa até 26/11, depois seis dias de alegações). O bloco F é narrado por último, depois da conferência; frases alternativas no doc do episódio. Reconferir de novo em 28/12.
 
 ## Pendências com o Daniel
 
