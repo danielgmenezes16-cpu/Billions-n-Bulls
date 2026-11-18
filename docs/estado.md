@@ -28,7 +28,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Coisas que vencem (checar antes de publicar)
 
-- Ep. 2 (sai 24/11): decisão final do acordo das taxas de cartão (audiência em 16/11/2026). O Daniel gera os blocos A–D e F antes; o bloco E (Parte 5) só depois de conferir o resultado. Blocos: `roteiros/rascunhos/ep02-blocos-dark-planner.txt`.
+- Ep. 2 (sai 24/11): audiência final do acordo das taxas foi em 16/11 e o juiz Cogan **não decidiu** ainda. A frase da Parte 5 ("the deal still needed final approval") segue certa; reconferir até 23/11. Blocos A–E prontos (E sem o engasgo de 2:05; original em `media/ep02/ep02-E-original.mp3.bak`); falta só o F. Daniel apagou a conta da ElevenLabs em 18/11: conta nova, mesma voz (Lucan Rook, Multilingual v2, speed 1.06, style 40%), plano pago (o grátis não permite uso comercial).
 - Ep. 3: Supremo suíço sobre os títulos AT1.
 - Ep. 4: taxas (FDIC, grandes bancos, Capital One) e a reunião do Fed de dezembro.
 - Ep. 5: recurso de Bill Hwang; trocar o teaser do fechamento pelo ep. 6.
