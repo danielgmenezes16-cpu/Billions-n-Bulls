@@ -7,7 +7,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | Ep. | Título | Roteiro | Telas (Remotion) | B-roll | Narração | Vídeo final |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Robinhood Is Free. So Who's Paying? | Pronto | Pronto | — (só animação) | Feita | **Enviado e agendado para 17/11, 14h**; faltam as thumbs (verificação) |
-| 2 | Who Really Gets Paid When You Tap Your Card? | Aprovado | Pronto (`src/ep02`) | Completo (26 itens) | Feita (A–E ElevenLabs, F Dark Planner) | Render em 18/11 → `out/ep02-final.mp4`; pacote em `roteiros/prontos/ep02-upload.md` |
+| 2 | Who Really Gets Paid When You Tap Your Card? | Aprovado | Pronto (`src/ep02`) | Completo (26 itens) | Feita (A–E ElevenLabs, F Dark Planner) | **Vídeo pronto** (18/11): `out/ep02-final.mp4` (14:14, −14 LUFS; cópia menor para envio `out/ep02-final-envio.mp4`); pacote em `roteiros/prontos/ep02-upload.md` |
 | 3 | How a 167-Year-Old Bank Died in a Weekend | **Aprovado** (18/11) | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | — |
 | 4 | Why Your Bank Pays You Almost Nothing | **Aprovado** (18/11) | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | — |
 | 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | — |
@@ -29,7 +29,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Coisas que vencem (checar antes de publicar)
 
-- Ep. 2 (sai 24/11): audiência final do acordo das taxas foi em 16/11 e o juiz Cogan **não decidiu** ainda. A frase da Parte 5 ("the deal still needed final approval") segue certa; reconferir até 23/11. Blocos A–E prontos (E sem o engasgo de 2:05; original em `media/ep02/ep02-E-original.mp3.bak`); falta só o F. Daniel apagou a conta da ElevenLabs em 18/11: conta nova, mesma voz (Lucan Rook, Multilingual v2, speed 1.06, style 40%), plano pago (o grátis não permite uso comercial).
+- Ep. 2 (sai 24/11): audiência final do acordo das taxas foi em 16/11 e o juiz Cogan **não decidiu** ainda. A frase da Parte 5 ("the deal still needed final approval") segue certa; reconferir até 23/11. Narração completa (E sem o engasgo de 2:05, original em `media/ep02/ep02-E-original.mp3.bak`; F feito em 1.1x e desacelerado). Vídeo final renderizado em 18/11. Daniel apagou a conta da ElevenLabs em 18/11: conta nova, mesma voz (Lucan Rook, Multilingual v2, speed 1.06, style 40%), plano pago (o grátis não permite uso comercial).
 - Ep. 3: Supremo suíço sobre os títulos AT1.
 - Ep. 4: taxas (FDIC, grandes bancos, Capital One) e a reunião do Fed de dezembro.
 - Ep. 5: recurso de Bill Hwang; trocar o teaser do fechamento pelo ep. 6.
