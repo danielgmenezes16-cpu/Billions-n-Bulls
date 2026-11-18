@@ -74,14 +74,41 @@ def choose(ep, slot, idx):
     print(out, '←', c['license'], c['creator'])
 
 
-def credits(ep):
-    m = load(ep)
-    lines = []
-    for slot, c in m.items():
-        who = c['creator'] if c['creator'] and c['creator'] != 'unknown' else 'unknown author'
-        lines.append(f"{c['title'][:70]} — {who}, {c['license']} ({c['provider']}): {c['page']}")
-    print('Photos and footage\n' + '\n'.join(sorted(set(lines))))
+B58 = '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ'
 
+
+def short_url(url):
+    """Link curto para caber no limite de 5.000 caracteres da descrição do YouTube."""
+    import re
+    m = re.match(r'https?://(?:www\.)?flickr\.com/photos/[^/]+/(\d+)', url)
+    if m:  # flic.kr é o encurtador oficial do Flickr (id da foto em base 58)
+        n, out = int(m.group(1)), ''
+        while n:
+            n, r = divmod(n, 58)
+            out = B58[r] + out
+        return 'https://flic.kr/p/' + out
+    return url.replace('http://www.loc.gov', 'https://loc.gov').replace('https://www.loc.gov', 'https://loc.gov').rstrip('/')
+
+
+def credits(ep):
+    """Bloco "Photos and footage": crédito completo (título, autor, licença, link) para o que a licença exige (CC BY);
+    o resto (domínio público, LOC sem restrições, Pixabay) vai agrupado, só com o link, para caber na descrição."""
+    m = load(ep)
+    need, free = set(), {}
+    for slot, c in m.items():
+        if c.get('needs_credit'):
+            who = c['creator'] if c['creator'] and c['creator'] != 'unknown' else 'unknown author'
+            title = c['title'] if len(c['title']) <= 40 else c['title'][:38].rstrip(' ,.-') + '…'
+            need.add(f"{title} — {who}, {c['license']}: {short_url(c['page'])}")
+        else:
+            lic = c['license'].replace(' (Library of Congress)', '')
+            group = 'Library of Congress, no known restrictions' if c['provider'] == 'Library of Congress' else \
+                'Pixabay Content License' if c['provider'] == 'Pixabay' else lic
+            free.setdefault(group, set()).add(short_url(c['page']))
+    out = ['Photos and footage', *sorted(need)]
+    for g, urls in sorted(free.items()):
+        out.append(f"{g}: " + ' · '.join(sorted(urls)))
+    print('\n'.join(out))
 
 if __name__ == '__main__':
     ep = sys.argv[1]
