@@ -16,7 +16,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | A escrever | — | — | — | — |
 
 - Roteiros completos (pacote, blocos do Dark Planner, plano visual, checagem, descrição com créditos): `roteiros/rascunhos/epNN-*.md`. Texto-fonte de cada roteiro: `roteiros/rascunhos/fonte/epNN-roteiro.txt` (é dele que as cenas leem as frases).
-- Thumbnails (3 por episódio, Daniel ainda não escolheu): `roteiros/rascunhos/thumbs/` e `scripts/remotion/src/thumbs/EpThumbs.tsx`.
+- Thumbnails aprovadas em 18/11. Principal de cada episódio (as outras duas entram no Test & Compare): ep. 2 **A** "SAME $100?", ep. 3 **B** "TO ZERO", ep. 4 **A** "$1 A YEAR", ep. 5 **C** "$160B HIDDEN BET", ep. 6 **C** "$20B HOLIDAY LOAN". Cópias para upload em `roteiros/prontos/thumbs/`. Fontes: `roteiros/rascunhos/thumbs/` e `scripts/remotion/src/thumbs/EpThumbs.tsx`.
 - Prévias sem som: `media/previas/` (fora do git).
 
 ## Quando chegar a narração de um episódio
@@ -37,9 +37,8 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 ## Pendências com o Daniel
 
 1. Gerar as narrações dos eps. 3 a 6 no Dark Planner (roteiros aprovados em 18/11; blocos em `narracoes/`).
-2. Escolher a thumb de cada episódio.
-3. Ajustes do corte final do ep. 1.
-4. Configurar o canal (verificação por telefone, banner e About em `docs/canal-textos.md` e `docs/arte-canal/`). Estreia: terça, 17/11, 14h de Brasília (`docs/calendario.md`).
+2. Ajustes do corte final do ep. 1.
+3. Configurar o canal (verificação por telefone, banner e About em `docs/canal-textos.md` e `docs/arte-canal/`). Estreia: terça, 17/11, 14h de Brasília (`docs/calendario.md`).
 
 ## Próximas tarefas do Claude (sem depender do Daniel)
 

@@ -22,7 +22,7 @@ Narração: blocos A–E na ElevenLabs e F no Dark Planner, a mesma voz (Lucan R
 | B | `thumbs/ep02-thumb-B.png` | "WHO PAYS?": quem paga em dinheiro −$149/ano vs quem usa cartão +$1,133/ano |
 | C | `thumbs/ep02-thumb-C.png` | "9× MORE": contraste máximo em azul-marinho |
 
-Daniel escolhe a ordem; a primeira é a que aparece se o teste não rodar.
+Ordem aprovada pelo Daniel (18/11): **A** (principal), B, C. A principal é a que aparece se o teste não rodar.
 
 ## Descrição
 
