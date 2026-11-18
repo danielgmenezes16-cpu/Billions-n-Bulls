@@ -334,7 +334,41 @@ const E7C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C};
+
+// ---------------- Ep. 8 — A nota de US$ 100 ----------------
+const E8A = () => (
+	<AbsoluteFill>
+		<Background id="t8A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['11', 'CENTS']} size={190} x={56} y={140} mark={1} sub="TO PRINT A $100 BILL" />
+		<Bars x={820} base={560} maxH={360} bw={150} gap={60} min={6}
+			bars={[{label: 'COST', value: 0.113, display: '11¢'}, {label: 'FACE VALUE', value: 100, display: '$100', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E8B = () => (
+	<AbsoluteFill>
+		<Background id="t8B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['MORE', '$100s']} size={190} x={56} y={150} mark={1} sub="THAN $1 BILLS IN CIRCULATION" />
+		<Bars x={820} base={560} maxH={320} bw={150} gap={60}
+			bars={[{label: '$1 BILLS', value: 15.2, display: '15.2B'}, {label: '$100 BILLS', value: 19.9, display: '19.9B', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E8C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t8C" />
+		<div style={{position: 'absolute', left: 60, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 420, lineHeight: 1, letterSpacing: -20,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$2T
+		</div>
+		<Words lines={['ZERO', 'INTEREST']} size={120} x={70} y={440} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];

@@ -12,7 +12,7 @@ Títulos de trabalho; todo número precisa ser checado na fonte antes do roteiro
 | 5 | How One Man Lost $20 Billion in Two Days (Archegos) | Golpes e desastres | Colapso | Roteiro pronto (`roteiros/rascunhos/ep05-archegos-20-billion.md`); aprovado pelo Daniel (18/11) |
 | 6 | Who Pays When You Buy Now, Pay Later? | Quem paga o grátis | Bolso (temporada de compras) | Roteiro e telas prontos (`roteiros/rascunhos/ep06-bnpl-who-pays.md`); aprovado |
 | 7 | Where Did Wirecard's $2 Billion Go? | Golpes e desastres | Colapso + Europa | Roteiro e thumbs prontos (`roteiros/rascunhos/ep07-wirecard-missing-billions.md`); aguardando aprovação do Daniel |
-| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro | Evergreen (semana de Natal) | Na fila |
+| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro | Evergreen | Roteiro e thumbs prontos (`roteiros/rascunhos/ep08-100-dollar-bill.md`); aguardando aprovação do Daniel. Sai em 05/01/2027 |
 
 ## Reserva (por grupo)
 

@@ -13,7 +13,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | — |
 | 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | — |
 | 7 | Where Did Wirecard's $2 Billion Go? | Rascunho (18/11), aguardando aprovação | — | — | — | Sai 29/12 |
-| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | A escrever | — | — | — | — |
+| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | — | — | — | Sai 05/01/2027 |
 
 - Roteiros completos (pacote, blocos do Dark Planner, plano visual, checagem, descrição com créditos): `roteiros/rascunhos/epNN-*.md`. Texto-fonte de cada roteiro: `roteiros/rascunhos/fonte/epNN-roteiro.txt` (é dele que as cenas leem as frases).
 - Thumbnails aprovadas em 18/11. Principal de cada episódio (as outras duas entram no Test & Compare): ep. 2 **A** "SAME $100?", ep. 3 **B** "TO ZERO", ep. 4 **A** "$1 A YEAR", ep. 5 **C** "$160B HIDDEN BET", ep. 6 **C** "$20B HOLIDAY LOAN". Cópias para upload em `roteiros/prontos/thumbs/`. Fontes: `roteiros/rascunhos/thumbs/` e `scripts/remotion/src/thumbs/EpThumbs.tsx`.
@@ -34,6 +34,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 - Ep. 4: taxas (FDIC, grandes bancos, Capital One) e a reunião do Fed de dezembro.
 - Ep. 5: recurso de Bill Hwang; trocar o teaser do fechamento pelo ep. 6.
 - Ep. 7 (sai 29/12): sentença do julgamento de Markus Braun em Munique, possível antes do Natal (prazo da defesa até 26/11, depois seis dias de alegações). O bloco F é narrado por último, depois da conferência; frases alternativas no doc do episódio. Reconferir de novo em 28/12.
+- Ep. 8 (sai 05/01/2027): ativo diferido do Fed (relatório trimestral), pedido de impressão de 2027, remessas ao Tesouro; trocar o teaser genérico do fechamento quando o ep. 9 for escolhido.
 
 ## Pendências com o Daniel
 
