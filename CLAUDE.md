@@ -38,7 +38,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - Encerramento fixo: "This video explains a business. It is not financial advice."
 
 ## Blueprint (adotado em 27/10/2026, a partir dos dossiês)
-- **Ritmo:** 1 vídeo longo por semana, sempre no mesmo dia, ao meio-dia de Nova York (13h de Brasília até 31/10; 14h a partir de 01/11). **Shorts suspensos** (decisão do Daniel em 30/10/2026): o canal começa só com vídeos longos; reavaliar depois de ~10 vídeos com os dados do Analytics.
+- **Ritmo:** 3 vídeos longos por semana desde 18/11/2026 (decisão do Daniel; meta de 3 a 4): terça, quinta e sábado, ao meio-dia de Nova York (14h de Brasília). Passar a 4 (domingo) quando houver uma semana de vídeos prontos na frente. Calendário em `docs/calendario.md`. **Shorts suspensos** (decisão do Daniel em 30/10/2026): o canal começa só com vídeos longos; reavaliar depois de ~10 vídeos com os dados do Analytics.
 - **Tema:** um fato concreto com alguém responsável (erro, golpe, paradoxo), de preferência ligado ao bolso de quem assiste ou à Europa. História entra por um evento específico com gancho no presente. Evitar panorama ("Rise and Fall of…"), série trocando só o país, remake de hit, notícia do momento como assunto e temas fora do dinheiro.
 - **Título:** curto (até ~45 caracteres), uma tensão só. Parênteses e palavras como "nobody/hidden/quietly" não são alavanca. Repetir assunto pode, com dado e título novos; repetir título, não.
 - **Thumbnail:** estrutura fixa com dado novo a cada vídeo: papel quadriculado, frase de 2 a 3 palavras, gráfico com dado real em dourado e o ponto dourado que segue o dinheiro como personagem recorrente. Evitar sublinhado vermelho e personagem de terno (identidade atual do Chill Financial Historian).

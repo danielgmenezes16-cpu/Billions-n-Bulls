@@ -204,7 +204,7 @@ add('Leverage doesn\'t create money', card({id: 'p6-future', apoio: "Leverage do
 add('Remember the name', card({id: 'p6-name', apoio: 'Archegos: the one who leads the way.', hero: 'IT DID', complemento: 'into one of the biggest bank losses in years', textSide: 'left', object: 'none', heroSize: 200}));
 
 // ---------------- Fechamento ----------------
-add('Next time', card({id: 'c-next', apoio: 'Next time:', hero: 'WHERE DID THE BILLIONS GO?', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
+add('Next time', card({id: 'c-next', apoio: 'Next time: a $100 bill costs pennies.', hero: 'WHO KEEPS THE REST?', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 add('And if you want the other side', (s) => (
 	<SisterShot id="c-sister" start={s} at={{ships: c.f('the ships'), planes: c.f('planes'), rockets: c.f('rockets'), name: c.f('Cargo and Capital')}} />
 ));

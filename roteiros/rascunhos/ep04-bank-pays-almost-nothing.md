@@ -36,7 +36,7 @@ Anúncios no meio (depois de monetizar) só nas viradas de parte. Linha de segur
 
 ## Roteiro para o Dark Planner (ElevenLabs)
 
-Mesma voz e ajustes: Lucan Rook, Multilingual v2, speed 1.06, style 40%. São 6 blocos, cada um abaixo de 3.500 caracteres, cortados nos títulos das partes. Somam **13.395 caracteres** e cerca de **13 min 57 s** de narração (pelo ritmo real do ep. 1).
+Mesma voz e ajustes: Lucan Rook, Multilingual v2, speed 1.06, style 40%. São 6 blocos, cada um abaixo de 3.500 caracteres, cortados nos títulos das partes. Somam **13.384 caracteres** e cerca de **13 min 57 s** de narração (pelo ritmo real do ep. 1).
 
 Pronúncia: "point zero one percent" e "three sixty" (para 360) devem sair certos; se o modelo ler "three hundred sixty Savings", regenere a frase. "CFPB" = letra por letra.
 
@@ -268,7 +268,7 @@ And Capital One isn't the only case. In January 2025, the SEC said Wells Fargo a
 <break time="1.5s" />
 ```
 
-Bloco F: Parte 6 e fechamento (2.035 caracteres) → `ep04-F.mp3`
+Bloco F: Parte 6 e fechamento (2.024 caracteres) → `ep04-F.mp3`
 
 ```
 [Part 6 – So, Why Does Your Bank Pay You Almost Nothing?]
@@ -301,7 +301,7 @@ The only question is the interest rate.
 
 <break time="1.5s" />
 
-Next time, we follow the money behind one of the fastest fortunes ever lost. A man who reportedly built a fortune of around twenty billion dollars, and lost it in two days.
+Next time, we follow the money behind one of Europe's biggest frauds. A German payments company that said it had almost two billion euros in the bank. It didn't.
 And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
 
 <break time="1.0s" />
@@ -442,7 +442,7 @@ savings account interest, why banks pay low interest, savings account rates, how
 Comentário fixado
 
 ```
-Do you actually know the rate on your savings account? (No judgment: most people don't.) Next week we follow the money behind a man who reportedly lost around $20 billion in two days.
+Do you actually know the rate on your savings account? (No judgment: most people don't.) Next: the German payments company that said it had almost €2 billion in the bank.
 ```
 
 | Campo no Studio | O que marcar |

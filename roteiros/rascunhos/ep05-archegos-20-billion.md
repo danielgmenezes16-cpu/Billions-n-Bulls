@@ -34,7 +34,7 @@ Anúncios no meio (depois de monetizar) só nas viradas de parte.
 
 ## Roteiro para o Dark Planner (ElevenLabs)
 
-Mesma voz e ajustes: Lucan Rook, Multilingual v2, speed 1.06, style 40%. São 6 blocos, cada um abaixo de 3.500 caracteres, cortados nos títulos das partes. Somam **13.861 caracteres** e cerca de **13 min 52 s** de narração (pelo ritmo real do ep. 1).
+Mesma voz e ajustes: Lucan Rook, Multilingual v2, speed 1.06, style 40%. São 6 blocos, cada um abaixo de 3.500 caracteres, cortados nos títulos das partes. Somam **13.885 caracteres** e cerca de **13 min 52 s** de narração (pelo ritmo real do ep. 1).
 
 Pronúncia: "Hwang" = *HWAHNG*. "Archegos" = *AR-kuh-gos*. "Sung Kook" = *sung-KOOK*. "Nomura" = *no-MOO-rah*.
 
@@ -308,7 +308,7 @@ When it disappeared, the banks that had lent it paid the bill. And through them,
 <break time="1.5s" />
 ```
 
-Bloco F: Parte 6 e fechamento (2.490 caracteres) → `ep05-F.mp3`
+Bloco F: Parte 6 e fechamento (2.514 caracteres) → `ep05-F.mp3`
 
 ```
 [Part 6 – The Verdict, and the Rule That Never Came]
@@ -357,7 +357,7 @@ In the end, it did lead the way. Into one of the biggest losses Wall Street's ba
 
 <break time="1.5s" />
 
-Next time, we'll follow the money into another story where billions went somewhere nobody expected.
+Next time, a question you can hold in your hand. A hundred-dollar bill costs a few cents to print. So who keeps the rest?
 And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
 
 <break time="1.0s" />

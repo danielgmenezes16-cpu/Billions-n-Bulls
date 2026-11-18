@@ -32,7 +32,7 @@ Thumbnails (renderizadas em `roteiros/rascunhos/thumbs/Thumb6*.png`):
 
 ## Roteiro para o Dark Planner (ElevenLabs)
 
-Mesma voz e ajustes: Lucan Rook, Multilingual v2, speed 1.06, style 40%. São 6 blocos, cada um abaixo de 3.500 caracteres. Somam **13.319 caracteres** e cerca de **13 min 45 s** de narração.
+Mesma voz e ajustes: Lucan Rook, Multilingual v2, speed 1.06, style 40%. São 6 blocos, cada um abaixo de 3.500 caracteres. Somam **13.330 caracteres** e cerca de **13 min 45 s** de narração.
 
 Pronúncia: "Klarna" = *KLAR-na*. "Affirm" = *uh-FURM*. "CFPB" letra por letra. "FICO" = *FAI-co*.
 
@@ -270,7 +270,7 @@ Investors had learned something. Lending money for free is a great business when
 <break time="1.5s" />
 ```
 
-Bloco F: Parte 6 e fechamento (2.045 caracteres) → `ep06-F.mp3`
+Bloco F: Parte 6 e fechamento (2.056 caracteres) → `ep06-F.mp3`
 
 ```
 [Part 6 – So, Who Pays?]
@@ -310,7 +310,7 @@ And that's exactly what the store is paying for.
 
 <break time="1.5s" />
 
-Next time, we follow the money behind one of Europe's biggest frauds. A German payments company that said it had almost two billion euros in the bank. It didn't.
+Next time, we follow the money behind one of the fastest fortunes ever lost. A man who reportedly built a fortune of around twenty billion dollars, and lost it in two days.
 And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
 
 <break time="1.0s" />
@@ -402,7 +402,7 @@ The other side of the economy: Cargo & Capital [link do canal]
 
 Tags: `buy now pay later, bnpl, klarna, affirm, afterpay, pay in 4, how bnpl makes money, merchant fees, late fees, phantom debt, holiday shopping, billions and bulls`
 
-Comentário fixado: `Have you ever used pay in 4? Did you know the store was the one paying for it? Next week: the German payments company that said it had almost €2 billion in the bank.`
+Comentário fixado: `Have you ever used pay in 4? Did you know the store was the one paying for it? Next: the man who reportedly lost around $20 billion in two days.`
 
 ## Checagem de fatos
 

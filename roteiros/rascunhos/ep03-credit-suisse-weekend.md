@@ -470,7 +470,7 @@ credit suisse, credit suisse collapse, ubs credit suisse, what happened to credi
 Comentário fixado
 
 ```
-What surprised you more: the bonds going to zero, or UBS booking a $29 billion profit? Next week we follow the money in your own savings account: why does your bank pay you almost nothing?
+What surprised you more: the bonds going to zero, or UBS booking a $29 billion profit? Next we follow the money in your own savings account: why does your bank pay you almost nothing?
 ```
 
 | Campo no Studio | O que marcar |

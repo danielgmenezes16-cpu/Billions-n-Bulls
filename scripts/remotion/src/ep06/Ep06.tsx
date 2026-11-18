@@ -189,7 +189,7 @@ add('Is that a bad deal', card({id: 'p6-deal', apoio: 'For a careful shopper: a 
 add('Buy now, pay later doesn\'t make things cheaper', card({id: 'p6-final', apoio: "It doesn't make things cheaper.", hero: 'IT MAKES THEM EASIER TO BUY', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------
-add('Next time', photo('c-munich', {tone: 'navy', apoio: 'Next: almost €2 billion that was never in the bank', hero: 'WIRECARD'}));
+add('Next time', photo('c-munich', {tone: 'navy', apoio: 'Next: a fortune of ~$20 billion', hero: 'GONE IN 2 DAYS'}));
 add('And if you want the other side', (s) => (
 	<SisterShot id="c-sister" start={s} at={{ships: c.f('the ships'), planes: c.f('planes'), rockets: c.f('rockets'), name: c.f('Cargo and Capital')}} />
 ));

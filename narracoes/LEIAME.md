@@ -16,10 +16,14 @@ Um arquivo por episódio com os 6 blocos prontos para colar no Dark Planner (`ep
 
 Os MP3 não entram no git: ficam em `media/epNN/`.
 
+Ordem e prazos novos (18/11, 3 vídeos por semana): a narração chega **3 dias antes** da publicação. Pode gerar vários episódios no mesmo dia: o plano Basic faz 15 áudios por dia.
+
 | Ep. | Arquivo | Caracteres | Sai em | Narração |
 | --- | --- | --- | --- | --- |
-| 2 | `ep02-blocos.txt` | 14.205 | 24/11 | Feita (A–E na ElevenLabs, F no Dark Planner) |
-| 3 | `ep03-blocos.txt` | 14.141 | 01/12 | Falta (até 21/11) |
-| 4 | `ep04-blocos.txt` | 13.395 | 08/12 | Falta (até 28/11) |
-| 5 | `ep05-blocos.txt` | 13.863 | 15/12 | Falta (até 05/12) |
-| 6 | `ep06-blocos.txt` | 13.319 | 22/12 | Falta (até 12/12) |
+| 2 | `ep02-blocos.txt` | 14.205 | Ter 24/11 | Feita |
+| 3 | `ep03-blocos.txt` | 14.141 | Qui 26/11 | Falta (até 23/11) |
+| 4 | `ep04-blocos.txt` | 13.384 | Sáb 28/11 | Falta (até 25/11) |
+| 7 | `ep07-blocos.txt` | 14.628 | Ter 01/12 | Falta (até 28/11) |
+| 6 | `ep06-blocos.txt` | 13.330 | Qui 03/12 | Falta (até 30/11) |
+| 5 | `ep05-blocos.txt` | 13.885 | Sáb 05/12 | Falta (até 02/12) |
+| 8 | `ep08-blocos.txt` | 13.086 | Ter 08/12 | Falta (até 05/12; roteiro aguardando aprovação) |

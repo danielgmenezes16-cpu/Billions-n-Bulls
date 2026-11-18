@@ -1,6 +1,6 @@
 # Episódio 8 — A $100 Bill Costs Pennies. Who Keeps the Rest?
 
-2026-11-18 · Rascunho para aprovação do Daniel · Pilar: Dinheiro bizarro · Papel: evergreen (busca e recomendação) · Sai em 05/01/2027 (terça), 14h de Brasília · Narração até 26/12
+2026-11-18 · Rascunho para aprovação do Daniel · Pilar: Dinheiro bizarro · Papel: evergreen (busca e recomendação) · Sai em 08/12 (terça), 14h de Brasília · Narração até 05/12
 
 ## Pacote
 
@@ -385,7 +385,7 @@ Pontos de atenção:
    - "about one percent" = US$ 1,0 bi / US$ 107,4 bi;
    - "almost four times" = ~US$ 8,9 tri / US$ 2,4 tri.
 2. **11,3¢ é custo variável de 2025** (papel, tinta, mão de obra e despesas diretas). O roteiro diz isso e cita os custos fixos à parte.
-3. **Reconferir na semana da publicação (fim de dezembro):** ativo diferido (relatório trimestral do Fed; novo dado em novembro/2026), pedido de impressão de 2027 e se o Fed retomou as remessas.
+3. **Reconferir na semana da publicação (início de dezembro):** ativo diferido (relatório trimestral do Fed; novo dado em novembro/2026), pedido de impressão de 2027 e se o Fed retomou as remessas.
 4. **"Almost nine trillion":** pico de ~US$ 8,9–8,97 tri entre março e abril de 2022.
 5. **Bundesbank:** os €2,5 bi por ano que o governo contava receber vêm de imprensa ("reportedly").
 

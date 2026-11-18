@@ -1,6 +1,6 @@
 # Episódio 7 — Where Did Wirecard's $2 Billion Go?
 
-2026-11-18 · Rascunho para aprovação do Daniel · Pilar: Golpes e desastres · Papel: colapso + Europa · Sai em 29/12 (terça), 14h de Brasília · Narração até 19/12
+2026-11-18 · Rascunho para aprovação do Daniel · Pilar: Golpes e desastres · Papel: colapso + Europa · Sai em 01/12 (terça), 14h de Brasília · Narração até 28/11
 
 ## Pacote
 
@@ -32,13 +32,15 @@ Thumbnails (renderizadas em `roteiros/rascunhos/thumbs/Thumb7*.png`). Sem foto d
 
 ## Roteiro para o Dark Planner
 
-Voz Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x**, legenda desligada. São 6 blocos, cada um abaixo de 3.500 caracteres. Somam **14.630 caracteres** e cerca de **14 min 28 s** de narração.
+Voz Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x**, legenda desligada. São 6 blocos, cada um abaixo de 3.500 caracteres. Somam **14.628 caracteres** e cerca de **14 min 28 s** de narração.
 
 Pronúncia: "Wirecard" = *WAI-er-card*. "Marsalek" = *MAR-sa-lek*. "BaFin" = *BAH-fin*. "Jaffé" = *ya-FAY*. "Bellenhaus" = *BELL-en-house*. "Senjo" = *SEN-joe*. "Al Alam" = *al a-LAHM*. "Zatarra" = *za-TAR-a*. "DAX" = *dacks*. "KPMG" e "EY" letra por letra. Se a voz errar algum nome, me avise que eu reescrevo a frase.
 
-**Atenção ao bloco F:** a sentença do julgamento de Markus Braun pode sair antes do Natal (prazo da defesa até 26/11, depois seis dias de alegações). Narrar o bloco F **por último**, depois de eu conferir o julgamento. Se houver sentença, troco o parágrafo "In Munich, Markus Braun has been on trial since December 2022…" por um destes (eu confirmo o texto exato):
-- Condenação: "In December 2026, after more than two hundred ninety days of hearings, a Munich court found Markus Braun guilty of [crimes] and sentenced him to [X] years in prison. He can appeal. Braun has always denied the charges. He says he was deceived by Marsalek and others."
-- Absolvição: "In December 2026, after more than two hundred ninety days of hearings, a Munich court acquitted Markus Braun of [crimes]. Prosecutors can appeal."
+**Julgamento de Braun:** a sentença deve sair perto do Natal, depois da publicação (01/12). O roteiro já diz "A verdict is expected around the end of this year", então dá para narrar tudo agora. Se a sentença sair antes de 01/12 (improvável: o prazo da defesa vai até 26/11, depois vêm seis dias de alegações), troco o parágrafo "In Munich, Markus Braun has been on trial since December 2022…" por um destes:
+- Condenação: "In [month] 2026, after more than two hundred ninety days of hearings, a Munich court found Markus Braun guilty of [crimes] and sentenced him to [X] years in prison. He can appeal. Braun has always denied the charges. He says he was deceived by Marsalek and others."
+- Absolvição: "In [month] 2026, after more than two hundred ninety days of hearings, a Munich court acquitted Markus Braun of [crimes]. Prosecutors can appeal."
+
+Quando a sentença sair, com o vídeo já no ar: atualizar o comentário fixado e a descrição com uma linha "Update:".
 
 Bloco A: Abertura e Parte 1 (3.422 caracteres) → `ep07-A.mp3`
 
@@ -261,7 +263,7 @@ What was left of the real business was sold off. The Spanish bank Santander boug
 <break time="1.5s" />
 ```
 
-Bloco F: Parte 6 e fechamento (2.325 caracteres) → `ep07-F.mp3`
+Bloco F: Parte 6 e fechamento (2.323 caracteres) → `ep07-F.mp3`
 
 ```
 [Part 6 – So, Where Did It Go?]
@@ -297,7 +299,7 @@ The money that really vanished belonged to the people who believed it.
 
 <break time="1.5s" />
 
-Next time, a question you can hold in your hand. A hundred-dollar bill costs a few cents to print. So who keeps the rest?
+Next time, the button at checkout that splits everything into four payments. Pay in four, no interest. So who's paying?
 And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
 
 <break time="1.0s" />
@@ -393,19 +395,19 @@ The other side of the economy: Cargo & Capital [link do canal]
 
 Tags: `wirecard, wirecard scandal, wirecard fraud, markus braun, jan marsalek, missing 1.9 billion, bafin, financial times wirecard, escrow, accounting fraud, germany fintech, follow the money, billions and bulls`
 
-Comentário fixado: `The €1.9 billion was never in a bank. Did you follow the Wirecard story when it broke in 2020? Next week: a $100 bill costs a few cents to print. So who keeps the rest?`
+Comentário fixado: `The €1.9 billion was never in a bank. Did you follow the Wirecard story when it broke in 2020? Next: pay in four, no interest. So who is paying?`
 
 ## Checagem de fatos
 
 Pontos de atenção:
-1. **Julgamento de Munique:** reconferir antes da narração do bloco F e de novo em 28/12. Se houver sentença, a frase muda (ver acima).
+1. **Julgamento de Munique:** reconferir em 30/11, véspera da publicação. Se houver sentença, a frase muda (ver acima); se sair depois, atualizar o comentário fixado e a descrição.
 2. **Presunção de inocência:** Braun nega tudo. O roteiro sempre atribui as acusações ("prosecutors say", "according to"). Marsalek: "reportedly" para Moscou; "prosecutors said" para a rede de espiões.
 3. **Conversões e contas nossas:**
    - €1,9 bi ≈ US$ 2,1 bi (câmbio de junho de 2020, como na imprensa da época);
    - €3,2 bi da thumb B = 1,75 + 0,5 + 0,9 (soma nossa do dinheiro emprestado e investido);
    - "the first company in the DAX ever to go bust" vem da imprensa alemã ("als erster Dax-Konzern in der Geschichte").
 4. **Divergência de valor:** a dpa fala em €1,7 bi "não encontrados"; a maioria das fontes usa €1,9 bi, valor anunciado em 18/06/2020. Ficamos com €1,9 bi.
-5. **Ep. 6 e ep. 8:** o fechamento do ep. 6 já promete este episódio. O teaser do ep. 8 (nota de US$ 100) precisa bater com o título final dele.
+5. **Ordem nova (18/11):** este episódio vem depois do ep. 4 (que agora o anuncia) e antes do ep. 6 (BNPL), que o teaser do fechamento anuncia.
 
 | Afirmação | Número | Fonte |
 | --- | --- | --- |

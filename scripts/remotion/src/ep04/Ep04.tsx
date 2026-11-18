@@ -182,7 +182,7 @@ add('The rate on your savings account isn\'t', card({id: 'p6-price', apoio: 'The
 add('This isn\'t a recommendation', photo('p6-coins', {apoio: 'Not a recommendation of any bank or account. But:', hero: 'A SAVINGS ACCOUNT IS A LOAN', complemento: 'The only question is the rate.'}));
 
 // ---------------- Fechamento ----------------
-add('Next time', photo('c-wallst', {tone: 'navy', apoio: 'Next: a fortune of ~$20 billion', hero: 'GONE IN 2 DAYS'}));
+add('Next time', photo('c-wallst', {tone: 'navy', apoio: 'Next: almost €2 billion that was never in the bank', hero: 'WIRECARD'}));
 add('And if you want the other side', (s) => (
 	<SisterShot id="c-sister" start={s} at={{ships: c.f('the ships'), planes: c.f('planes'), rockets: c.f('rockets'), name: c.f('Cargo and Capital')}} />
 ));
