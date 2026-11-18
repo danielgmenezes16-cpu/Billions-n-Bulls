@@ -6,11 +6,11 @@ Títulos de trabalho; todo número precisa ser checado na fonte antes do roteiro
 | Ep. | Título de trabalho | Pilar | Papel | Status |
 | --- | --- | --- | --- | --- |
 | 1 | Robinhood Is Free. So Who's Paying? | Quem paga o grátis | Estreia | Montado; aguardando revisão do Daniel |
-| 2 | Who Really Gets Paid When You Tap Your Card? (Visa) | Quem paga o grátis | Bolso, prometido no ep. 1 | Roteiro pronto (`roteiros/rascunhos/ep02-visa-who-gets-paid.md`); aguardando aprovação do Daniel |
-| 3 | How a 167-Year-Old Bank Died in a Weekend (Credit Suisse) | Golpes e desastres | Colapso + Europa | Roteiro pronto (`roteiros/rascunhos/ep03-credit-suisse-weekend.md`); aguardando aprovação do Daniel |
-| 4 | Why Your Bank Pays You Almost Nothing | Negócios escondidos | Bolso | Roteiro pronto (`roteiros/rascunhos/ep04-bank-pays-almost-nothing.md`); aguardando aprovação do Daniel |
-| 5 | How One Man Lost $20 Billion in Two Days (Archegos) | Golpes e desastres | Colapso | Roteiro pronto (`roteiros/rascunhos/ep05-archegos-20-billion.md`); aguardando aprovação do Daniel |
-| 6 | Who Pays When You Buy Now, Pay Later? | Quem paga o grátis | Bolso (temporada de compras) | Roteiro e telas prontos (`roteiros/rascunhos/ep06-bnpl-who-pays.md`); aguardando aprovação |
+| 2 | Who Really Gets Paid When You Tap Your Card? (Visa) | Quem paga o grátis | Bolso, prometido no ep. 1 | Roteiro pronto (`roteiros/rascunhos/ep02-visa-who-gets-paid.md`); aprovado pelo Daniel (18/11) |
+| 3 | How a 167-Year-Old Bank Died in a Weekend (Credit Suisse) | Golpes e desastres | Colapso + Europa | Roteiro pronto (`roteiros/rascunhos/ep03-credit-suisse-weekend.md`); aprovado pelo Daniel (18/11) |
+| 4 | Why Your Bank Pays You Almost Nothing | Negócios escondidos | Bolso | Roteiro pronto (`roteiros/rascunhos/ep04-bank-pays-almost-nothing.md`); aprovado pelo Daniel (18/11) |
+| 5 | How One Man Lost $20 Billion in Two Days (Archegos) | Golpes e desastres | Colapso | Roteiro pronto (`roteiros/rascunhos/ep05-archegos-20-billion.md`); aprovado pelo Daniel (18/11) |
+| 6 | Who Pays When You Buy Now, Pay Later? | Quem paga o grátis | Bolso (temporada de compras) | Roteiro e telas prontos (`roteiros/rascunhos/ep06-bnpl-who-pays.md`); aprovado |
 | 7 | Where Did Wirecard's $2 Billion Go? | Golpes e desastres | Colapso + Europa | Na fila (próximo a escrever) |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro | Evergreen (semana de Natal) | Na fila |
 

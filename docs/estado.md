@@ -1,17 +1,17 @@
 # Estado do projeto (passagem de bastão)
 
-Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele resume onde tudo está, para não depender do histórico da conversa.
+Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele resume onde tudo está, para não depender do histórico da conversa.
 
 ## Episódios
 
 | Ep. | Título | Roteiro | Telas (Remotion) | B-roll | Narração | Vídeo final |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Robinhood Is Free. So Who's Paying? | Pronto | Pronto | — (só animação) | Feita | **Enviado e agendado para 17/11, 14h**; faltam as thumbs (verificação) |
-| 2 | Who Really Gets Paid When You Tap Your Card? | Aguarda aprovação | Pronto (`src/ep02`) | Completo (26 itens) | **Falta** | — |
-| 3 | How a 167-Year-Old Bank Died in a Weekend | Aguarda aprovação | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | — |
-| 4 | Why Your Bank Pays You Almost Nothing | Aguarda aprovação | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | — |
-| 5 | How One Man Lost $20 Billion in Two Days | Aguarda aprovação | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | — |
-| 6 | Who Pays When You Buy Now, Pay Later? | Aguarda aprovação | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | — |
+| 2 | Who Really Gets Paid When You Tap Your Card? | Aprovado | Pronto (`src/ep02`) | Completo (26 itens) | Feita (A–E ElevenLabs, F Dark Planner) | Render em 18/11 → `out/ep02-final.mp4`; pacote em `roteiros/prontos/ep02-upload.md` |
+| 3 | How a 167-Year-Old Bank Died in a Weekend | **Aprovado** (18/11) | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | — |
+| 4 | Why Your Bank Pays You Almost Nothing | **Aprovado** (18/11) | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | — |
+| 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | — |
+| 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | — |
 | 7 | Where Did Wirecard's $2 Billion Go? | A escrever | — | — | — | — |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | A escrever | — | — | — | — |
 
@@ -21,7 +21,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Quando chegar a narração de um episódio
 
-0. Blocos prontos para colar: `roteiros/rascunhos/epNN-blocos-dark-planner.txt`. No Dark Planner: Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x** (1.1x saiu 11% rápido demais no ep. 2), legenda desligada.
+0. Blocos prontos para colar: `narracoes/epNN-blocos.txt` (ver `narracoes/LEIAME.md`). No Dark Planner: Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x** (1.1x saiu 11% rápido demais no ep. 2), legenda desligada.
 1. Salvar os 6 blocos em `media/epNN/epNN-A.mp3` … `epNN-F.mp3`.
 2. `python3 scripts/montar_episodio.py epNN --trilha spark` (eps. 2, 4, 6 e 8) ou `--trilha heist` (eps. 3, 5 e 7).
 3. Mandar ao Daniel o resumo de `media/epNN/checagem-audio.md` (frases puladas ou trocadas).
@@ -36,7 +36,7 @@ Atualizado em 31/10/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Pendências com o Daniel
 
-1. Aprovar os roteiros dos eps. 2 a 5 e gerar as narrações no Dark Planner.
+1. Gerar as narrações dos eps. 3 a 6 no Dark Planner (roteiros aprovados em 18/11; blocos em `narracoes/`).
 2. Escolher a thumb de cada episódio.
 3. Ajustes do corte final do ep. 1.
 4. Configurar o canal (verificação por telefone, banner e About em `docs/canal-textos.md` e `docs/arte-canal/`). Estreia: terça, 17/11, 14h de Brasília (`docs/calendario.md`).

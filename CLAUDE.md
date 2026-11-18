@@ -23,6 +23,7 @@ Este repositório é independente do projeto DentalPRO — não misturar context
 - `docs/` — estratégia e referências do canal (`resumo-canal.md`).
 - `ideias/` — fila de temas de vídeo (`fila.md`).
 - `roteiros/rascunhos/` e `roteiros/prontos/` — roteiros por episódio (`ep01-robinhood-who-pays.md` é cópia do doc do Episódio 1).
+- `narracoes/` — blocos de cada episódio prontos para colar no Dark Planner (`epNN-blocos.txt`) e os ajustes da voz (`LEIAME.md`).
 - `thumbnails/` — conceitos e textos de thumbnail.
 - `scripts/` — automações (Remotion, áudio, sincronia, feed simulado).
 - `scripts/montar_episodio.py epNN --trilha spark|heist [--render]` — da narração ao vídeo final num comando (checagem do áudio, sincronia, trilha, legenda, render e master a -14 LUFS).
