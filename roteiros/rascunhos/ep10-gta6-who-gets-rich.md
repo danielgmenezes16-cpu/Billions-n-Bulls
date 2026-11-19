@@ -39,7 +39,7 @@ Thumbnails (renderizadas em `roteiros/rascunhos/thumbs/Thumb10*.png`). **Nada de
 
 ## Roteiro para o Dark Planner
 
-Voz Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x**, legenda desligada. São 6 blocos, cada um abaixo de 3.500 caracteres. Somam **10.813 caracteres** e cerca de **10 min 50 s** de narração.
+Voz Lucan Rook – Energetic Male, Multilingual v2, **velocidade 1.0x**, legenda desligada. São 6 blocos, cada um abaixo de 3.500 caracteres. Somam **10.817 caracteres** e cerca de **10 min 50 s** de narração.
 
 Pronúncia: "Grand Theft Auto" normal. "Take-Two" = *take too*. "Rockstar North" normal. "Serkan Toto" = *SER-kan TOH-toh*. "Edinburgh" = *ED-in-bruh*. "Wells Fargo" normal.
 
@@ -222,7 +222,7 @@ So when you buy Grand Theft Auto Six, part of the cost of making it was already 
 <break time="1.5s" />
 ```
 
-Bloco F: Parte 6 e fechamento (1.496 caracteres) → `ep10-F.mp3`
+Bloco F: Parte 6 e fechamento (1.500 caracteres) → `ep10-F.mp3`
 
 ```
 [Part 6 – So, Who Gets Rich?]
@@ -245,7 +245,7 @@ The real business is everything people spend after they walk in.
 
 <break time="1.5s" />
 
-Next time, the company behind the world's biggest search engine lost around five hundred billion dollars of value in a single day. What were investors so afraid of?
+Next time, the story we promised. One of the oldest banks in the world, Credit Suisse, survived for one hundred and sixty-seven years. Then it died in a single weekend.
 And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
 
 <break time="1.0s" />

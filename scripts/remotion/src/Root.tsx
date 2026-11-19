@@ -11,6 +11,7 @@ import {Ep03, EP03_FRAMES} from './ep03/Ep03';
 import {Ep04, EP04_FRAMES} from './ep04/Ep04';
 import {Ep05, EP05_FRAMES} from './ep05/Ep05';
 import {Ep06, EP06_FRAMES} from './ep06/Ep06';
+import {Ep10, EP10_FRAMES} from './ep10/Ep10';
 
 // Demo: abertura do piloto "If Trading Is Free, Who Pays?" (sem áudio)
 const card1: CardProps = {
@@ -59,6 +60,7 @@ export const RemotionRoot: React.FC = () => (
 		<Composition id="Ep04" component={Ep04} durationInFrames={EP04_FRAMES} fps={30} width={1920} height={1080} />
 		<Composition id="Ep05" component={Ep05} durationInFrames={EP05_FRAMES} fps={30} width={1920} height={1080} />
 		<Composition id="Ep06" component={Ep06} durationInFrames={EP06_FRAMES} fps={30} width={1920} height={1080} />
+		<Composition id="Ep10" component={Ep10} durationInFrames={EP10_FRAMES} fps={30} width={1920} height={1080} />
 		<Composition id="Ep01Test" component={Ep01} durationInFrames={EP01_TEST_FRAMES} fps={30} width={1920} height={1080} />
 		<Composition id="Demo" component={Demo} durationInFrames={D1 + D2} fps={30} width={1920} height={1080} />
 		<Composition id="Card" component={Card} durationInFrames={D1} fps={30} width={1920} height={1080} defaultProps={card1} />

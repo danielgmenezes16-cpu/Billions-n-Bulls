@@ -3,6 +3,7 @@
 import {bundle} from '@remotion/bundler';
 import {renderStill, selectComposition} from '@remotion/renderer';
 import path from 'node:path';
+import fs from 'node:fs/promises';
 
 const [comp, outDir, list, scale = '0.5'] = process.argv.slice(2);
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
@@ -12,4 +13,5 @@ for (const f of list.split(',').map(Number)) {
 	await renderStill({composition, serveUrl, frame: f, output: path.join(outDir, `f-${f}.png`), scale: Number(scale), browserExecutable, chromeMode: 'chrome-for-testing', imageFormat: 'png'});
 	process.stdout.write(`${f} `);
 }
+await fs.rm(serveUrl, {recursive: true, force: true}); // não deixar cópias do public/ (~1,3 GB) no /tmp
 console.log('\nok');
