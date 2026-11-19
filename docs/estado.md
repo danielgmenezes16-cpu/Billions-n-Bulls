@@ -9,7 +9,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | Ep. | Título | Roteiro | Telas (Remotion) | B-roll | Narração | Vídeo final |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Robinhood Is Free. So Who's Paying? | Pronto | Pronto | — (só animação) | Feita | **Enviado e agendado para 17/11, 14h**; faltam as thumbs (verificação) |
-| 2 | Who Really Gets Paid When You Tap Your Card? | Aprovado | Pronto (`src/ep02`) | Completo (26 itens) | Feita (A–E ElevenLabs, F Dark Planner) | **Publicação antecipada para 19/11** (Daniel). Vídeo: `out/ep02-final.mp4` (14:14, −14 LUFS; cópia menor para envio `out/ep02-final-envio.mp4`); pacote em `roteiros/prontos/ep02-upload.md` |
+| 2 | Who Really Gets Paid When You Tap Your Card? | Aprovado | Pronto (`src/ep02`) | Completo (26 itens) | Feita (A–E ElevenLabs, F Dark Planner) | **Publicado em 19/11** (sem o teste interativo; dá para incluir depois). Vídeo: `out/ep02-final.mp4` (14:14, −14 LUFS; cópia menor para envio `out/ep02-final-envio.mp4`); pacote em `roteiros/prontos/ep02-upload.md` |
 | 3 | How a 167-Year-Old Bank Died in a Weekend | **Aprovado** (18/11) | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | Sai **Qui 26/11** (narração até 23/11) |
 | 4 | Why Your Bank Pays You Almost Nothing | **Aprovado** (18/11) | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | Sai **Sáb 28/11** (narração até 25/11) |
 | 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | Sai **Sáb 05/12** (narração até 02/12) |

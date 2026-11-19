@@ -121,3 +121,15 @@ Before this video, did you know people paying cash help pay for card rewards? Ne
 | Tela final | De 13:59 a 14:13: inscrição + o ep. 1 (ou "melhor para o espectador") |
 | Cards | Em 7:18, no pedido de inscrição da Parte 3: o ep. 1. Em 13:46, quando a narração diz "sister channel": o vídeo mais forte do Cargo & Capital |
 | Publicação | Publicar já (19/11), por decisão do Daniel. Se der para escolher a hora, 14h de Brasília (12h de Nova York) |
+
+## Teste interativo (novidade do Studio; opcional, dá para incluir depois de publicado)
+
+Pergunta: Who keeps most of the interchange fee when you tap your card?
+- Visa
+- The store
+- Your bank (the card issuer) ← correta
+- The government
+
+Explicação: Visa sets the interchange fee, but it doesn't keep it. Most of it goes to the bank that issued your card, and that's what pays for your rewards.
+
+Momento: ~7:40 (depois da Parte 3 e longe do card do ep. 1, em 7:18).
