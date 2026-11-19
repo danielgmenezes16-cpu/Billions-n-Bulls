@@ -1,7 +1,7 @@
 # Ep. 10 — GTA 6 — pacote de upload
 
 Tudo pronto para colar no YouTube Studio. Capítulos com a minutagem real (19/11/2026).
-Vídeo: `out/ep10-final.mp4` (cópia menor para envio: `out/ep10-final-envio.mp4`) · ~9:52 · 1920×1080 · 30 fps · −14 LUFS. Legenda: `ep10.srt` (nesta pasta).
+Vídeo: `out/ep10-final.mp4` (cópia menor para envio: `out/ep10-final-envio.mp4`) · 9:52 · 1920×1080 · 30 fps · −14 LUFS. Legenda: `ep10.srt` (nesta pasta).
 Publicar logo: o jogo lançou em 19/11 e o assunto perde força a cada dia.
 
 ## Título
