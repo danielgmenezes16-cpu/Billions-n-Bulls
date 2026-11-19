@@ -4,7 +4,7 @@ Tudo pronto para colar no YouTube Studio. Capítulos com a minutagem real da mon
 Vídeo: `out/ep02-final.mp4` · 14:14 · 1920×1080 · 30 fps · master −14 LUFS. Legenda: `ep02.srt` (nesta pasta).
 Narração: blocos A–E na ElevenLabs e F no Dark Planner, a mesma voz (Lucan Rook), com o ritmo do F igualado ao dos outros.
 
-**Antes de publicar (terça, 24/11):** conferir se o juiz Cogan já decidiu sobre o acordo das taxas. Até 18/11 ele não tinha decidido, e a frase da Parte 5 ("As this video was made, the deal still needed final approval.") continua certa. Se ele aprovar ou rejeitar antes do dia 24, a frase precisa mudar (regenerar só ela no Dark Planner).
+**Conferido em 19/11 (antecipado pelo Daniel para publicar já):** o juiz Cogan ouviu as partes em 16/11 e ainda não decidiu sobre o acordo das taxas. A frase da Parte 5 ("As this video was made, the deal still needed final approval.") continua certa.
 
 ## Título
 
@@ -120,4 +120,4 @@ Before this video, did you know people paying cash help pay for card rewards? Ne
 | Promoção paga | Não |
 | Tela final | De 13:59 a 14:13: inscrição + o ep. 1 (ou "melhor para o espectador") |
 | Cards | Em 7:18, no pedido de inscrição da Parte 3: o ep. 1. Em 13:46, quando a narração diz "sister channel": o vídeo mais forte do Cargo & Capital |
-| Publicação | Agendar para terça, 24/11, 14h de Brasília (12h de Nova York) |
+| Publicação | Publicar já (19/11), por decisão do Daniel. Se der para escolher a hora, 14h de Brasília (12h de Nova York) |
