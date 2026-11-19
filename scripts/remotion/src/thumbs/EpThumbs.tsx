@@ -411,7 +411,41 @@ const E9C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C};
+
+// ---------------- Ep. 10 — GTA 6 ----------------
+const E10A = () => (
+	<AbsoluteFill>
+		<Background id="t10A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['WHO GETS', '$80?']} size={148} x={56} y={160} mark={1} sub="ONE DIGITAL COPY" />
+		<Bars x={830} base={560} maxH={340} bw={150} gap={60}
+			bars={[{label: 'CONSOLE', value: 24, display: '$24'}, {label: 'PUBLISHER', value: 56, display: '$56', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E10B = () => (
+	<AbsoluteFill>
+		<Background id="t10B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['TAX', 'BREAK']} size={178} x={56} y={150} mark={1} sub="ONE UK STUDIO, 2015–2023" />
+		<Bars x={820} base={560} maxH={340} bw={150} gap={60}
+			bars={[{label: 'PROFIT', value: 69, display: '£69M'}, {label: 'RELIEF', value: 360, display: '£360M', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E10C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t10C" />
+		<div style={{position: 'absolute', left: 60, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 420, lineHeight: 1, letterSpacing: -20,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$80
+		</div>
+		<Words lines={['JUST THE', 'TICKET']} size={120} x={70} y={440} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];
