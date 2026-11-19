@@ -493,7 +493,41 @@ const E11C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '11A': E11A, '11B': E11B, '11C': E11C};
+
+// ---------------- Ep. 12 — IPO de US$ 1,5 tri ----------------
+const E12A = () => (
+	<AbsoluteFill>
+		<Background id="t12A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['WHO GETS', 'RICH?']} size={150} x={56} y={170} mark={1} sub="THE $81 BILLION IPO" />
+		<Bars x={830} base={560} maxH={340} bw={150} gap={60}
+			bars={[{label: 'SELLERS', value: 3, display: '3%'}, {label: 'COMPANY', value: 97, display: '97%', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E12B = () => (
+	<AbsoluteFill>
+		<Background id="t12B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['PAPER', 'WINS']} size={166} x={56} y={150} mark={1} sub="STAKES AT $1.5 TRILLION" />
+		<Bars x={820} base={560} maxH={330} bw={150} gap={60}
+			bars={[{label: 'GOOGLE', value: 205, display: '$205B'}, {label: 'AMAZON', value: 220, display: '$220B', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E12C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t12C" />
+		<div style={{position: 'absolute', left: 60, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 400, lineHeight: 1, letterSpacing: -20,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$81B
+		</div>
+		<Words lines={['ONE', 'NIGHT']} size={120} x={70} y={440} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '11A': E11A, '11B': E11B, '11C': E11C, '12A': E12A, '12B': E12B, '12C': E12C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];

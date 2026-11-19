@@ -1,0 +1,201 @@
+EP. 12 — Who Gets Rich in a $1.5 Trillion IPO?
+Dark Planner: voz Lucan Rook – Energetic Male · Multilingual v2 · velocidade 1.0x · style 40% · legenda desligada
+Gerar cada bloco separado e salvar como ep12-A.mp3 … ep12-F.mp3
+
+======================================================================
+BLOCO A — Abertura e Parte 1 (2.408 caracteres) → salvar como ep12-A.mp3
+======================================================================
+
+Who Gets Rich in a $1.5 Trillion IPO?
+
+<break time="1.0s" />
+
+November 18, 2026. An artificial intelligence company sets the price for its first public shares. Eighty-three dollars each.
+
+<break time="1.0s" />
+
+It raises about eighty-one billion dollars. The biggest tech IPO in history. On paper, the company is now worth around one and a half trillion dollars.
+Two years earlier, its yearly revenue was about four hundred million.
+
+<break time="1.0s" />
+
+The company is Anthropic, the maker of the Claude AI models. And eighty-one billion dollars is a lot of money changing hands in one night.
+So where does it actually go? Who gets rich? And who's taking the risk?
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – From $400 Million to $1.5 Trillion]
+First, what does it mean to go public?
+
+<break time="1.0s" />
+
+A private company is owned by its founders, its employees and the investors who funded it. Their shares can't easily be sold.
+In an initial public offering, or IPO, the company sells new shares to the public for the first time. After that, anyone can buy and sell them on a stock exchange.
+
+<break time="1.0s" />
+
+Anthropic was founded in 2021 by a group of former OpenAI employees. It's also set up as a public benefit corporation, a legal structure that lets it weigh a stated public mission alongside profits.
+
+<break time="1.0s" />
+
+Its growth has been unusual by any standard. According to its filings, revenue went from about four hundred million dollars in 2024, to about four point six billion in 2025.
+In the first nine months of 2026, it was thirty-three point two billion dollars. More than twelve times the same period a year earlier.
+
+<break time="1.0s" />
+
+The company also reported what's called a run rate of about eighty-one billion dollars. That's a projection. Roughly, it takes the most recent four weeks of usage and multiplies it out to a full year. It shows momentum, but it's not money already earned.
+
+<break time="1.0s" />
+
+In May 2026, private investors valued Anthropic at about nine hundred sixty-five billion dollars. A few months later, there was talk of a two trillion dollar IPO.
+Then AI stocks sold off. Google had its worst day ever, and Nvidia's shares slid. Anthropic set a lower price range.
+In the end, demand was strong enough to price above that range. About one point five trillion dollars.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO B — Parte 2 (1.648 caracteres) → salvar como ep12-B.mp3
+======================================================================
+
+[Part 2 – Where the $81 Billion Goes]
+Now, the money. When people hear that an IPO raised eighty-one billion dollars, many assume the founders pocketed it. That's usually not how it works.
+
+<break time="1.0s" />
+
+There are two kinds of shares sold in an IPO. New shares, created by the company. The money from those goes into the company's own bank account.
+And existing shares, sold by people who already owned them. That money goes to those sellers.
+
+<break time="1.0s" />
+
+In Anthropic's original plan, about eight hundred one million of the eight hundred twenty-five million shares on offer were new shares from the company. So the vast majority of the money goes to Anthropic itself, not to individuals.
+The offering was later made bigger, but the basic split is the same idea.
+
+<break time="1.0s" />
+
+And Anthropic needs it. Building and running AI models takes enormous amounts of computing power.
+According to its filings, the company has more than nine hundred billion dollars in purchase commitments and leases for computing and infrastructure. Some of them running for almost two decades.
+
+<break time="1.0s" />
+
+Now here's an interesting detail. Alongside the IPO, Anthropic lined up another twenty-six billion dollars in a private sale of shares to some of its biggest suppliers. Companies including Nvidia, Google and Microsoft.
+In other words, companies that sell Anthropic chips and computing power are also buying a piece of it. Some of that money is likely to come right back to them, as payment for computing.
+That kind of circle is becoming common in AI. And it's a story we'll follow in our next episode.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO C — Parte 3 (1.638 caracteres) → salvar como ep12-C.mp3
+======================================================================
+
+[Part 3 – The Early Backers]
+So who are the big winners on paper? Start with the early investors.
+
+<break time="1.0s" />
+
+Two names stand out. Amazon and Google. Both invested in Anthropic years ago, when it was a much smaller company.
+After the IPO and the private sale, an updated filing reportedly showed Amazon holding about fourteen point seven percent of the company. Google, about thirteen point seven percent.
+
+<break time="1.0s" />
+
+Some simple math. At a value of one and a half trillion dollars, a stake of fourteen point seven percent is worth about two hundred twenty billion dollars. Thirteen point seven percent is worth about two hundred five billion.
+That's on paper, and it moves every day with the share price. But it's one of the best investments in the history of either company.
+
+<break time="1.0s" />
+
+And the relationship goes deeper than ownership.
+Amazon and Google aren't just shareholders. They also sell Anthropic's models through their cloud platforms. In 2025, each of them reportedly accounted for about twelve percent of Anthropic's revenue. And in the first half of 2026, nearly half of Anthropic's revenue came through cloud marketplaces.
+Anthropic has also reportedly committed to spend more than one hundred billion dollars on Amazon's cloud over a decade.
+
+<break time="1.0s" />
+
+So for Amazon and Google, Anthropic is an investment, a customer, and a product they sell. All at the same time.
+
+<break time="1.0s" />
+
+If you're enjoying the story so far, subscribing helps the channel a lot. Because next, we look at the people inside the company, and a strange accounting loss.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO D — Parte 4 (1.366 caracteres) → salvar como ep12-D.mp3
+======================================================================
+
+[Part 4 – The People Inside]
+Like most tech companies, Anthropic pays its employees partly in stock. And going public turns that stock into something they can eventually sell.
+
+<break time="1.0s" />
+
+The filing shows how big that is. About two point nine billion dollars of stock compensation is recognized at the IPO. And around twenty-three point seven billion dollars more over the following two years or so.
+Employees usually can't sell right away. IPOs typically come with a lock-up period, often several months, so that insiders don't all rush for the exit on day one.
+
+<break time="1.0s" />
+
+Now for the strange part. For the first half of 2026, Anthropic reported a net loss of about eighty billion dollars.
+That sounds catastrophic. But most of it, more than seventy-two billion dollars, came from an accounting rule. Anthropic had sold investors notes that could turn into shares. As the company's value went up, those notes became more valuable, and the company had to record that increase as a loss.
+In other words, the better the company did, the bigger the loss on paper.
+
+<break time="1.0s" />
+
+The operating numbers tell a different story. In the second quarter of 2026, Anthropic made an operating profit of about nine hundred seventy-four million dollars. It was the only profitable quarter in the filing, but it was a first.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO E — Parte 5 (1.606 caracteres) → salvar como ep12-E.mp3
+======================================================================
+
+[Part 5 – The People Taking the Risk]
+So far, everyone we've met is winning. The company has cash. Early investors have huge paper gains. Employees have valuable stock.
+So who's taking the risk? The new shareholders.
+
+<break time="1.0s" />
+
+Demand for the shares was reportedly about seven times bigger than the number available. Big funds, and eventually ordinary investors, bought in at eighty-three dollars or more.
+For them, the question is simple. Will Anthropic earn enough in the future to justify a price of one and a half trillion dollars?
+
+<break time="1.0s" />
+
+There's a strong case for yes. Revenue is growing faster than almost any company in history. Profit margins on each sale are improving. And the company had more than one hundred thirty billion dollars in cash and short-term investments even before the IPO.
+
+<break time="1.0s" />
+
+And there's a strong case for caution. Those nine hundred billion dollars in commitments have to be paid, whether revenue keeps growing or not. Competition is fierce, and AI prices keep falling. And a large share of sales flows through two partners, Amazon and Google, who are also competitors in AI.
+Remember SpaceX? It set the previous IPO record just five months earlier. These giant listings are new territory for public markets.
+
+<break time="1.0s" />
+
+And one more note, in the spirit of following the money honestly. This channel's scripts are written with the help of AI tools, including models made by the company in this story. We've stuck to public filings and reporting, and you should judge the numbers for yourself.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO F — Parte 6 e fechamento (1.298 caracteres) → salvar como ep12-F.mp3
+======================================================================
+
+[Part 6 – So, Who Gets Rich?]
+So let's follow the eighty-one billion dollars one last time.
+
+<break time="1.0s" />
+
+Most of it goes into the company. And a big part of that is destined to flow out again, to the companies that sell it chips, data centers and cloud computing. Some of the same companies that just bought its shares.
+The early backers, especially Amazon and Google, are the biggest winners on paper. Employees share in it too, over time.
+
+<break time="1.0s" />
+
+And the people who carry the most risk are the newest ones. The investors who paid eighty-three dollars a share, betting that the future will be even bigger than the price.
+
+<break time="1.0s" />
+
+An IPO is a company selling a piece of its future.
+In this one, a big part of that future was already promised to the companies that sell it computers.
+
+<break time="1.5s" />
+
+Next time, we follow the money around the AI boom. Chipmakers investing in customers, who buy their chips. Who pays if the circle breaks?
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.
