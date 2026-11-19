@@ -1,0 +1,180 @@
+EP. 13 — Who Pays If the AI Boom Breaks?
+Dark Planner: voz Lucan Rook – Energetic Male · Multilingual v2 · velocidade 1.0x · style 40% · legenda desligada
+Colar TUDO abaixo da linha num áudio só (9.645 caracteres; limite do plano: 80.000) e salvar como ep13.mp3
+Pronúncia: "Lucent" = LOO-sent. "Nortel" = NOR-tel. "Winstar" normal. "Hyperion" = hai-PEER-ee-on. "Pimco" = PIM-co. "PJM" letra por letra. "Gensler" = GENZ-ler. "megawatt-day" = MEG-a-watt day.
+
+======================================================================
+
+Who Pays If the AI Boom Breaks?
+
+<break time="1.0s" />
+
+September 2025. Nvidia, the company behind many of the most important chips in artificial intelligence, says it plans to invest up to one hundred billion dollars in OpenAI.
+
+<break time="1.0s" />
+
+And what does OpenAI need that money for? Partly, to buy computing power. Built on Nvidia's chips.
+The money leaves Nvidia, and much of it is expected to come back.
+
+<break time="1.0s" />
+
+A year later, that circle has grown. Chipmakers guaranteeing their customers' rent. Suppliers buying shares in the companies they sell to. Tens of billions in debt, parked outside company balance sheets.
+If the boom keeps going, everyone in the circle wins. But if it breaks, who pays? Let's follow the money and find out.
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – Money in a Circle]
+Start with the biggest example. Nvidia and OpenAI.
+
+<break time="1.0s" />
+
+In September 2025, the two companies announced a letter of intent. Nvidia would invest up to one hundred billion dollars, step by step, as OpenAI built new data centers with Nvidia systems.
+It made headlines around the world. But it was a letter of intent, not a contract. Months later, no money had changed hands.
+
+<break time="1.0s" />
+
+In February 2026, Nvidia's then chief executive said the one hundred billion dollars had never been a commitment. Instead, Nvidia put about thirty billion dollars into a giant OpenAI funding round, at a valuation of about eight hundred fifty billion dollars.
+
+<break time="1.0s" />
+
+And it's not just Nvidia and OpenAI. When the AI company Anthropic went public in November 2026, it also sold twenty-six billion dollars of shares privately to some of its own suppliers, including Nvidia, Google and Microsoft. We followed that money in our last episode.
+
+<break time="1.0s" />
+
+Why would a supplier invest in its own customer? There are good reasons. It locks in demand. It helps a fast-growing customer pay for what it needs. It gives the supplier a share of the upside.
+But there's a risk too. If the supplier's money is what allows the customer to keep buying, then some of the supplier's sales are, in a sense, paid for by the supplier itself.
+
+<break time="1.0s" />
+
+This has a name: vendor financing. And it isn't new.
+
+<break time="1.5s" />
+
+[Part 2 – We've Seen This Movie]
+Go back to the late 1990s, and the dot-com boom.
+
+<break time="1.0s" />
+
+Back then, the hot infrastructure wasn't AI data centers. It was internet and phone networks. And the companies selling the equipment, like Lucent and Nortel, were some of the most valuable in the world.
+To keep sales growing, they lent money to their own customers. Often young telecom startups. So those startups could buy more equipment.
+
+<break time="1.0s" />
+
+By around 2001, Lucent's vendor financing had reached about eight point one billion dollars, according to reports at the time. Nortel had extended about three billion. Cisco had promised more than two billion in customer loans.
+
+<break time="1.0s" />
+
+Then the boom ended. Many of the startups went bankrupt. One customer alone, Winstar, had arranged about two billion dollars of financing from Lucent, before it filed for bankruptcy in 2001.
+The equipment makers were left holding loans that would never be fully repaid, and their stocks collapsed.
+
+<break time="1.0s" />
+
+Now, to be fair, today is different in important ways. Nvidia's biggest customers include some of the richest companies on Earth, with real revenue and real profits. The dot-com startups often had neither.
+But the pattern, a supplier helping to fund its own demand, is the same one investors worried about back then.
+
+<break time="1.5s" />
+
+[Part 3 – The Guarantee]
+Here's a newer version of the same idea. And it's bigger.
+
+<break time="1.0s" />
+
+In August 2026, Nvidia disclosed something in its quarterly filing. It had agreed to guarantee lease payments for a data center campus in Ohio, built by a SoftBank-backed energy company. A campus that will be leased to OpenAI, under twenty-year leases.
+The maximum exposure, according to the filing, is about one hundred five billion dollars.
+
+<break time="1.0s" />
+
+What does that mean? If OpenAI pays its rent, Nvidia pays nothing. If OpenAI can't, Nvidia could have to cover part of those payments. Nvidia says its guarantees are limited to defined parts of the lease and power payments, and that OpenAI has agreed to pay it back for anything it does pay.
+
+<break time="1.0s" />
+
+Analysts at Bank of America reportedly estimated Nvidia's total guarantees at around two hundred thirty billion dollars, though it's not clear how they got there.
+Either way, the company that sells the chips is now also standing behind the rent of the company that uses them.
+
+<break time="1.0s" />
+
+If you're enjoying the story so far, subscribing helps the channel a lot. Because next, we follow the debt. And this is where your savings might come in.
+
+<break time="1.5s" />
+
+[Part 4 – Off the Books]
+Data centers are so expensive that even the richest companies don't want to pay for all of them with their own cash.
+
+<break time="1.0s" />
+
+Take Meta, the owner of Facebook and Instagram. In 2025, for its biggest data center project, called Hyperion, it set up a separate company together with an investment firm called Blue Owl.
+That separate company borrowed more than twenty-seven billion dollars. Because the debt sits in the joint company, Meta doesn't carry all of it on its own balance sheet.
+
+<break time="1.0s" />
+
+The bonds got a strong credit rating, A plus. But they paid about six point six percent interest. That's closer to what riskier companies pay.
+And who bought them? Big asset managers, including Pimco and BlackRock.
+
+<break time="1.0s" />
+
+Here's why that matters to you. Firms like those manage money for pension funds, insurance companies and ordinary savers. So if you have a pension or a bond fund, there's a chance a small part of it is now lending to AI data centers.
+
+<break time="1.0s" />
+
+And Meta isn't alone. Google sold almost twenty-nine billion dollars of bonds in a single quarter of 2026, to help pay for its AI buildout. We covered that in our Google episode.
+The AI boom is no longer paid for only with tech profits. More and more of it runs on borrowed money.
+
+<break time="1.5s" />
+
+[Part 5 – The First Cracks, and Your Electric Bill]
+So is the circle breaking? Not yet. But there are signs of strain.
+
+<break time="1.0s" />
+
+On November 10, 2026, SoftBank reported a loss of about seven billion dollars for the quarter. A big part came from writing down three point seven billion dollars it had paid in advance for power equipment for US data centers. Equipment it no longer planned to use.
+SoftBank said this didn't mean it was scaling back its current projects. But it showed how fast plans can change.
+
+<break time="1.0s" />
+
+Around the same time, Google had its worst day ever on the stock market. Nvidia's shares were down about thirty-five percent from their October peak.
+And the former head of the US Securities and Exchange Commission, Gary Gensler, told CNN he believes the AI boom is already a bubble, and will likely lead to a recession before the 2028 election. Others disagree. One well-known strategist called it a bubble that would correct itself.
+
+<break time="1.0s" />
+
+But some people are already paying for the boom, whether it breaks or not.
+Data centers use enormous amounts of electricity. On the largest power grid in the United States, run by an operator called PJM, the price paid to guarantee enough power capacity jumped from about twenty-nine dollars per megawatt-day, to about two hundred seventy, and then to about three hundred twenty-nine.
+The grid's independent market monitor estimated that data centers were responsible for about sixty-three percent of one of those price increases. Around nine billion dollars in extra costs, passed on to customers.
+Ordinary households pay part of that. In their electricity bills.
+
+<break time="1.5s" />
+
+[Part 6 – So, Who Pays If It Breaks?]
+So let's follow the money all the way around the circle.
+
+<break time="1.0s" />
+
+If the AI boom keeps going, the circle works. Chipmakers sell more chips. AI companies grow into their valuations. The debt gets repaid, and the investors who lent it collect their interest.
+
+<break time="1.0s" />
+
+But if demand slows, the bill doesn't disappear. It spreads out.
+Shareholders, including everyone with an index fund, where a handful of tech giants now make up about a third of the S&P 500.
+Lenders and bondholders, which can mean pension funds and insurers.
+Suppliers that guaranteed their customers' rent.
+And electricity customers, who may keep paying for power plants and grid upgrades built for data centers.
+
+<break time="1.0s" />
+
+None of this means a crash is coming. The AI money is real, and some of these companies are earning more than ever.
+But when the same dollars move in a circle, from supplier to customer and back again, the numbers can look stronger than the demand underneath them.
+
+<break time="1.0s" />
+
+When money moves in a circle, everyone looks rich.
+The real question is who's left holding the bill when it stops.
+
+<break time="1.5s" />
+
+Next time, we'll follow the money into another story where billions went somewhere nobody expected.
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.

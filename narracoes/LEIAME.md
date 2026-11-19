@@ -9,7 +9,20 @@ Um arquivo por episódio com os 6 blocos prontos para colar no Dark Planner (`ep
 - Style: 40%, se aparecer a opção
 - Legenda: desligada (a legenda do vídeo sai do roteiro)
 
-**Passo a passo:**
+## Modo rápido (19/11): o episódio inteiro num áudio só
+
+O plano Basic aceita até 80 mil caracteres por áudio, e um episódio tem de 10 a 15 mil. Então não precisa mais gerar 6 blocos:
+
+1. Abrir `epNN-completo.txt`, copiar tudo abaixo da linha de `=====` e colar no Dark Planner (mesmos ajustes de sempre).
+2. Gerar uma vez, baixar e salvar como `epNN.mp3`.
+3. Mandar aqui. O `montar_episodio.py` usa esse arquivo no lugar dos blocos.
+
+Se uma frase sair errada: gerar só a frase num áudio curto e mandar junto. Eu emendo no lugar certo.
+São 15 áudios por dia no Basic, ou seja, até 15 episódios num dia. Dá para narrar toda a fila de uma vez.
+
+Os arquivos `epNN-blocos.txt` continuam valendo para quem preferir os 6 blocos.
+
+**Passo a passo (6 blocos, modo antigo):**
 1. Gerar cada bloco separado, de A a F. As pausas `<break time="…" />` já estão no texto.
 2. Salvar como `epNN-A.mp3` … `epNN-F.mp3` e mandar ao Claude.
 3. O Claude confere voz, ritmo e frases (`scripts/montar_episodio.py`) e avisa se algum trecho precisa ser regenerado. Nesse caso, regenerar só a frase indicada.

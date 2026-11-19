@@ -1,0 +1,248 @@
+EP. 7 — Where Did Wirecard's $2 Billion Go?
+Dark Planner: voz Lucan Rook – Energetic Male · Multilingual v2 · velocidade 1.0x · style 40% · legenda desligada
+Colar TUDO abaixo da linha num áudio só (14.638 caracteres; limite do plano: 80.000) e salvar como ep07.mp3
+Pronúncia: "Wirecard" = WAI-er-card. "Marsalek" = MAR-sa-lek. "BaFin" = BAH-fin. "Jaffé" = ya-FAY. "Bellenhaus" = BELL-en-house. "Senjo" = SEN-joe. "Al Alam" = al a-LAHM. "Zatarra" = za-TAR-a. "DAX" = dacks. "KPMG" e "EY" letra por letra. Se a voz errar algum nome, me avise que eu reescrevo a frase.
+
+======================================================================
+
+Where Did Wirecard's $2 Billion Go?
+
+<break time="1.0s" />
+
+June 18, 2020. A German payments company is supposed to publish its annual results.
+
+<break time="1.0s" />
+
+Instead, its auditors say they can't confirm one point nine billion euros. About two point one billion dollars. Cash the company says is sitting in two banks in the Philippines.
+The banks say they never had it.
+
+<break time="1.0s" />
+
+Two years earlier, this company was worth about twenty-four billion euros. It had replaced one of Germany's biggest banks in the country's top stock index.
+One week after that announcement, it was bankrupt. So where did the money go? We're going to follow it, account by account.
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – The Company That Replaced a Bank]
+Wirecard started in 1999, near Munich. Its job was simple to describe. When you pay online, somebody has to move the money from your card to the shop. Wirecard did that.
+
+<break time="1.0s" />
+
+Picture a pair of sneakers for one hundred euros. You type in your card number. In the background, a processor passes the payment between the shop, your bank and the card network, checks it for fraud, and makes sure the shop gets paid.
+For that, it keeps a small fee. Repeat that millions of times a day, and you have a business.
+
+<break time="1.0s" />
+
+Its first big customers, according to the German magazine Der Spiegel, were mostly adult websites and online gambling. Businesses that many banks didn't want to touch.
+In 2002, an Austrian consultant named Markus Braun put money into the struggling company and became its chief executive.
+
+<break time="1.0s" />
+
+Wirecard didn't go public the usual way. In 2005, it merged into a small listed company that ran telephone advice hotlines. A shortcut onto the stock market, with fewer questions than a normal listing.
+
+<break time="1.0s" />
+
+Then it grew. Fast. It bought companies in Asia, India, Brazil and the United States. It got a banking license and issued its own cards.
+On its own accounts, revenue went from about four hundred eighty million euros in 2013 to more than two billion in 2018. Profit grew almost as fast.
+
+<break time="1.0s" />
+
+Some of those deals looked expensive. In 2015, Wirecard paid about three hundred forty million euros for a group of payment businesses in India.
+A US nonprofit research group later concluded, from the filings, that at least one hundred seventy-five million euros of that never reached the sellers.
+
+<break time="1.0s" />
+
+In September 2018, Wirecard joined the DAX, Germany's index of its thirty biggest listed companies. It took the place of Commerzbank, one of the country's largest banks.
+A tech company from a Munich suburb, worth about twenty-four billion euros. Germany finally had its own fintech star.
+
+<break time="1.0s" />
+
+Braun was the face of it. He owned about seven percent of the company, and in September 2018 his shares were worth more than one point six billion euros.
+In 2017, he told investors that Wirecard used the latest artificial intelligence to analyze its data. According to later reporting, staff were often stitching customer data together in spreadsheets.
+
+<break time="1.0s" />
+
+Here's the thing about payments, though. A processor keeps only a small slice of each sale.
+To earn billions, you need an enormous number of payments. So where were Wirecard's coming from?
+
+<break time="1.5s" />
+
+[Part 2 – Partners Nobody Could See]
+A big part of the answer was a business most investors never saw up close. Wirecard called it third-party acquiring.
+
+<break time="1.0s" />
+
+The idea, in Wirecard's words, was this. In some countries, Wirecard didn't have the licenses to process payments itself. So it used local partner companies that did. The partners handled the payments, and Wirecard got a share of the fees.
+
+<break time="1.0s" />
+
+Three partners mattered most. One in Dubai, called Al Alam. One in Singapore, called Senjo. And one in the Philippines, called PayEasy.
+According to reporting by the Financial Times in 2019, those three partners brought in about half of Wirecard's revenue. And almost all of its profit.
+
+<break time="1.0s" />
+
+There was a catch. The money from this business didn't sit in Wirecard's own bank accounts.
+It sat in escrow accounts, held by a trustee, supposedly as a safety cushion for the partners' payments. Wirecard counted that cash on its balance sheet anyway.
+
+<break time="1.0s" />
+
+Think of it like this. You run a shop, and you tell your bank you made a big profit last year. The bank asks to see the cash. You say it isn't in your account. It's with a friend overseas, for safekeeping. Here's a letter from your friend.
+
+<break time="1.0s" />
+
+For years, Wirecard's auditors worked a bit like that bank. Each year, they needed proof that the cash was real. And each year, they got letters.
+A court in Singapore later found that one of these trustees, a small corporate services firm, had sent letters confirming that it held almost one point one billion euros for Wirecard. The letters were false.
+
+<break time="1.0s" />
+
+By 2019, according to Wirecard, the escrow cash sat in the Philippines, in accounts at two of the country's largest banks, managed by a local trustee. One point nine billion euros.
+That number would become the most famous hole in German corporate history. But before anyone looked inside it, the people who asked questions had to get past Wirecard first.
+
+<break time="1.5s" />
+
+[Part 3 – Shooting the Messenger]
+The doubts were old. In 2008, a German shareholder group publicly questioned Wirecard's balance sheet.
+In 2015, writers at the Financial Times started asking how the numbers fit together. In 2016, a report from a then-unknown group called Zatarra accused the company of fraud and money laundering. The shares fell.
+
+<break time="1.0s" />
+
+Wirecard's answer was always the same. The critics were short sellers, people betting on the price to fall, and they were lying to make money.
+Germany's financial regulator, BaFin, opened investigations. Into the critics.
+
+<break time="1.0s" />
+
+And the pressure went further. Wirecard hired a former Libyan intelligence chief to look into its critics.
+Researchers at Citizen Lab, at the University of Toronto, later found that journalists, short sellers and investors who questioned Wirecard had been targeted by a hacking-for-hire group, some of them almost daily for months. Wirecard denied any wrongdoing.
+
+<break time="1.0s" />
+
+Then, in January 2019, the Financial Times reported that a senior Wirecard manager in Singapore was suspected of forging and backdating contracts. The material came from inside the company, from a lawyer in Singapore who would later go public as the whistleblower.
+Wirecard called the story false and defamatory. The shares dropped sharply anyway.
+
+<break time="1.0s" />
+
+Here's where the story gets strange. In February 2019, BaFin banned new bets against Wirecard's shares for two months. It said it wasn't taking sides.
+In April, BaFin filed a criminal complaint. Not against Wirecard. Against the two Financial Times reporters, for alleged market manipulation. That case was dropped in 2020, with no evidence found.
+
+<break time="1.0s" />
+
+Investors kept believing. In 2019, the Japanese investment group SoftBank put about nine hundred million euros into Wirecard. Most banking analysts stayed positive until early 2020.
+
+<break time="1.0s" />
+
+To be fair to those investors, it wasn't a crazy bet on paper. Online payments really were booming. The audited accounts said the profits were real.
+And short sellers do make money when a share price falls. So their warnings came with a motive, and many people chose to believe the company instead.
+
+<break time="1.0s" />
+
+If you're enjoying the story so far, subscribing helps the channel a lot. Because next, an outside auditor finally got permission to look.
+
+<break time="1.5s" />
+
+[Part 4 – Seven Days in June]
+To settle the doubts, Wirecard hired a second accounting firm, KPMG, for a special investigation.
+On April 28, 2020, KPMG published its report. It said it could not verify the profits from the partner business for 2016, 2017 and 2018. It hadn't received enough documents. The shares fell twenty-six percent in a day.
+
+<break time="1.0s" />
+
+Wirecard's regular auditor, EY, now did something it hadn't done before. It went to the banks in the Philippines and asked them directly.
+On June 18, 2020, the answer arrived. The one point nine billion euros could not be confirmed. The company said someone had tried to deceive its auditors. The shares lost more than sixty percent that day.
+
+<break time="1.0s" />
+
+The two banks were BDO and the Bank of the Philippine Islands. Both said Wirecard was not their client, and that the documents carrying their names were fake.
+The Philippine central bank went further. It said none of the money had ever entered the country's financial system.
+One bank suspended an employee whose signature appeared on one of the documents. The other said it believed one of its own officers had faked a bank certificate.
+
+<break time="1.0s" />
+
+Now the week moves fast. June 19, Braun resigns. June 22, Wirecard says the money most likely doesn't exist, and Braun is arrested. He denies any wrongdoing.
+June 25, Wirecard files for insolvency. The first company in the DAX ever to go bust.
+The man brought in as interim chief executive had joined the company the evening before he took over. He stayed eighty-five days.
+
+<break time="1.0s" />
+
+One person was already gone. Jan Marsalek, the chief operating officer, who ran the partner business in Asia. He was fired, and he disappeared.
+He was later traced to Belarus, and then reportedly to Moscow. In 2025, a court in London convicted members of a spy ring working for Russia. Prosecutors said Marsalek had directed it. He is still wanted by German police.
+
+<break time="1.5s" />
+
+[Part 5 – Following the Real Money]
+So, back to our question. Where did the one point nine billion euros go?
+
+<break time="1.0s" />
+
+The short answer, according to the insolvency administrator and the prosecutors, is nowhere. It was never there.
+The administrator, Michael Jaffé, found no trace of the money and no sign that the partner business ever really existed. Oliver Bellenhaus, who ran Wirecard's unit in Dubai and became a key witness for the prosecution, put it this way in court. The numbers were synthetic fictions.
+
+<break time="1.0s" />
+
+But that doesn't mean no money was lost. Real money was. It just came from somewhere else.
+
+<break time="1.0s" />
+
+Follow the cash that actually existed. Wirecard had borrowed about one point seven five billion euros from a group of around fifteen banks. It had sold five hundred million euros in bonds. And SoftBank had put in about nine hundred million.
+That was real money, from real lenders. And according to Jaffé's testimony, Wirecard burned through about one point one billion euros of it over the years, just to keep running.
+
+<break time="1.0s" />
+
+The banks felt it. Commerzbank, the same bank Wirecard had pushed out of the DAX, reportedly set aside about one hundred seventy-five million euros for its share of the loans. ING, about the same.
+One bank reportedly sold its slice, about one hundred twenty million euros, for around eighteen cents on the euro.
+
+<break time="1.0s" />
+
+In other words, the fake profits weren't hiding a pile of cash. They were hiding a business that was losing it.
+Prosecutors say the made-up numbers were used to keep the banks lending. They put the damage at about three billion euros.
+
+<break time="1.0s" />
+
+And then there are the shareholders. A company once worth twenty-four billion euros was suddenly worth almost nothing.
+Creditors have filed claims of about fifteen point four billion euros. The insolvency estate holds roughly six hundred fifty million. And in 2025, Germany's highest civil court ruled that shareholders stand behind ordinary creditors in line. About fifty thousand shareholders who filed claims are expected to get nothing.
+
+<break time="1.0s" />
+
+What was left of the real business was sold off. The Spanish bank Santander bought Wirecard's core technology. Units from Brazil to Asia went to other buyers. That money goes to the creditors, not the shareholders.
+
+<break time="1.5s" />
+
+[Part 6 – So, Where Did It Go?]
+So let's put the money back together.
+
+<break time="1.0s" />
+
+The one point nine billion euros never sat in the Philippines. It existed on paper, in contracts and bank letters that turned out to be false.
+The money that really disappeared came from lenders, bondholders and shareholders. Some of it paid for a company that was losing money. Some of it, a Munich court found in a civil case, went out as loans that should never have been approved. That court ordered Braun and two other former executives to pay one hundred forty million euros in damages.
+
+<break time="1.0s" />
+
+What about the watchdogs? Germany's audit regulator fined EY five hundred thousand euros and banned it from taking new audit clients among large listed companies for two years. EY says it has learned from the case.
+The head of BaFin, who had defended the regulator, later called the scandal a complete disaster, and left in 2021.
+
+<break time="1.0s" />
+
+And some people did make money from the fall. Short sellers who had bet against the shares, the same people Wirecard had called liars, profited when the price collapsed.
+
+<break time="1.0s" />
+
+In Singapore, at least four people have been sentenced so far. In January 2026, the man whose firm sent those false letters about the escrow money got ten years in prison.
+
+<break time="1.0s" />
+
+In Munich, Markus Braun has been on trial since December 2022. More than two hundred ninety days of hearings. A verdict is expected around the end of this year.
+Braun denies all the charges. He says he was deceived by Marsalek and others, and that he kept most of his own fortune in Wirecard shares. Until a court decides, he is presumed innocent.
+
+<break time="1.0s" />
+
+The missing two billion was never in a bank. It was in a spreadsheet.
+The money that really vanished belonged to the people who believed it.
+
+<break time="1.5s" />
+
+Next time, the button at checkout that splits everything into four payments. Pay in four, no interest. So who's paying?
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.

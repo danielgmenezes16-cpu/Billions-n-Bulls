@@ -6,6 +6,7 @@ Uso (na raiz do repositório):
 
 Entradas:
     media/ep02/ep02-A.mp3 … ep02-F.mp3   blocos do Dark Planner (também aceita .wav)
+    media/ep02/ep02.mp3                  ou o episódio inteiro num áudio só (tem prioridade sobre os blocos)
     roteiros/rascunhos/fonte/ep02-roteiro.txt
 
 O que faz, em ordem:
@@ -71,6 +72,12 @@ def load(path, lufs=-15):
 
 
 def blocks_of(ep):
+    # episódio inteiro num arquivo só (o Dark Planner aceita até 80 mil caracteres por áudio): media/epNN/epNN.mp3
+    for name in (ep, f'{ep}-completo'):
+        for ext in ('mp3', 'wav', 'm4a'):
+            p = ROOT / f'media/{ep}/{name}.{ext}'
+            if p.exists():
+                return [('A', p)]
     out = []
     for b in 'ABCDEF':
         for ext in ('mp3', 'wav', 'm4a'):
