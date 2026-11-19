@@ -1,0 +1,232 @@
+EP. 9 — What Is One CEO Worth? Nvidia Just Found Out
+Dark Planner: voz Lucan Rook – Energetic Male · Multilingual v2 · velocidade 1.0x · style 40% · legenda desligada
+Gerar cada bloco separado e salvar como ep09-A.mp3 … ep09-F.mp3
+
+======================================================================
+BLOCO A — Abertura e Parte 1 (2.491 caracteres) → salvar como ep09-A.mp3
+======================================================================
+
+What Is One CEO Worth? Nvidia Just Found Out
+
+<break time="1.0s" />
+
+November 12, 2026. The man who started Nvidia in a diner booth thirty-three years ago resigns as its chief executive, effective immediately.
+
+<break time="1.0s" />
+
+In the days around that announcement, Nvidia's stock falls about seventeen percent. According to CNN, about seven hundred fifty billion dollars of market value disappears.
+That's more than the entire value of almost every company on Earth.
+
+<break time="1.0s" />
+
+But the chips didn't change. The factories didn't change. Five days later, the company reported its biggest quarter ever.
+So what exactly did investors lose? How much of a company's value can one person carry? We're going to follow the money and find out.
+This is Billions and Bulls. Let's follow the money.
+
+<break time="1.5s" />
+
+[Part 1 – The Booth That Launched a Giant]
+In 1993, three engineers met at a Denny's restaurant in San Jose, California, to plan a company that would make graphics chips for video games.
+One of them was Jensen Huang. He became the chief executive, and stayed in the job for thirty-three years.
+
+<break time="1.0s" />
+
+For most of that time, Nvidia was a company gamers knew and investors mostly ignored. Then artificial intelligence turned out to run best on the same kind of chips.
+Suddenly, every big tech company wanted Nvidia's hardware. And for a while, almost nobody else could make it at the same scale.
+
+<break time="1.0s" />
+
+In early October 2026, Nvidia's shares hit a record. The company was worth about five point eight trillion dollars.
+
+<break time="1.0s" />
+
+Huang became the face of all of it. The leather jacket, the keynote speeches, the deals with governments and tech giants.
+According to Nvidia's own filing from March 2026, he owned about three point six percent of the company. At the October peak, that stake was worth roughly two hundred billion dollars.
+
+<break time="1.0s" />
+
+But here's a detail that matters later. Unlike some famous founders, Huang didn't control the company through special voting shares. Nvidia has one class of stock.
+His power came from his track record, and from a board that trusted him. Which means that board could also let him go.
+
+<break time="1.0s" />
+
+In 2023, Denny's put a plaque on that booth in San Jose. It celebrated the place where a trillion-dollar company was born.
+On November 12, 2026, according to reports, the plaque came off the wall. A day later, it went back up.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO B — Parte 2 (2.354 caracteres) → salvar como ep09-B.mp3
+======================================================================
+
+[Part 2 – Two Weeks in November]
+Here's what happened, based on the reporting so far. And a warning first: a lot of this is still being investigated, and some of it is disputed.
+
+<break time="1.0s" />
+
+On October 29, The New York Times reported that Huang had been the target of a possible spy plot linked to China. According to the Times, he'd had an extramarital relationship with a former executive of a Singapore data center company. A company that bought Nvidia chips.
+US officials, the Times reported, suspected she had been recruited by Chinese intelligence. China called the claims groundless speculation. The company said the reports weren't supported by verifiable evidence. And the US Justice Department later said it had reached no conclusion about whether she was a spy.
+
+<break time="1.0s" />
+
+Huang said Nvidia's dealings with that company were completely normal, and that Nvidia had checked that its chips were not going to China.
+In Singapore, where the company is based, the authorities said they did not have enough evidence of the offences they had looked into there, and that they had not investigated anyone for spying.
+
+<break time="1.0s" />
+
+Then, on November 11, the Times reported that Huang had also had a relationship with an executive who reported directly to him. That same day, Nvidia's board met.
+On November 12, the company announced that Huang had resigned. As chief executive, as president, and from the board.
+
+<break time="1.0s" />
+
+The board moved fast. Colette Kress, the chief financial officer for thirteen years, became interim chief executive. And for the first time in its history, Nvidia got a separate board chair.
+The board said it would search for a permanent leader, inside and outside the company.
+Kress isn't a household name, but she isn't new to big companies either. Before Nvidia, she spent almost twenty-five years in finance jobs at Cisco and Microsoft.
+
+<break time="1.0s" />
+
+The reaction was split. More than one hundred seventy thousand people signed an open letter asking the board to bring Huang back. Several tech leaders publicly backed him.
+On November 17, Huang said he would be honored to return, if the board decided that was best. The same day, the board said it did not intend to reinstate him.
+And on December 1, he's expected to testify in front of Congress.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO C — Parte 3 (2.289 caracteres) → salvar como ep09-C.mp3
+======================================================================
+
+[Part 3 – The Price of One Person]
+So let's look at the money. CNN put the drop since Huang admitted the affair and the investigation began at about seventeen percent. Seven hundred fifty-one billion dollars of market value.
+
+<break time="1.0s" />
+
+To understand why a company can lose that much over one person, you need to know what a share price really is.
+A share isn't paying for what a company owns today. It's a bet on everything the company will earn in the future. Years and years of future profits, squeezed into one number.
+
+<break time="1.0s" />
+
+So when a founder leaves, investors start asking new questions. Who makes the big bets now? Who closes the next deal with a government, or a tech giant? Will the best engineers stay?
+Every unanswered question makes that future a little less certain. And a less certain future is worth less today.
+
+<break time="1.0s" />
+
+There's a name for this. Key person risk. Companies even warn about it in their annual reports. It's the risk that the business depends so much on one or a few people, that losing them would hurt.
+
+<break time="1.0s" />
+
+It has happened before, at a much smaller scale. In 2019, McDonald's fired its chief executive, Steve Easterbrook, for a consensual relationship with an employee, which broke company policy.
+He left with a severance package estimated at around forty million dollars. Then the company sued, saying he had lied about other relationships. In 2021, he agreed to return more than one hundred five million dollars, and apologized.
+
+<break time="1.0s" />
+
+The lesson boards took from cases like that is simple. Rules about relationships at work apply at the very top too. Maybe especially at the top, where one person's choices can move billions.
+
+<break time="1.0s" />
+
+But history also has the opposite lesson. When Steve Jobs stepped down at Apple in 2011, many people wondered if the company could survive without its founder.
+Under his successor, Tim Cook, Apple went on to become one of the most valuable companies in the world. A founder leaving is a risk. It isn't a sentence.
+
+<break time="1.0s" />
+
+If you're enjoying the story so far, subscribing helps the channel a lot. Because next, we'll find out who actually lost those seven hundred fifty billion dollars.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO D — Parte 4 (1.776 caracteres) → salvar como ep09-D.mp3
+======================================================================
+
+[Part 4 – Who Lost the $751 Billion]
+When a stock falls, the money doesn't go to anyone. There's no pile of cash that moves from one place to another. The value just isn't there anymore, at least on paper.
+But somebody's account balance goes down. So whose?
+
+<break time="1.0s" />
+
+Start with Huang himself. Some simple math. Three point six percent of seven hundred fifty-one billion dollars is about twenty-seven billion. On paper, the person who lost the most from his own exit was probably him.
+
+<break time="1.0s" />
+
+Then there are Nvidia's employees, many of whom are paid partly in company stock. For years, that stock made a lot of them rich. In November, it went the other way.
+
+<break time="1.0s" />
+
+And then, there's almost everyone else. Nvidia is one of the biggest companies in the S&P 500. In mid-November, according to one analysis, it made up about six percent of an S&P 500 index fund.
+So if you have a retirement account with an index fund, there's a good chance you owned a small piece of that drop. Without ever buying a single Nvidia share on purpose.
+
+<break time="1.0s" />
+
+But here's the twist. Not all of that fall was about Huang.
+Nvidia's shares had already started sliding before the scandal broke. Since the record in early October, CNN reports, the stock was down about thirty-five percent. Roughly two trillion dollars.
+Part of that was a wider fear about the artificial intelligence boom. On October 29, the same day the Times story came out, Google's parent company had the worst day in its history on the stock market.
+
+<break time="1.0s" />
+
+So the honest answer is that nobody can split the drop neatly into Huang's part and the market's part. Investors were nervous already. The scandal gave them one more reason.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO E — Parte 5 (1.374 caracteres) → salvar como ep09-E.mp3
+======================================================================
+
+[Part 5 – The Company Without Him]
+Then came the test. On November 17, five days after the resignation, Nvidia reported its quarterly results.
+
+<break time="1.0s" />
+
+Revenue was one hundred fifteen point eight billion dollars for the quarter. More than double a year earlier. Profit was more than sixty-five billion dollars. Both beat Wall Street's expectations.
+The company said it expected about one hundred thirty billion dollars in revenue in the next quarter. And Kress said the plan Huang had put in place was on track.
+
+<break time="1.0s" />
+
+After the report, the shares rose about five percent in after-hours trading.
+One analyst summed it up this way. An orderly change at the top doesn't have to destroy a company's value.
+
+<break time="1.0s" />
+
+But the questions didn't go away. They just changed.
+Nvidia's board created a new committee to oversee national security and export rules. The US Treasury Secretary said the company should hire its next chief executive from outside.
+And Nvidia's business in China, and maybe in the rest of Asia, now depends partly on how Washington reacts.
+
+<break time="1.0s" />
+
+There's a strange irony here. Huang spent years arguing in Washington that Nvidia should be allowed to sell more chips around the world, including to China. Now the scandal around him could make those rules tighter, not looser.
+
+<break time="1.5s" />
+
+======================================================================
+BLOCO F — Parte 6 e fechamento (1.556 caracteres) → salvar como ep09-F.mp3
+======================================================================
+
+[Part 6 – So, What Is One CEO Worth?]
+So let's put it together.
+
+<break time="1.0s" />
+
+The chips, the customers and the factories didn't change in November. The quarter was the best Nvidia has ever had.
+What changed was the story investors tell themselves about the future. And for a company priced on the future, the story is most of the value.
+
+<break time="1.0s" />
+
+The seven hundred fifty billion dollars didn't go to anyone. It was the price of uncertainty. Who leads now? Who makes the next big bet? What will Washington do?
+Some of that value could come back if the answers turn out to be good. Some of it may have been the air coming out of a much bigger boom.
+
+<break time="1.0s" />
+
+And one person is still at the center of it. Jensen Huang has not been charged with anything. The investigations are still open, and he has said he wants to come back.
+Until the facts are clear, it's worth remembering how much of this story is still reported, not proven.
+
+<break time="1.0s" />
+
+A company's value is a guess about the future.
+When the person who has been writing that future walks out, the guess gets cheaper.
+
+<break time="1.5s" />
+
+Next time, the most anticipated video game in years. When you buy it, who actually gets the money?
+And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
+
+<break time="1.0s" />
+
+This is Billions and Bulls. This video explains a business. It is not financial advice.
+Subscribe, and let's keep following the money.

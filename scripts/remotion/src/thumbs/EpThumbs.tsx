@@ -368,7 +368,50 @@ const E8C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C};
+
+// ---------------- Ep. 9 — Nvidia sem o fundador ----------------
+const E9A = () => (
+	<AbsoluteFill>
+		<Background id="t9A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['ONE', 'CEO?']} size={200} x={56} y={150} mark={1} sub="NVIDIA, NOVEMBER 2026" />
+		<Bars x={820} base={560} maxH={360} bw={150} gap={60}
+			bars={[{label: 'Q3 PROFIT', value: 65, display: '$65B'}, {label: 'VALUE LOST', value: 751, display: '$751B', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E9B = () => (
+	<AbsoluteFill>
+		<Background id="t9B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['WHO', 'LOST?']} size={176} x={56} y={150} mark={1} sub="FROM THE OCTOBER PEAK" />
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<line x1={780} x2={1200} y1={560} y2={560} stroke={INK} strokeOpacity={0.5} strokeWidth={4} />
+			<rect x={800} y={200} width={150} height={360} rx={8} fill={DARK} fillOpacity={0.72} />
+			<text x={875} y={178} fontFamily={FONT} fontWeight={900} fontSize={46} fill={DARK} textAnchor="middle">$5.8T</text>
+			<text x={875} y={600} fontFamily={FONT} fontWeight={700} fontSize={24} fill={INK} textAnchor="middle" letterSpacing={3}>OCT 2026</text>
+			<rect x={1010} y={200} width={150} height={126} rx={8} fill="none" stroke={DARK} strokeWidth={5} strokeDasharray="14 12" />
+			<rect x={1010} y={326} width={150} height={234} rx={8} fill={GOLD} />
+			<text x={1085} y={178} fontFamily={FONT} fontWeight={900} fontSize={46} fill={GOLD} textAnchor="middle">−35%</text>
+			<text x={1085} y={600} fontFamily={FONT} fontWeight={700} fontSize={24} fill={INK} textAnchor="middle" letterSpacing={3}>NOV 2026</text>
+			<circle cx={1085} cy={263} r={18} fill={GOLD} />
+		</svg>
+		<Vignette />
+	</AbsoluteFill>
+);
+const E9C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t9C" />
+		<div style={{position: 'absolute', left: 50, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 380, lineHeight: 1, letterSpacing: -18,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$751B
+		</div>
+		<Words lines={['ONE', 'EXIT']} size={120} x={66} y={430} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];
