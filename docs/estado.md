@@ -4,7 +4,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Episódios
 
-**Ritmo novo (18/11): 3 vídeos por semana, terça, quinta e sábado, 14h de Brasília.** Em 19/11 entraram cinco episódios de assunto do momento (9 a 13); o Daniel pode antecipar e eles furam a fila dos atemporais. Ordem: 2 → 3 → 4 → 7 → 6 → 5 → 8 (teasers já trocados). Calendário completo em `docs/calendario.md`.
+**Ritmo novo (18/11): 3 vídeos por semana, terça, quinta e sábado, 14h de Brasília.** Em 19/11 entraram cinco episódios de assunto do momento (9 a 13); o Daniel pode antecipar e eles furam a fila dos atemporais. Ordem: 2 → **10 (GTA 6, decisão do Daniel em 19/11)** → 3 → 4 → 7 → 6 → 5 → 8 (teasers já trocados). No comentário fixado do ep. 2, trocar o anúncio do Credit Suisse por "Coming up: the money behind GTA 6, and then Credit Suisse." Calendário completo em `docs/calendario.md`.
 
 | Ep. | Título | Roteiro | Telas (Remotion) | B-roll | Narração | Vídeo final |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 7 | Where Did Wirecard's $2 Billion Go? | Rascunho (18/11); vai antes do 6 e do 5 | Falta | Falta | **Falta** | Sai **Ter 01/12** (narração até 28/11) |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Falta | Falta | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
 | 9 | What Is One CEO Worth? Nvidia Just Found Out | Rascunho (19/11), viral | Falta | Falta | **Falta** | Quanto antes (Daniel decide) |
-| 10 | Who Gets Rich When You Buy GTA 6? | Rascunho (19/11), viral | Falta | Falta | **Falta** | Quanto antes (Daniel decide) |
+| 10 | Who Gets Rich When You Buy GTA 6? | Aprovado para ir já (19/11); teaser aponta para o Credit Suisse | Pronto (`src/ep10`) | Completo (7 itens) | **Falta** (blocos enviados em 19/11) | **Próximo a publicar**, assim que a narração chegar |
 | 11 | Why Google Lost $500 Billion in One Day | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 9 (cita o ep. do Nvidia) |
 | 12 | Who Gets Rich in a $1.5 Trillion IPO? | Rascunho (19/11), viral; conflito de interesse anotado | Falta | Falta | **Falta** | Quanto antes |
 | 13 | Who Pays If the AI Boom Breaks? | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 11 e do 12 (cita os dois) |
