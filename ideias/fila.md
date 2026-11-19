@@ -13,6 +13,13 @@ Títulos de trabalho; todo número precisa ser checado na fonte antes do roteiro
 | 6 | Who Pays When You Buy Now, Pay Later? | Quem paga o grátis | Bolso (temporada de compras) | Roteiro e telas prontos (`roteiros/rascunhos/ep06-bnpl-who-pays.md`); aprovado |
 | 7 | Where Did Wirecard's $2 Billion Go? | Golpes e desastres | Colapso + Europa | Roteiro e thumbs prontos (`roteiros/rascunhos/ep07-wirecard-missing-billions.md`); aguardando aprovação do Daniel |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro | Evergreen | Roteiro e thumbs prontos (`roteiros/rascunhos/ep08-100-dollar-bill.md`); aguardando aprovação do Daniel. Sai em 05/01/2027 |
+| 9 | What Is One CEO Worth? Nvidia Just Found Out | Assunto do momento | Viral | Roteiro e thumbs prontos (19/11) |
+| 10 | Who Gets Rich When You Buy GTA 6? | Assunto do momento | Viral | Roteiro e thumbs prontos (19/11) |
+| 11 | Why Google Lost $500 Billion in One Day | Assunto do momento | Viral | Roteiro e thumbs prontos (19/11) |
+| 12 | Who Gets Rich in a $1.5 Trillion IPO? | Assunto do momento | Viral | Roteiro e thumbs prontos (19/11) |
+| 13 | Who Pays If the AI Boom Breaks? | Assunto do momento | Viral | Roteiro e thumbs prontos (19/11) |
+
+Decisão de 19/11 (Daniel): incluir assuntos do momento super falados, sempre respondendo uma pergunta de dinheiro. Eles podem furar a fila dos atemporais. Próximo bolso na fila: The Hidden Fees Eating Your 401(k).
 
 ## Reserva (por grupo)
 

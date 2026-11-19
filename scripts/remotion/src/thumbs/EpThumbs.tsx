@@ -527,7 +527,49 @@ const E12C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '11A': E11A, '11B': E11B, '11C': E11C, '12A': E12A, '12B': E12B, '12C': E12C};
+
+// ---------------- Ep. 13 — O círculo da IA ----------------
+const E13A = () => (
+	<AbsoluteFill>
+		<Background id="t13A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['MONEY', 'LOOP']} size={172} x={56} y={150} mark={1} sub="SUPPLIER → CUSTOMER → SUPPLIER" />
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<defs>
+				<marker id="t13a-arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+					<path d="M0,0 L10,5 L0,10 z" fill={DARK} />
+				</marker>
+			</defs>
+			<path d="M 1070 190 A 150 150 0 1 1 920 340" fill="none" stroke={DARK} strokeWidth={10} strokeLinecap="round" markerEnd="url(#t13a-arrow)" />
+			<text x={1070} y={368} fontFamily={FONT} fontWeight={900} fontSize={72} fill={GOLD} textAnchor="middle">$100B</text>
+			<circle cx={1070} cy={190} r={22} fill={GOLD} />
+		</svg>
+		<Vignette />
+	</AbsoluteFill>
+);
+const E13B = () => (
+	<AbsoluteFill>
+		<Background id="t13B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['WHO', 'PAYS?']} size={196} x={56} y={150} mark={1} sub="POWER CAPACITY PRICE, PJM" />
+		<Bars x={820} base={560} maxH={340} bw={150} gap={60}
+			bars={[{label: '2024/25', value: 28.92, display: '$29'}, {label: '2026/27', value: 329.17, display: '$329', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E13C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t13C" />
+		<div style={{position: 'absolute', left: 50, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 380, lineHeight: 1, letterSpacing: -18,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$105B
+		</div>
+		<Words lines={['RENT', 'GUARANTEE']} size={120} x={66} y={430} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '11A': E11A, '11B': E11B, '11C': E11C, '12A': E12A, '12B': E12B, '12C': E12C, '13A': E13A, '13B': E13B, '13C': E13C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];

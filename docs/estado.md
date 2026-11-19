@@ -4,7 +4,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Episódios
 
-**Ritmo novo (18/11): 3 vídeos por semana, terça, quinta e sábado, 14h de Brasília.** Ordem: 2 → 3 → 4 → 7 → 6 → 5 → 8 (teasers já trocados). Calendário completo em `docs/calendario.md`.
+**Ritmo novo (18/11): 3 vídeos por semana, terça, quinta e sábado, 14h de Brasília.** Em 19/11 entraram cinco episódios de assunto do momento (9 a 13); o Daniel pode antecipar e eles furam a fila dos atemporais. Ordem: 2 → 3 → 4 → 7 → 6 → 5 → 8 (teasers já trocados). Calendário completo em `docs/calendario.md`.
 
 | Ep. | Título | Roteiro | Telas (Remotion) | B-roll | Narração | Vídeo final |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,11 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | Sai **Qui 03/12** (narração até 30/11) |
 | 7 | Where Did Wirecard's $2 Billion Go? | Rascunho (18/11); vai antes do 6 e do 5 | Falta | Falta | **Falta** | Sai **Ter 01/12** (narração até 28/11) |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Falta | Falta | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
+| 9 | What Is One CEO Worth? Nvidia Just Found Out | Rascunho (19/11), viral | Falta | Falta | **Falta** | Quanto antes (Daniel decide) |
+| 10 | Who Gets Rich When You Buy GTA 6? | Rascunho (19/11), viral | Falta | Falta | **Falta** | Quanto antes (Daniel decide) |
+| 11 | Why Google Lost $500 Billion in One Day | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 9 (cita o ep. do Nvidia) |
+| 12 | Who Gets Rich in a $1.5 Trillion IPO? | Rascunho (19/11), viral; conflito de interesse anotado | Falta | Falta | **Falta** | Quanto antes |
+| 13 | Who Pays If the AI Boom Breaks? | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 11 e do 12 (cita os dois) |
 
 - Roteiros completos (pacote, blocos do Dark Planner, plano visual, checagem, descrição com créditos): `roteiros/rascunhos/epNN-*.md`. Texto-fonte de cada roteiro: `roteiros/rascunhos/fonte/epNN-roteiro.txt` (é dele que as cenas leem as frases).
 - Thumbnails aprovadas em 18/11. Principal de cada episódio (as outras duas entram no Test & Compare): ep. 2 **A** "SAME $100?", ep. 3 **B** "TO ZERO", ep. 4 **A** "$1 A YEAR", ep. 5 **C** "$160B HIDDEN BET", ep. 6 **C** "$20B HOLIDAY LOAN". Cópias para upload em `roteiros/prontos/thumbs/`. Fontes: `roteiros/rascunhos/thumbs/` e `scripts/remotion/src/thumbs/EpThumbs.tsx`.
@@ -36,6 +41,7 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 - Ep. 4: taxas (FDIC, grandes bancos, Capital One) e a reunião do Fed de dezembro.
 - Ep. 5 (sai 05/12): recurso de Bill Hwang. Teaser já aponta para o ep. 8.
 - Ep. 7 (sai 01/12): sentença de Markus Braun esperada perto do Natal, depois da publicação. Reconferir em 30/11; se sair depois, atualizar comentário fixado e descrição. Frases alternativas no doc do episódio.
+- Eps. 9 a 13 (virais): reconferir tudo na véspera da narração (investigação de Huang e depoimento de 01/12; vendas oficiais do GTA 6; estreia da ação da Anthropic; ativo e garantias da Nvidia). Os eps. 11, 12 e 13 citam episódios anteriores: se a ordem mudar, ajustar as frases.
 - Ep. 8 (sai 08/12): ativo diferido do Fed (relatório trimestral), pedido de impressão de 2027, remessas ao Tesouro; trocar o teaser genérico do fechamento quando o ep. 9 for escolhido.
 
 ## Pendências com o Daniel
