@@ -445,7 +445,55 @@ const E10C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C};
+
+// ---------------- Ep. 11 — Google, US$ 500 bi em um dia ----------------
+const E11A = () => (
+	<AbsoluteFill>
+		<Background id="t11A" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['ONE', 'DAY']} size={210} x={56} y={140} mark={1} sub="OCTOBER 29, 2026" />
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<line x1={780} x2={1200} y1={560} y2={560} stroke={INK} strokeOpacity={0.5} strokeWidth={4} />
+			<rect x={850} y={190} width={190} height={370} rx={8} fill={DARK} fillOpacity={0.72} />
+			<rect x={850} y={190} width={190} height={47} rx={8} fill="none" stroke={GOLD} strokeWidth={6} strokeDasharray="12 10" />
+			<text x={945} y={168} fontFamily={FONT} fontWeight={900} fontSize={50} fill={GOLD} textAnchor="middle">−$500B</text>
+			<text x={945} y={600} fontFamily={FONT} fontWeight={700} fontSize={24} fill={INK} textAnchor="middle" letterSpacing={3}>MARKET VALUE</text>
+			<circle cx={1100} cy={214} r={18} fill={GOLD} />
+		</svg>
+		<Vignette />
+	</AbsoluteFill>
+);
+const E11B = () => (
+	<AbsoluteFill>
+		<Background id="t11B" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['CASH', 'GONE']} size={196} x={56} y={150} mark={1} sub="FREE CASH FLOW, Q3" />
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<line x1={780} x2={1200} y1={430} y2={430} stroke={INK} strokeOpacity={0.5} strokeWidth={4} />
+			<rect x={800} y={190} width={150} height={240} rx={8} fill={DARK} fillOpacity={0.72} />
+			<text x={875} y={168} fontFamily={FONT} fontWeight={900} fontSize={44} fill={DARK} textAnchor="middle">+$24.6B</text>
+			<text x={875} y={470} fontFamily={FONT} fontWeight={700} fontSize={24} fill={INK} textAnchor="middle" letterSpacing={3}>Q3 2025</text>
+			<rect x={1010} y={430} width={150} height={88} rx={8} fill={GOLD} />
+			<text x={1085} y={400} fontFamily={FONT} fontWeight={900} fontSize={44} fill={GOLD} textAnchor="middle">−$9.1B</text>
+			<text x={1085} y={548} fontFamily={FONT} fontWeight={700} fontSize={24} fill={INK} textAnchor="middle" letterSpacing={3}>Q3 2026</text>
+			<circle cx={1085} cy={340} r={18} fill={GOLD} />
+		</svg>
+		<Vignette />
+	</AbsoluteFill>
+);
+const E11C = () => (
+	<AbsoluteFill>
+		<NavyBg id="t11C" />
+		<div style={{position: 'absolute', left: 50, top: 60, fontFamily: FONT, fontWeight: 900, fontSize: 330, lineHeight: 1, letterSpacing: -16,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 30}}>
+			$200B
+		</div>
+		<Words lines={['AI BILL', 'PER YEAR']} size={120} x={66} y={430} dark />
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '11A': E11A, '11B': E11B, '11C': E11C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];

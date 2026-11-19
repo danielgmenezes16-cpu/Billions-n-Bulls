@@ -2,6 +2,7 @@
 import {bundle} from '@remotion/bundler';
 import {renderStill, selectComposition} from '@remotion/renderer';
 import path from 'node:path';
+import fs from 'node:fs/promises';
 
 const [outDir, ...ids] = process.argv.slice(2);
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
@@ -11,4 +12,5 @@ for (const id of ids) {
 	await renderStill({composition, serveUrl, output: path.join(outDir, `${id}.png`), browserExecutable, chromeMode: 'chrome-for-testing', imageFormat: 'png'});
 	process.stdout.write(`${id} `);
 }
+await fs.rm(serveUrl, {recursive: true, force: true}); // cada bundle copia o public/ inteiro (~1,3 GB)
 console.log('\nok');
