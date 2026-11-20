@@ -47,13 +47,13 @@ export const TimelineShot: React.FC<{id: string; start: number; title?: string; 
 
 // ---------- Documento com linhas marcadas (tabela de taxas, relatório, decisão) ----------
 export type DocLine = {label: string; value?: string; at: number; highlight?: boolean};
-export const DocLinesShot: React.FC<{id: string; start: number; title: string; titleAt: number; header?: string; lines: DocLine[]; source?: string; stamp?: {text: string; at: number}}> = (p) => {
+export const DocLinesShot: React.FC<{id: string; start: number; title: string; titleAt: number; header?: string; lines: DocLine[]; source?: string; stamp?: {text: string; at: number}; dark?: boolean}> = (p) => {
 	const {on, frame} = useOn(p.start);
 	const top = 250;
 	const rowH = Math.min(96, 560 / Math.max(1, p.lines.length));
 	return (
-		<Scene id={p.id} drift={-0.12}>
-			<Txt x={228} y={180} o={on(p.titleAt)} size={46}>{p.title}</Txt>
+		<Scene id={p.id} drift={-0.12} dark={p.dark}>
+			<Txt x={228} y={180} o={on(p.titleAt)} size={46} color={p.dark ? '#E6EAF0' : INK}>{p.title}</Txt>
 			<Panel x={300} y={top - 30} w={1320} h={rowH * p.lines.length + (p.header ? 130 : 70)} o={on(p.titleAt)}>
 				{p.header ? <Tag x={350} y={top + 40} color={SOFT}>{p.header}</Tag> : null}
 			</Panel>
@@ -70,7 +70,7 @@ export const DocLinesShot: React.FC<{id: string; start: number; title: string; t
 				);
 			})}
 			{p.stamp ? <Stamp x={1480} y={900} k={on(p.stamp.at, 12)} text={p.stamp.text} color={GOLD} size={60} /> : null}
-			{p.source ? <Source text={p.source} o={on(p.titleAt)} /> : null}
+			{p.source ? <Source text={p.source} o={on(p.titleAt)} dark={p.dark} /> : null}
 		</Scene>
 	);
 };

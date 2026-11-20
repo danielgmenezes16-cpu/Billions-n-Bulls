@@ -74,6 +74,21 @@
   "w": 1920,
   "h": 1080
  },
+ "p3-ticker": {
+  "kind": "video",
+  "full": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.mp4",
+  "title": "market, values, stock, exchange, financial, graphics, silver, currency, company, economy, banking, bank, euro, payment, bitcoin",
+  "creator": "Natures_Embrace",
+  "license": "Pixabay Content License",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "page": "https://pixabay.com/videos/id-204306/",
+  "provider": "Pixabay",
+  "needs_credit": false,
+  "query": "stock exchange graph financial data",
+  "file": "img/ep09/p3-ticker.mp4",
+  "w": 1920,
+  "h": 1080
+ },
  "p4-office": {
   "kind": "video",
   "full": "https://cdn.pixabay.com/video/2020/07/30/45985-447087689_large.mp4",
