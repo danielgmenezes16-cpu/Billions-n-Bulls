@@ -3,8 +3,6 @@
 Tudo pronto para colar no YouTube Studio. Capítulos com a minutagem real da narração.
 Vídeo: `out/ep07-final.mp4` (cópia menor para envio: `out/ep07-final-envio.mp4`) · 14:23 · 1920×1080 · 30 fps · −14 LUFS. Legenda: `ep07.srt` (nesta pasta).
 
-**ATENÇÃO: 5642 caracteres, acima do limite de 5.000. Encurtar as fontes antes de colar.**
-
 ## Título
 
 Where Did Wirecard's $2 Billion Go?
@@ -15,7 +13,7 @@ Ordem: **A**, B, C (a primeira é a principal). Arquivos: `thumbs/ep07-thumb-A.p
 
 ## Descrição
 
-Trocar `[link do canal]` pelo link do Cargo & Capital. Tamanho: 5642 caracteres (limite 5.000).
+Trocar `[link do canal]` pelo link do Cargo & Capital. Tamanho: 4695 caracteres (limite 5.000).
 
 ```
 In June 2020, auditors said €1.9 billion (about $2.1 billion) of Wirecard's cash could not be found. The two banks in the Philippines said they never had it. A week later, the German fintech once worth €24 billion was bankrupt. We follow the money: where the missing billions were supposed to be, who asked questions, and whose money really disappeared.
@@ -39,29 +37,24 @@ Chapters
 13:43 Next episode
 
 Sources
-Wirecard scandal (Wikipedia: timeline, BaFin, KPMG, EY, Singapore cases): https://en.wikipedia.org/wiki/Wirecard_scandal
-Wirecard (Wikipedia: history, financial data 2013-2018): https://en.wikipedia.org/wiki/Wirecard
-Markus Braun (Wikipedia: stake, AI claims, arrest): https://en.wikipedia.org/wiki/Markus_Braun
-Jan Marsalek (Wikipedia): https://en.wikipedia.org/wiki/Jan_Marsalek
-Deutsche Börse, Wirecard to be included in DAX (Sept 2018): https://www.deutsche-boerse.com/dbg-en/media/press-releases/Wirecard-AG-to-be-included-in-DAX-new-composition-for-TecDAX-MDAX-and-SDAX-1406616
-Fortune, Wirecard plunges as auditor flags missing cash (18 Jun 2020): https://fortune.com/2020/06/18/high-flying-german-fintech-wirecard-plunges-as-millions-go-missing/
+Wirecard scandal: https://en.wikipedia.org/wiki/Wirecard_scandal
+Deutsche Börse, Wirecard to be included in DAX: https://www.deutsche-boerse.com/dbg-en/media/press-releases/Wirecard-AG-to-be-included-in-DAX-new-composition-for-TecDAX-MDAX-and-SDAX-1406616
+Fortune, Wirecard plunges as auditor flags missing cash: https://fortune.com/2020/06/18/high-flying-german-fintech-wirecard-plunges-as-millions-go-missing/
 Inquirer, BPI and BDO: Wirecard claims based on falsified docs: https://business.inquirer.net/300457/bpi-bdo-wirecard-claims-based-on-falsified-docs
 PYMNTS, Philippines central bank says Wirecard deposits never made: https://www.pymnts.com/?p=846666
-Al Jazeera, Wirecard officially goes bust (25 Jun 2020): https://www.aljazeera.com/economy/2020/6/25/in-swift-spectacular-implosion-wirecard-officially-goes-bust
-PYMNTS, Germany ends probe into journalists over Wirecard (Sept 2020): https://www.pymnts.com/legal/2020/germany-ends-probe-into-wirecard-accusations-journalists/
+Al Jazeera, Wirecard officially goes bust: https://www.aljazeera.com/economy/2020/6/25/in-swift-spectacular-implosion-wirecard-officially-goes-bust
+PYMNTS, Germany ends probe into journalists over Wirecard: https://www.pymnts.com/legal/2020/germany-ends-probe-into-wirecard-accusations-journalists/
 American Banker, Wirecard implosion tears through banks' bottom lines: https://www.americanbanker.com/payments/articles/wirecard-implosion-tears-through-european-banks-bottom-lines
 Business Recorder, The money's gone: Wirecard collapses owing $4bn: https://www.brecorder.com/news/40000875
-Vindobona, Wirecard liquidator reveals billion-euro loss (Jaffé testimony): https://www.vindobona.org/article/wirecard-scandal-liquidator-reveals-billion-euro-loss
-dpa via WNOZ, verdict in sight, deadline for defense (Nov 2026): https://www.wnoz.de/nachrichten/deutschland-und-die-welt/wirtschaft/urteil-im-wirecard-prozess-in-sicht-frist-fuer-verteidiger-1175816.html
-Stuttgarter Zeitung, 50,000 shareholders likely get nothing (Nov 2026): https://stuttgarter-zeitung.de/wirtschaft/wirecard-prozess-in-muenchen-ex-chef-braun-sieht-sich-getaeuscht-50000-aktionaere-gehen-wohl-leer-aus-79696979.html
-LTO, Federal Court of Justice on Wirecard shareholders (IX ZR 127/24, Nov 2025): https://www.lto.de/recht/kanzleien-unternehmen/k/bgh-ixzr12724-wirecard-insolvenzmasse-forderungen-aktionaere-urteil
-Finextra, EY hit with German audit ban over Wirecard (Apr 2023): https://finextra.com/newsarticle/42094/ey-hit-with-german-audit-ban-over-wirecard-work
-Al Jazeera, Bulgarians convicted in UK of spying for Russia (Mar 2025): https://www.aljazeera.com/news/2025/3/7/russian-spy-ring-dubbed-the-minions-convicted-in-uk-court
+Vindobona, Wirecard liquidator reveals billion-euro loss: https://www.vindobona.org/article/wirecard-scandal-liquidator-reveals-billion-euro-loss
+dpa via WNOZ, verdict in sight, deadline for defense: https://www.wnoz.de/nachrichten/deutschland-und-die-welt/wirtschaft/urteil-im-wirecard-prozess-in-sicht-frist-fuer-verteidiger-1175816.html
+Stuttgarter Zeitung, 50,000 shareholders likely get nothing: https://stuttgarter-zeitung.de/wirtschaft/wirecard-prozess-in-muenchen-ex-chef-braun-sieht-sich-getaeuscht-50000-aktionaere-gehen-wohl-leer-aus-79696979.html
+LTO, Federal Court of Justice on Wirecard shareholders: https://www.lto.de/recht/kanzleien-unternehmen/k/bgh-ixzr12724-wirecard-insolvenzmasse-forderungen-aktionaere-urteil
+Finextra, EY hit with German audit ban over Wirecard: https://finextra.com/newsarticle/42094/ey-hit-with-german-audit-ban-over-wirecard-work
+Al Jazeera, Bulgarians convicted in UK of spying for Russia: https://www.aljazeera.com/news/2025/3/7/russian-spy-ring-dubbed-the-minions-convicted-in-uk-court
 Singapore Law Watch, 2 men convicted of falsifying accounts linked to Wirecard: https://www.singaporelawwatch.sg/Headlines/2-men-convicted-of-falsifying-accounts-linked-to-collapsed-payments-company-wirecard
-Jaffé, Santander acquires Wirecard technology assets: https://www.eqs-news.com/news/media/dr-michael-jaffe-insolvenzverwalter-der-wirecard-ag-investorenprozess-fur-kerngeschaft-erfolgreich-abgeschlossen-banco-santander-ubernimmt-technologie-und-geschaftsbetrieb/39eb5941-09d3-4209-872c-0552705a6bdc_en
-PYMNTS, EU banks face massive losses on exiting Wirecard loans (WSJ): https://www.pymnts.com/loans/2020/eu-banks-face-massive-losses-on-exiting-wirecard-loans/
+PYMNTS, EU banks face massive losses on exiting Wirecard loans: https://www.pymnts.com/loans/2020/eu-banks-face-massive-losses-on-exiting-wirecard-loans/
 Reuters via Investing.com, Wirecard short sellers hit jackpot: https://ca.investing.com/news/stock-market-news/wirecard-short-sellers-hit-jackpot-after-shares-dive-60-2173647
-Philstar, BSP probes spurious documents tying BDO, BPI to Wirecard: https://www.philstar.com/business/2020/06/19/2022071/bsp-probes-spurious-documents-tying-bdo-bpi-accounting-scandal
 
 Animations, graphics and script are original, created for Billions & Bulls. Photos and footage are used under their licenses; credits below.
 

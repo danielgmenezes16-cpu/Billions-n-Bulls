@@ -53,6 +53,7 @@ DROP = {
     'ep04': ['wealthvieu', 'cranedata', 'wikipedia.org/wiki/Regulation_Q', 'nbcsandiego', 'pymnts.com/legal/2025/capital-ones', 'bloomberglaw',
              'mahoningmatters'],
     'ep05': ['corporatecrimereporter', 'fool.com/investing/2021/04/02', 'federalregister.gov'],
+    'ep07': ['history, financial data', 'wiki/Jan_Marsalek', 'eqs-news', 'philstar', 'wiki/Markus_Braun'],
 }
 
 

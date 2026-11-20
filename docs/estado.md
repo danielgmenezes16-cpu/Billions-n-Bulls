@@ -10,11 +10,11 @@ Atualizado em 18/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Robinhood Is Free. So Who's Paying? | Pronto | Pronto | — (só animação) | Feita | **Enviado e agendado para 17/11, 14h**; faltam as thumbs (verificação) |
 | 2 | Who Really Gets Paid When You Tap Your Card? | Aprovado | Pronto (`src/ep02`) | Completo (26 itens) | Feita (A–E ElevenLabs, F Dark Planner) | **Publicado em 19/11** (sem o teste interativo; dá para incluir depois). Vídeo: `out/ep02-final.mp4` (14:14, −14 LUFS; cópia menor para envio `out/ep02-final-envio.mp4`); pacote em `roteiros/prontos/ep02-upload.md` |
-| 3 | How a 167-Year-Old Bank Died in a Weekend | **Aprovado** (18/11) | Pronto (`src/ep03`) | Completo (22 itens) | **Falta** | Sai **Qui 26/11** (narração até 23/11) |
-| 4 | Why Your Bank Pays You Almost Nothing | **Aprovado** (18/11) | Pronto (`src/ep04`) | Completo (16 itens) | **Falta** | Sai **Sáb 28/11** (narração até 25/11) |
-| 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | **Falta** | Sai **Sáb 05/12** (narração até 02/12) |
-| 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | **Falta** | Sai **Qui 03/12** (narração até 30/11) |
-| 7 | Where Did Wirecard's $2 Billion Go? | Rascunho (18/11); vai antes do 6 e do 5 | Falta | Falta | **Falta** | Sai **Ter 01/12** (narração até 28/11) |
+| 3 | How a 167-Year-Old Bank Died in a Weekend | **Aprovado** (18/11) | Pronto (`src/ep03`) | Completo (22 itens) | Feita (20/11, áudio único) | Renderizando (20/11); pacote em `roteiros/prontos/ep03-upload.md`. Sai logo depois do GTA |
+| 4 | Why Your Bank Pays You Almost Nothing | **Aprovado** (18/11) | Pronto (`src/ep04`) | Completo (16 itens) | Feita (20/11, áudio único) | Na fila de render; pacote pronto |
+| 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | Feita (20/11, áudio único) | Na fila de render; pacote pronto |
+| 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | Feita (20/11); conferir "pay in four" em ~5:48 | Na fila de render (último); pacote pronto |
+| 7 | Where Did Wirecard's $2 Billion Go? | Combinado (19/11) | Pronto (`src/ep07`, 20/11) | Completo (9 itens) | Feita (20/11, áudio único) | Na fila de render; pacote pronto |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Falta | Falta | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
 | 9 | What Is One CEO Worth? Nvidia Just Found Out | Rascunho (19/11), viral | Falta | Falta | **Falta** | Quanto antes (Daniel decide) |
 | 10 | Who Gets Rich When You Buy GTA 6? | Aprovado para ir já (19/11); teaser aponta para o Credit Suisse | Pronto (`src/ep10`) | Completo (7 itens) | Feita (19/11) | **Vídeo pronto** (19/11): `out/ep10-final.mp4` (9:52, −14 LUFS; envio `out/ep10-final-envio.mp4`); pacote em `roteiros/prontos/ep10-upload.md`. Publicar já |
