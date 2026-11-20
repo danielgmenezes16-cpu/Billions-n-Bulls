@@ -20,7 +20,7 @@ O que faz, em ordem:
        continuam encontrando tudo. Grava scripts/remotion/src/ep02/timeline.json (provisional = false).
     5. Gera a trilha (scripts/audio/trilha_show.py) no comprimento do vídeo, a -27 LUFS.
     6. Gera a legenda roteiros/prontos/ep02.srt a partir do roteiro, com os tempos da fala.
-    7. Com --render: renderiza out/ep02-final.mp4 (H.264 CRF 18, 1080p) e masteriza o áudio a -14 LUFS (TP -1,5).
+    7. Com --render: confere as cenas (scripts/remotion/checar_cenas.py; --forcar ignora) e renderiza out/ep02-final.mp4 (H.264 CRF 18, 1080p) e masteriza o áudio a -14 LUFS (TP -1,5).
 """
 import argparse
 import difflib
@@ -174,6 +174,7 @@ def main():
     ap.add_argument('ep')
     ap.add_argument('--trilha', default='spark', choices=list(trilha_show.PRESETS))
     ap.add_argument('--render', action='store_true')
+    ap.add_argument('--forcar', action='store_true', help='renderiza mesmo se a checagem das cenas achar problemas')
     a = ap.parse_args()
     ep = a.ep
     audio_dir = REMOTION / 'public/audio'
@@ -249,8 +250,11 @@ def main():
     print(f'fala {speech_end - OFFSET:.1f} s · vídeo {total:.1f} s ({nfr} frames) · coincidência {ratio:.1%} · {n} legendas')
     print(f'checagem: media/{ep}/checagem-audio.md ({len(gaps_script)} trechos do roteiro, {len(gaps_spoken)} falados fora do roteiro)')
 
-    # 7: render e master
+    # 7: render e master (antes, a checagem das cenas: destaques que não aparecem, frases fora da cena, objetos do ep. 1)
     if a.render:
+        chk = subprocess.run([sys.executable, str(REMOTION / 'checar_cenas.py'), ep])
+        if chk.returncode != 0 and not a.forcar:
+            raise SystemExit(f'{ep}: a checagem das cenas achou problemas (acima). Corrigir em src/{ep}/ ou rodar com --forcar.')
         (ROOT / 'out').mkdir(exist_ok=True)
         raw = ROOT / f'out/{ep}-render.mp4'
         comp = 'Ep' + ep[2:]
