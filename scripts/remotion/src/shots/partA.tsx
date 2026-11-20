@@ -51,13 +51,15 @@ export const BarsShot: React.FC<{id: string; start: number; title: string; title
 	const {on, frame} = useOn(p.start);
 	const max = Math.max(...p.bars.map((b) => b.value));
 	if (p.horizontal) {
+		// rótulo depois da barra (~0,56 do corpo por letra): a barra maior encolhe se o rótulo passaria de 1.840 px
+		const maxW = Math.min(1050, ...p.bars.map((b) => ((1240 - b.display.length * 44 * 0.56) * max) / Math.max(b.value, 1e-9)));
 		return (
 			<Scene id={p.id}>
 				<Txt x={228} y={180} o={on(p.titleAt)} size={46}>{p.title}</Txt>
 				{p.bars.map((b, i) => {
 					const k = interpolate(frame, [b.at - p.start, b.at - p.start + 16], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
 					const y = 280 + i * 130;
-					const w = 1050 * (b.value / max) * k;
+					const w = maxW * (b.value / max) * k;
 					return (
 						<g key={b.label} opacity={Math.min(1, k * 2)}>
 							<Txt x={540} y={y + 56} size={42} weight={600} anchor="end">{b.label}</Txt>

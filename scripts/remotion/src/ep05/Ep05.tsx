@@ -158,7 +158,7 @@ add('But here\'s the thing about a race', card({id: 'p4-last', apoio: 'The thing
 
 // ---------------- Parte 5 — Who Paid (azul-marinho) ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'WHO PAID', textSide: 'center', object: 'none', heroSize: 200, heroUnderline: true, dark: true}));
-add('The banks that sold first', card({id: 'p5-first', apoio: 'Sold first: Goldman Sachs, reportedly', hero: 'ALMOST UNSCATHED', complemento: 'The ones that hesitated got stuck.', textSide: 'left', object: 'chart', heroSize: 140, dark: true}));
+add('The banks that sold first', card({id: 'p5-first', apoio: 'Sold first: Goldman Sachs, reportedly', hero: 'ALMOST UNSCATHED', complemento: 'The ones that hesitated got stuck.', textSide: 'left', object: 'chart', heroSize: 122, dark: true}));
 add('Credit Suisse lost about five', (s) => (
 	<BarsShot id="p5-losses" start={s} horizontal title="Archegos losses, bank by bank (USD)" titleAt={s + 4} source={LOSSES} note={{text: '$10B+', at: c.f('Add it up')}}
 		bars={[

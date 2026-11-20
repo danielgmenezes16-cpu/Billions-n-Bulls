@@ -25,6 +25,15 @@ STR = r"""'((?:\\.|[^'\\])*)'|"((?:\\.|[^"\\])*)\""""
 tok = lambda s: re.sub(r'[^a-z0-9%$]+', '', s.lower())
 
 
+# largura de cada caractere do destaque (Inter Bold, caixa alta), em fração do corpo; confere com os quadros renderizados (±2%)
+EM = dict(zip('ABCDEFGHIJKLMNOPQRSTUVWXYZ', [.70, .66, .70, .72, .56, .54, .74, .73, .28, .50, .68, .55, .88, .74, .76, .65, .76, .66, .62, .60, .72, .70, .98, .68, .66, .60]))
+EM.update({c: .64 for c in '0123456789'})
+EM.update({' ': .28, '.': .27, ',': .27, ':': .30, ';': .30, "'": .25, '’': .25, '"': .42, '“': .42, '”': .42, '!': .30, '?': .55, '-': .40,
+           '–': .60, '—': .90, '$': .64, '€': .66, '£': .64, '%': .85, '~': .60, '+': .62, '&': .72, '(': .36, ')': .36, '/': .40,
+           '×': .55, '≈': .62, '≥': .62, '¢': .62, '#': .70, '=': .62})
+em_width = lambda t: sum(EM.get(ch, .55 if ch.islower() else .62) for ch in t)
+
+
 def unq(m, a=1):
     v = m.group(a) if m.group(a) is not None else m.group(a + 1)
     return v.replace("\\'", "'").replace('\\"', '"')
@@ -91,20 +100,20 @@ def check(ep):
         hs = re.search(r'heroSize:\s*(\d+)', props)
         hs = int(hs.group(1)) if hs else 120
         if not obj or obj.group(1) == 'none' or (side and side.group(1) == 'center'):
-            # sem objeto o card fica centralizado (Card.tsx); a estimativa passa ~5% do real, e 1.820 deixa ~100 px de margem em cada lado
-            lim = 1820
-            for nome, w in (('destaque', len(hero) * hs * 0.6), ('apoio', len(apoio) * 22), ('complemento', len(comp) * 22)):
+            # sem objeto o card fica centralizado (Card.tsx)
+            lim = 1720  # ~100 px de margem em cada lado
+            for nome, w in (('destaque', em_width(hero) * hs), ('apoio', len(apoio) * 22), ('complemento', len(comp) * 22)):
                 if w > lim:
                     problems.append(f'card "{s["phrase"]}": {nome} com ~{w:.0f} px (limite ~{lim}, centralizado); encurtar ou reduzir heroSize')
         if obj and side and obj.group(1) != 'none' and side.group(1) in ('left', 'right'):
             # largura estimada (Inter Bold em caixa alta ~0,6 em por letra; apoio e complemento ~22 px por letra)
-            hero_w, apoio_w, comp_w = len(hero) * hs * 0.6, len(apoio) * 22, len(comp) * 22
+            hero_w, apoio_w, comp_w = em_width(hero) * hs, len(apoio) * 22, len(comp) * 22
             if side.group(1) == 'right':
-                lim = 880  # texto começa em ~900 px e deriva para a direita (o que passa disso sai da tela)
+                lim = 900  # texto começa em ~900 px e deriva até ~42 px para a direita
             elif obj.group(1) == 'chart':
-                lim = 1400  # as barras ficam embaixo, à direita
+                lim = 1300  # as barras sobem à direita a partir de ~1.140 px; o complemento, alinhado à direita do destaque, não pode encostar nelas
             else:
-                lim = 1020  # moeda ou cartão na altura do texto, a partir de ~1230 px no fim da cena
+                lim = 1040  # moeda ou cartão: a borda deles fica em ~1.270 px no fim da cena; o texto começa em 228 e deriva até ~42 px
             for nome, w in (('destaque', hero_w), ('apoio', apoio_w), ('complemento', comp_w)):
                 if w > lim:
                     problems.append(f'card "{s["phrase"]}": {nome} com ~{w:.0f} px ao lado do objeto "{obj.group(1)}" (limite ~{lim}); encurtar, reduzir heroSize ou usar textSide center + object none')

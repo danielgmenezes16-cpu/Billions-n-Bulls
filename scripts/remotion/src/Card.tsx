@@ -79,7 +79,7 @@ export const Card: React.FC<CardProps> = (p) => {
 
 	// Texto: deriva lenta (paralaxe), no lado oposto ao objeto ou centralizado
 	const center = p.textSide === 'center' || p.object === 'none';
-	const tx = center ? 0 : (p.textSide === 'left' ? -0.35 : 0.35) * frame;
+	const tx = center ? 0 : (p.textSide === 'left' ? -0.35 : 0.35) * frame * slow; // no máximo ~42 px, como o objeto
 	const textPos = p.textSide === 'left' ? {x: 228, y: 380} : {x: 900, y: 360};
 
 	// Respiro vivo: dois traços se desenham depois que o texto fica pronto

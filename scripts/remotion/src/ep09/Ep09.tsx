@@ -19,7 +19,7 @@ const {c, add, card, photo} = E;
 const CNN = 'Source: CNN, November 17, 2026';
 
 // ---------------- Abertura ----------------
-add('What Is One CEO Worth', card({id: 'o-title', apoio: 'What is', hero: 'ONE CEO WORTH?', complemento: 'Nvidia just found out', textSide: 'left', object: 'coin', heroSize: 121, heroUnderline: true, objectSlide: true}));
+add('What Is One CEO Worth', card({id: 'o-title', apoio: 'What is', hero: 'ONE CEO WORTH?', complemento: 'Nvidia just found out', textSide: 'left', object: 'coin', heroSize: 114, heroUnderline: true, objectSlide: true}));
 add('November 12, 2026', photo('o-chip', {apoio: 'November 12, 2026. After 33 years, the man who started Nvidia', hero: 'RESIGNS AS CEO', complemento: 'effective immediately'}));
 add('In the days around that announcement', (s) => (
 	<StatsShot id="o-drop" start={s} title="Nvidia, in the days around the resignation" titleAt={s + 4} source={CNN}
@@ -28,7 +28,7 @@ add('In the days around that announcement', (s) => (
 			{value: '~$750B', label: 'market value gone', at: c.f('seven hundred fifty billion')},
 		]} />
 ));
-add('That\'s more than the entire value', card({id: 'o-every', apoio: "That's more than the entire value of", hero: 'ALMOST EVERY COMPANY ON EARTH', textSide: 'center', object: 'none', heroSize: 100}));
+add('That\'s more than the entire value', card({id: 'o-every', apoio: "That's more than the entire value of", hero: 'ALMOST EVERY COMPANY ON EARTH', textSide: 'center', object: 'none', heroSize: 93}));
 add('But the chips didn\'t change', (s) => (
 	<DocLinesShot id="o-same" start={s} title="What changed?" titleAt={s + 4} source="Source: Nvidia, quarterly results, November 17, 2026"
 		lines={[
@@ -41,7 +41,7 @@ add('So what exactly did investors lose', card({id: 'o-question', apoio: "What d
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — The Booth That Launched a Giant ----------------
-add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE BOOTH THAT LAUNCHED A GIANT', textSide: 'center', object: 'none', heroSize: 95, heroUnderline: true}));
+add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE BOOTH THAT LAUNCHED A GIANT', textSide: 'center', object: 'none', heroSize: 91, heroUnderline: true}));
 add('In 1993, three engineers', photo('p1-diner', {apoio: "1993, a Denny's booth in San Jose. Three engineers plan a company making", hero: 'GRAPHICS CHIPS', complemento: 'for video games'}));
 add('One of them was Jensen Huang', card({id: 'p1-huang', apoio: 'One of them, Jensen Huang, became chief executive. He stayed', hero: '33 YEARS', textSide: 'center', object: 'none', heroSize: 190, heroUnderline: true}));
 add('For most of that time', (s) => (
@@ -178,7 +178,7 @@ add('So the honest answer', (s) => (
 ));
 
 // ---------------- Parte 5 — The Company Without Him ----------------
-add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE COMPANY WITHOUT HIM', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE COMPANY WITHOUT HIM', textSide: 'center', object: 'none', heroSize: 118, heroUnderline: true}));
 add('Then came the test', card({id: 'p5-test', apoio: 'November 17, five days after the resignation:', hero: 'QUARTERLY RESULTS', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 add('Revenue was one hundred fifteen point eight', (s) => (
 	<StatsShot id="p5-results" start={s} title="Nvidia's quarter, reported November 17" titleAt={s + 4} source={CNN}

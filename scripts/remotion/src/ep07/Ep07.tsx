@@ -34,7 +34,7 @@ add('Two years earlier', (s) => (
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — The Company That Replaced a Bank ----------------
-add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE COMPANY THAT REPLACED A BANK', textSide: 'center', object: 'none', heroSize: 92, heroUnderline: true}));
+add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE COMPANY THAT REPLACED A BANK', textSide: 'center', object: 'none', heroSize: 86, heroUnderline: true}));
 add('Wirecard started in 1999', card({id: 'p1-start', apoio: 'When you pay online, somebody has to move', hero: 'THE MONEY', complemento: 'from your card to the shop', textSide: 'center', object: 'none', heroSize: 110}));
 add('Picture a pair of sneakers', (s) => (
 	<RouteShot2 id="p1-route" start={s} goAt={c.f('a processor passes the payment')} stamp={{text: 'A SMALL FEE', at: c.f('it keeps a small fee')}}
@@ -66,7 +66,7 @@ add('Braun was the face of it', card({id: 'p1-stake', apoio: 'Braun owned about 
 add('Here\'s the thing about payments', card({id: 'p1-puzzle', apoio: 'A small slice of each sale. To earn billions, you need', hero: 'AN ENORMOUS NUMBER', complemento: 'of payments. So where were they coming from?', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
 
 // ---------------- Parte 2 — Partners Nobody Could See ----------------
-add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'PARTNERS NOBODY COULD SEE', textSide: 'center', object: 'none', heroSize: 115, heroUnderline: true}));
+add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'PARTNERS NOBODY COULD SEE', textSide: 'center', object: 'none', heroSize: 109, heroUnderline: true}));
 add('A big part of the answer', card({id: 'p2-tpa', apoio: 'A business few investors saw up close:', hero: 'THIRD-PARTY ACQUIRING', textSide: 'center', object: 'none', heroSize: 115}));
 add('The idea, in Wirecard\'s words', (s) => (
 	<RouteShot2 id="p2-idea" start={s} goAt={c.f('local partner companies')}

@@ -191,7 +191,7 @@ add('And that\'s the hidden price of holding cash', card({id: 'p4-hidden', apoio
 add('Someone else earns that interest instead', card({id: 'p4-wasnt', apoio: 'For a century: the Fed, and then the Treasury.', hero: "UNTIL IT SUDDENLY WASN'T", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
 
 // ---------------- Parte 5 — When Printing Money Lost Money (azul-marinho) ----------------
-add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'WHEN PRINTING MONEY LOST MONEY', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
+add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'WHEN PRINTING MONEY LOST MONEY', textSide: 'center', object: 'none', heroSize: 91, heroUnderline: true, dark: true}));
 add('In 2022, inflation surged', card({id: 'p5-2022', apoio: '2022: inflation surges, and the Fed raises rates fast.', hero: 'THE MATH FLIPS', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true, dark: true}));
 add('Remember, the Fed doesn\'t only owe cash', (s) => (
 	<DocLinesShot id="p5-owes" start={s} dark title="What the Fed owes" titleAt={s + 4} source="Source: Federal Reserve (via Econlib)"
@@ -242,7 +242,7 @@ add('Not everyone thinks big bills are a good idea', (s) => (
 		]} />
 ));
 add('A hundred-dollar bill isn\'t worth a hundred dollars', card({id: 'p6-agree', apoio: "Not the paper. It's worth $100 because people all over", hero: 'THE WORLD AGREES TO HOLD IT', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
-add('And while they hold it', card({id: 'p6-final', apoio: 'And while they hold it,', hero: 'SOMEONE ELSE COLLECTS THE INTEREST', textSide: 'center', object: 'none', heroSize: 87, heroUnderline: true, dark: true}));
+add('And while they hold it', card({id: 'p6-final', apoio: 'And while they hold it,', hero: 'SOMEONE ELSE COLLECTS THE INTEREST', textSide: 'center', object: 'none', heroSize: 85, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------
 add('Next time', photo('o-cash', {id: 'c-next', tone: 'navy', apoio: 'Next: another story where billions went', hero: 'SOMEWHERE NOBODY EXPECTED'}));

@@ -19,7 +19,7 @@ const FDIC = 'Source: FDIC national rates (Oct. 19, 2026)';
 const NY = 'Source: New York Attorney General (May 2025)';
 
 // ---------------- Abertura ----------------
-add('Why Your Bank Pays', card({id: 'o-title', apoio: 'Why your bank pays you', hero: 'ALMOST NOTHING', textSide: 'left', object: 'coin', heroSize: 121, heroUnderline: true, objectSlide: true}));
+add('Why Your Bank Pays', card({id: 'o-title', apoio: 'Why your bank pays you', hero: 'ALMOST NOTHING', textSide: 'left', object: 'coin', heroSize: 113, heroUnderline: true, objectSlide: true}));
 add('Put ten thousand dollars', photo('o-piggy', {apoio: '$10,000 in a big bank savings account, one year:', hero: '~$1', zoom: [1.04, 1.14]}));
 add('That same year, your bank', photo('o-fed', {apoio: 'Your bank, parking money at the Fed:', hero: '3.9% · $390', complemento: 'overnight, with zero risk'}));
 add('So where do the other', card({id: 'o-gap', apoio: 'Where do the other', hero: '$389 GO?', complemento: 'And why do so few people ask?', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
@@ -67,7 +67,7 @@ add('In 2025, JPMorgan Chase', photo('p2-towers', {apoio: 'JPMorgan Chase, net i
 add('So deposits are the raw material', card({id: 'p2-raw', apoio: 'Deposits are the raw material.', hero: 'CHEAPER = BIGGER MARGIN', complemento: 'So why does the bank not have to pay more?', textSide: 'center', object: 'none', heroSize: 100}));
 
 // ---------------- Parte 3 — The Money That Doesn't Move ----------------
-add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: "THE MONEY THAT DOESN'T MOVE", textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
+add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: "THE MONEY THAT DOESN'T MOVE", textSide: 'center', object: 'none', heroSize: 103, heroUnderline: true}));
 add('The answer is one of the most valuable', card({id: 'p3-inertia', apoio: 'One of the most valuable things in banking:', hero: 'INERTIA', textSide: 'left', object: 'coin', heroSize: 210, heroUnderline: true}));
 add('Think about your main bank account', photo('p3-paycheck', {apoio: 'Salary in, bills out, card and apps linked:', hero: 'MOVING IS A CHORE'}));
 add('Economists have measured this', (s) => (
@@ -135,7 +135,7 @@ add('By then, it barely mattered', (s) => (
 add('So today, no law stops', card({id: 'p4-noLaw', apoio: 'Today, no law stops your bank from paying more.', hero: "IT JUST DOESN'T HAVE TO", textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
 
 // ---------------- Parte 5 — The Account That Got Left Behind (azul-marinho) ----------------
-add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE ACCOUNT THAT GOT LEFT BEHIND', textSide: 'center', object: 'none', heroSize: 92, heroUnderline: true, dark: true}));
+add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE ACCOUNT THAT GOT LEFT BEHIND', textSide: 'center', object: 'none', heroSize: 90, heroUnderline: true, dark: true}));
 add('Capital One had a popular', photo('p5-app', {tone: 'navy', apoio: 'Capital One, 360 Savings, from 2022:', hero: 'FROZEN AT 0.3%', complemento: 'according to the New York Attorney General'}));
 add('It also had a newer account', (s) => (
 	<BarsShot id="p5-two" start={s} title="Same bank, same app: two savings accounts" titleAt={s + 4} source={NY} note={{text: '14×+', at: c.f('fourteen times')}}
@@ -179,7 +179,7 @@ add('Let\'s go back to our ten thousand', (s) => (
 add('Part of that gap pays for branches', card({id: 'p6-costs', apoio: 'Part of the gap pays for the bank. Part of it is', hero: 'PROFIT', complemento: 'Branchless banks often pay more.', textSide: 'left', object: 'chart', heroSize: 210}));
 add('Not because your money', card({id: 'p6-why', apoio: 'Not because your money is worth nothing.', hero: 'MOST MONEY DOESN’T MOVE', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
 add('The rate on your savings account isn\'t', card({id: 'p6-price', apoio: 'The rate on your savings account is', hero: 'A PRICE', complemento: 'set by what people accept', textSide: 'right', object: 'coin', heroSize: 200}));
-add('This isn\'t a recommendation', photo('p6-coins', {apoio: 'Not a recommendation of any bank or account. But:', hero: 'A SAVINGS ACCOUNT IS A LOAN', complemento: 'The only question is the rate.'}));
+add('This isn\'t a recommendation', photo('p6-coins', {apoio: 'Not a recommendation of any bank or account. But:', hero: 'A SAVINGS ACCOUNT IS\u00A0A\u00A0LOAN', complemento: 'The only question is the rate.'}));
 
 // ---------------- Fechamento ----------------
 add('Next time', photo('c-wallst', {tone: 'navy', apoio: 'Next: almost €2 billion that was never in the bank', hero: 'WIRECARD'}));

@@ -57,6 +57,11 @@ export const DocLinesShot: React.FC<{id: string; start: number; title: string; t
 	const {on, frame} = useOn(p.start);
 	const top = 250;
 	const rowH = Math.min(96, 560 / Math.max(1, p.lines.length));
+	// largura útil da linha: de 360 até o valor (alinhado em 1.560) menos um respiro; ~0,55 do corpo por letra (negrito)
+	const fit = (l: DocLine, size: number, valueSize: number) => {
+		const room = 1560 - 360 - (l.value ? l.value.length * valueSize * 0.58 + 50 : 0);
+		return Math.min(size, room / Math.max(1, l.label.length * 0.55));
+	};
 	return (
 		<Scene id={p.id} drift={-0.12} dark={p.dark}>
 			<Txt x={228} y={180} o={on(p.titleAt)} size={46} color={p.dark ? '#E6EAF0' : INK}>{p.title}</Txt>
@@ -70,7 +75,7 @@ export const DocLinesShot: React.FC<{id: string; start: number; title: string; t
 				return (
 					<g key={i} opacity={0.35 + 0.65 * k}>
 						{hl > 0 ? <rect x={330} y={y - 4} width={1260 * hl} height={rowH - 16} rx={6} fill={GOLD} fillOpacity={0.55} /> : null}
-						<Txt x={360} y={y + rowH * 0.5} size={Math.min(40, rowH * 0.45)} weight={l.highlight ? 700 : 400} color={DARK}>{l.label}</Txt>
+						<Txt x={360} y={y + rowH * 0.5} size={fit(l, Math.min(40, rowH * 0.45), Math.min(42, rowH * 0.47))} weight={l.highlight ? 700 : 400} color={DARK}>{l.label}</Txt>
 						{l.value ? <Txt x={1560} y={y + rowH * 0.5} size={Math.min(42, rowH * 0.47)} weight={700} anchor="end" color={DARK}>{l.value}</Txt> : null}
 					</g>
 				);

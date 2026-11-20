@@ -199,7 +199,7 @@ add('Quick thing', (s) => (
 ));
 
 // ---------------- Parte 4 — The People Who Pay Without Swiping ----------------
-add('Part 4', card({id: 'p4-title', apoio: 'Part 4', hero: 'THE PEOPLE WHO PAY WITHOUT SWIPING', textSide: 'center', object: 'none', heroSize: 87, heroUnderline: true}));
+add('Part 4', card({id: 'p4-title', apoio: 'Part 4', hero: 'THE PEOPLE WHO PAY WITHOUT SWIPING', textSide: 'center', object: 'none', heroSize: 83, heroUnderline: true}));
 add('So the store pays the fee', card({id: 'p4-who', apoio: 'The store pays the fee.', hero: 'WHO PAYS THE STORE?', textSide: 'center', object: 'none', heroSize: 130}));
 add('Stores have a few options', photo('p4-gas', {apoio: "Credit surcharge, under Visa's rules:", hero: 'UP TO 3%', complemento: 'banned in some states', zoom: [1.06, 1.15]}));
 add('But most stores don\'t', card({id: 'p4-prices', apoio: 'Instead, prices go up', hero: 'FOR EVERYONE', textSide: 'center', object: 'none', heroSize: 150}));

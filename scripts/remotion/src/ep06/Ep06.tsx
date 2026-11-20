@@ -19,7 +19,7 @@ const CFPB22 = 'Source: CFPB, BNPL market report (2022), via Atlanta Fed';
 const AFFIRM = 'Source: Affirm, Form 10-K, fiscal 2025';
 
 // ---------------- Abertura ----------------
-add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'card', heroSize: 180, heroUnderline: true, objectSlide: true}));
+add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'card', heroSize: 172, heroUnderline: true, objectSlide: true}));
 add('Cyber Monday, 2025', photo('o-cyber', {apoio: 'Cyber Monday 2025, buy now, pay later in one day:', hero: '$1 BILLION+', complemento: 'a record, Adobe says'}));
 add('Pay in four. No interest', photo('o-app', {apoio: 'Pay in four. No interest. No fees, if on time.', hero: 'A FREE LOAN?'}));
 add('But one of these companies', card({id: 'o-15b', apoio: 'One of these companies went public in 2025 at about', hero: '$15 BILLION', complemento: 'Somebody is paying.', textSide: 'center', object: 'none', heroSize: 150}));
@@ -102,7 +102,7 @@ add('So in the classic pay in four', photo('p2-bags', {apoio: 'Shopper pays noth
 add('But the store\'s fee is only one part', card({id: 'p2-cash', apoio: 'Someone still has to hand over', hero: '$400 ON DAY ONE', textSide: 'center', object: 'coin', heroSize: 130}));
 
 // ---------------- Parte 3 — Where the Money Really Comes From ----------------
-add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'WHERE THE MONEY REALLY COMES FROM', textSide: 'center', object: 'none', heroSize: 89, heroUnderline: true}));
+add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'WHERE THE MONEY REALLY COMES FROM', textSide: 'center', object: 'none', heroSize: 83, heroUnderline: true}));
 add('Here\'s the thing about pay in four', (s) => (
 	<RouteShot2 id="p3-funding" start={s} goAt={s + 6}
 		nodes={[
@@ -152,7 +152,7 @@ add('That\'s starting to change', card({id: 'p4-fico', apoio: '2025: FICO launch
 add('To be fair, there\'s another side', card({id: 'p4-fair', apoio: 'Paid on time, pay in four can cost nothing. The risk:', hero: 'HOW EASY IT IS TO SAY YES', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
 
 // ---------------- Parte 5 — Rules That Came and Went ----------------
-add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'RULES THAT CAME AND WENT', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'RULES THAT CAME AND WENT', textSide: 'center', object: 'none', heroSize: 115, heroUnderline: true}));
 add('For years, buy now, pay later lived', (s) => (
 	<TimelineShot id="p5-rules" start={s} title="The rules" source="Sources: CFPB; Orrick; FCA (via Finance Magnates)"
 		events={[

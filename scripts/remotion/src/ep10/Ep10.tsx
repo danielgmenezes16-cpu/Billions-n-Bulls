@@ -35,7 +35,7 @@ add('So this time, millions', (s) => (
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — Thirteen Years and Eighty Dollars ----------------
-add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THIRTEEN YEARS AND EIGHTY DOLLARS', textSide: 'center', object: 'none', heroSize: 89, heroUnderline: true}));
+add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THIRTEEN YEARS AND EIGHTY DOLLARS', textSide: 'center', object: 'none', heroSize: 87, heroUnderline: true}));
 add('To understand the money in this game', card({id: 'p1-last', apoio: 'To understand this game,', hero: 'START WITH THE LAST ONE', textSide: 'center', object: 'none', heroSize: 110}));
 add('Grand Theft Auto Five came out', (s) => (
 	<CounterShot id="p1-units" start={s} label="GTA V copies sold to date (shipped + digital)" labelAt={s + 4} from={0} to={230} countAt={c.f('two hundred thirty million')} suffix="M" sub="Across three console generations and PC" subAt={c.f('across three generations')} source={TT} />
