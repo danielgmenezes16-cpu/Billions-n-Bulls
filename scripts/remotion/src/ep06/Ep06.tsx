@@ -102,7 +102,7 @@ add('So in the classic pay in four', photo('p2-bags', {apoio: 'Shopper pays noth
 add('But the store\'s fee is only one part', card({id: 'p2-cash', apoio: 'Someone still has to hand over', hero: '$400 ON DAY ONE', textSide: 'center', object: 'coin', heroSize: 130}));
 
 // ---------------- Parte 3 — Where the Money Really Comes From ----------------
-add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'WHERE THE MONEY REALLY COMES FROM', textSide: 'center', object: 'none', heroSize: 95, heroUnderline: true}));
+add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'WHERE THE MONEY REALLY COMES FROM', textSide: 'center', object: 'none', heroSize: 89, heroUnderline: true}));
 add('Here\'s the thing about pay in four', (s) => (
 	<RouteShot2 id="p3-funding" start={s} goAt={s + 6}
 		nodes={[

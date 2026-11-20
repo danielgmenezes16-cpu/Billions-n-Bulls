@@ -34,7 +34,7 @@ add('Two years earlier', (s) => (
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — The Company That Replaced a Bank ----------------
-add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE COMPANY THAT REPLACED A BANK', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
+add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE COMPANY THAT REPLACED A BANK', textSide: 'center', object: 'none', heroSize: 92, heroUnderline: true}));
 add('Wirecard started in 1999', card({id: 'p1-start', apoio: 'When you pay online, somebody has to move', hero: 'THE MONEY', complemento: 'from your card to the shop', textSide: 'center', object: 'none', heroSize: 110}));
 add('Picture a pair of sneakers', (s) => (
 	<RouteShot2 id="p1-route" start={s} goAt={c.f('a processor passes the payment')} stamp={{text: 'A SMALL FEE', at: c.f('it keeps a small fee')}}

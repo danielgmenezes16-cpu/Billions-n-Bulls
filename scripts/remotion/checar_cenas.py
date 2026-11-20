@@ -10,7 +10,7 @@ Imita epkit/cues.ts e avisa quando:
 - uma cena (fora a primeira) começa dentro do título falado (a frase dela também aparece no título);
 - o apoio de um card() passa de 62 caracteres (o card não quebra linha e o texto vaza pelas bordas);
 - um card() usa o objeto 'receipt' ou 'phone' fora do ep. 1 (os dois têm texto fixo do ep. 1);
-- num card() com objeto ao lado, o texto passa da largura que cabe antes do objeto ou da borda;
+- num card(), o texto passa da largura que cabe na tela (ou antes do objeto ao lado);
 - a última palavra de um card() entra a menos de 0,5 s do fim da cena (mal dá para ler).
 """
 import json
@@ -90,6 +90,12 @@ def check(ep):
         side = re.search(r"textSide:\s*'(\w+)'", props)
         hs = re.search(r'heroSize:\s*(\d+)', props)
         hs = int(hs.group(1)) if hs else 120
+        if not obj or obj.group(1) == 'none' or (side and side.group(1) == 'center'):
+            # sem objeto o card fica centralizado (Card.tsx); a estimativa passa ~5% do real, e 1.820 deixa ~100 px de margem em cada lado
+            lim = 1820
+            for nome, w in (('destaque', len(hero) * hs * 0.6), ('apoio', len(apoio) * 22), ('complemento', len(comp) * 22)):
+                if w > lim:
+                    problems.append(f'card "{s["phrase"]}": {nome} com ~{w:.0f} px (limite ~{lim}, centralizado); encurtar ou reduzir heroSize')
         if obj and side and obj.group(1) != 'none' and side.group(1) in ('left', 'right'):
             # largura estimada (Inter Bold em caixa alta ~0,6 em por letra; apoio e complemento ~22 px por letra)
             hero_w, apoio_w, comp_w = len(hero) * hs * 0.6, len(apoio) * 22, len(comp) * 22

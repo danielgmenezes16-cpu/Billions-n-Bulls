@@ -242,7 +242,7 @@ add('Not everyone thinks big bills are a good idea', (s) => (
 		]} />
 ));
 add('A hundred-dollar bill isn\'t worth a hundred dollars', card({id: 'p6-agree', apoio: "Not the paper. It's worth $100 because people all over", hero: 'THE WORLD AGREES TO HOLD IT', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
-add('And while they hold it', card({id: 'p6-final', apoio: 'And while they hold it,', hero: 'SOMEONE ELSE COLLECTS THE INTEREST', textSide: 'center', object: 'none', heroSize: 90, heroUnderline: true, dark: true}));
+add('And while they hold it', card({id: 'p6-final', apoio: 'And while they hold it,', hero: 'SOMEONE ELSE COLLECTS THE INTEREST', textSide: 'center', object: 'none', heroSize: 87, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------
 add('Next time', photo('o-cash', {id: 'c-next', tone: 'navy', apoio: 'Next: another story where billions went', hero: 'SOMEWHERE NOBODY EXPECTED'}));

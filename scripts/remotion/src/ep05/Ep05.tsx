@@ -181,7 +181,7 @@ add('But there were other people', (s) => (
 add('So who paid for Bill', card({id: 'p5-borrowed', apoio: 'The money was never really there.', hero: 'IT WAS BORROWED', complemento: 'The lenders paid the bill, and their shareholders.', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 
 // ---------------- Parte 6 — The Verdict, and the Rule That Never Came ----------------
-add('Part 6', card({id: 'p6-title', apoio: 'Part 6', hero: 'THE VERDICT, AND THE RULE THAT NEVER CAME', textSide: 'center', object: 'none', heroSize: 88, heroUnderline: true}));
+add('Part 6', card({id: 'p6-title', apoio: 'Part 6', hero: 'THE VERDICT, AND THE RULE THAT NEVER CAME', textSide: 'center', object: 'none', heroSize: 72, heroUnderline: true}));
 add('In April 2022, Bill Hwang was arrested', (s) => (
 	<TimelineShot id="p6-time" start={s} title="The case" source="Sources: DOJ; Morrison Foerster; AP; Reuters"
 		events={[

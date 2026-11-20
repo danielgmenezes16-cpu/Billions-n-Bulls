@@ -96,16 +96,20 @@ export const RouteShot2: React.FC<{id: string; start: number; nodes: Node[]; goA
 	});
 	const back = p.backAt ? interpolate(frame, [p.backAt - p.start, p.backAt - p.start + 24], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)}) : 0;
 	const dotX = xs[0] + ((xs[n - 1] - xs[0]) * (pos / (n - 1))) * (1 - back);
+	// largura da caixa pelo nome (~0,62 do corpo por letra + respiro), sem invadir a seta; se nem assim couber, a letra diminui
+	const gap = n > 1 ? 1400 / (n - 1) : 1400;
+	const bw = p.nodes.map((nd) => Math.min(Math.max(230, nd.name.length * 34 * 0.62 + 56), gap - 150));
+	const fs = p.nodes.map((nd, i) => Math.min(34, (bw[i] - 56) / Math.max(1, nd.name.length * 0.62)));
 	return (
 		<Scene id={p.id}>
 			{p.title ? <Txt x={228} y={200} o={on(p.titleAt)} size={46}>{p.title}</Txt> : null}
 			{xs.slice(1).map((x, i) => (
-				<Arrow key={i} x1={xs[i] + 120} y1={y} x2={x - 120} y2={y} k={on(p.nodes[i + 1].at, 12)} color={INK} width={5} />
+				<Arrow key={i} x1={xs[i] + bw[i] / 2 + 5} y1={y} x2={x - bw[i + 1] / 2 - 5} y2={y} k={on(p.nodes[i + 1].at, 12)} color={INK} width={5} />
 			))}
 			{p.nodes.map((nd, i) => (
 				<g key={i} opacity={Math.min(1, popIn(nd.at))}>
-					<Panel x={xs[i] - 115} y={y - 85} w={230} h={170} rx={22}>
-						<Txt x={xs[i]} y={y + 14} size={34} weight={700} anchor="middle" color={DARK}>{nd.name}</Txt>
+					<Panel x={xs[i] - bw[i] / 2} y={y - 85} w={bw[i]} h={170} rx={22}>
+						<Txt x={xs[i]} y={y + 14} size={fs[i]} weight={700} anchor="middle" color={DARK}>{nd.name}</Txt>
 					</Panel>
 					{nd.sub ? <Tag x={xs[i]} y={y + 150} anchor="middle" size={24}>{nd.sub}</Tag> : null}
 				</g>
@@ -129,7 +133,7 @@ export const SplitShot: React.FC<{id: string; start: number; title: string; titl
 		<Scene id={p.id}>
 			<Txt x={228} y={180} o={on(p.titleAt)} size={46}>{p.title}</Txt>
 			<rect x={x0} y={y0} width={W} height={H} rx={18} fill="#F4F3EE" stroke={DARK} strokeWidth={4} opacity={on(p.titleAt)} />
-			<Txt x={x0 + W / 2} y={y0 + H / 2 + 60} o={on(p.titleAt) * 0.12} size={180} weight={800} anchor="middle">{p.totalLabel}</Txt>
+			<Txt x={x0 + W / 2} y={y0 + H / 2 + 60} o={on(p.titleAt) * 0.12 * (1 - interpolate(frame, [p.pieces[0].at - p.start, p.pieces[0].at - p.start + 10], [0, 1], clamp))} size={180} weight={800} anchor="middle">{p.totalLabel}</Txt>
 			{p.pieces.map((s, i) => {
 				const w = Math.max(14, (W * s.value) / p.total);
 				const narrow = w < 220;

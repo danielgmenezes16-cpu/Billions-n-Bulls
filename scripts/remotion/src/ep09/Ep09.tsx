@@ -41,7 +41,7 @@ add('So what exactly did investors lose', card({id: 'o-question', apoio: "What d
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — The Booth That Launched a Giant ----------------
-add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE BOOTH THAT LAUNCHED A GIANT', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
+add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE BOOTH THAT LAUNCHED A GIANT', textSide: 'center', object: 'none', heroSize: 95, heroUnderline: true}));
 add('In 1993, three engineers', photo('p1-diner', {apoio: "1993, a Denny's booth in San Jose. Three engineers plan a company making", hero: 'GRAPHICS CHIPS', complemento: 'for video games'}));
 add('One of them was Jensen Huang', card({id: 'p1-huang', apoio: 'One of them, Jensen Huang, became chief executive. He stayed', hero: '33 YEARS', textSide: 'center', object: 'none', heroSize: 190, heroUnderline: true}));
 add('For most of that time', (s) => (

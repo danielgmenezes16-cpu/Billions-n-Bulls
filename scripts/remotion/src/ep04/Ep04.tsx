@@ -135,7 +135,7 @@ add('By then, it barely mattered', (s) => (
 add('So today, no law stops', card({id: 'p4-noLaw', apoio: 'Today, no law stops your bank from paying more.', hero: "IT JUST DOESN'T HAVE TO", textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
 
 // ---------------- Parte 5 — The Account That Got Left Behind (azul-marinho) ----------------
-add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE ACCOUNT THAT GOT LEFT BEHIND', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
+add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE ACCOUNT THAT GOT LEFT BEHIND', textSide: 'center', object: 'none', heroSize: 92, heroUnderline: true, dark: true}));
 add('Capital One had a popular', photo('p5-app', {tone: 'navy', apoio: 'Capital One, 360 Savings, from 2022:', hero: 'FROZEN AT 0.3%', complemento: 'according to the New York Attorney General'}));
 add('It also had a newer account', (s) => (
 	<BarsShot id="p5-two" start={s} title="Same bank, same app: two savings accounts" titleAt={s + 4} source={NY} note={{text: '14×+', at: c.f('fourteen times')}}

@@ -35,7 +35,7 @@ add('So this time, millions', (s) => (
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — Thirteen Years and Eighty Dollars ----------------
-add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THIRTEEN YEARS AND EIGHTY DOLLARS', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
+add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THIRTEEN YEARS AND EIGHTY DOLLARS', textSide: 'center', object: 'none', heroSize: 89, heroUnderline: true}));
 add('To understand the money in this game', card({id: 'p1-last', apoio: 'To understand this game,', hero: 'START WITH THE LAST ONE', textSide: 'center', object: 'none', heroSize: 110}));
 add('Grand Theft Auto Five came out', (s) => (
 	<CounterShot id="p1-units" start={s} label="GTA V copies sold to date (shipped + digital)" labelAt={s + 4} from={0} to={230} countAt={c.f('two hundred thirty million')} suffix="M" sub="Across three console generations and PC" subAt={c.f('across three generations')} source={TT} />
@@ -145,7 +145,7 @@ add('And it\'s worth knowing where', (s) => (
 ));
 
 // ---------------- Parte 5 — The British Taxpayer's Share (azul-marinho) ----------------
-add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: "THE BRITISH TAXPAYER'S SHARE", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
+add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: "THE BRITISH TAXPAYER'S SHARE", textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
 add('The Grand Theft Auto games are set', photo('p5-edinburgh', {tone: 'navy', apoio: 'Set in fictional American cities. The lead studio is in', hero: 'EDINBURGH, SCOTLAND'}));
 add('And the United Kingdom has a tax relief', card({id: 'p5-test', apoio: 'UK video games relief: pass a test as', hero: '"CULTURALLY BRITISH"', complemento: 'the studio can claim back part of what it spends', textSide: 'center', object: 'none', heroSize: 120, dark: true}));
 add('Grand Theft Auto Five passed that test', (s) => (
