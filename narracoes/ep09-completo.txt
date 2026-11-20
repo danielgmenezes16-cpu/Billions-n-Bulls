@@ -1,6 +1,6 @@
 EP. 9 — What Is One CEO Worth? Nvidia Just Found Out
 Dark Planner: voz Lucan Rook – Energetic Male · Multilingual v2 · velocidade 1.0x · style 40% · legenda desligada
-Colar TUDO abaixo da linha num áudio só (11.850 caracteres; limite do plano: 80.000) e salvar como ep09.mp3
+Colar TUDO abaixo da linha num áudio só (11.918 caracteres; limite do plano: 80.000) e salvar como ep09.mp3
 Pronúncia: "Nvidia" = en-VID-ee-uh. "Jensen Huang" = JEN-sen HWONG. "Colette Kress" normal. "Easterbrook" normal. "Denny's" normal.
 
 ======================================================================
@@ -202,7 +202,7 @@ When the person who has been writing that future walks out, the guess gets cheap
 
 <break time="1.5s" />
 
-Next time, the most anticipated video game in years. When you buy it, who actually gets the money?
+Next time, the company behind Google lost about five hundred billion dollars in value in a single day, right after its sales jumped. So what were investors afraid of?
 And if you want the other side of the economy, the ships, planes and rockets behind everything you buy, check out our sister channel, Cargo and Capital.
 
 <break time="1.0s" />

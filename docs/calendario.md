@@ -4,28 +4,30 @@
 
 **Estreia: terça, 17/11** (ep. 1).
 
-Ordem nova: alterna bolso e colapso, e o ep. 7 (Wirecard) entra antes do 6 e do 5. Os teasers de fechamento já foram trocados para essa ordem (eps. 4, 5, 6 e 7). O ep. 2 já está renderizado e anuncia o ep. 3, então o 3 vem logo depois.
+Ordem (atualizada em 20/11): o ep. 2 saiu em 19/11, o GTA (ep. 10) entrou na frente por causa do lançamento do jogo em 19/11, e o fechamento dele anuncia o Credit Suisse (ep. 3). Depois alterna bolso e colapso; o ep. 6 (compre agora, pague depois) cai no fim de semana da Black Friday (27/11) e da Cyber Monday (30/11). Os teasers de fechamento já seguem essa ordem.
 
-| Data | Episódio | Papel | Narração até | Checar antes de publicar |
+**Gatilho de 4 por semana atingido em 20/11:** os eps. 3, 4, 7, 5 e 6 estão narrados e renderizando, mais de uma semana pronta na frente. Se o Daniel topar o domingo, as datas abaixo andam mais rápido (refazer a tabela).
+
+| Data | Episódio | Papel | Narração | Checar antes de publicar |
 | --- | --- | --- | --- | --- |
 | Ter 17/11 | 1 · Robinhood Is Free. So Who's Paying? | Estreia (bolso) | Feita | — |
-| Ter 24/11 | 2 · Who Really Gets Paid When You Tap Your Card? | Bolso | Feita (vídeo pronto) | Decisão do juiz Cogan (acordo das taxas) em 23/11 |
-| Qui 26/11 | 3 · How a 167-Year-Old Bank Died in a Weekend | Colapso + Europa | 23/11 | Supremo suíço sobre os AT1 (sem decisão até 18/11) |
-| Sáb 28/11 | 4 · Why Your Bank Pays You Almost Nothing | Bolso | 25/11 | Taxas (FDIC, grandes bancos, Capital One) |
-| Ter 01/12 | 7 · Where Did Wirecard's $2 Billion Go? | Colapso + Europa | 28/11 | Sentença de Markus Braun (esperada perto do Natal) |
-| Qui 03/12 | 6 · Who Pays When You Buy Now, Pay Later? | Bolso (temporada de compras) | 30/11 | Números novos de Klarna/Affirm; Cyber Monday 2026 (30/11) |
-| Sáb 05/12 | 5 · How One Man Lost $20 Billion in Two Days | Colapso | 02/12 | Recurso de Bill Hwang |
-| Ter 08/12 | 8 · A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro (evergreen) | 05/12 | Ativo diferido do Fed; remessas ao Tesouro |
-| Qui 10/12 | 9 · a escolher (bolso) | | 07/12 | |
-| Sáb 12/12 | 10 · a escolher (colapso) | | 09/12 | |
-| Ter 15/12 | 11 | | 12/12 | Com ~10 vídeos: media kit e primeiros contatos de patrocínio (`docs/renda.md`) |
+| Qui 19/11 | 2 · Who Really Gets Paid When You Tap Your Card? | Bolso | Feita | **Publicado.** Decisão do juiz Cogan (acordo das taxas): se sair, linha "Update:" no comentário fixado |
+| Logo após o 2 | 10 · Who Gets Rich When You Buy GTA 6? | Viral (lançamento em 19/11) | Feita | Vídeo pronto; publicar já |
+| Sáb 21/11 | 3 · How a 167-Year-Old Bank Died in a Weekend | Colapso + Europa | Feita | Supremo suíço sobre os AT1: conferido em 20/11, sem decisão |
+| Ter 24/11 | 4 · Why Your Bank Pays You Almost Nothing | Bolso | Feita | Taxas (FDIC, grandes bancos, Capital One) |
+| Qui 26/11 | 7 · Where Did Wirecard's $2 Billion Go? | Colapso + Europa | Feita | Sentença de Markus Braun (esperada perto do Natal) |
+| Sáb 28/11 | 6 · Who Pays When You Buy Now, Pay Later? | Bolso (Black Friday) | Feita | Números novos de Klarna/Affirm; "pay in four" em ~5:48 |
+| Ter 01/12 | 5 · How One Man Lost $20 Billion in Two Days | Colapso | Feita | Recurso de Bill Hwang |
+| Qui 03/12 | 8 · A $100 Bill Costs Pennies. Who Keeps the Rest? | Dinheiro bizarro (evergreen) | Até 30/11 (falta aprovar o roteiro) | Ativo diferido do Fed; remessas ao Tesouro |
+| Sáb 05/12 | 9 · What Is One CEO Worth? Nvidia Just Found Out | Viral | Até 02/12 (falta aprovar) | Investigação de Huang e depoimento de 01/12 |
+| Depois | 11 → 12 → 13 (Google, IPO, boom da IA) | Virais | Falta aprovar | O 11 cita o 9; o 13 cita o 11 e o 12 |
 
 **YPP:** a última chance de pedir o nível 2 do YPP antes de 1º/02/2027 continua valendo (se tiver 1.000 inscritos e 4.000 h). Com 3 vídeos por semana, a meta fica mais perto.
 
-**Regra de prazo:** a narração chega 3 dias antes da publicação. Assim dá tempo de checar o áudio, renderizar (~1h30), assistir e ajustar. No Dark Planner Basic cabem 15 áudios por dia (6 blocos por vídeo), então os créditos não seguram o ritmo: o gargalo é o tempo de cada um.
+**Regra de prazo:** a narração chega 3 dias antes da publicação. Assim dá tempo de checar o áudio, renderizar (~1h30), assistir e ajustar. No Dark Planner Basic cabem 15 áudios por dia, e desde 20/11 cada episódio é um áudio só (`narracoes/epNN-completo.txt`), então os créditos não seguram o ritmo: o gargalo é a aprovação dos roteiros.
 
 **O que muda com 3 por semana:**
-- Eu preciso entregar 3 roteiros novos por semana (pesquisa, checagem, telas, B-roll e thumbs). Os eps. 3 a 6 já estão montados; o 7 e o 8 precisam de telas.
+- Eu preciso entregar 3 roteiros novos por semana (pesquisa, checagem, telas, B-roll e thumbs). Os eps. 3 a 7 e o 10 estão narrados e montados; o 8 e os virais (9, 11, 12 e 13) ainda precisam de telas e B-roll.
 - Para a regra de conteúdo inautêntico, cada vídeo continua com pesquisa, roteiro e telas próprios. Não dá para virar fórmula com o nome trocado.
 - Ritmo diferente não muda a regra de não publicar sem checagem: se um fato com data vencer, o vídeo atrasa, não sai errado.
 
