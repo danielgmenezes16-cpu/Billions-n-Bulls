@@ -15,7 +15,7 @@ Atualizado em 20/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 5 | How One Man Lost $20 Billion in Two Days | **Aprovado** (18/11) | Pronto (`src/ep05`) | Completo (13 itens) | Feita (20/11, áudio único) | Na fila de render; pacote pronto |
 | 6 | Who Pays When You Buy Now, Pay Later? | **Aprovado** (18/11) | Pronto (`src/ep06`) | Completo (16 itens) | Feita (20/11); conferir "pay in four" em ~5:48 | Na fila de render (último); pacote pronto |
 | 7 | Where Did Wirecard's $2 Billion Go? | Combinado (19/11) | Pronto (`src/ep07`, 20/11) | Completo (9 itens) | Feita (20/11, áudio único) | Na fila de render; pacote pronto |
-| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Falta | Falta | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
+| 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Pronto (`src/ep08`, 20/11; linha do tempo provisória) | Completo (12 itens) | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
 | 9 | What Is One CEO Worth? Nvidia Just Found Out | Rascunho (19/11), viral; teaser trocado em 20/11 (anuncia o ep. 11, do Google) | Pronto (`src/ep09`, 20/11; linha do tempo provisória) | Completo (8 itens) | **Falta** | Quanto antes (Daniel decide) |
 | 10 | Who Gets Rich When You Buy GTA 6? | Aprovado para ir já (19/11); teaser aponta para o Credit Suisse | Pronto (`src/ep10`) | Completo (7 itens) | Feita (19/11) | **Vídeo pronto** (19/11): `out/ep10-final.mp4` (9:52, −14 LUFS; envio `out/ep10-final-envio.mp4`); pacote em `roteiros/prontos/ep10-upload.md`. Publicar já |
 | 11 | Why Google Lost $500 Billion in One Day | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 9 (cita o ep. do Nvidia) |
