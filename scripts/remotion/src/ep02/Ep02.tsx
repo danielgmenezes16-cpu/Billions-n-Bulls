@@ -20,7 +20,7 @@ const IFEE = 'Source: Visa USA Interchange Reimbursement Fees, effective Oct 24,
 const BOS = 'Source: Federal Reserve Bank of Boston, Schuh, Shy & Stavins (2010)';
 
 // ---------------- Abertura ----------------
-add('Who Really Gets Paid', card({id: 'o-title', apoio: 'One question:', hero: 'WHO GETS PAID?', complemento: 'when you tap your card', textSide: 'left', object: 'card', heroSize: 120, heroUnderline: true, objectSlide: true}));
+add('Who Really Gets Paid', card({id: 'o-title', apoio: 'One question:', hero: 'WHO GETS PAID?', complemento: 'when you tap your card', textSide: 'left', object: 'card', heroSize: 98, heroUnderline: true, objectSlide: true}));
 add('You tap your card. Two seconds', photo('o-tap', {apoio: 'Tap. Beep.', hero: '2 SECONDS', zoom: [1.05, 1.18], focus: [55, 55]}));
 add('But in those two seconds', card({id: 'o-three', apoio: 'At least', hero: '3 COMPANIES', complemento: 'and every one takes a cut.', textSide: 'center', object: 'none', heroSize: 160}));
 add('Together, those cuts', photo('o-checkout', {apoio: 'Paid by U.S. stores in 2025:', hero: '$198 BILLION', complemento: 'in card fees', zoom: [1.1, 1.02]}));

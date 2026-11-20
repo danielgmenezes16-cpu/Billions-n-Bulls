@@ -10,7 +10,7 @@ Imita epkit/cues.ts e avisa quando:
 - uma cena (fora a primeira) começa dentro do título falado (a frase dela também aparece no título);
 - o apoio de um card() passa de 62 caracteres (o card não quebra linha e o texto vaza pelas bordas);
 - um card() usa o objeto 'receipt' ou 'phone' fora do ep. 1 (os dois têm texto fixo do ep. 1);
-- num card(), o texto passa da largura que cabe na tela (ou antes do objeto ao lado);
+- num card(), o texto passa da largura que cabe na tela (ou antes do objeto ao lado), ou é centralizado com objeto;
 - a última palavra de um card() entra a menos de 0,5 s do fim da cena (mal dá para ler).
 """
 import json
@@ -110,6 +110,8 @@ def check(ep):
             hero_w, apoio_w, comp_w = em_width(hero) * hs, len(apoio) * 22, len(comp) * 22
             if side.group(1) == 'right':
                 lim = 900  # texto começa em ~900 px e deriva até ~42 px para a direita
+            elif obj.group(1) == 'card':
+                lim = 850  # o cartão inclinado chega a ~1.100 px no fim da cena
             elif obj.group(1) == 'chart':
                 lim = 1300  # as barras sobem à direita a partir de ~1.140 px; o complemento, alinhado à direita do destaque, não pode encostar nelas
             else:
@@ -117,6 +119,8 @@ def check(ep):
             for nome, w in (('destaque', hero_w), ('apoio', apoio_w), ('complemento', comp_w)):
                 if w > lim:
                     problems.append(f'card "{s["phrase"]}": {nome} com ~{w:.0f} px ao lado do objeto "{obj.group(1)}" (limite ~{lim}); encurtar, reduzir heroSize ou usar textSide center + object none')
+        if obj and obj.group(1) != 'none' and side and side.group(1) == 'center':
+            problems.append(f'card "{s["phrase"]}": texto centralizado com o objeto "{obj.group(1)}" ao lado (o objeto cobre o texto); usar textSide left/right ou object none')
         if obj and obj.group(1) in ('receipt', 'phone') and ep != 'ep01':
             problems.append(f'card "{s["phrase"]}": objeto "{obj.group(1)}" tem texto fixo do ep. 1 (TRADE CONFIRMATION / Market order); usar coin, chart, card ou none')
         if len(apoio) > 62:

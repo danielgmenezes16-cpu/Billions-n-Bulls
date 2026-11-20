@@ -19,7 +19,7 @@ const CFPB22 = 'Source: CFPB, BNPL market report (2022), via Atlanta Fed';
 const AFFIRM = 'Source: Affirm, Form 10-K, fiscal 2025';
 
 // ---------------- Abertura ----------------
-add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'card', heroSize: 172, heroUnderline: true, objectSlide: true}));
+add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'card', heroSize: 139, heroUnderline: true, objectSlide: true}));
 add('Cyber Monday, 2025', photo('o-cyber', {apoio: 'Cyber Monday 2025, buy now, pay later in one day:', hero: '$1 BILLION+', complemento: 'a record, Adobe says'}));
 add('Pay in four. No interest', photo('o-app', {apoio: 'Pay in four. No interest. No fees, if on time.', hero: 'A FREE LOAN?'}));
 add('But one of these companies', card({id: 'o-15b', apoio: 'One of these companies went public in 2025 at about', hero: '$15 BILLION', complemento: 'Somebody is paying.', textSide: 'center', object: 'none', heroSize: 150}));
@@ -99,7 +99,7 @@ add('For Klarna, the biggest name', (s) => (
 		]} />
 ));
 add('So in the classic pay in four', photo('p2-bags', {apoio: 'Shopper pays nothing extra. The store pays, and its prices carry it.', hero: 'EVERYONE CHIPS IN'}));
-add('But the store\'s fee is only one part', card({id: 'p2-cash', apoio: 'Someone still has to hand over', hero: '$400 ON DAY ONE', textSide: 'center', object: 'coin', heroSize: 130}));
+add('But the store\'s fee is only one part', card({id: 'p2-cash', apoio: 'Someone still has to hand over', hero: '$400 ON DAY ONE', textSide: 'right', object: 'coin', heroSize: 97}));
 
 // ---------------- Parte 3 — Where the Money Really Comes From ----------------
 add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'WHERE THE MONEY REALLY COMES FROM', textSide: 'center', object: 'none', heroSize: 83, heroUnderline: true}));
@@ -130,7 +130,7 @@ add('For Affirm, this is now the biggest', (s) => (
 			{label: 'SELLING LOANS', value: 0.38, display: '$0.4B', at: c.f('three hundred and eighty')},
 		]} />
 ));
-add('So there are really two businesses', card({id: 'p3-two', apoio: 'The free one, paid by stores. The paid one, paid by borrowers.', hero: 'TWO BUSINESSES', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
+add('So there are really two businesses', card({id: 'p3-two', apoio: 'So there are really', hero: 'TWO BUSINESSES', complemento: 'the free one, paid by stores. The paid one, by borrowers.', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
 add('Quick thing', (s) => (
 	<SubscribeShot2 id="p3-sub" start={s} free="It's free." line1="And you can pay for it in four installments…" line2="of zero."
 		at={{ask: s + 4, tap: c.f('subscribe'), free: c.f("It's free"), line1: c.f('And you can pay'), line2: c.f('of zero')}} />
