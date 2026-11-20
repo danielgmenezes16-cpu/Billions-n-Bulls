@@ -1,0 +1,1005 @@
+1
+00:00:00,333 --> 00:00:01,853
+What Is One CEO Worth?
+
+2
+00:00:01,853 --> 00:00:06,646
+Nvidia Just Found Out November 12, 2026.
+
+3
+00:00:06,806 --> 00:00:10,886
+The man who started Nvidia in a diner
+booth thirty-three years ago resigns
+
+4
+00:00:10,886 --> 00:00:14,006
+as its chief executive,
+effective immediately.
+
+5
+00:00:14,621 --> 00:00:18,581
+In the days around that announcement,
+Nvidia's stock falls about seventeen
+
+6
+00:00:18,581 --> 00:00:19,581
+percent.
+
+7
+00:00:19,501 --> 00:00:24,301
+According to CNN, about seven hundred
+fifty billion dollars of market value
+
+8
+00:00:24,301 --> 00:00:25,301
+disappears.
+
+9
+00:00:25,433 --> 00:00:29,753
+That's more than the entire value of
+almost every company on Earth.
+
+10
+00:00:29,993 --> 00:00:31,913
+But the chips didn't change.
+
+11
+00:00:31,913 --> 00:00:33,674
+The factories didn't change.
+
+12
+00:00:33,674 --> 00:00:37,754
+Five days later, the company
+reported its biggest quarter ever.
+
+13
+00:00:37,754 --> 00:00:40,314
+So what exactly did investors lose?
+
+14
+00:00:40,314 --> 00:00:43,357
+How much of a company's value
+can one person carry?
+
+15
+00:00:43,437 --> 00:00:45,837
+We're going to follow the
+money and find out.
+
+16
+00:00:45,837 --> 00:00:47,597
+This is Billions and Bulls.
+
+17
+00:00:47,597 --> 00:00:49,517
+Let's follow the money.
+
+18
+00:00:50,557 --> 00:00:53,403
+Part 1 The Booth That Launched a Giant
+
+19
+00:00:53,643 --> 00:00:58,683
+In 1993, three engineers met at a Denny's
+restaurant in San Jose, California,
+
+20
+00:00:58,683 --> 00:01:02,043
+to plan a company that would make
+graphics chips for video games.
+
+21
+00:01:02,043 --> 00:01:03,734
+One of them was Jensen Huang.
+
+22
+00:01:03,894 --> 00:01:08,774
+He became the chief executive, and stayed
+in the job for thirty-three years.
+
+23
+00:01:09,094 --> 00:01:13,414
+For most of that time, Nvidia was a company
+gamers knew and investors mostly
+
+24
+00:01:13,414 --> 00:01:14,414
+ignored.
+
+25
+00:01:14,329 --> 00:01:17,929
+Then artificial intelligence turned out
+to run best on the same kind of
+
+26
+00:01:17,929 --> 00:01:18,929
+chips.
+
+27
+00:01:18,729 --> 00:01:22,075
+Suddenly, every big tech company
+wanted Nvidia's hardware.
+
+28
+00:01:22,235 --> 00:01:26,395
+And for a while, almost nobody else
+could make it at the same scale.
+
+29
+00:01:26,715 --> 00:01:30,566
+In early October 2026, Nvidia's
+shares hit a record.
+
+30
+00:01:30,726 --> 00:01:34,886
+The company was worth about five
+point eight trillion dollars.
+
+31
+00:01:35,286 --> 00:01:37,606
+Huang became the face of all of it.
+
+32
+00:01:37,606 --> 00:01:41,206
+The leather jacket, the keynote speeches,
+the deals with governments and
+
+33
+00:01:41,206 --> 00:01:42,206
+tech giants.
+
+34
+00:01:42,318 --> 00:01:47,172
+According to Nvidia's own filing from March
+2026, he owned about three point
+
+35
+00:01:47,172 --> 00:01:48,798
+six percent of the company.
+
+36
+00:01:48,798 --> 00:01:54,222
+At the October peak, that stake was worth
+roughly two hundred billion dollars.
+
+37
+00:01:54,222 --> 00:01:56,622
+But here's a detail that matters later.
+
+38
+00:01:56,622 --> 00:02:00,542
+Unlike some famous founders, Huang didn't
+control the company through special
+
+39
+00:02:00,542 --> 00:02:01,582
+voting shares.
+
+40
+00:02:01,582 --> 00:02:03,890
+Nvidia has one class of stock.
+
+41
+00:02:04,050 --> 00:02:07,970
+His power came from his track record, and
+from a board that trusted him.
+
+42
+00:02:07,970 --> 00:02:11,490
+Which means that board
+could also let him go.
+
+43
+00:02:11,490 --> 00:02:15,503
+In 2023, Denny's put a plaque on
+that booth in San Jose.
+
+44
+00:02:15,503 --> 00:02:19,103
+It celebrated the place where a
+trillion-dollar company was born.
+
+45
+00:02:19,103 --> 00:02:23,823
+On November 12, 2026, according to
+reports, the plaque came off the wall.
+
+46
+00:02:23,823 --> 00:02:26,516
+A day later, it went back up.
+
+47
+00:02:27,396 --> 00:02:30,276
+Part 2 Two Weeks in November
+
+48
+00:02:30,276 --> 00:02:32,916
+Here's what happened, based on
+the reporting so far.
+
+49
+00:02:32,916 --> 00:02:37,327
+And a warning first: a lot of this is
+still being investigated, and some
+
+50
+00:02:37,327 --> 00:02:39,087
+of it is disputed.
+
+51
+00:02:39,687 --> 00:02:43,688
+On October 29, The New York Times
+reported that Huang had been the target
+
+52
+00:02:43,688 --> 00:02:46,228
+of a possible spy plot linked to China.
+
+53
+00:02:46,228 --> 00:02:50,308
+According to the Times, he'd had an
+extramarital relationship with a former
+
+54
+00:02:50,308 --> 00:02:53,028
+executive of a Singapore
+data center company.
+
+55
+00:02:53,028 --> 00:02:55,084
+A company that bought Nvidia chips.
+
+56
+00:02:55,244 --> 00:02:59,404
+US officials, the Times reported, suspected
+she had been recruited by Chinese
+
+57
+00:02:59,404 --> 00:03:00,404
+intelligence.
+
+58
+00:03:00,284 --> 00:03:03,084
+China called the claims
+groundless speculation.
+
+59
+00:03:03,084 --> 00:03:06,591
+The company said the reports weren't
+supported by verifiable evidence.
+
+60
+00:03:06,751 --> 00:03:10,351
+And the US Justice Department later said
+it had reached no conclusion about
+
+61
+00:03:10,351 --> 00:03:12,272
+whether she was a spy.
+
+62
+00:03:12,591 --> 00:03:16,863
+Huang said Nvidia's dealings with that
+company were completely normal, and
+
+63
+00:03:16,863 --> 00:03:20,171
+that Nvidia had checked that its
+chips were not going to China.
+
+64
+00:03:20,331 --> 00:03:23,771
+In Singapore, where the company is
+based, the authorities said they did
+
+65
+00:03:23,771 --> 00:03:27,051
+not have enough evidence of the offences
+they had looked into there, and
+
+66
+00:03:27,051 --> 00:03:30,549
+that they had not
+investigated anyone for spying.
+
+67
+00:03:31,110 --> 00:03:35,269
+Then, on November 11, the Times reported
+that Huang had also had a relationship
+
+68
+00:03:35,269 --> 00:03:38,069
+with an executive who
+reported directly to him.
+
+69
+00:03:38,069 --> 00:03:40,322
+That same day, Nvidia's board met.
+
+70
+00:03:40,322 --> 00:03:43,682
+On November 12, the company
+announced that Huang had resigned.
+
+71
+00:03:43,682 --> 00:03:47,602
+As chief executive, as
+president, and from the board.
+
+72
+00:03:47,922 --> 00:03:49,330
+The board moved fast.
+
+73
+00:03:49,330 --> 00:03:53,570
+Colette Kress, the chief financial officer
+for thirteen years, became interim
+
+74
+00:03:53,570 --> 00:03:54,770
+chief executive.
+
+75
+00:03:54,770 --> 00:03:58,601
+And for the first time in its history,
+Nvidia got a separate board chair.
+
+76
+00:03:58,601 --> 00:04:02,440
+The board said it would search for a
+permanent leader, inside and outside
+
+77
+00:04:02,440 --> 00:04:03,440
+the company.
+
+78
+00:04:03,320 --> 00:04:07,656
+Kress isn't a household name, but she
+isn't new to big companies either.
+
+79
+00:04:07,656 --> 00:04:12,536
+Before Nvidia, she spent almost
+twenty-five years in finance jobs at Cisco
+
+80
+00:04:12,536 --> 00:04:13,896
+and Microsoft.
+
+81
+00:04:14,536 --> 00:04:15,986
+The reaction was split.
+
+82
+00:04:16,146 --> 00:04:17,826
+More than one hundred seventy thousand
+
+83
+00:04:18,466 --> 00:04:22,146
+people signed an open letter asking
+the board to bring Huang back.
+
+84
+00:04:22,146 --> 00:04:24,241
+Several tech leaders publicly backed him.
+
+85
+00:04:24,241 --> 00:04:28,721
+On November 17, Huang said he would be
+honored to return, if the board decided
+
+86
+00:04:28,721 --> 00:04:29,721
+that was best.
+
+87
+00:04:29,845 --> 00:04:33,045
+The same day, the board said it did
+not intend to reinstate him.
+
+88
+00:04:33,045 --> 00:04:37,205
+And on December 1, he's expected to
+testify in front of Congress.
+
+89
+00:04:38,645 --> 00:04:41,019
+Part 3 The Price of One Person
+
+90
+00:04:41,259 --> 00:04:42,859
+So let's look at the money.
+
+91
+00:04:42,859 --> 00:04:47,019
+CNN put the drop since Huang admitted the
+affair and the investigation began
+
+92
+00:04:47,019 --> 00:04:48,939
+at about seventeen percent.
+
+93
+00:04:48,939 --> 00:04:52,422
+Seven hundred fifty-one billion
+dollars of market value.
+
+94
+00:04:53,061 --> 00:04:56,902
+To understand why a company can lose that
+much over one person, you need
+
+95
+00:04:56,902 --> 00:04:59,141
+to know what a share price really is.
+
+96
+00:04:59,141 --> 00:05:02,093
+A share isn't paying for what
+a company owns today.
+
+97
+00:05:02,093 --> 00:05:05,612
+It's a bet on everything the
+company will earn in the future.
+
+98
+00:05:05,612 --> 00:05:10,183
+Years and years of future profits,
+squeezed into one number.
+
+99
+00:05:10,663 --> 00:05:14,583
+So when a founder leaves, investors
+start asking new questions.
+
+100
+00:05:14,583 --> 00:05:16,343
+Who makes the big bets now?
+
+101
+00:05:16,343 --> 00:05:19,623
+Who closes the next deal with a
+government, or a tech giant?
+
+102
+00:05:19,623 --> 00:05:21,472
+Will the best engineers stay?
+
+103
+00:05:21,712 --> 00:05:25,792
+Every unanswered question makes that
+future a little less certain.
+
+104
+00:05:25,792 --> 00:05:29,632
+And a less certain future is
+worth less today.
+
+105
+00:05:29,792 --> 00:05:31,152
+There's a name for this.
+
+106
+00:05:31,152 --> 00:05:32,461
+Key person risk.
+
+107
+00:05:32,461 --> 00:05:35,581
+Companies even warn about it in
+their annual reports.
+
+108
+00:05:35,581 --> 00:05:39,421
+It's the risk that the business depends
+so much on one or a few people,
+
+109
+00:05:39,421 --> 00:05:41,549
+that losing them would hurt.
+
+110
+00:05:41,869 --> 00:05:44,989
+It has happened before, at a
+much smaller scale.
+
+111
+00:05:44,989 --> 00:05:49,629
+In 2019, McDonald's fired its chief
+executive, Steve Easterbrook, for a
+
+112
+00:05:49,629 --> 00:05:53,460
+consensual relationship with an
+employee, which broke company policy.
+
+113
+00:05:53,460 --> 00:05:57,620
+He left with a severance package estimated
+at around forty million dollars.
+
+114
+00:05:57,620 --> 00:06:01,074
+Then the company sued, saying he had
+lied about other relationships.
+
+115
+00:06:01,074 --> 00:06:05,714
+In 2021, he agreed to return more than
+one hundred five million dollars,
+
+116
+00:06:05,714 --> 00:06:07,155
+and apologized.
+
+117
+00:06:08,035 --> 00:06:11,093
+The lesson boards took from
+cases like that is simple.
+
+118
+00:06:11,253 --> 00:06:14,693
+Rules about relationships at work
+apply at the very top too.
+
+119
+00:06:14,693 --> 00:06:19,254
+Maybe especially at the top, where one
+person's choices can move billions.
+
+120
+00:06:19,894 --> 00:06:22,283
+But history also has the opposite lesson.
+
+121
+00:06:22,283 --> 00:06:26,763
+When Steve Jobs stepped down at Apple in
+2011, many people wondered if the
+
+122
+00:06:26,763 --> 00:06:29,162
+company could survive without its founder.
+
+123
+00:06:29,162 --> 00:06:33,428
+Under his successor, Tim Cook, Apple went on
+to become one of the most valuable
+
+124
+00:06:33,428 --> 00:06:34,468
+companies in the world.
+
+125
+00:06:34,468 --> 00:06:35,908
+A founder leaving is a risk.
+
+126
+00:06:35,908 --> 00:06:37,668
+It isn't a sentence.
+
+127
+00:06:38,148 --> 00:06:42,388
+If you're enjoying the story so far,
+subscribing helps the channel a lot.
+
+128
+00:06:42,628 --> 00:06:46,468
+Because next, we'll find out who actually
+lost those seven hundred fifty
+
+129
+00:06:46,468 --> 00:06:48,069
+billion dollars.
+
+130
+00:06:49,108 --> 00:06:52,457
+Part 4 Who Lost the $751 Billion
+
+131
+00:06:52,777 --> 00:06:55,657
+When a stock falls, the money
+doesn't go to anyone.
+
+132
+00:06:55,657 --> 00:06:59,097
+There's no pile of cash that moves
+from one place to another.
+
+133
+00:06:59,097 --> 00:07:02,206
+The value just isn't there
+anymore, at least on paper.
+
+134
+00:07:02,206 --> 00:07:04,766
+But somebody's account balance goes down.
+
+135
+00:07:04,766 --> 00:07:06,206
+So whose?
+
+136
+00:07:06,846 --> 00:07:08,606
+Start with Huang himself.
+
+137
+00:07:08,606 --> 00:07:09,661
+Some simple math.
+
+138
+00:07:09,901 --> 00:07:13,661
+Three point six percent of seven hundred
+fifty-one billion dollars is about
+
+139
+00:07:13,661 --> 00:07:15,021
+twenty-seven billion.
+
+140
+00:07:15,021 --> 00:07:19,483
+On paper, the person who lost the most
+from his own exit was probably him.
+
+141
+00:07:19,963 --> 00:07:24,203
+Then there are Nvidia's employees, many of
+whom are paid partly in company
+
+142
+00:07:24,203 --> 00:07:25,203
+stock.
+
+143
+00:07:24,843 --> 00:07:27,643
+For years, that stock made a
+lot of them rich.
+
+144
+00:07:27,643 --> 00:07:29,921
+In November, it went the other way.
+
+145
+00:07:30,401 --> 00:07:33,441
+And then, there's almost everyone else.
+
+146
+00:07:33,441 --> 00:07:36,828
+Nvidia is one of the biggest
+companies in the S&P 500.
+
+147
+00:07:36,828 --> 00:07:41,309
+In mid-November, according to one
+analysis, it made up about six percent
+
+148
+00:07:41,309 --> 00:07:43,789
+of an S&P 500 index fund.
+
+149
+00:07:43,789 --> 00:07:48,015
+So if you have a retirement account with an
+index fund, there's a good chance
+
+150
+00:07:48,015 --> 00:07:50,255
+you owned a small piece of that drop.
+
+151
+00:07:50,255 --> 00:07:54,015
+Without ever buying a single
+Nvidia share on purpose.
+
+152
+00:07:54,495 --> 00:07:55,935
+But here's the twist.
+
+153
+00:07:55,935 --> 00:07:58,031
+Not all of that fall was about Huang.
+
+154
+00:07:58,191 --> 00:08:01,951
+Nvidia's shares had already started
+sliding before the scandal broke.
+
+155
+00:08:01,951 --> 00:08:06,351
+Since the record in early October, CNN
+reports, the stock was down about
+
+156
+00:08:06,351 --> 00:08:07,871
+thirty-five percent.
+
+157
+00:08:07,871 --> 00:08:09,786
+Roughly two trillion dollars.
+
+158
+00:08:09,786 --> 00:08:13,706
+Part of that was a wider fear about the
+artificial intelligence boom.
+
+159
+00:08:13,706 --> 00:08:18,416
+On October 29, the same day the Times story
+came out, Google's parent company
+
+160
+00:08:18,416 --> 00:08:22,016
+had the worst day in its
+history on the stock market.
+
+161
+00:08:22,416 --> 00:08:26,897
+So the honest answer is that nobody can
+split the drop neatly into Huang's
+
+162
+00:08:26,897 --> 00:08:28,186
+part and the market's part.
+
+163
+00:08:28,346 --> 00:08:30,026
+Investors were nervous already.
+
+164
+00:08:30,026 --> 00:08:32,906
+The scandal gave them one more reason.
+
+165
+00:08:34,186 --> 00:08:36,746
+Part 5 The Company Without Him
+
+166
+00:08:36,746 --> 00:08:38,074
+Then came the test.
+
+167
+00:08:38,074 --> 00:08:43,434
+On November 17, five days after the
+resignation, Nvidia reported its quarterly
+
+168
+00:08:43,434 --> 00:08:44,634
+results.
+
+169
+00:08:45,194 --> 00:08:49,284
+Revenue was one hundred fifteen point eight
+billion dollars for the quarter.
+
+170
+00:08:49,444 --> 00:08:51,284
+More than double a year earlier.
+
+171
+00:08:51,284 --> 00:08:54,324
+Profit was more than
+sixty-five billion dollars.
+
+172
+00:08:54,324 --> 00:08:56,637
+Both beat Wall Street's expectations.
+
+173
+00:08:56,637 --> 00:09:00,637
+The company said it expected about one
+hundred thirty billion dollars in
+
+174
+00:09:00,637 --> 00:09:02,317
+revenue in the next quarter.
+
+175
+00:09:02,317 --> 00:09:05,967
+And Kress said the plan Huang had
+put in place was on track.
+
+176
+00:09:06,447 --> 00:09:11,007
+After the report, the shares rose about
+five percent in after-hours trading.
+
+177
+00:09:11,007 --> 00:09:13,247
+One analyst summed it up this way.
+
+178
+00:09:13,247 --> 00:09:17,415
+An orderly change at the top doesn't
+have to destroy a company's value.
+
+179
+00:09:17,735 --> 00:09:20,295
+But the questions didn't go away.
+
+180
+00:09:20,295 --> 00:09:21,655
+They just changed.
+
+181
+00:09:21,655 --> 00:09:25,975
+Nvidia's board created a new committee
+to oversee national security and
+
+182
+00:09:25,975 --> 00:09:27,227
+export rules.
+
+183
+00:09:27,227 --> 00:09:31,866
+The US Treasury Secretary said the company
+should hire its next chief executive
+
+184
+00:09:31,866 --> 00:09:32,883
+from outside.
+
+185
+00:09:33,043 --> 00:09:37,283
+And Nvidia's business in China, and maybe
+in the rest of Asia, now depends
+
+186
+00:09:37,283 --> 00:09:39,923
+partly on how Washington reacts.
+
+187
+00:09:40,483 --> 00:09:42,156
+There's a strange irony here.
+
+188
+00:09:42,316 --> 00:09:45,916
+Huang spent years arguing in Washington
+that Nvidia should be allowed to
+
+189
+00:09:45,916 --> 00:09:48,956
+sell more chips around the
+world, including to China.
+
+190
+00:09:48,956 --> 00:09:53,516
+Now the scandal around him could make
+those rules tighter, not looser.
+
+191
+00:09:54,699 --> 00:09:57,659
+Part 6 So, What Is One CEO Worth?
+
+192
+00:09:57,659 --> 00:09:59,659
+So let's put it together.
+
+193
+00:09:59,979 --> 00:10:03,588
+The chips, the customers and the
+factories didn't change in November.
+
+194
+00:10:03,748 --> 00:10:06,628
+The quarter was the best
+Nvidia has ever had.
+
+195
+00:10:06,628 --> 00:10:10,708
+What changed was the story investors
+tell themselves about the future.
+
+196
+00:10:10,708 --> 00:10:15,347
+And for a company priced on the future,
+the story is most of the value.
+
+197
+00:10:15,747 --> 00:10:19,187
+The seven hundred fifty billion
+dollars didn't go to anyone.
+
+198
+00:10:19,187 --> 00:10:21,427
+It was the price of uncertainty.
+
+199
+00:10:21,427 --> 00:10:22,547
+Who leads now?
+
+200
+00:10:22,547 --> 00:10:24,547
+Who makes the next big bet?
+
+201
+00:10:24,547 --> 00:10:26,025
+What will Washington do?
+
+202
+00:10:26,185 --> 00:10:29,945
+Some of that value could come back if
+the answers turn out to be good.
+
+203
+00:10:29,945 --> 00:10:33,625
+Some of it may have been the air
+coming out of a much bigger boom.
+
+204
+00:10:34,105 --> 00:10:36,513
+And one person is still at
+the center of it.
+
+205
+00:10:36,513 --> 00:10:39,073
+Jensen Huang has not been
+charged with anything.
+
+206
+00:10:39,073 --> 00:10:42,833
+The investigations are still open, and he
+has said he wants to come back.
+
+207
+00:10:42,833 --> 00:10:46,193
+Until the facts are clear, it's worth
+remembering how much of this story
+
+208
+00:10:46,193 --> 00:10:49,090
+is still reported, not proven.
+
+209
+00:10:49,489 --> 00:10:52,129
+A company's value is a guess
+about the future.
+
+210
+00:10:52,129 --> 00:10:55,649
+When the person who has been writing that
+future walks out, the guess gets
+
+211
+00:10:55,649 --> 00:10:56,849
+cheaper.
+
+212
+00:10:57,802 --> 00:11:00,522
+Next time, the company behind Google lost
+about five hundred billion dollars
+
+213
+00:11:00,522 --> 00:11:02,866
+in value in a single day, right
+after its sales jumped.
+
+214
+00:11:02,866 --> 00:11:04,177
+So what were investors afraid of?
+
+215
+00:11:04,337 --> 00:11:08,177
+And if you want the other side of the
+economy, the ships, planes and rockets
+
+216
+00:11:08,177 --> 00:11:12,818
+behind everything you buy, check out our
+sister channel, Cargo and Capital.
+
+217
+00:11:13,297 --> 00:11:15,025
+This is Billions and Bulls.
+
+218
+00:11:15,025 --> 00:11:17,265
+This video explains a business.
+
+219
+00:11:17,265 --> 00:11:19,025
+It is not financial advice.
+
+220
+00:11:19,025 --> 00:11:21,670
+Subscribe, and let's keep
+following the money.
