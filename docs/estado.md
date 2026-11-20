@@ -17,7 +17,7 @@ Atualizado em 20/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 7 | Where Did Wirecard's $2 Billion Go? | Combinado (19/11) | Pronto (`src/ep07`, 20/11) | Completo (9 itens) | Feita (20/11, áudio único) | Na fila de render (telas conferidas por quadros de teste em 20/11); pacote pronto |
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Pronto (`src/ep08`, 20/11; linha do tempo provisória) | Completo (12 itens) | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
 | 9 | What Is One CEO Worth? Nvidia Just Found Out | Rascunho (19/11), viral; teaser trocado em 20/11 (anuncia o ep. 11, do Google) | Pronto (`src/ep09`, 20/11; linha do tempo provisória) | Completo (8 itens) | **Falta** | Quanto antes (Daniel decide) |
-| 10 | Who Gets Rich When You Buy GTA 6? | Aprovado para ir já (19/11); teaser aponta para o Credit Suisse | Pronto (`src/ep10`) | Completo (7 itens) | Feita (19/11) | **v3 pronta e enviada em 20/11, 9h55 (Brasília)**: substitui as v1 e v2. Vídeo `out/ep10-final.mp4` (9:52, −14 LUFS; cópia de envio `out/ep10-final-envio.mp4`, 287 MB). Publicar já (thumb A principal). Pacote em `roteiros/prontos/ep10-upload.md` |
+| 10 | Who Gets Rich When You Buy GTA 6? | Aprovado para ir já (19/11); teaser aponta para o Credit Suisse | Pronto (`src/ep10`) | Completo (7 itens) | Feita (19/11) | **v3 pronta e enviada em 20/11, 9h55 (Brasília)**: substitui as v1 e v2. Vídeo `out/ep10-final.mp4` (9:52, −14 LUFS; cópia de envio `out/ep10-final-envio.mp4`, 287 MB). Publicar já, com as thumbs novas D (principal), F e E, que trazem "GTA 6" em destaque. Pacote em `roteiros/prontos/ep10-upload.md` |
 | 11 | Why Google Lost $500 Billion in One Day | Rascunho (19/11), viral; Parte 4 com o fecho reescrito (20/11) | Pronto (`src/ep11`, 20/11; linha do tempo provisória) | Completo (7 itens) | **Falta** | Depois do 9 (cita o ep. do Nvidia) |
 | 12 | Who Gets Rich in a $1.5 Trillion IPO? | Rascunho (19/11), viral; conflito de interesse anotado | Falta | Falta | **Falta** | Quanto antes |
 | 13 | Who Pays If the AI Boom Breaks? | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 11 e do 12 (cita os dois) |
@@ -33,6 +33,8 @@ Atualizado em 20/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 ## Renders longos
 
 Rodar a fila com `setsid nohup … & disown` **e** deixar uma espera acompanhada pelo harness (Bash em segundo plano: `until ! pgrep -f "montar_episodio.py epNN"; do sleep 30; done`). Sem uma tarefa acompanhada, a sessão fica ociosa, a máquina é reciclada e o render morre no meio (aconteceu em 20/11, entre 6h40 e 11h50 UTC). Os arquivos em `out/` e no repositório sobrevivem.
+
+Cópia de envio: o envio de arquivos ao Daniel aceita até **400 MiB**. Para vídeos longos: `ffmpeg -i out/epNN-final.mp4 -c:v libx264 -preset medium -crf 22 -pix_fmt yuv420p -movflags +faststart -c:a copy out/epNN-final-envio.mp4` (rodar em segundo plano acompanhado; ~15 min com um render rodando junto).
 
 ## Quando chegar a narração de um episódio
 
