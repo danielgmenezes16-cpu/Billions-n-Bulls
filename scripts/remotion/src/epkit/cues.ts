@@ -52,6 +52,11 @@ export const makeCues = (tl: Timeline) => {
 			const out: number[] = [];
 			for (const dw of display.split(/\s+/).filter(Boolean)) {
 				const d = tok(dw);
+				// "&", "–" e afins não viram palavra: entram logo depois da anterior (sem isso, casavam com o "–" da linha do tempo provisória)
+				if (!d) {
+					out.push((out.length ? out[out.length - 1] : tl.words[i].t - AUDIO_OFFSET / FPS) + 0.18);
+					continue;
+				}
 				let j = i;
 				while (j < toks.length && j < i + 25 && toks[j] !== d) j++;
 				if (j < toks.length && j < i + 25) {

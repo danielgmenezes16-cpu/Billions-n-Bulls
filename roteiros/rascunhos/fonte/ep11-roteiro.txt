@@ -129,7 +129,11 @@ Buying back shares means each remaining share owns a slightly bigger piece of th
 <break time="1.0s" />
 
 So in about a year, Google went from handing cash back to shareholders, to asking investors and lenders for more.
-None of this is illegal or unusual. Companies borrow to build all the time. But borrowing isn't free. Bonds have to be paid back, with interest. And in October 2026, interest rates were high. Earlier that month, the yield on the ten-year US Treasury had climbed above five percent, the highest level since 2002. But it changes the question investors ask. It's no longer, how much cash will Google return? It's, when will all this spending pay off?
+None of this is illegal or unusual. Companies borrow to build all the time. But borrowing isn't free. Bonds have to be paid back, with interest. And in October 2026, interest rates were high. Earlier that month, the yield on the ten-year US Treasury had climbed above five percent, the highest level since 2002.
+
+<break time="1.0s" />
+
+So the question investors ask has changed. It's no longer, how much cash will Google return? It's, when will all this spending pay off?
 
 <break time="1.5s" />
 

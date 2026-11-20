@@ -59,14 +59,14 @@ add('By the 2000s', (s) => (
 ));
 add('When the financial crisis hit', photo('p1-bank2008', {apoio: '2008: UBS needed a rescue from the Swiss state.', hero: 'NOT CREDIT SUISSE', complemento: 'It raised money from private investors.'}));
 add('Remember that', card({id: 'p1-flip', apoio: 'Remember that. Fifteen years later,', hero: 'THE ROLES FLIP', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true, dark: true}));
-add('So what went wrong', card({id: 'p1-list', apoio: 'What went wrong? Not one thing.', hero: 'A LONG LIST', complemento: 'starting with a fishing company.', textSide: 'left', object: 'receipt', heroSize: 170}));
+add('So what went wrong', card({id: 'p1-list', apoio: 'What went wrong? Not one thing.', hero: 'A LONG LIST', complemento: 'starting with a fishing company.', textSide: 'left', object: 'none', heroSize: 170}));
 
 // ---------------- Parte 2 — A Decade of Scandals ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'A DECADE OF SCANDALS', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 add('Between 2013 and 2016', photo('p2-maputo', {apoio: 'Mozambique, 2013–2016:', hero: '~$1 BILLION', complemento: 'in loans and bonds'}));
 add('On paper, a lot of it', photo('p2-tuna', {apoio: 'On paper, much of it was for', hero: 'A TUNA FLEET'}));
 add('Much of the money was diverted', card({id: 'p2-kick', apoio: 'Much of the money was diverted:', hero: 'KICKBACKS', complemento: 'to Credit Suisse bankers and officials', textSide: 'left', object: 'coin', heroSize: 180, dark: true}));
-add('In 2021, the bank agreed', card({id: 'p2-475', apoio: '2021, U.S. and U.K. authorities:', hero: '$475 MILLION', complemento: 'to settle', textSide: 'right', object: 'receipt', heroSize: 160}));
+add('In 2021, the bank agreed', card({id: 'p2-475', apoio: '2021: the bank agreed to pay about', hero: '$475 MILLION', complemento: 'to American and British authorities', textSide: 'right', object: 'coin', heroSize: 115}));
 add('In 2019, it got stranger', photo('p2-detective', {apoio: '2019: hired to follow a former executive', hero: 'PRIVATE DETECTIVES'}));
 add('The Swiss regulator later found', (s) => (
 	<StatsShot id="p2-spy" start={s} title="What the Swiss regulator found" titleAt={s + 4} source="Source: FINMA, via Swissinfo"
@@ -78,7 +78,7 @@ add('The Swiss regulator later found', (s) => (
 add('Then came 2021', card({id: 'p2-2021', apoio: 'Then came', hero: '2021', complemento: 'The year it all got expensive.', textSide: 'center', object: 'none', heroSize: 240, dark: true}));
 add('In March, Credit Suisse froze', card({id: 'p2-greensill', apoio: 'March 2021, Greensill-linked funds:', hero: '$10B FROZEN', complemento: '1,000+ investors stuck', textSide: 'left', object: 'none', heroSize: 160}));
 add('Just weeks after that', card({id: 'p2-archegos', apoio: 'Archegos implodes. Credit Suisse books', hero: 'CHF 4.4 BILLION', complemento: 'and warns of more losses', textSide: 'right', object: 'chart', heroSize: 140}));
-add('Other banks lost money', card({id: 'p2-most', apoio: 'Of all the banks hit by Archegos,', hero: 'IT LOST THE MOST', complemento: "That's its own episode.", textSide: 'center', object: 'none', heroSize: 130}));
+add('Other banks lost money', card({id: 'p2-most', apoio: 'Other banks lost money on Archegos too. None lost as much as', hero: 'CREDIT SUISSE', complemento: "that's a story for its own episode", textSide: 'center', object: 'none', heroSize: 130}));
 add('In January 2022', card({id: 'p2-chair', apoio: 'January 2022:', hero: 'CHAIRMAN RESIGNS', complemento: 'reportedly after breaking COVID rules', textSide: 'left', object: 'none', heroSize: 140}));
 add('And in June 2022', photo('p2-court', {apoio: 'June 2022, Bulgarian cocaine gang case:', hero: 'CONVICTED', complemento: 'reportedly a first for a major Swiss bank'}));
 add('None of these alone', (s) => (
@@ -90,12 +90,12 @@ add('None of these alone', (s) => (
 			{year: '2022', label: 'Conviction', at: s + 28, gold: true},
 		]} />
 ));
-add('Something here isn\'t working', card({id: 'p2-msg', apoio: 'The message to clients:', hero: "SOMETHING ISN'T WORKING", complemento: 'In banking, the most expensive message there is.', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
+add('Something here isn\'t working', card({id: 'p2-msg', apoio: 'What clients heard:', hero: "SOMETHING ISN'T WORKING", complemento: 'In banking, the most expensive message there is.', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
 
 // ---------------- Parte 3 — The Slow-Motion Run (azul-marinho) ----------------
 add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'THE SLOW-MOTION RUN', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true, dark: true}));
 add('Here\'s the thing about a bank', photo('p3-vault', {tone: 'navy', apoio: 'Your money is', hero: 'NOT IN A VAULT'}));
-add('It lends it out', card({id: 'p3-slice', apoio: 'Lent out, invested. As cash, at any moment:', hero: 'ONLY A SLICE', textSide: 'left', object: 'coin', heroSize: 160, dark: true}));
+add('It lends it out', card({id: 'p3-slice', apoio: 'Lent out, invested. At any moment,', hero: 'ONLY A SLICE', complemento: 'is available as cash', textSide: 'left', object: 'coin', heroSize: 140, dark: true}));
 add('That works perfectly', card({id: 'p3-once', apoio: 'It works perfectly, unless', hero: 'EVERYONE ASKS AT ONCE', textSide: 'center', object: 'none', heroSize: 110, dark: true}));
 add('In October 2022', (s) => (
 	<DocLinesShot id="p3-plan" start={s} title="The rescue plan, October 2022" titleAt={s + 4} source="Source: Fortune, Oct 27, 2022"
@@ -145,7 +145,7 @@ add('So, over the weekend', (s) => (
 			{label: 'UBS', at: c.f('and UBS'), highlight: true},
 		]} />
 ));
-add('At Friday\'s close', card({id: 'p4-8b', apoio: "Market value at Friday's close:", hero: '~$8 BILLION', complemento: 'according to news reports', textSide: 'left', object: 'chart', heroSize: 160, dark: true}));
+add('At Friday\'s close', card({id: 'p4-8b', apoio: "At Friday's close, Credit Suisse was worth around", hero: '~$8 BILLION', complemento: 'on the stock market, according to news reports', textSide: 'center', object: 'none', heroSize: 160, dark: true}));
 add('On Sunday evening', photo('p6-swissflag', {tone: 'navy', apoio: 'Sunday evening, March 19:', hero: 'THE ANNOUNCEMENT'}));
 add('UBS would take over', (s) => (
 	<StatsShot id="p4-price" start={s} title="UBS takes over Credit Suisse" titleAt={s + 4} source={FINMA}
@@ -154,7 +154,7 @@ add('UBS would take over', (s) => (
 			{value: 'CHF 0.76', label: 'per Credit Suisse share', at: c.f('seventy-six centimes')},
 		]} />
 ));
-add('To make it work', card({id: 'p4-vote', apoio: 'Emergency powers:', hero: 'NO VOTE', complemento: "Shareholders of both banks didn't get a say.", textSide: 'left', object: 'none', heroSize: 200, dark: true}));
+add('To make it work', card({id: 'p4-vote', apoio: 'Emergency powers. Shareholders of both banks', hero: "DIDN'T GET A VOTE", textSide: 'left', object: 'none', heroSize: 130, dark: true}));
 add('The Swiss state also offered', (s) => (
 	<BarsShot id="p4-net" start={s} horizontal title="Safety net for the riskiest assets (CHF)" titleAt={s + 4} source={FINMA}
 		bars={[
@@ -163,7 +163,7 @@ add('The Swiss state also offered', (s) => (
 		]} />
 ));
 add('And the Swiss National Bank promised', card({id: 'p4-100', apoio: 'Extra loans, backed by the government:', hero: 'CHF 100 BILLION', textSide: 'left', object: 'coin', heroSize: 150, dark: true}));
-add('There were other options', card({id: 'p4-options', apoio: 'Reportedly considered:', hero: 'NATIONALIZE IT?', complemento: 'All the risk on taxpayers. A sale to UBS looked safer.', textSide: 'left', object: 'none', heroSize: 140, dark: true}));
+add('There were other options', card({id: 'p4-options', apoio: 'Reportedly considered: taking over Credit Suisse itself.', hero: 'NATIONALIZE IT?', complemento: 'A sale to UBS looked like the smaller risk.', textSide: 'left', object: 'none', heroSize: 140, dark: true}));
 add('Remember 2008', (s) => (
 	<TimelineShot id="p4-flip" start={s} dark title="The roles flip"
 		events={[
@@ -180,7 +180,7 @@ add('Quick thing', (s) => (
 // ---------------- Parte 5 — The Bonds That Went to Zero ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE BONDS THAT WENT TO ZERO', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
 add('After the 2008 crisis', photo('p5-bond', {apoio: 'After 2008, regulators wanted', hero: 'A CUSHION', complemento: 'to absorb losses before taxpayers'}));
-add('One answer was a special kind', card({id: 'p5-at1', apoio: 'A special kind of bond:', hero: 'AT1', complemento: 'Additional Tier 1', textSide: 'left', object: 'receipt', heroSize: 260, heroUnderline: true}));
+add('One answer was a special kind', card({id: 'p5-at1', apoio: 'A special kind of bond:', hero: 'AT1', complemento: 'Additional Tier 1', textSide: 'left', object: 'coin', heroSize: 260, heroUnderline: true}));
 add('Here\'s how it works', (s) => (
 	<DocLinesShot id="p5-how" start={s} title="How an AT1 bond works" titleAt={s + 4}
 		lines={[
@@ -189,7 +189,7 @@ add('Here\'s how it works', (s) => (
 			{label: 'Deep trouble: converted to shares, or written off', at: c.f('converted into shares'), highlight: true},
 		]} />
 ));
-add('That\'s why people in the market', card({id: 'p5-coco', apoio: 'Contingent convertibles:', hero: 'COCOS', complemento: 'bonds that can stop being bonds', textSide: 'right', object: 'receipt', heroSize: 220}));
+add('That\'s why people in the market', card({id: 'p5-coco', apoio: 'Contingent convertibles:', hero: 'COCOS', complemento: 'bonds that can stop being bonds', textSide: 'right', object: 'coin', heroSize: 220}));
 add('Credit Suisse\'s AT1 bonds had a clause', (s) => (
 	<DocLinesShot id="p5-clause" start={s} title="The clause" titleAt={s + 4}
 		lines={[
@@ -241,7 +241,7 @@ add('So let\'s add it up', (s) => (
 		]} />
 ));
 add('The name went too', photo('p6-office', {apoio: 'May 31, 2024: merged into UBS', hero: '1856 – 2024', complemento: 'On a Friday, with no drama at all'}));
-add('What about Swiss taxpayers', card({id: 'p6-tax', apoio: 'Guarantee ended in August 2023. The government says it collected', hero: '~CHF 200 MILLION', complemento: 'in fees, and lost nothing.', textSide: 'left', object: 'coin', heroSize: 130}));
+add('What about Swiss taxpayers', card({id: 'p6-tax', apoio: 'August 2023: UBS ends the guarantee. The government says it', hero: "DIDN'T LOSE A FRANC", complemento: 'It collected around CHF 200 million in fees.', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('And UBS?', (s) => (
 	<BarsShot id="p6-ubs" start={s} horizontal title="UBS profit, Q2 2023 (USD)" titleAt={s + 4} source="Source: UBS, second-quarter 2023 results" note={{text: '~$29B', at: c.f('twenty-nine billion')}}
 		bars={[

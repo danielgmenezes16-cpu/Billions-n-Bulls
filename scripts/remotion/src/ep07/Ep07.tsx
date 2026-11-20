@@ -35,7 +35,7 @@ add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions 
 
 // ---------------- Parte 1 — The Company That Replaced a Bank ----------------
 add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE COMPANY THAT REPLACED A BANK', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
-add('Wirecard started in 1999', card({id: 'p1-start', apoio: '1999, near Munich. When you pay online, someone moves the money:', hero: 'A PAYMENTS PROCESSOR', textSide: 'right', object: 'card', heroSize: 110}));
+add('Wirecard started in 1999', card({id: 'p1-start', apoio: 'When you pay online, somebody has to move', hero: 'THE MONEY', complemento: 'from your card to the shop', textSide: 'right', object: 'card', heroSize: 110}));
 add('Picture a pair of sneakers', (s) => (
 	<RouteShot2 id="p1-route" start={s} goAt={c.f('a processor passes the payment')} stamp={{text: 'A SMALL FEE', at: c.f('it keeps a small fee')}}
 		nodes={[
@@ -44,7 +44,7 @@ add('Picture a pair of sneakers', (s) => (
 			{name: 'THE SHOP', sub: 'GETS PAID', at: c.f('makes sure the shop gets paid')},
 		]} />
 ));
-add('Its first big customers', card({id: 'p1-early', apoio: "First big customers, Der Spiegel reported: sites many banks didn't want", hero: 'ADULT SITES & GAMBLING', textSide: 'center', object: 'none', heroSize: 105}));
+add('Its first big customers', card({id: 'p1-early', apoio: 'Its first big customers, according to Der Spiegel:', hero: 'ADULT SITES & GAMBLING', complemento: "businesses many banks didn't want to touch", textSide: 'center', object: 'none', heroSize: 105}));
 add('In 2002, an Austrian consultant', card({id: 'p1-braun', apoio: '2002: an Austrian consultant invests and becomes CEO:', hero: 'MARKUS BRAUN', textSide: 'left', object: 'chart', heroSize: 150}));
 add('Wirecard didn\'t go public the usual way', card({id: 'p1-listing', apoio: '2005: merged into a small listed hotline company.', hero: 'A SHORTCUT', complemento: 'onto the stock market, with fewer questions', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
 add('Then it grew', (s) => (
@@ -63,7 +63,7 @@ add('Some of those deals looked expensive', (s) => (
 ));
 add('In September 2018, Wirecard joined the DAX', photo('p1-frankfurt', {apoio: 'September 2018: joins the DAX, taking the place of Commerzbank. Worth about', hero: '€24 BILLION'}));
 add('Braun was the face of it', card({id: 'p1-stake', apoio: 'Braun owned about 7%. In September 2018, his shares:', hero: '€1.6 BILLION+', complemento: '2017: "artificial intelligence"; reportedly, spreadsheets', textSide: 'left', object: 'chart', heroSize: 140}));
-add('Here\'s the thing about payments', card({id: 'p1-puzzle', apoio: 'A processor keeps a small slice of each sale. To earn billions:', hero: 'WHERE WERE THE PAYMENTS?', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
+add('Here\'s the thing about payments', card({id: 'p1-puzzle', apoio: 'A small slice of each sale. To earn billions, you need', hero: 'AN ENORMOUS NUMBER', complemento: 'of payments. So where were they coming from?', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
 
 // ---------------- Parte 2 — Partners Nobody Could See ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'PARTNERS NOBODY COULD SEE', textSide: 'center', object: 'none', heroSize: 115, heroUnderline: true}));
@@ -97,7 +97,7 @@ add('Think of it like this', (s) => (
 add('For years, Wirecard\'s auditors', photo('o-papers', {id: 'p2-letters', apoio: 'Each year, the auditors needed proof the cash was real. Each year:', hero: 'LETTERS'}));
 add('A court in Singapore later found', photo('p2-singapore', {apoio: 'A Singapore court: letters confirming almost €1.1 billion for Wirecard were', hero: 'FALSE'}));
 add('By 2019, according to Wirecard', card({id: 'p2-hole', apoio: 'By 2019, per Wirecard: escrow in two big Philippine banks.', hero: '€1.9 BILLION', textSide: 'center', object: 'none', heroSize: 200}));
-add('That number would become', card({id: 'p2-famous', apoio: 'It would become', hero: 'THE MOST FAMOUS HOLE', complemento: 'in German corporate history', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('That number would become', card({id: 'p2-famous', apoio: 'That number would become', hero: 'THE MOST FAMOUS HOLE', complemento: 'in German corporate history', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 
 // ---------------- Parte 3 — Shooting the Messenger (azul-marinho) ----------------
 add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'SHOOTING THE MESSENGER', textSide: 'center', object: 'none', heroSize: 125, heroUnderline: true, dark: true}));
@@ -110,7 +110,8 @@ add('The doubts were old', (s) => (
 			{year: 'SHARES', label: 'fall', at: c.f('The shares fell'), gold: true},
 		]} />
 ));
-add('Wirecard\'s answer was always the same', card({id: 'p3-answer', apoio: 'Wirecard: critics are short sellers, lying to make money. The regulator investigates', hero: 'THE CRITICS', textSide: 'center', object: 'none', heroSize: 160, heroUnderline: true, dark: true}));
+add('Wirecard\'s answer was always the same', card({id: 'p3-answer', apoio: "Wirecard's answer: the critics were short sellers,", hero: 'LYING TO MAKE MONEY', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
+add('Germany\'s financial regulator', card({id: 'p3-bafin', apoio: "Germany's regulator, BaFin, opened investigations.", hero: 'INTO THE CRITICS', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true, dark: true}));
 add('And the pressure went further', photo('p3-keyboard', {tone: 'navy', apoio: 'Citizen Lab: critics targeted by hackers-for-hire, some almost daily.', hero: 'HACKED', complemento: 'Wirecard denied any wrongdoing'}));
 add('Then, in January 2019', photo('p3-press', {tone: 'navy', apoio: 'January 2019, the FT: a Singapore manager suspected of forging contracts. The source:', hero: 'A WHISTLEBLOWER'}));
 add('Here\'s where the story gets strange', (s) => (
@@ -154,7 +155,7 @@ add('One person was already gone', photo('p4-moscow', {tone: 'navy', apoio: 'COO
 
 // ---------------- Parte 5 — Following the Real Money ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'FOLLOWING THE REAL MONEY', textSide: 'center', object: 'none', heroSize: 115, heroUnderline: true}));
-add('So, back to our question', card({id: 'p5-where', apoio: 'Where did the €1.9 billion go? The administrator and prosecutors:', hero: 'NOWHERE', complemento: 'it was never there', textSide: 'center', object: 'none', heroSize: 200, heroUnderline: true}));
+add('So, back to our question', card({id: 'p5-where', apoio: 'The €1.9 billion? The administrator and the prosecutors:', hero: 'NOWHERE', complemento: 'it was never there', textSide: 'center', object: 'none', heroSize: 200, heroUnderline: true}));
 add('The administrator, Michael', card({id: 'p5-fiction', apoio: 'No trace of the money. A key witness, in court:', hero: '"SYNTHETIC FICTIONS"', textSide: 'center', object: 'none', heroSize: 120}));
 add('But that doesn\'t mean no money was lost', card({id: 'p5-real', apoio: 'But real money was lost.', hero: 'IT CAME FROM SOMEWHERE ELSE', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
 add('Follow the cash that actually existed', (s) => (
@@ -165,7 +166,7 @@ add('Follow the cash that actually existed', (s) => (
 			{label: 'SOFTBANK', value: 0.9, display: '€0.9B', at: c.f('about nine hundred million')},
 		]} />
 ));
-add('That was real money, from real lenders', card({id: 'p5-burn', apoio: 'Burned over the years just to keep running, the administrator testified:', hero: '€1.1 BILLION', textSide: 'left', object: 'coin', heroSize: 170}));
+add('That was real money, from real lenders', card({id: 'p5-burn', apoio: 'Jaffé testified: Wirecard burned through', hero: '€1.1 BILLION', complemento: 'just to keep running', textSide: 'left', object: 'coin', heroSize: 130}));
 add('The banks felt it', (s) => (
 	<DocLinesShot id="p5-banks" start={s} title="The banks felt it (reportedly)" titleAt={s + 4} source="Sources: Bloomberg (via American Banker); WSJ (via PYMNTS)"
 		lines={[
@@ -183,7 +184,7 @@ add('And then there are the shareholders', (s) => (
 			{value: '~50,000', label: 'shareholders expected to get nothing', at: c.f('About fifty thousand shareholders')},
 		]} />
 ));
-add('What was left of the real business', card({id: 'p5-sold', apoio: 'Core technology to Santander; units from Brazil to Asia sold. The money goes', hero: 'TO THE CREDITORS', complemento: 'not the shareholders', textSide: 'center', object: 'none', heroSize: 130}));
+add('What was left of the real business', card({id: 'p5-sold', apoio: 'Sold off: core technology to Santander. That money goes', hero: 'TO THE CREDITORS', complemento: 'not the shareholders', textSide: 'center', object: 'none', heroSize: 130}));
 
 // ---------------- Parte 6 — So, Where Did It Go? ----------------
 add('Part 6', card({id: 'p6-title', apoio: 'Part 6', hero: 'SO, WHERE DID IT GO?', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
@@ -207,7 +208,7 @@ add('What about the watchdogs', (s) => (
 ));
 add('And some people did make money', card({id: 'p6-shorts', apoio: 'The people Wirecard called liars:', hero: 'SHORT SELLERS PROFITED', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 add('In Singapore, at least four people', photo('p6-court', {apoio: 'Singapore: at least 4 sentenced. January 2026, the man whose firm sent the false letters:', hero: '10 YEARS'}));
-add('In Munich, Markus Braun has been on trial', card({id: 'p6-trial', apoio: 'Munich trial since December 2022, 290+ hearing days. Braun denies all charges.', hero: 'PRESUMED INNOCENT', complemento: 'verdict expected around the end of 2026', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('In Munich, Markus Braun has been on trial', card({id: 'p6-trial', apoio: 'On trial since December 2022. Braun denies all the charges.', hero: 'PRESUMED INNOCENT', complemento: 'verdict expected around the end of 2026', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('The missing two billion was never in a bank', card({id: 'p6-final', apoio: 'The missing two billion was never in a bank.', hero: 'IT WAS IN A SPREADSHEET', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------
