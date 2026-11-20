@@ -22,6 +22,12 @@ export const TimelineShot: React.FC<{id: string; start: number; title?: string; 
 		if (k > 0) dotX = i === 0 ? x0 : x0 + step * (i - 1) + step * k;
 	});
 	const lineK = on(p.events[0].at, 20);
+	// rótulo centrado no ponto, mas sem sair da área segura (o primeiro e o último ponto ficam perto das bordas;
+	// largura estimada em ~0,55 do corpo por letra, com folga para o movimento da cena)
+	const cx = (x: number, text: string, size: number, em = 0.55) => {
+		const hw = (text.length * size * em) / 2;
+		return Math.min(Math.max(x, 90 + hw), 1830 - hw);
+	};
 	return (
 		<Scene id={p.id} dark={p.dark}>
 			{p.title ? <Txt x={228} y={200} o={on(p.titleAt ?? p.events[0].at)} size={46} color={light}>{p.title}</Txt> : null}
@@ -33,9 +39,9 @@ export const TimelineShot: React.FC<{id: string; start: number; title?: string; 
 				return (
 					<g key={i} opacity={Math.min(1, k)}>
 						<circle cx={x} cy={y} r={14} fill={e.gold ? GOLD : light} />
-						<Txt x={x} y={up ? y - 70 : y + 100} size={62} weight={800} anchor="middle" color={e.gold ? GOLD : light}>{e.year}</Txt>
-						<Txt x={x} y={up ? y - 150 : y + 160} size={30} weight={600} anchor="middle" color={light}>{e.label}</Txt>
-						{e.sub ? <Txt x={x} y={up ? y - 190 : y + 200} size={26} anchor="middle" color={p.dark ? '#AEB6C2' : SOFT}>{e.sub}</Txt> : null}
+						<Txt x={cx(x, e.year, 62, 0.64)} y={up ? y - 70 : y + 100} size={62} weight={800} anchor="middle" color={e.gold ? GOLD : light}>{e.year}</Txt>
+						<Txt x={cx(x, e.label, 30)} y={up ? y - 150 : y + 160} size={30} weight={600} anchor="middle" color={light}>{e.label}</Txt>
+						{e.sub ? <Txt x={cx(x, e.sub, 26)} y={up ? y - 190 : y + 200} size={26} anchor="middle" color={p.dark ? '#AEB6C2' : SOFT}>{e.sub}</Txt> : null}
 					</g>
 				);
 			})}

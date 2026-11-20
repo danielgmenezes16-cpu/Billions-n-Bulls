@@ -4,7 +4,7 @@ Uso: python3 scripts/remotion/checar_cenas.py ep08 [ep09 …]
 
 Imita epkit/cues.ts e avisa quando:
 - uma frase de add() ou c.f() não existe no roteiro, na ordem;
-- um c.f() cai depois do fim da cena (o item nunca aparece);
+- um c.f() cai depois do fim da cena (o item nunca aparece) ou no último 1 s dela (mal aparece);
 - num card(), a frase de destaque (hero) só entra no último 0,8 s da cena ou depois dela. Acontece quando o texto da tela
   tem palavras fora da ordem da narração: o sincronizador casa uma delas mais adiante e empurra o resto;
 - uma cena (fora a primeira) começa dentro do título falado (a frase dela também aparece no título);
@@ -76,6 +76,9 @@ def check(ep):
                 problems.append(f'cena "{s["phrase"]}": c.f("{ph}") não encontrada depois do início da cena')
             elif W[j]['t'] > s['t1']:
                 problems.append(f'cena "{s["phrase"]}": c.f("{ph}") cai {W[j]["t"] - s["t1"]:.1f} s depois do fim da cena')
+            elif W[j]['t'] > s['t1'] - 1.0:
+                problems.append(f'cena "{s["phrase"]}": c.f("{ph}") entra só {s["t1"] - W[j]["t"]:.2f} s antes do fim da cena (mal dá para ler); '
+                                'apontar para uma frase um pouco antes')
         # card(): sincronia das palavras
         cm = re.search(r'\bcard\(\{(.*?)\}\)', s['body'], re.S)
         if not cm:

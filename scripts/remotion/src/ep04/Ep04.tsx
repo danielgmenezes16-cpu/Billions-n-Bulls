@@ -120,7 +120,7 @@ add('Banks lost deposits', (s) => (
 		events={[
 			{year: '1980', label: 'Law to phase out the ceilings', at: c.f('In 1980')},
 			{year: '1986', label: 'Last savings ceiling gone', at: c.f('1986')},
-			{year: '2011', label: 'Interest on checking allowed', at: c.f('July 2011'), gold: true},
+			{year: '2011', label: 'Interest on checking allowed', at: c.f('only lifted in July 2011'), gold: true},
 		]} />
 ));
 add('By then, it barely mattered', (s) => (

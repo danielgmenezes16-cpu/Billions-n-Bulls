@@ -28,7 +28,7 @@ Atualizado em 20/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 
 ## Checagem das cenas (desde 20/11)
 
-`python3 scripts/remotion/checar_cenas.py epNN` confere, sem renderizar, se cada destaque de card aparece antes do fim da cena (o texto da tela precisa seguir a ordem da narração), se as frases de `c.f()` caem dentro da cena, se nenhuma cena começa dentro do título falado, se os apoios cabem na tela, se o texto dos cards com objeto ao lado não bate no objeto nem sai pela borda, e se nenhum card usa os objetos `receipt`/`phone` (têm texto fixo do ep. 1). O `montar_episodio.py --render` roda essa checagem antes e para se achar problema (`--forcar` ignora). Em 20/11 ela achou defeitos nos eps. 2 a 7 e 10; os eps. 3, 4, 5, 6, 7 e 10 foram corrigidos e re-renderizados; o ep. 2 (publicado) tem v2 opcional.
+`python3 scripts/remotion/checar_cenas.py epNN` confere, sem renderizar, se cada destaque de card aparece antes do fim da cena (o texto da tela precisa seguir a ordem da narração), se as frases de `c.f()` caem dentro da cena, se nenhuma cena começa dentro do título falado, se os apoios cabem na tela, se o texto dos cards com objeto ao lado não bate no objeto nem sai pela borda, se a última palavra de cada card fica ao menos 0,5 s na tela, e se nenhum card usa os objetos `receipt`/`phone` (têm texto fixo do ep. 1). O `montar_episodio.py --render` roda essa checagem antes e para se achar problema (`--forcar` ignora). Em 20/11 ela achou defeitos nos eps. 2 a 7 e 10; os eps. 3, 4, 5, 6, 7 e 10 foram corrigidos e re-renderizados; o ep. 2 (publicado) tem v2 opcional.
 
 ## Quando chegar a narração de um episódio
 
