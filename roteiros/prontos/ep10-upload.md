@@ -14,11 +14,17 @@ Publicar logo: o jogo lançou em 19/11 e o assunto perde força a cada dia.
 
 ## Thumbnails (Test & Compare, "Somente miniatura")
 
+Desde 20/11: usar as três com "GTA 6" em destaque (D, F, E nessa ordem). As A, B e C não dizem "GTA 6" e ficam de reserva.
+Nenhuma usa material da Rockstar: o nome vai só em texto, na fonte do canal; palmeiras, sol e controle são desenhos genéricos.
+
 | Variante | Arquivo | Ideia |
 | --- | --- | --- |
-| A (principal) | `thumbs/ep10-thumb-A.png` | "WHO GETS $80?": console US$ 24 × editora US$ 56 |
-| B | `thumbs/ep10-thumb-B.png` | "TAX BREAK": lucro £69 mi × incentivo £360 mi |
-| C | `thumbs/ep10-thumb-C.png` | "$80 JUST THE TICKET" em azul-marinho |
+| D (principal) | `thumbs/ep10-thumb-D.png` | "GTA 6 / WHO GETS YOUR $80?" num pôr do sol neon com palmeiras |
+| F | `thumbs/ep10-thumb-F.png` | "GTA 6 / WHO GETS RICH?" em azul-marinho, controle genérico e a barra US$ 24 × US$ 56 |
+| E | `thumbs/ep10-thumb-E.png` | "GTA 6 / WHERE YOUR $80 GOES" no papel quadriculado, barras console × editora |
+| A (reserva) | `thumbs/ep10-thumb-A.png` | "WHO GETS $80?": console US$ 24 × editora US$ 56 |
+| B (reserva) | `thumbs/ep10-thumb-B.png` | "TAX BREAK": lucro £69 mi × incentivo £360 mi |
+| C (reserva) | `thumbs/ep10-thumb-C.png` | "$80 JUST THE TICKET" em azul-marinho |
 
 ## Descrição
 

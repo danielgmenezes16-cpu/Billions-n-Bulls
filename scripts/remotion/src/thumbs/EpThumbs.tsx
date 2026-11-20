@@ -445,6 +445,99 @@ const E10C = () => (
 	</AbsoluteFill>
 );
 
+// Variantes com "GTA 6" em destaque (20/11). Nada da Rockstar: sem logo, arte, personagem ou print do jogo;
+// o nome vai só em texto, na fonte do canal, e os objetos (palmeira, sol, caixa, controle) são desenhos genéricos nossos.
+const Palm: React.FC<{x: number; y: number; s?: number; flip?: boolean; color?: string}> = ({x, y, s = 1, flip, color = '#1A0B2A'}) => {
+	const leaf = (a: number, len: number) => {
+		const r = (a * Math.PI) / 180;
+		const ex = Math.cos(r) * len;
+		const ey = Math.sin(r) * len + len * 0.28; // a folha cai na ponta
+		const nx = -Math.sin(r) * len * 0.16;
+		const ny = Math.cos(r) * len * 0.16;
+		return `M 0 0 Q ${ex * 0.5 + nx} ${ey * 0.35 + ny - len * 0.1} ${ex} ${ey} Q ${ex * 0.5 - nx * 0.4} ${ey * 0.35 - ny * 0.4 - len * 0.12} 0 0 Z`;
+	};
+	return (
+		<g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s})`} fill={color}>
+			<path d="M -14 0 C -6 -150, 14 -290, 52 -420 L 66 -416 C 34 -290, 18 -150, 16 0 Z" />
+			<g transform="translate(58 -420)">
+				{[-170, -140, -110, -70, -35, -5, 20].map((a, i) => <path key={i} d={leaf(a, i % 2 ? 210 : 250)} />)}
+			</g>
+		</g>
+	);
+};
+// Controle genérico (não é o de nenhum console): corpo, cruz, quatro botões, dois direcionais
+const Pad: React.FC<{x: number; y: number; s?: number; color?: string; rot?: number}> = ({x, y, s = 1, color = '#F4F3EE', rot = 0}) => (
+	<g transform={`translate(${x} ${y}) rotate(${rot}) scale(${s})`}>
+		<path d="M -150 -60 C -120 -95, 120 -95, 150 -60 C 190 -10, 215 90, 170 110 C 135 125, 110 70, 80 55 L -80 55 C -110 70, -135 125, -170 110 C -215 90, -190 -10, -150 -60 Z" fill={color} />
+		<rect x={-125} y={-30} width={56} height={18} rx={4} fill={NAVY} />
+		<rect x={-106} y={-49} width={18} height={56} rx={4} fill={NAVY} />
+		{[[100, -42], [125, -18], [100, 6], [75, -18]].map(([cx, cy], i) => <circle key={i} cx={cx} cy={cy} r={11} fill={i === 0 ? GOLD : NAVY} />)}
+		<circle cx={-48} cy={28} r={20} fill={NAVY} />
+		<circle cx={48} cy={28} r={20} fill={NAVY} />
+	</g>
+);
+// Pôr do sol "Miami neon": sol listrado, mar escuro e palmeiras em silhueta
+const SunsetBg: React.FC<{id: string}> = ({id}) => (
+	<AbsoluteFill style={{background: 'linear-gradient(180deg, #140A30 0%, #3A1458 34%, #A8336F 60%, #EE7A4C 80%, #F6B95E 100%)'}}>
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0}}>
+			<defs>
+				<linearGradient id={`${id}-sun`} x1="0" y1="0" x2="0" y2="1">
+					<stop offset="0" stopColor="#FFE7A0" />
+					<stop offset="1" stopColor="#F2577E" />
+				</linearGradient>
+				<mask id={`${id}-cut`}>
+					<rect width={W} height={H} fill="#fff" />
+					{[0, 1, 2, 3, 4, 5].map((i) => <rect key={i} x={0} y={430 + i * 26} width={W} height={6 + i * 2.4} fill="#000" />)}
+				</mask>
+			</defs>
+			<circle cx={930} cy={420} r={230} fill={`url(#${id}-sun)`} mask={`url(#${id}-cut)`} />
+			<rect x={0} y={575} width={W} height={145} fill="#160A2C" />
+			{[0, 1, 2, 3].map((i) => <rect key={i} x={760 + i * 18} y={598 + i * 22} width={340 - i * 36} height={5} rx={2} fill="#F6B95E" opacity={0.55 - i * 0.1} />)}
+			<Palm x={1185} y={720} s={1.05} />
+			<Palm x={1030} y={740} s={0.7} flip />
+		</svg>
+	</AbsoluteFill>
+);
+const E10D = () => (
+	<AbsoluteFill>
+		<SunsetBg id="t10D" />
+		<div style={{position: 'absolute', left: 52, top: 70, fontFamily: FONT, fontWeight: 900, fontSize: 300, lineHeight: 0.9, letterSpacing: -12, color: '#FFFFFF', textShadow: '0 10px 0 #2A0F45, 0 18px 40px rgba(10,4,24,0.55)'}}>GTA 6</div>
+		<div style={{position: 'absolute', left: 64, top: 360, fontFamily: FONT, fontWeight: 900, fontSize: 92, lineHeight: 1, letterSpacing: -3, color: '#FFE08A', textShadow: '0 6px 0 #2A0F45'}}>WHO GETS</div>
+		<div style={{position: 'absolute', left: 64, top: 456, fontFamily: FONT, fontWeight: 900, fontSize: 92, lineHeight: 1, letterSpacing: -3, color: '#FFE08A', textShadow: '0 6px 0 #2A0F45'}}>YOUR $80?</div>
+		<Vignette dark />
+	</AbsoluteFill>
+);
+const E10E = () => (
+	<AbsoluteFill>
+		<Background id="t10E" drift={0} lines={false} />
+		<Spot />
+		<Words lines={['GTA 6']} size={250} x={52} y={130} mark={0} sub="WHERE YOUR $80 GOES" />
+		<Bars x={850} base={560} maxH={340} bw={150} gap={60}
+			bars={[{label: 'CONSOLE', value: 24, display: '$24'}, {label: 'PUBLISHER', value: 56, display: '$56', gold: true}]} />
+		<Vignette />
+	</AbsoluteFill>
+);
+const E10F = () => (
+	<AbsoluteFill>
+		<NavyBg id="t10F" />
+		<div style={{position: 'absolute', left: 56, top: 40, fontFamily: FONT, fontWeight: 900, fontSize: 290, lineHeight: 1, letterSpacing: -12, color: '#F4F3EE'}}>GTA 6</div>
+		<div style={{position: 'absolute', left: 66, top: 330, fontFamily: FONT, fontWeight: 900, fontSize: 82, lineHeight: 1, letterSpacing: -2,
+			backgroundImage: 'linear-gradient(170deg, #F2D57E 0%, #D4AF37 50%, #A07D1E 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', paddingRight: 10}}>WHO GETS RICH?</div>
+		<svg width={W} height={H} style={{position: 'absolute', inset: 0, overflow: 'visible'}}>
+			<Pad x={1078} y={205} s={0.86} rot={-12} />
+			{/* os US$ 80 de uma cópia digital: console ~30%, quem fez o jogo o resto */}
+			<rect x={66} y={500} width={268} height={86} rx={10} fill="#E6EAF0" fillOpacity={0.72} />
+			<rect x={346} y={500} width={626} height={86} rx={10} fill={GOLD} />
+			<text x={200} y={558} fontFamily={FONT} fontWeight={900} fontSize={46} fill={NAVY} textAnchor="middle">$24</text>
+			<text x={659} y={558} fontFamily={FONT} fontWeight={900} fontSize={46} fill={NAVY} textAnchor="middle">$56</text>
+			<text x={200} y={630} fontFamily={FONT} fontWeight={700} fontSize={24} fill="#AEB6C2" textAnchor="middle" letterSpacing={3}>CONSOLE</text>
+			<text x={659} y={630} fontFamily={FONT} fontWeight={700} fontSize={24} fill="#AEB6C2" textAnchor="middle" letterSpacing={3}>PUBLISHER</text>
+			<circle cx={659} cy={466} r={18} fill={GOLD} />
+		</svg>
+		<Vignette dark />
+	</AbsoluteFill>
+);
+
 
 // ---------------- Ep. 11 — Google, US$ 500 bi em um dia ----------------
 const E11A = () => (
@@ -569,7 +662,7 @@ const E13C = () => (
 	</AbsoluteFill>
 );
 
-const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '11A': E11A, '11B': E11B, '11C': E11C, '12A': E12A, '12B': E12B, '12C': E12C, '13A': E13A, '13B': E13B, '13C': E13C};
+const MAP = {'2A': E2A, '2B': E2B, '2C': E2C, '3A': E3A, '3B': E3B, '3C': E3C, '4A': E4A, '4B': E4B, '4C': E4C, '5A': E5A, '5B': E5B, '5C': E5C, '6A': E6A, '6B': E6B, '6C': E6C, '7A': E7A, '7B': E7B, '7C': E7C, '8A': E8A, '8B': E8B, '8C': E8C, '9A': E9A, '9B': E9B, '9C': E9C, '10A': E10A, '10B': E10B, '10C': E10C, '10D': E10D, '10E': E10E, '10F': E10F, '11A': E11A, '11B': E11B, '11C': E11C, '12A': E12A, '12B': E12B, '12C': E12C, '13A': E13A, '13B': E13B, '13C': E13C};
 export type EpThumbProps = {v: keyof typeof MAP};
 export const EpThumb: React.FC<EpThumbProps> = ({v}) => {
 	const C = MAP[v];
