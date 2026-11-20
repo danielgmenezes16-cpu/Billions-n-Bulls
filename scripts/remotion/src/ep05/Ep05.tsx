@@ -74,7 +74,8 @@ add('Here\'s a simple example', (s) => (
 			{label: 'Same move in the market', value: '5× the effect', at: c.f('Same move')},
 		]} />
 ));
-add('But swaps had another feature', card({id: 'p2-hidden', apoio: 'Above 5% of a company, investors usually must tell the public. With swaps:', hero: 'NAME NOWHERE', textSide: 'left', object: 'receipt', heroSize: 150}));
+add('But swaps had another feature', card({id: 'p2-hidden', apoio: 'When an investor buys more than 5% of a company, they must', hero: 'TELL THE PUBLIC', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
+add('With swaps, the bank holds the shares', card({id: 'p2-noname', apoio: "With swaps, the bank holds the shares. So Archegos's", hero: "NAME DIDN'T SHOW UP", complemento: 'anywhere', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 add('And it didn\'t use just one bank', (s) => (
 	<SplitShot id="p2-banks" start={s} title="One bet, split across banks (illustrative)" titleAt={s + 4} total={100} totalLabel="ARCHEGOS"
 		pieces={[
@@ -118,7 +119,7 @@ add('After the collapse, Credit Suisse hired', (s) => (
 			{label: 'Alarms raised inside. Lending continued.', at: c.f('kept lending anyway')},
 		]} />
 ));
-add('To be fair to the banks', card({id: 'p3-fair', apoio: 'The other side, according to prosecutors:', hero: 'MISLED ON PURPOSE', complemento: 'And regulators had no full view.', textSide: 'left', object: 'receipt', heroSize: 140}));
+add('To be fair to the banks', card({id: 'p3-fair', apoio: 'The other side, according to prosecutors:', hero: 'MISLED ON PURPOSE', complemento: 'And regulators had no full view.', textSide: 'left', object: 'none', heroSize: 140}));
 add('Still, it\'s hard to ignore the math', card({id: 'p3-math', apoio: 'Risk measured in billions. Fees measured in millions.', hero: 'LOOKED LIKE FREE MONEY', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 4 — Two Days in March (azul-marinho) ----------------

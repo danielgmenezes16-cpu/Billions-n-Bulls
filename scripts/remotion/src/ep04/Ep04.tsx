@@ -31,7 +31,7 @@ add('Let\'s start with the numbers', card({id: 'p1-numbers', apoio: "Let's start
 add('In 2026, rate trackers', photo('p1-branch', {apoio: 'Standard savings at the biggest U.S. banks, per rate trackers:', hero: '0.01%', complemento: '10 cents a year per $1,000'}));
 add('Across all American banks', card({id: 'p1-fdic', apoio: 'U.S. national average savings rate (FDIC):', hero: '0.38%', complemento: 'On $10,000: about $38 a year', textSide: 'left', object: 'chart', heroSize: 210}));
 add('Now look at the rate', photo('p1-screens', {apoio: 'Fed benchmark rate, Sept. 2026 (held in Oct.):', hero: '3.75–4%', tone: 'navy'}));
-add('And money market funds', card({id: 'p1-mmf', apoio: 'Money market funds hold almost', hero: '$8 TRILLION', complemento: 'paying close to the Fed rate', textSide: 'left', object: 'coin', heroSize: 150}));
+add('And money market funds', card({id: 'p1-mmf', apoio: 'Money market funds pay close to that rate. They hold almost', hero: '$8 TRILLION', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
 add('And this isn\'t new', (s) => (
 	<BarsShot id="p1-2023" start={s} title="2022–2023: the Fed's fastest climb in decades" titleAt={s + 4} source="Sources: Federal Reserve; FDIC national rates (monthly series)" note={{text: 'THE GAP', at: c.f('topped out')}}
 		bars={[
@@ -39,7 +39,7 @@ add('And this isn\'t new', (s) => (
 			{label: 'AVG SAVINGS', value: 0.47, display: '0.47%', at: c.f('topped out')},
 		]} />
 ));
-add('Even some banks pay a lot more', card({id: 'p1-online', apoio: 'Some online savings accounts:', hero: 'OVER 3%', complemento: 'including some from big banks', textSide: 'right', object: 'phone', heroSize: 170}));
+add('Even some banks pay a lot more', card({id: 'p1-online', apoio: 'Some online savings accounts:', hero: 'OVER 3%', complemento: 'including some from big banks', textSide: 'right', object: 'coin', heroSize: 170}));
 add('So picture twenty-five thousand', (s) => (
 	<BarsShot id="p1-25k" start={s} title="Interest on $25,000, one year" titleAt={s + 4} source="Our calculation · rates: FDIC national average; rate trackers (top online, ~3.75%)" note={{text: '+$840', at: c.f('eight hundred and forty')}}
 		bars={[
@@ -51,7 +51,7 @@ add('That gap isn\'t an accident', card({id: 'p1-business', apoio: "That gap isn
 
 // ---------------- Parte 2 — Where Your Deposit Goes ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'WHERE YOUR DEPOSIT GOES', textSide: 'center', object: 'none', heroSize: 115, heroUnderline: true}));
-add('When you put money in the bank', card({id: 'p2-lender', apoio: 'Legally, you are', hero: 'LENDING TO THE BANK', complemento: 'It owes you the money back, whenever you ask.', textSide: 'left', object: 'receipt', heroSize: 110}));
+add('When you put money in the bank', card({id: 'p2-lender', apoio: "Legally, you're", hero: 'LENDING IT TO THE BANK', complemento: 'The bank owes you the money back, whenever you ask.', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 add('Some of it becomes loans', photo('p2-house', {apoio: 'Some of it becomes loans:', hero: 'MORTGAGES, CARS, BUSINESSES'}));
 add('And credit cards', card({id: 'p2-cards', apoio: 'Credit card accounts that pay interest (Fed data):', hero: '21–22%', complemento: 'On $10,000: $2,100 a year, if borrowers pay', textSide: 'right', object: 'card', heroSize: 190}));
 add('Some of it goes into government bonds', (s) => (
@@ -144,7 +144,7 @@ add('It also had a newer account', (s) => (
 			{label: 'PERFORMANCE', value: 14, display: '14× more', at: c.f('much higher rate'), highlight: true},
 		]} />
 ));
-add('According to the lawsuits', card({id: 'p5-mention', apoio: 'Employees were told, according to New York:', hero: "DON'T MENTION IT", complemento: 'unless the customer asked', textSide: 'left', object: 'phone', heroSize: 140, dark: true}));
+add('According to the lawsuits', card({id: 'p5-mention', apoio: 'According to New York, employees were told', hero: 'NOT TO BRING UP', complemento: 'the new account, unless a customer asked', textSide: 'center', object: 'none', heroSize: 140, dark: true}));
 add('In January 2025, the federal', (s) => (
 	<TimelineShot id="p5-legal" start={s} dark title="The legal fight"
 		events={[
@@ -165,7 +165,7 @@ add('In January 2026, a new deal', (s) => (
 		]} />
 ));
 add('In early October 2026', card({id: 'p5-310', apoio: 'Performance Savings, early October 2026:', hero: '3.1%', complemento: 'ten times the old 0.3%', textSide: 'left', object: 'chart', heroSize: 220}));
-add('And Capital One isn\'t the only case', card({id: 'p5-sweep', apoio: 'SEC, January 2025, cash sweep programs:', hero: '$60 MILLION', complemento: 'Wells Fargo and Merrill Lynch (no admission)', textSide: 'right', object: 'receipt', heroSize: 150, dark: true}));
+add('And Capital One isn\'t the only case', card({id: 'p5-sweep', apoio: 'January 2025: Wells Fargo and Merrill Lynch would pay', hero: '$60 MILLION', complemento: 'over cash sweep programs, the SEC said (no admission)', textSide: 'center', object: 'none', heroSize: 150, dark: true}));
 
 // ---------------- Parte 6 — So, Why Does Your Bank Pay You Almost Nothing? ----------------
 add('Part 6', card({id: 'p6-title', apoio: 'Part 6', hero: 'SO, WHY SO LITTLE?', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
@@ -178,7 +178,7 @@ add('Let\'s go back to our ten thousand', (s) => (
 ));
 add('Part of that gap pays for branches', card({id: 'p6-costs', apoio: 'Part of the gap pays for the bank. Part of it is', hero: 'PROFIT', complemento: 'Branchless banks often pay more.', textSide: 'left', object: 'chart', heroSize: 210}));
 add('Not because your money', card({id: 'p6-why', apoio: 'Not because your money is worth nothing.', hero: 'MOST MONEY DOESN’T MOVE', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
-add('The rate on your savings account isn\'t', card({id: 'p6-price', apoio: 'The rate on your savings account is', hero: 'A PRICE', complemento: 'set by what people accept', textSide: 'right', object: 'receipt', heroSize: 200}));
+add('The rate on your savings account isn\'t', card({id: 'p6-price', apoio: 'The rate on your savings account is', hero: 'A PRICE', complemento: 'set by what people accept', textSide: 'right', object: 'coin', heroSize: 200}));
 add('This isn\'t a recommendation', photo('p6-coins', {apoio: 'Not a recommendation of any bank or account. But:', hero: 'A SAVINGS ACCOUNT IS A LOAN', complemento: 'The only question is the rate.'}));
 
 // ---------------- Fechamento ----------------

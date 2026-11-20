@@ -64,11 +64,11 @@ add('And then there\'s the price', (s) => (
 		]} />
 ));
 add('It\'s also a test for the whole industry', card({id: 'p1-test', apoio: 'A price ceiling, once broken,', hero: 'RARELY GOES BACK DOWN', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
-add('Now, let\'s take one of those', card({id: 'p1-follow', apoio: 'One $80 copy. The moment you click buy,', hero: 'THE MONEY SPLITS', textSide: 'left', object: 'coin', heroSize: 150}));
+add('Now, let\'s take one of those', card({id: 'p1-follow', apoio: 'One $80 copy. The moment you click buy,', hero: 'THAT MONEY SPLITS UP', textSide: 'left', object: 'coin', heroSize: 110}));
 
 // ---------------- Parte 2 — The Console's Cut ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: "THE CONSOLE'S CUT", textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
-add('Let\'s say you buy the game digitally', card({id: 'p2-digital', apoio: 'Bought digitally, from the store on your console:', hero: 'SLICE NUMBER ONE', textSide: 'left', object: 'phone', heroSize: 140}));
+add('Let\'s say you buy the game digitally', card({id: 'p2-digital', apoio: 'You buy the game digitally, from the store on your', hero: 'PLAYSTATION OR XBOX', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('The first slice goes to the company', (s) => (
 	<SplitShot id="p2-cut" start={s} title="One digital copy, $80" titleAt={s + 4} total={80} totalLabel="$80" source={TOTO}
 		pieces={[
@@ -87,7 +87,7 @@ add('Microsoft has looked at lowering', (s) => (
 		]} />
 ));
 add('And since Grand Theft Auto Six is only on consoles', card({id: 'p2-only', apoio: 'No PC version at launch. Every digital copy goes through', hero: 'ONE OF TWO STORES', textSide: 'center', object: 'none', heroSize: 120}));
-add('So for each digital copy', card({id: 'p2-billions', apoio: 'Tens of millions of digital copies:', hero: 'BILLIONS FOR THE CONSOLE MAKERS', complemento: "from a game they didn't make", textSide: 'center', object: 'none', heroSize: 95, heroUnderline: true}));
+add('So for each digital copy', card({id: 'p2-billions', apoio: 'If tens of millions buy digitally, the console makers earn', hero: 'BILLIONS', complemento: "from a game they didn't make", textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
 
 // ---------------- Parte 3 — The Box on the Shelf ----------------
 add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'THE BOX ON THE SHELF', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
@@ -116,7 +116,7 @@ add('If you\'re enjoying the story so far', (s) => (
 
 // ---------------- Parte 4 — Inside Take-Two ----------------
 add('Part 4', card({id: 'p4-title', apoio: 'Part 4', hero: 'INSIDE TAKE-TWO', textSide: 'center', object: 'none', heroSize: 160, heroUnderline: true}));
-add('So Take-Two ends up with', card({id: 'p4-profit', apoio: 'Take-Two keeps $40 to $56 per copy. Is that profit?', hero: 'NOT EVEN CLOSE', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
+add('So Take-Two ends up with', card({id: 'p4-profit', apoio: 'Take-Two ends up with $40–$56 per copy. Is that profit?', hero: 'NOT EVEN CLOSE', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
 add('First, that money has to pay for the game itself', photo('p4-devs', {apoio: 'Years of development, in studios across several countries. Cost of GTA 6:', hero: 'NEVER DISCLOSED'}));
 add('For comparison, Grand Theft Auto Five', card({id: 'p4-cost', apoio: 'GTA V development cost, reportedly:', hero: '~$137 MILLION', complemento: 'GTA 6: widely expected to cost far more', textSide: 'right', object: 'chart', heroSize: 140}));
 add('Then there\'s marketing', (s) => (
@@ -147,7 +147,7 @@ add('And it\'s worth knowing where', (s) => (
 // ---------------- Parte 5 — The British Taxpayer's Share (azul-marinho) ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: "THE BRITISH TAXPAYER'S SHARE", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
 add('The Grand Theft Auto games are set', photo('p5-edinburgh', {tone: 'navy', apoio: 'Set in fictional American cities. The lead studio is in', hero: 'EDINBURGH, SCOTLAND'}));
-add('And the United Kingdom has a tax relief', card({id: 'p5-test', apoio: 'UK video games relief: pass a test as', hero: '"CULTURALLY BRITISH"', complemento: 'and claim back part of the cost', textSide: 'center', object: 'none', heroSize: 120, dark: true}));
+add('And the United Kingdom has a tax relief', card({id: 'p5-test', apoio: 'UK video games relief: pass a test as', hero: '"CULTURALLY BRITISH"', complemento: 'the studio can claim back part of what it spends', textSide: 'center', object: 'none', heroSize: 120, dark: true}));
 add('Grand Theft Auto Five passed that test', (s) => (
 	<TimelineShot id="p5-timeline" start={s} dark title="The relief" source="Sources: TaxWatch UK; BFI"
 		events={[

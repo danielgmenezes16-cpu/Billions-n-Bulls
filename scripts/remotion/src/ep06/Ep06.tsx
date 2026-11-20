@@ -19,7 +19,7 @@ const CFPB22 = 'Source: CFPB, BNPL market report (2022), via Atlanta Fed';
 const AFFIRM = 'Source: Affirm, Form 10-K, fiscal 2025';
 
 // ---------------- Abertura ----------------
-add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'phone', heroSize: 180, heroUnderline: true, objectSlide: true}));
+add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'card', heroSize: 180, heroUnderline: true, objectSlide: true}));
 add('Cyber Monday, 2025', photo('o-cyber', {apoio: 'Cyber Monday 2025, buy now, pay later in one day:', hero: '$1 BILLION+', complemento: 'a record, Adobe says'}));
 add('Pay in four. No interest', photo('o-app', {apoio: 'Pay in four. No interest. No fees, if on time.', hero: 'A FREE LOAN?'}));
 add('But one of these companies', card({id: 'o-15b', apoio: 'One of these companies went public in 2025 at about', hero: '$15 BILLION', complemento: 'Somebody is paying.', textSide: 'right', object: 'chart', heroSize: 150}));
@@ -54,10 +54,10 @@ add('According to the Consumer Financial', (s) => (
 			{label: '2021', value: 24, display: '$24B+', at: c.f('twenty-four billion'), highlight: true},
 		]} />
 ));
-add('And it kept growing', card({id: 'p1-20b', apoio: 'Holiday season 2025, online, Adobe says:', hero: '$20 BILLION', complemento: 'a record', textSide: 'left', object: 'chart', heroSize: 170}));
+add('And it kept growing', card({id: 'p1-20b', apoio: '2025 holiday season, Adobe says: Americans spent a record', hero: '$20 BILLION', complemento: 'online, with buy now, pay later', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
 add('It\'s not just a US thing', photo('p1-london', {apoio: 'UK users in 2024, the FCA says:', hero: '~11 MILLION'}));
 add('And it\'s not just jackets', photo('p1-grocery', {apoio: 'Users who bought groceries with it (LendingTree, 2026):', hero: '29%'}));
-add('So here\'s the puzzle', card({id: 'p1-puzzle', apoio: '$400 jacket, $400 paid.', hero: 'WHO PAYS?', complemento: 'Someone you never see at checkout.', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
+add('So here\'s the puzzle', card({id: 'p1-puzzle', apoio: '$400 jacket, $400 paid. Where does the money come from?', hero: 'SOMEONE YOU NEVER SEE', complemento: 'at checkout', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 
 // ---------------- Parte 2 — The Store Pays ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'THE STORE PAYS', textSide: 'center', object: 'none', heroSize: 160, heroUnderline: true}));
@@ -138,7 +138,7 @@ add('Quick thing', (s) => (
 
 // ---------------- Parte 4 — The People Who Pay Late (azul-marinho) ----------------
 add('Part 4', card({id: 'p4-title', apoio: 'Part 4', hero: 'THE PEOPLE WHO PAY LATE', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
-add('Now, the obvious suspect', card({id: 'p4-suspect', apoio: 'The obvious suspect. Typical late fees in 2021:', hero: '$7–8', complemento: 'some companies charge none', textSide: 'left', object: 'receipt', heroSize: 200, dark: true}));
+add('Now, the obvious suspect', card({id: 'p4-suspect', apoio: 'The obvious suspect. Typical late fees in 2021:', hero: '$7–8', complemento: 'some companies charge none', textSide: 'left', object: 'none', heroSize: 200, dark: true}));
 add('You might think late fees', (s) => (
 	<StatsShot id="p4-late" start={s} title="Late fees, six big providers, 2023 (CFPB)" titleAt={s + 4} source="Source: CFPB data spotlight (2025), via JD Supra"
 		items={[
@@ -149,7 +149,7 @@ add('You might think late fees', (s) => (
 add('So late fees aren\'t where the money is', photo('p4-bills', {tone: 'navy', apoio: 'Paid late at least once in the past year (LendingTree, 2026):', hero: '47%', complemento: 'most only a few days behind'}));
 add('The bigger worry is something critics', photo('p4-apps', {tone: 'navy', apoio: 'Several small plans, different apps, invisible to lenders:', hero: 'PHANTOM DEBT'}));
 add('That\'s starting to change', card({id: 'p4-fico', apoio: '2025: FICO launches scores that include', hero: 'BNPL DATA', complemento: 'on time can help; late can hurt', textSide: 'right', object: 'chart', heroSize: 160, dark: true}));
-add('To be fair, there\'s another side', card({id: 'p4-fair', apoio: 'Paid on time, pay in four can cost nothing. The risk is not the price.', hero: 'HOW EASY IT IS TO SAY YES', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
+add('To be fair, there\'s another side', card({id: 'p4-fair', apoio: 'Paid on time, pay in four can cost nothing. The risk:', hero: 'HOW EASY IT IS TO SAY YES', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
 
 // ---------------- Parte 5 — Rules That Came and Went ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'RULES THAT CAME AND WENT', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
@@ -162,7 +162,7 @@ add('For years, buy now, pay later lived', (s) => (
 		]} />
 ));
 add('They also have to give clearer information', photo('p5-capitol', {apoio: 'Same button, different protections:', hero: 'LONDON ≠ NEW YORK', complemento: 'UK market: ~£13 billion in 2024'}));
-add('Meanwhile, the business kept changing', card({id: 'p5-apple', apoio: 'Even Apple tried it: Apple Pay Later, 2023.', hero: 'SHUT DOWN', complemento: 'about a year later', textSide: 'left', object: 'phone', heroSize: 170}));
+add('Meanwhile, the business kept changing', card({id: 'p5-apple', apoio: 'Even Apple tried it: Apple Pay Later, 2023.', hero: 'SHUT DOWN', complemento: 'about a year later', textSide: 'left', object: 'none', heroSize: 170}));
 add('In 2021, at the height of the boom', (s) => (
 	<BarsShot id="p5-klarna" start={s} title="Klarna's valuation" titleAt={s + 4} source="Sources: Morningstar; AP"
 		bars={[
@@ -185,7 +185,7 @@ add('Let\'s go back to our four-hundred-dollar', (s) => (
 ));
 add('The real money is on the other side', photo('p6-mall', {apoio: 'The longer loans, and the next "yes".', hero: 'THE REAL MONEY'}));
 add('So, who pays when you buy now', card({id: 'p6-answer', apoio: 'Mostly, the store. And through the store,', hero: 'EVERYONE WHO SHOPS THERE', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true}));
-add('Is that a bad deal', card({id: 'p6-deal', apoio: 'For a careful shopper: a free short loan. The trouble:', hero: '12 PAYMENTS, 5 APPS', complemento: 'and nobody keeping count', textSide: 'left', object: 'phone', heroSize: 120}));
+add('Is that a bad deal', card({id: 'p6-deal', apoio: 'For a careful shopper: a free short loan. The trouble:', hero: '12 PAYMENTS, 5 APPS', complemento: 'and nobody keeping count', textSide: 'left', object: 'none', heroSize: 120}));
 add('Buy now, pay later doesn\'t make things cheaper', card({id: 'p6-final', apoio: "It doesn't make things cheaper.", hero: 'IT MAKES THEM EASIER TO BUY', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------

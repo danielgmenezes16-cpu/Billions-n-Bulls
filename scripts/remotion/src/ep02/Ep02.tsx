@@ -20,19 +20,19 @@ const IFEE = 'Source: Visa USA Interchange Reimbursement Fees, effective Oct 24,
 const BOS = 'Source: Federal Reserve Bank of Boston, Schuh, Shy & Stavins (2010)';
 
 // ---------------- Abertura ----------------
-add('Who Really Gets Paid', card({id: 'o-title', apoio: 'When you tap your card,', hero: 'WHO GETS PAID?', textSide: 'left', object: 'card', heroSize: 150, heroUnderline: true, objectSlide: true}));
-add('You tap your card', photo('o-tap', {apoio: 'Tap. Beep.', hero: '2 SECONDS', zoom: [1.05, 1.18], focus: [55, 55]}));
+add('Who Really Gets Paid', card({id: 'o-title', apoio: 'One question:', hero: 'WHO GETS PAID?', complemento: 'when you tap your card', textSide: 'left', object: 'card', heroSize: 120, heroUnderline: true, objectSlide: true}));
+add('You tap your card. Two seconds', photo('o-tap', {apoio: 'Tap. Beep.', hero: '2 SECONDS', zoom: [1.05, 1.18], focus: [55, 55]}));
 add('But in those two seconds', card({id: 'o-three', apoio: 'At least', hero: '3 COMPANIES', complemento: 'and every one takes a cut.', textSide: 'right', object: 'coin', heroSize: 160}));
 add('Together, those cuts', photo('o-checkout', {apoio: 'Paid by U.S. stores in 2025:', hero: '$198 BILLION', complemento: 'in card fees', zoom: [1.1, 1.02]}));
 add('Some of it pays for your rewards', card({id: 'o-points', apoio: 'Some of it pays for', hero: 'YOUR POINTS', textSide: 'left', object: 'card', heroSize: 160}));
 add('And some of it', photo('p4-cash', {id: 'o-cash', layout: 'print', side: 'right', apoio: 'And some is paid by people who', hero: 'NEVER TAPPED', complemento: 'a card at all.'}));
-add('So we\'re going to follow', card({id: 'o-follow', apoio: 'One purchase.', hero: '$100', complemento: 'cent by cent.', textSide: 'left', object: 'receipt', heroSize: 200, heroUnderline: true}));
+add('So we\'re going to follow', card({id: 'o-follow', apoio: 'One purchase.', hero: '$100', complemento: 'cent by cent.', textSide: 'left', object: 'coin', heroSize: 200, heroUnderline: true}));
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — The Two-Second Trip ----------------
 add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE TWO-SECOND TRIP', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('Say you spend', photo('p1-store', {layout: 'print', side: 'right', apoio: '$100 at a store,', hero: 'REWARDS CARD', complemento: 'paid with a rewards credit card.'}));
-add('You don\'t even swipe', card({id: 'p1-tap', apoio: 'Visa says, Sept. 2025:', hero: '4 IN 5', complemento: 'in-person payments were a tap.', textSide: 'left', object: 'phone', heroSize: 190}));
+add('You don\'t even swipe', card({id: 'p1-tap', apoio: 'Visa says, Sept. 2025:', hero: '4 IN 5', complemento: 'in-person payments were a tap.', textSide: 'left', object: 'card', heroSize: 190}));
 add('The moment you tap', (s) => (
 	<RouteShot2 id="p1-route" start={s} goAt={c.f('sends a message')}
 		nodes={[
@@ -42,7 +42,7 @@ add('The moment you tap', (s) => (
 			{name: 'ISSUER', sub: 'YOUR BANK', at: c.f('The issuer')},
 		]} />
 ));
-add('Your bank checks two things', card({id: 'p1-checks', apoio: 'Your bank checks:', hero: 'IS IT YOU?', complemento: 'And can you pay?', textSide: 'left', object: 'phone', heroSize: 150}));
+add('Your bank checks two things', card({id: 'p1-checks', apoio: 'Your bank checks:', hero: 'IS IT YOU?', complemento: 'And can you pay?', textSide: 'left', object: 'none', heroSize: 150}));
 add('If the answer is yes', (s) => (
 	<RouteShot2 id="p1-approve" start={s} goAt={s - 200} backAt={c.f('races all the way back')} stamp={{text: 'APPROVED', at: c.f('Beep')}}
 		nodes={[
@@ -56,7 +56,7 @@ add('Now multiply that', photo('p1-datacenter', {apoio: "Visa's own network, fis
 add('That\'s roughly eight thousand', (s) => (
 	<CounterShot id="p1-persec" start={s} label="Transactions on Visa's network" labelAt={s + 4} from={0} to={8000} countAt={c.f('eight thousand')} prefix="~" sub="every second, day and night" subAt={c.f('every single second')} source="Our calculation: 258 billion ÷ seconds in a year" dark />
 ));
-add('But the beep is only a promise', card({id: 'p1-promise', apoio: 'The beep is only', hero: 'A PROMISE', complemento: 'No money has moved yet.', textSide: 'right', object: 'receipt', heroSize: 170}));
+add('But the beep is only a promise', card({id: 'p1-promise', apoio: 'The beep is only', hero: 'A PROMISE', complemento: 'No money has moved yet.', textSide: 'right', object: 'coin', heroSize: 170}));
 add('That happens later', photo('p1-night', {apoio: 'Later, usually overnight:', hero: 'CLEARING & SETTLEMENT', tone: 'navy', zoom: [1.02, 1.12]}));
 add('And here\'s the thing', (s) => (
 	<SplitShot id="p1-split" start={s} title="Your $100, after it reaches the store" titleAt={s + 4} total={100} totalLabel="$100"
@@ -78,7 +78,7 @@ add('So who ends up', card({id: 'p1-who', apoio: 'So who ends up with it?', hero
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'THE TOLL ROAD', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
 add('The story starts in 1958', photo('p2-fresno', {layout: 'print', side: 'left', apoio: 'The story starts in', hero: 'FRESNO, 1958', complemento: 'California'}));
 add('Bank of America mailed', photo('p2-mail', {apoio: 'Mailed to people who never asked:', hero: '60,000 CARDS', zoom: [1.12, 1.03]}));
-add('It was called the BankAmericard', card({id: 'p2-6pct', apoio: 'Stores reportedly paid a fee of', hero: '~6%', complemento: 'per purchase.', textSide: 'left', object: 'receipt', heroSize: 220}));
+add('It was called the BankAmericard', card({id: 'p2-6pct', apoio: 'Stores reportedly paid a fee of', hero: '~6%', complemento: 'per purchase.', textSide: 'left', object: 'coin', heroSize: 220}));
 add('The launch was messy', (s) => (
 	<TimelineShot id="p2-time" start={s} title="From one city to the world"
 		events={[
@@ -87,7 +87,7 @@ add('The launch was messy', (s) => (
 			{year: '2008', label: 'IPO: ~$17.9B', sub: 'reportedly the biggest U.S. IPO at the time', at: c.f('in 2008'), gold: true},
 		]} />
 ));
-add('And here\'s what most people', card({id: 'p2-notbank', apoio: 'What most people get wrong:', hero: 'VISA IS NOT A BANK', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('And here\'s what most people', card({id: 'p2-notbank', apoio: 'What most people get wrong', hero: 'ABOUT VISA', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
 add('Visa doesn\'t give you', (s) => (
 	<DocLinesShot id="p2-doesnt" start={s} title="What Visa doesn't do" titleAt={s + 4}
 		lines={[
@@ -200,7 +200,7 @@ add('Quick thing', (s) => (
 
 // ---------------- Parte 4 — The People Who Pay Without Swiping ----------------
 add('Part 4', card({id: 'p4-title', apoio: 'Part 4', hero: 'THE PEOPLE WHO PAY WITHOUT SWIPING', textSide: 'center', object: 'none', heroSize: 92, heroUnderline: true}));
-add('So the store pays the fee', card({id: 'p4-who', apoio: 'The store pays the fee.', hero: 'WHO PAYS THE STORE?', textSide: 'left', object: 'receipt', heroSize: 130}));
+add('So the store pays the fee', card({id: 'p4-who', apoio: 'The store pays the fee.', hero: 'WHO PAYS THE STORE?', textSide: 'left', object: 'coin', heroSize: 130}));
 add('Stores have a few options', photo('p4-gas', {apoio: "Credit surcharge, under Visa's rules:", hero: 'UP TO 3%', complemento: 'banned in some states', zoom: [1.06, 1.15]}));
 add('But most stores don\'t', card({id: 'p4-prices', apoio: 'Instead, prices go up', hero: 'FOR EVERYONE', textSide: 'right', object: 'chart', heroSize: 150}));
 add('And everyone includes', photo('p4-cash', {apoio: 'Cash and debit: same higher price,', hero: 'NO POINTS', zoom: [1.12, 1.03]}));
@@ -248,7 +248,7 @@ add('In 2012, the two sides', (s) => (
 		]} />
 ));
 add('Meanwhile, in 2010', photo('p5-capitol', {apoio: '2010: Congress caps fees on', hero: 'DEBIT ONLY', complemento: 'Credit cards were left alone.'}));
-add('And here\'s where the money', card({id: 'p5-door', apoio: 'Where the money found', hero: 'A SIDE DOOR', textSide: 'left', object: 'phone', heroSize: 160, heroUnderline: true}));
+add('And here\'s where the money', card({id: 'p5-door', apoio: 'Where the money found', hero: 'A SIDE DOOR', textSide: 'left', object: 'coin', heroSize: 160, heroUnderline: true}));
 add('The cap only applies', photo('p5-smallbank', {layout: 'print', side: 'right', apoio: 'Banks under $10 billion in assets:', hero: 'NO CAP', complemento: 'They can charge the old, higher rates.'}));
 add('So a whole new kind', photo('p5-phone', {apoio: 'Chime, 2025 IPO filing: debit interchange was', hero: '~HALF', complemento: 'of its revenue'}));
 add('In 2024, the U.S. Justice', photo('p5-doj', {apoio: "U.S. debit on Visa's network, the government says:", hero: '60%+', complemento: '$7B+ a year in fees, per the lawsuit', tone: 'navy'}));

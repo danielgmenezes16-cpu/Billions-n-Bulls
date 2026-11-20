@@ -7,6 +7,7 @@ Imita epkit/cues.ts e avisa quando:
 - um c.f() cai depois do fim da cena (o item nunca aparece);
 - num card(), a frase de destaque (hero) só entra no último 0,8 s da cena ou depois dela. Acontece quando o texto da tela
   tem palavras fora da ordem da narração: o sincronizador casa uma delas mais adiante e empurra o resto;
+- uma cena (fora a primeira) começa dentro do título falado (a frase dela também aparece no título);
 - o apoio de um card() passa de 62 caracteres (o card não quebra linha e o texto vaza pelas bordas);
 - um card() usa o objeto 'receipt' ou 'phone' fora do ep. 1 (os dois têm texto fixo do ep. 1).
 """
@@ -58,6 +59,12 @@ def check(ep):
         s['t0'] = W[s['i']]['t']
         s['t1'] = (W[scenes[k + 1]['i'] - 1]['end'] + W[scenes[k + 1]['i']]['t']) / 2 if k + 1 < len(scenes) else tl['duration']
 
+    # título falado: nenhuma cena além da primeira pode começar dentro dele
+    fonte = ROOT.parent.parent.parent / f'roteiros/rascunhos/fonte/{ep}-roteiro.txt'
+    n_title = len([w for w in fonte.read_text().split('\n', 1)[0].split() if tok(w)]) if fonte.exists() else 0
+    for k, s in enumerate(scenes):
+        if k > 0 and s['i'] < n_title:
+            problems.append(f'cena "{s["phrase"]}": começa dentro do título falado (a frase também aparece no título; alongar a frase)')
     for s in scenes:
         # c.f() dentro da cena
         for m in re.finditer(r'\bc\.f\(\s*(?:' + STR + ')', s['body']):

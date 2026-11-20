@@ -74,7 +74,7 @@ add('In 2023, Denny\'s put a plaque', (s) => (
 
 // ---------------- Parte 2 — Two Weeks in November (azul-marinho) ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'TWO WEEKS IN NOVEMBER', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
-add('Here\'s what happened, based on', card({id: 'p2-warning', apoio: 'Based on the reporting so far. A lot of it is', hero: 'STILL BEING INVESTIGATED', complemento: 'and some of it is disputed', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
+add('Here\'s what happened, based on', card({id: 'p2-warning', apoio: 'Based on the reporting so far. A lot of this is', hero: 'STILL BEING INVESTIGATED', complemento: 'and some of it is disputed', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
 add('On October 29, The New York Times reported', (s) => (
 	<DocLinesShot id="p2-reported" start={s} dark title="October 29: what The New York Times reported" titleAt={s + 4} source="Source: The New York Times (via TechCrunch)"
 		lines={[
@@ -101,7 +101,7 @@ add('Then, on November 11', (s) => (
 			{year: 'NOV 12', label: 'Huang resigns', sub: 'as CEO, president and director', at: c.f('the company announced'), gold: true},
 		]} />
 ));
-add('The board moved fast', card({id: 'p2-kress', apoio: 'Interim CEO: Colette Kress, CFO for 13 years. And, for the first time:', hero: 'A SEPARATE BOARD CHAIR', complemento: 'plus a search inside and outside the company', textSide: 'center', object: 'none', heroSize: 105, dark: true}));
+add('The board moved fast', card({id: 'p2-kress', apoio: 'Kress becomes interim CEO. And for the first time, Nvidia gets', hero: 'A SEPARATE BOARD CHAIR', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
 add('Kress isn\'t a household name', card({id: 'p2-cv', apoio: 'Before Nvidia: finance jobs at Cisco and Microsoft for almost', hero: '25 YEARS', textSide: 'center', object: 'none', heroSize: 190, heroUnderline: true, dark: true}));
 add('The reaction was split', card({id: 'p2-letter', apoio: 'An open letter asking the board to bring Huang back:', hero: '170,000+ SIGNATURES', complemento: 'and several tech leaders backed him in public', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
 add('On November 17, Huang said', (s) => (
@@ -137,7 +137,7 @@ add('It has happened before', (s) => (
 		]} />
 ));
 add('The lesson boards took', card({id: 'p3-lesson', apoio: 'The lesson for boards: rules about relationships at work apply', hero: 'AT THE VERY TOP', complemento: 'where one person can move billions', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
-add('But history also has the opposite lesson', card({id: 'p3-apple', apoio: 'Apple, 2011: the founder steps down. Under Tim Cook, it keeps growing.', hero: 'A RISK, NOT A SENTENCE', textSide: 'left', object: 'chart', heroSize: 110}));
+add('But history also has the opposite lesson', card({id: 'p3-apple', apoio: 'Steve Jobs steps down in 2011. Under Tim Cook, Apple soars.', hero: 'A RISK, NOT A SENTENCE', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 add('If you\'re enjoying the story so far', (s) => (
 	<SubscribeShot2 id="p3-sub" start={s} free="It's free." line1="No board vote needed." line2="One click, and you're in."
 		at={{ask: s + 4, tap: c.f('subscribing helps'), free: c.f('Because next'), line1: c.f("we'll find out"), line2: c.f('who actually lost')}} />
@@ -158,8 +158,8 @@ add('And then, there\'s almost everyone else', (s) => (
 	<StatsShot id="p4-index" start={s} title="Nvidia's weight in an S&P 500 index fund, mid-November" titleAt={s + 4} source="Source: Trefis analysis, November 13, 2026"
 		items={[{value: '~6%', label: 'of the fund', sub: 'in many retirement accounts', at: c.f('about six percent'), ring: 0.06}]} />
 ));
-add('So if you have a retirement account', card({id: 'p4-yours', apoio: 'An index fund in your retirement account? You probably owned', hero: 'A PIECE OF THE DROP', complemento: 'without ever buying a single Nvidia share on purpose', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
-add('But here\'s the twist', card({id: 'p4-twist', apoio: "Here's the twist:", hero: "NOT ALL OF IT WAS HUANG", complemento: 'the shares were already sliding before the scandal', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('So if you have a retirement account', card({id: 'p4-yours', apoio: 'An index fund in your retirement account? You probably owned', hero: 'A PIECE OF THAT DROP', complemento: 'without ever buying a single Nvidia share on purpose', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
+add('But here\'s the twist', card({id: 'p4-twist', apoio: "Here's the twist:", hero: 'NOT ALL OF IT WAS HUANG', complemento: "Nvidia's shares had already started sliding", textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('Since the record in early October', (s) => (
 	<StatsShot id="p4-peak" start={s} title="Nvidia since its record in early October" titleAt={s + 4} source={CNN}
 		items={[
@@ -179,7 +179,7 @@ add('So the honest answer', (s) => (
 
 // ---------------- Parte 5 — The Company Without Him ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'THE COMPANY WITHOUT HIM', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
-add('Then came the test', card({id: 'p5-test', apoio: 'November 17, five days after the resignation:', hero: 'THE QUARTERLY RESULTS', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('Then came the test', card({id: 'p5-test', apoio: 'November 17, five days after the resignation:', hero: 'QUARTERLY RESULTS', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 add('Revenue was one hundred fifteen point eight', (s) => (
 	<StatsShot id="p5-results" start={s} title="Nvidia's quarter, reported November 17" titleAt={s + 4} source={CNN}
 		items={[
@@ -211,8 +211,8 @@ add('So let\'s put it together', (s) => (
 ));
 add('The seven hundred fifty billion dollars didn\'t go to anyone', card({id: 'p6-price', apoio: "The $750 billion didn't go to anyone. It was", hero: 'THE PRICE OF UNCERTAINTY', complemento: 'Who leads now? Who makes the next big bet?', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 add('Some of that value could come back', photo('p6-city', {apoio: 'Some of that value could come back. Some of it may have been', hero: 'AIR FROM A BIGGER BOOM'}));
-add('And one person is still at the center of it', card({id: 'p6-huang', apoio: 'Huang has not been charged with anything. The investigations are still open.', hero: 'REPORTED, NOT PROVEN', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
-add('A company\'s value is a guess about the future', card({id: 'p6-final', apoio: "A company's value is a guess about the future. When its author walks out,", hero: 'THE GUESS GETS CHEAPER', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
+add('And one person is still at the center of it', card({id: 'p6-huang', apoio: 'Huang: not charged with anything. Investigations still open.', hero: 'REPORTED, NOT PROVEN', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
+add('A company\'s value is a guess about the future', card({id: 'p6-final', apoio: 'Value is a guess about the future. When its author walks out,', hero: 'THE GUESS GETS CHEAPER', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------
 add('Next time', photo('p3-ticker', {id: 'c-next', tone: 'navy', apoio: 'Next: about $500 billion gone in one day, right after sales jumped.', hero: 'WHAT WERE INVESTORS AFRAID OF?'}));

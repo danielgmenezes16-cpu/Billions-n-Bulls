@@ -18,7 +18,7 @@ const {c, add, card, photo} = E;
 const FED = 'Source: Federal Reserve';
 
 // ---------------- Abertura ----------------
-add('A $100 Bill Costs Pennies', card({id: 'o-title', apoio: 'A $100 bill costs pennies.', hero: 'WHO KEEPS THE REST?', textSide: 'left', object: 'coin', heroSize: 130, heroUnderline: true, objectSlide: true}));
+add('A $100 Bill Costs Pennies', card({id: 'o-title', apoio: 'A $100 bill costs pennies. Who keeps', hero: 'THE REST?', textSide: 'left', object: 'coin', heroSize: 150, heroUnderline: true, objectSlide: true}));
 add('For 2027, the Federal Reserve has ordered', (s) => (
 	<StatsShot id="o-order" start={s} title="The Fed's order of new $100 bills for 2027" titleAt={s + 4} source="Sources: Federal Reserve, 2027 print order and 2025 currency costs"
 		items={[
@@ -35,7 +35,7 @@ add('So between the eleven cents', (s) => (
 			{label: 'Someone keeps', value: '$99.89?', at: c.f('ninety-nine dollars'), highlight: true},
 		]} />
 ));
-add('Not exactly', card({id: 'o-twist', apoio: 'Not exactly. It involves the whole world, a lot of interest, and', hero: 'A FEW HUNDRED BILLION', complemento: "that haven't been paid", textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
+add('Not exactly', card({id: 'o-twist', apoio: 'It involves the whole world, a lot of interest, and', hero: 'A FEW HUNDRED BILLION', complemento: "that haven't been paid", textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — The World's Favorite Bill ----------------
@@ -73,7 +73,7 @@ add('That tells you how people use them', photo('p1-safe', {apoio: 'A five gets 
 add('The Federal Reserve\'s own staff estimate', (s) => (
 	<StatsShot id="p1-abroad" start={s} title="US bills held outside the country" titleAt={s + 4} source="Sources: Fed staff, FEDS Note (July 2025); Fed working paper (Judson)"
 		items={[
-			{value: '$1T+', label: 'about half of all US banknotes', sub: 'early 2025', at: c.f('more than one trillion'), ring: 0.5},
+			{value: '$1T+', label: 'half of all US cash', sub: 'early 2025', at: c.f('more than one trillion'), ring: 0.5},
 			{value: '~70%', label: 'of $100 bills', sub: 'estimate, end of 2022', at: c.f('about seventy percent'), ring: 0.7},
 		]} />
 ));
@@ -117,17 +117,17 @@ add('Those prices don\'t include everything', (s) => (
 		]} />
 ));
 add('Compare that with coins', photo('p2-penny', {apoio: '2024: each penny cost about 3.7¢ to make, a loss of ~$85 million. The last one was struck on', hero: 'NOV 12, 2025'}));
-add('The penny lost money every time', card({id: 'p2-opposite', apoio: 'The penny lost money every time. The $100 bill:', hero: '11¢ IN, $100 OUT', complemento: 'so who pockets $99.89?', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
+add('The penny lost money every time', card({id: 'p2-opposite', apoio: 'The penny lost money every time. The $100 bill:', hero: '11¢ IN, $100 OUT', complemento: 'so surely, someone is pocketing it?', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
 
 // ---------------- Parte 3 — Nobody Keeps $99.89 ----------------
 add('Part 3', card({id: 'p3-title', apoio: 'Part 3', hero: 'NOBODY KEEPS $99.89', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
-add('Here\'s the twist', card({id: 'p3-nobody', apoio: 'When a new $100 bill leaves the Fed, the $99.89 goes to', hero: 'NOBODY', complemento: 'not the Fed, not the printer, not the government', textSide: 'center', object: 'none', heroSize: 200, heroUnderline: true}));
+add('Here\'s the twist', card({id: 'p3-nobody', apoio: 'When a new $100 bill leaves the Fed,', hero: 'NOBODY GETS $99.89', complemento: 'not the Fed, not the printer, not the government', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 add('Here\'s how cash really gets to you', (s) => (
 	<RouteShot2 id="p3-route" start={s} goAt={c.f('The Fed sends the cash')} stamp={{text: 'A SWAP, NOT A GIFT', at: c.f('It swapped one kind')}}
 		nodes={[
 			{name: 'YOUR BANK', sub: 'NEEDS BILLS FOR ATMS', at: c.f('Your bank needs')},
 			{name: 'THE FED', sub: 'SENDS $100 IN CASH', at: c.f('The Fed sends the cash')},
-			{name: 'BANK ACCOUNT', sub: '$100 TAKEN OUT', at: c.f('takes the same amount')},
+			{name: 'ITS ACCOUNT', sub: '$100 TAKEN OUT', at: c.f('takes the same amount')},
 		]} />
 ));
 add('On the Fed\'s books, that bill', (s) => (
@@ -151,7 +151,15 @@ add('Now look at the other side', (s) => (
 			{label: 'Interest they pay', value: 'yes', at: c.f('do pay interest'), highlight: true},
 		]} />
 ));
-add('So here\'s the trick', card({id: 'p3-trick', apoio: 'It owes paper that pays nothing and holds bonds that pay something. The gap is called', hero: 'SEIGNIORAGE', complemento: 'from "seigneur", the lord who kept a cut of the coins', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
+add('So here\'s the trick', (s) => (
+	<DocLinesShot id="p3-trick" start={s} title="So here's the trick" titleAt={s + 4}
+		lines={[
+			{label: 'The Fed owes you', value: 'paper that pays nothing', at: c.f('a piece of paper')},
+			{label: 'It holds', value: 'a bond that pays something', at: c.f('it holds a bond')},
+			{label: 'The gap', value: 'the real profit from printing money', at: c.f('The gap between'), highlight: true},
+		]} />
+));
+add('Economists call it seigniorage', card({id: 'p3-seign', apoio: 'Economists call it', hero: 'SEIGNIORAGE', complemento: 'from the old French for lord, the seigneur', textSide: 'center', object: 'none', heroSize: 160, heroUnderline: true}));
 add('How big can it get', (s) => (
 	<CounterShot id="p3-70" start={s} label="Simple math: 3% a year on $2.4 trillion of cash" labelAt={s + 4} from={0} to={70} countAt={c.f('seventy billion')} prefix="~$" suffix="B" sub="a year, from the interest cash holders give up" subAt={c.f('Not from printing')} source="Our math, as an illustration" />
 ));
@@ -179,7 +187,8 @@ add('The Fed\'s own staff noticed something', (s) => (
 			{label: 'Stablecoins', value: 'replacing some paper dollars', at: c.f('called stablecoins'), highlight: true},
 		]} />
 ));
-add('And that\'s the hidden price of holding cash', card({id: 'p4-wasnt', apoio: 'For a century, the interest you gave up went to the Fed, then the Treasury.', hero: "UNTIL IT SUDDENLY WASN'T", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
+add('And that\'s the hidden price of holding cash', card({id: 'p4-hidden', apoio: 'The hidden price of holding cash:', hero: 'YOU GIVE UP THE INTEREST', complemento: 'and inflation slowly eats away at what the bill can buy', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
+add('Someone else earns that interest instead', card({id: 'p4-wasnt', apoio: 'For a century: the Fed, and then the Treasury.', hero: "UNTIL IT SUDDENLY WASN'T", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true, dark: true}));
 
 // ---------------- Parte 5 — When Printing Money Lost Money (azul-marinho) ----------------
 add('Part 5', card({id: 'p5-title', apoio: 'Part 5', hero: 'WHEN PRINTING MONEY LOST MONEY', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
@@ -191,7 +200,7 @@ add('Remember, the Fed doesn\'t only owe cash', (s) => (
 			{label: "Banks' reserves", value: 'interest, since 2008', at: c.f('since 2008'), highlight: true},
 		]} />
 ));
-add('During the pandemic', card({id: 'p5-balance', apoio: 'Pandemic bond buying, paid with new reserves. By 2022, the balance sheet:', hero: '~$9 TRILLION', complemento: 'almost four times all US cash', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true, dark: true}));
+add('During the pandemic', card({id: 'p5-balance', apoio: 'Paid for with new reserves. By 2022, its balance sheet:', hero: '~$9 TRILLION', complemento: 'almost four times all the US cash', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true, dark: true}));
 add('When rates were near zero', card({id: 'p5-expensive', apoio: 'Rates near zero: cheap. Rates above 5%:', hero: 'VERY EXPENSIVE', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true, dark: true}));
 add('Meanwhile, many of the bonds', (s) => (
 	<DocLinesShot id="p5-squeeze" start={s} dark title="The squeeze" titleAt={s + 4}
@@ -232,7 +241,8 @@ add('Not everyone thinks big bills are a good idea', (s) => (
 			{label: 'Defenders of cash', value: 'privacy, blackouts, the unbanked', at: c.f('Others say cash')},
 		]} />
 ));
-add('A hundred-dollar bill isn\'t worth a hundred dollars', card({id: 'p6-final', apoio: "It's worth $100 because people all over the world agree to hold it. And while they hold it,", hero: 'SOMEONE ELSE COLLECTS THE INTEREST', textSide: 'center', object: 'none', heroSize: 95, heroUnderline: true, dark: true}));
+add('A hundred-dollar bill isn\'t worth a hundred dollars', card({id: 'p6-agree', apoio: "Not the paper. It's worth $100 because people all over", hero: 'THE WORLD AGREES TO HOLD IT', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
+add('And while they hold it', card({id: 'p6-final', apoio: 'And while they hold it,', hero: 'SOMEONE ELSE COLLECTS THE INTEREST', textSide: 'center', object: 'none', heroSize: 90, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------
 add('Next time', photo('o-cash', {id: 'c-next', tone: 'navy', apoio: 'Next: another story where billions went', hero: 'SOMEWHERE NOBODY EXPECTED'}));
