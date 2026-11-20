@@ -18,7 +18,7 @@ Atualizado em 20/11/2026. **Ler isto primeiro ao abrir uma sessão nova.** Ele r
 | 8 | A $100 Bill Costs Pennies. Who Keeps the Rest? | Rascunho (18/11), aguardando aprovação | Pronto (`src/ep08`, 20/11; linha do tempo provisória) | Completo (12 itens) | **Falta** | Sai **Ter 08/12** (narração até 05/12) |
 | 9 | What Is One CEO Worth? Nvidia Just Found Out | Rascunho (19/11), viral; teaser trocado em 20/11 (anuncia o ep. 11, do Google) | Pronto (`src/ep09`, 20/11; linha do tempo provisória) | Completo (8 itens) | **Falta** | Quanto antes (Daniel decide) |
 | 10 | Who Gets Rich When You Buy GTA 6? | Aprovado para ir já (19/11); teaser aponta para o Credit Suisse | Pronto (`src/ep10`) | Completo (7 itens) | Feita (19/11) | Vídeo pronto (19/11); **v2 na fila** (20/11: destaques que não apareciam e o celular com texto do ep. 1). Ainda não publicado em 20/11, 3h: publicar a v2. Pacote em `roteiros/prontos/ep10-upload.md` |
-| 11 | Why Google Lost $500 Billion in One Day | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 9 (cita o ep. do Nvidia) |
+| 11 | Why Google Lost $500 Billion in One Day | Rascunho (19/11), viral; Parte 4 com o fecho reescrito (20/11) | Pronto (`src/ep11`, 20/11; linha do tempo provisória) | Completo (7 itens) | **Falta** | Depois do 9 (cita o ep. do Nvidia) |
 | 12 | Who Gets Rich in a $1.5 Trillion IPO? | Rascunho (19/11), viral; conflito de interesse anotado | Falta | Falta | **Falta** | Quanto antes |
 | 13 | Who Pays If the AI Boom Breaks? | Rascunho (19/11), viral | Falta | Falta | **Falta** | Depois do 11 e do 12 (cita os dois) |
 
