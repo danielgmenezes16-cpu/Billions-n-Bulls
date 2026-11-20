@@ -1,0 +1,1216 @@
+1
+00:00:00,333 --> 00:00:05,373
+Why Your Bank Pays You Almost Nothing Put
+ten thousand dollars in a standard
+
+2
+00:00:05,373 --> 00:00:08,013
+savings account at one of
+America's biggest banks.
+
+3
+00:00:08,013 --> 00:00:09,373
+Leave it there for a year.
+
+4
+00:00:09,373 --> 00:00:11,373
+You could earn about one dollar.
+
+5
+00:00:11,999 --> 00:00:16,319
+That same year, your bank can park money
+at the Federal Reserve, overnight,
+
+6
+00:00:16,319 --> 00:00:17,519
+with zero risk.
+
+7
+00:00:17,519 --> 00:00:19,359
+And earn three point nine percent.
+
+8
+00:00:19,679 --> 00:00:22,560
+On ten thousand dollars, that's
+three hundred and ninety.
+
+9
+00:00:23,683 --> 00:00:26,242
+So where do the other three
+hundred and eighty-nine dollars
+
+10
+00:00:26,722 --> 00:00:27,722
+go?
+
+11
+00:00:27,282 --> 00:00:29,603
+And why do so many people never ask?
+
+12
+00:00:29,603 --> 00:00:31,923
+This is Billions and Bulls.
+
+13
+00:00:31,923 --> 00:00:33,913
+Let's follow the money.
+
+14
+00:00:34,713 --> 00:00:37,193
+Part 1 The One-Dollar Account
+
+15
+00:00:37,193 --> 00:00:38,553
+Let's start with the numbers.
+
+16
+00:00:38,553 --> 00:00:41,023
+Because they're stranger than they sound.
+
+17
+00:00:41,503 --> 00:00:46,543
+In 2026, rate trackers listed the standard
+savings accounts at Chase, Bank
+
+18
+00:00:46,543 --> 00:00:50,703
+of America and Wells Fargo at about
+point zero one percent a year.
+
+19
+00:00:50,703 --> 00:00:52,314
+One hundredth of one percent.
+
+20
+00:00:52,314 --> 00:00:55,914
+That's ten cents a year for
+every thousand dollars.
+
+21
+00:00:56,394 --> 00:01:00,267
+Across all American banks, it's
+better, but not by much.
+
+22
+00:01:00,427 --> 00:01:04,747
+In October 2026, the national average
+savings rate, as published by the
+
+23
+00:01:04,747 --> 00:01:09,407
+FDIC, the agency that insures bank
+deposits, was about point three eight
+
+24
+00:01:09,407 --> 00:01:10,407
+percent.
+
+25
+00:01:10,013 --> 00:01:13,693
+On our ten thousand dollars, that's
+thirty-eight dollars a year.
+
+26
+00:01:13,693 --> 00:01:15,133
+Better than one dollar.
+
+27
+00:01:15,133 --> 00:01:17,133
+Still not much.
+
+28
+00:01:17,213 --> 00:01:19,736
+Now look at the rate the
+whole system runs on.
+
+29
+00:01:19,895 --> 00:01:24,055
+In September 2026, the Federal Reserve
+raised its benchmark rate to a range
+
+30
+00:01:24,055 --> 00:01:26,855
+of three point seven five to four percent.
+
+31
+00:01:26,855 --> 00:01:28,557
+In October, it held it there.
+
+32
+00:01:28,716 --> 00:01:32,636
+And money market funds, which mostly hold
+short-term government debt, have
+
+33
+00:01:32,636 --> 00:01:34,796
+been paying savers close to that rate.
+
+34
+00:01:34,796 --> 00:01:38,477
+They now hold almost eight
+trillion dollars.
+
+35
+00:01:38,956 --> 00:01:40,331
+And this isn't new.
+
+36
+00:01:40,491 --> 00:01:47,211
+In 2022 and 2023, the Fed raised rates from
+near zero to above five percent,
+
+37
+00:01:47,211 --> 00:01:49,531
+its fastest climb in decades.
+
+38
+00:01:49,531 --> 00:01:51,421
+The national average savings rate?
+
+39
+00:01:51,421 --> 00:01:55,741
+According to FDIC figures, it topped out
+at about point four seven percent.
+
+40
+00:01:57,261 --> 00:01:59,495
+Even some banks pay a lot more.
+
+41
+00:01:59,735 --> 00:02:03,735
+Online savings accounts, including some
+from big banks, have been paying
+
+42
+00:02:03,735 --> 00:02:05,255
+over three percent.
+
+43
+00:02:06,135 --> 00:02:07,975
+So picture twenty-five thousand dollars.
+
+44
+00:02:08,465 --> 00:02:12,625
+At the national average, about
+ninety-five dollars a year in interest.
+
+45
+00:02:12,625 --> 00:02:16,225
+At a top online rate of around three
+point seven five percent, according
+
+46
+00:02:16,225 --> 00:02:18,545
+to rate trackers, more than nine hundred.
+
+47
+00:02:18,545 --> 00:02:19,545
+Same money.
+
+48
+00:02:19,492 --> 00:02:21,332
+Same safety, if it's insured.
+
+49
+00:02:21,332 --> 00:02:25,253
+A difference of about eight hundred
+and forty dollars a year.
+
+50
+00:02:25,253 --> 00:02:27,092
+That gap isn't an accident.
+
+51
+00:02:27,092 --> 00:02:28,133
+It's a business.
+
+52
+00:02:28,133 --> 00:02:33,113
+And to understand it, we need to follow
+your deposit after you hand it over.
+
+53
+00:02:33,833 --> 00:02:36,553
+Part 2 Where Your Deposit Goes
+
+54
+00:02:36,553 --> 00:02:40,073
+When you put money in the bank, it
+doesn't sit in a drawer with your name
+
+55
+00:02:40,073 --> 00:02:41,073
+on it.
+
+56
+00:02:40,717 --> 00:02:42,877
+Legally, you're lending it to the bank.
+
+57
+00:02:42,877 --> 00:02:45,837
+The bank owes you the money
+back, whenever you ask.
+
+58
+00:02:45,837 --> 00:02:49,757
+And in the meantime, it puts
+that money to work.
+
+59
+00:02:49,837 --> 00:02:51,365
+Some of it becomes loans.
+
+60
+00:02:51,525 --> 00:02:52,525
+Mortgages.
+
+61
+00:02:52,245 --> 00:02:53,245
+Car loans.
+
+62
+00:02:53,045 --> 00:02:54,085
+Business loans.
+
+63
+00:02:54,085 --> 00:02:55,365
+And credit cards.
+
+64
+00:02:55,365 --> 00:02:58,885
+According to Federal Reserve data, the
+average interest rate on credit card
+
+65
+00:02:58,885 --> 00:03:03,189
+accounts that pay interest has been around
+twenty-one to twenty-two percent.
+
+66
+00:03:03,428 --> 00:03:07,189
+Lend our ten thousand dollars on credit
+cards at twenty-one percent, and
+
+67
+00:03:07,189 --> 00:03:10,068
+that's two thousand one hundred
+dollars a year in interest.
+
+68
+00:03:10,068 --> 00:03:11,748
+If the borrowers pay.
+
+69
+00:03:11,748 --> 00:03:15,118
+Some won't, and the bank has
+to cover those losses.
+
+70
+00:03:15,518 --> 00:03:19,518
+Some of it goes into government bonds,
+which pay close to the Fed's rate.
+
+71
+00:03:19,518 --> 00:03:22,158
+And some of it goes back to the
+Federal Reserve itself.
+
+72
+00:03:22,158 --> 00:03:26,123
+Banks keep reserves there, and the Fed pays
+them interest on those reserves.
+
+73
+00:03:26,123 --> 00:03:30,523
+It only started doing that in 2008,
+during the financial crisis.
+
+74
+00:03:30,523 --> 00:03:34,202
+In the fall of 2026, that rate was
+three point nine percent.
+
+75
+00:03:35,401 --> 00:03:39,001
+The difference between what a bank earns
+on its money and what it pays for
+
+76
+00:03:39,001 --> 00:03:40,441
+it has a name.
+
+77
+00:03:40,441 --> 00:03:41,801
+Net interest income.
+
+78
+00:03:41,801 --> 00:03:44,629
+It's the heart of how most
+banks make money.
+
+79
+00:03:45,108 --> 00:03:50,388
+In 2025, JPMorgan Chase, the biggest bank in
+the country, reported ninety-five
+
+80
+00:03:50,388 --> 00:03:53,908
+point four billion dollars in
+net interest income.
+
+81
+00:03:53,908 --> 00:03:54,963
+In one year.
+
+82
+00:03:55,123 --> 00:03:59,923
+And across all FDIC-insured banks, net
+income for 2025 came to two hundred
+
+83
+00:03:59,923 --> 00:04:00,923
+and ninety-five point six
+
+84
+00:04:01,443 --> 00:04:02,563
+billion dollars.
+
+85
+00:04:02,563 --> 00:04:06,070
+Higher interest income was one of
+the main reasons it went up.
+
+86
+00:04:06,630 --> 00:04:08,950
+So deposits are the raw material.
+
+87
+00:04:08,950 --> 00:04:11,910
+And the cheaper the raw material,
+the bigger the margin.
+
+88
+00:04:11,910 --> 00:04:13,910
+Which raises the obvious question.
+
+89
+00:04:13,910 --> 00:04:17,675
+If your money is worth so much to the
+bank, why doesn't the bank have to
+
+90
+00:04:17,675 --> 00:04:19,836
+pay more to keep it?
+
+91
+00:04:20,475 --> 00:04:22,955
+Part 3 The Money That Doesn't Move
+
+92
+00:04:22,955 --> 00:04:25,915
+The answer is one of the most
+valuable things in banking.
+
+93
+00:04:25,915 --> 00:04:27,115
+Inertia.
+
+94
+00:04:27,747 --> 00:04:29,667
+Think about your main bank account.
+
+95
+00:04:29,667 --> 00:04:31,187
+Your salary lands there.
+
+96
+00:04:31,187 --> 00:04:32,547
+Your bills come out of it.
+
+97
+00:04:32,547 --> 00:04:34,228
+Your card is linked to it.
+
+98
+00:04:34,228 --> 00:04:35,747
+Your apps are linked to it.
+
+99
+00:04:35,747 --> 00:04:37,747
+Moving all that is a chore.
+
+100
+00:04:37,747 --> 00:04:38,994
+So most people don't.
+
+101
+00:04:39,154 --> 00:04:42,354
+Even when they could earn
+more somewhere else.
+
+102
+00:04:42,434 --> 00:04:44,294
+Economists have measured this.
+
+103
+00:04:44,294 --> 00:04:48,853
+In a well-known 2017 study, three
+economists at New York University found
+
+104
+00:04:48,853 --> 00:04:52,933
+that when the Federal Reserve raises
+rates, banks pass only part of the
+
+105
+00:04:52,933 --> 00:04:54,453
+increase on to savers.
+
+106
+00:04:54,453 --> 00:04:56,203
+They widen the gap instead.
+
+107
+00:04:56,363 --> 00:05:00,843
+And the gap widens the most in places
+where only a few banks compete.
+
+108
+00:05:00,843 --> 00:05:04,876
+Where customers have fewer places
+to go, they get paid less.
+
+109
+00:05:05,355 --> 00:05:08,635
+People in the industry have a polite
+name for this kind of money.
+
+110
+00:05:08,635 --> 00:05:09,915
+Sticky deposits.
+
+111
+00:05:09,915 --> 00:05:13,435
+It means money that stays put,
+even when the rate is bad.
+
+112
+00:05:13,435 --> 00:05:15,858
+For a bank, sticky deposits are gold.
+
+113
+00:05:16,018 --> 00:05:20,098
+They're cheap, they're stable, and they
+don't run away when the Fed moves.
+
+114
+00:05:20,098 --> 00:05:22,418
+Analysts even have a number for it.
+
+115
+00:05:22,418 --> 00:05:23,858
+The deposit beta.
+
+116
+00:05:23,858 --> 00:05:27,831
+It measures how much of each Fed rate
+rise actually reaches savers.
+
+117
+00:05:27,831 --> 00:05:30,711
+A beta of one means savers get all of it.
+
+118
+00:05:30,711 --> 00:05:34,071
+Close to zero means they
+get almost nothing.
+
+119
+00:05:34,471 --> 00:05:36,272
+But inertia has limits.
+
+120
+00:05:36,272 --> 00:05:41,352
+In the year to June 2023, deposits at
+FDIC-insured banks fell four point
+
+121
+00:05:41,352 --> 00:05:42,352
+eight percent.
+
+122
+00:05:42,540 --> 00:05:47,100
+The FDIC said it was the first annual
+decline in its data going back to
+
+123
+00:05:47,100 --> 00:05:48,700
+the mid-1990s.
+
+124
+00:05:48,700 --> 00:05:52,767
+Part of that money went to money market
+funds, chasing higher rates.
+
+125
+00:05:52,767 --> 00:05:57,487
+And when savers get scared instead of just
+annoyed, money can move in hours.
+
+126
+00:05:57,487 --> 00:06:00,847
+That's what happened to Silicon Valley
+Bank, in the story we followed in
+
+127
+00:06:00,847 --> 00:06:02,900
+our Credit Suisse episode.
+
+128
+00:06:03,379 --> 00:06:06,579
+To be fair, that low rate
+isn't pure profit.
+
+129
+00:06:06,579 --> 00:06:11,059
+A bank account comes with branches, ATMs,
+a debit card, fraud protection,
+
+130
+00:06:11,059 --> 00:06:13,139
+an app, and customer service.
+
+131
+00:06:13,139 --> 00:06:14,811
+Running all that costs money.
+
+132
+00:06:14,971 --> 00:06:18,851
+And deposits are insured by the FDIC, up
+to two hundred and fifty thousand
+
+133
+00:06:18,851 --> 00:06:19,851
+dollars
+
+134
+00:06:19,611 --> 00:06:22,411
+per depositor, per bank, per
+account category.
+
+135
+00:06:22,411 --> 00:06:24,651
+Banks pay for that insurance.
+
+136
+00:06:25,293 --> 00:06:28,814
+But the gap between one hundredth of a
+percent and almost four percent pays
+
+137
+00:06:28,814 --> 00:06:30,573
+for a lot of ATMs.
+
+138
+00:06:31,294 --> 00:06:32,294
+Quick thing.
+
+139
+00:06:32,173 --> 00:06:34,893
+If you like videos that follow
+the money, subscribe.
+
+140
+00:06:34,893 --> 00:06:36,088
+It costs nothing.
+
+141
+00:06:36,247 --> 00:06:40,167
+Which, for once, is roughly what
+your savings account pays.
+
+142
+00:06:41,127 --> 00:06:44,087
+Part 4 When Saving Paid Less by Law
+
+143
+00:06:44,326 --> 00:06:48,487
+There was a time when banks paying you
+very little wasn't just a choice.
+
+144
+00:06:48,487 --> 00:06:50,326
+It was the law.
+
+145
+00:06:50,726 --> 00:06:55,126
+In 1933, in the middle of the Great
+Depression, thousands of American banks
+
+146
+00:06:55,126 --> 00:06:56,126
+had failed.
+
+147
+00:06:56,018 --> 00:07:00,259
+Lawmakers blamed part of it on banks
+competing too hard for deposits, by
+
+148
+00:07:00,259 --> 00:07:01,779
+promising high rates.
+
+149
+00:07:01,779 --> 00:07:05,339
+So the Federal Reserve created a
+rule called Regulation Q.
+
+150
+00:07:05,499 --> 00:07:07,739
+It banned interest on checking accounts.
+
+151
+00:07:07,739 --> 00:07:11,259
+And it set a ceiling on what
+banks could pay on savings.
+
+152
+00:07:11,820 --> 00:07:14,060
+For decades, nobody minded much.
+
+153
+00:07:14,060 --> 00:07:15,946
+Then came the 1970s.
+
+154
+00:07:16,186 --> 00:07:18,826
+Inflation climbed into double digits.
+
+155
+00:07:18,826 --> 00:07:23,946
+In 1979 and 1980, prices rose more
+than twelve percent a year.
+
+156
+00:07:23,946 --> 00:07:27,889
+But savings rates were stuck under the
+legal ceiling, around five percent.
+
+157
+00:07:28,129 --> 00:07:31,729
+Banks couldn't compete on rates,
+so they competed on gifts.
+
+158
+00:07:31,729 --> 00:07:35,409
+Open an account, and some banks would
+famously hand you a toaster.
+
+159
+00:07:35,409 --> 00:07:39,310
+Savers were losing money every
+year, just by saving.
+
+160
+00:07:39,870 --> 00:07:41,710
+So the money found a way out.
+
+161
+00:07:41,710 --> 00:07:45,230
+In the early 1970s, a new
+kind of fund appeared.
+
+162
+00:07:45,230 --> 00:07:46,910
+The money market fund.
+
+163
+00:07:46,910 --> 00:07:49,710
+It wasn't a bank, so the
+ceiling didn't apply.
+
+164
+00:07:49,710 --> 00:07:51,150
+It could pay market rates.
+
+165
+00:07:51,310 --> 00:07:53,710
+And savers poured in.
+
+166
+00:07:53,710 --> 00:07:56,510
+Banks lost deposits, and
+lobbied for change.
+
+167
+00:07:56,510 --> 00:08:01,216
+In 1980, Congress passed a law to phase
+out the ceilings on savings rates.
+
+168
+00:08:01,216 --> 00:08:03,775
+The last ones were gone by 1986.
+
+169
+00:08:03,775 --> 00:08:06,895
+The ban on interest for checking
+accounts lasted even longer.
+
+170
+00:08:06,895 --> 00:08:09,216
+It was only lifted in July 2011.
+
+171
+00:08:09,216 --> 00:08:11,060
+By then, it barely mattered.
+
+172
+00:08:11,060 --> 00:08:16,740
+From late 2008 to the end of 2015, and
+again from 2020 to 2022, the Fed
+
+173
+00:08:16,740 --> 00:08:18,199
+kept its rate near zero.
+
+174
+00:08:18,199 --> 00:08:22,680
+When the central bank pays almost nothing,
+nobody expects much from a savings
+
+175
+00:08:22,680 --> 00:08:23,680
+account.
+
+176
+00:08:23,399 --> 00:08:26,039
+The problem is what happened
+when rates came back.
+
+177
+00:08:26,039 --> 00:08:28,227
+Many savings rates didn't.
+
+178
+00:08:28,707 --> 00:08:32,307
+So today, no law stops your bank
+from paying you more.
+
+179
+00:08:32,307 --> 00:08:33,667
+It just doesn't have to.
+
+180
+00:08:33,667 --> 00:08:37,587
+And sometimes, as one bank found out,
+keeping that rate low can come with
+
+181
+00:08:37,587 --> 00:08:38,947
+a price.
+
+182
+00:08:39,972 --> 00:08:43,252
+Part 5 The Account That Got Left Behind
+
+183
+00:08:43,252 --> 00:08:47,968
+Capital One had a popular online
+account called 360 Savings.
+
+184
+00:08:48,128 --> 00:08:52,449
+When interest rates started to rise in 2022,
+according to the New York Attorney
+
+185
+00:08:52,449 --> 00:08:58,384
+General, Capital One froze the rate on 360
+Savings at point three percent.
+
+186
+00:08:58,704 --> 00:09:02,144
+It also had a newer account,
+launched in 2019.
+
+187
+00:09:02,144 --> 00:09:04,624
+360 Performance Savings.
+
+188
+00:09:04,624 --> 00:09:05,824
+Nearly identical.
+
+189
+00:09:05,824 --> 00:09:06,824
+Same bank.
+
+190
+00:09:06,704 --> 00:09:07,704
+Same app.
+
+191
+00:09:07,504 --> 00:09:09,007
+But with a much higher rate.
+
+192
+00:09:09,167 --> 00:09:14,127
+At one point, the attorney general says,
+more than fourteen times higher.
+
+193
+00:09:14,527 --> 00:09:18,047
+According to the lawsuits, customers
+with the old account weren't moved
+
+194
+00:09:18,047 --> 00:09:19,047
+over.
+
+195
+00:09:18,492 --> 00:09:22,811
+And according to New York, employees were
+told not to bring up the new account,
+
+196
+00:09:22,811 --> 00:09:25,771
+unless a customer asked about it directly.
+
+197
+00:09:26,110 --> 00:09:31,231
+In January 2025, the federal
+consumer watchdog, the CFPB, sued.
+
+198
+00:09:31,231 --> 00:09:34,910
+It claimed long-time customers had lost
+more than two billion dollars in
+
+199
+00:09:34,910 --> 00:09:35,910
+interest.
+
+200
+00:09:35,696 --> 00:09:39,376
+A few weeks later, under new
+leadership, the agency dropped the case.
+
+201
+00:09:39,376 --> 00:09:43,056
+Then, in May 2025, New York
+sued on its own.
+
+202
+00:09:43,056 --> 00:09:47,362
+Capital One said it disagreed with the
+claims, and would defend itself.
+
+203
+00:09:47,681 --> 00:09:50,641
+Meanwhile, customers had
+filed a class action.
+
+204
+00:09:50,641 --> 00:09:54,881
+Capital One agreed to settle it for four
+hundred and twenty-five million
+
+205
+00:09:54,881 --> 00:09:55,881
+dollars.
+
+206
+00:09:55,041 --> 00:09:58,924
+But in November 2025, a federal
+judge rejected the deal.
+
+207
+00:09:59,084 --> 00:10:02,524
+He wrote that it would pay customers less
+than ten percent of the interest
+
+208
+00:10:02,524 --> 00:10:03,964
+they had actually lost.
+
+209
+00:10:03,964 --> 00:10:07,913
+And that millions of customers would keep
+experiencing, in his words, "the
+
+210
+00:10:07,913 --> 00:10:11,994
+same financial harm they have already
+experienced for years." He also pointed
+
+211
+00:10:11,994 --> 00:10:16,314
+to an email Capital One had sent, telling
+customers about the better account.
+
+212
+00:10:16,314 --> 00:10:17,811
+Fewer than half opened it.
+
+213
+00:10:17,971 --> 00:10:21,571
+And only about one percent of the
+people who read it did anything.
+
+214
+00:10:21,971 --> 00:10:22,971
+One percent.
+
+215
+00:10:22,931 --> 00:10:25,731
+That's inertia, in a single number.
+
+216
+00:10:25,891 --> 00:10:29,075
+In January 2026, a new deal was announced.
+
+217
+00:10:29,315 --> 00:10:32,995
+Four hundred and twenty-five million
+dollars in restitution, plus a promise
+
+218
+00:10:32,995 --> 00:10:37,955
+to pay old 360 Savings customers the
+same rate as the newer account.
+
+219
+00:10:37,955 --> 00:10:39,547
+The judge approved it in April.
+
+220
+00:10:39,707 --> 00:10:43,467
+As this video was made, an appeal was
+still delaying the payments.
+
+221
+00:10:43,467 --> 00:10:48,027
+In early October 2026, Capital One listed
+its Performance Savings rate at
+
+222
+00:10:48,027 --> 00:10:49,482
+three point one percent.
+
+223
+00:10:49,722 --> 00:10:53,562
+Ten times the old rate that
+customers were stuck with.
+
+224
+00:10:53,642 --> 00:10:55,965
+And Capital One isn't the only case.
+
+225
+00:10:55,965 --> 00:11:01,405
+In January 2025, the SEC said Wells Fargo
+and Merrill Lynch would pay sixty
+
+226
+00:11:01,405 --> 00:11:05,405
+million dollars over their cash sweep
+programs, where clients' idle cash
+
+227
+00:11:05,405 --> 00:11:06,534
+earned low rates.
+
+228
+00:11:06,534 --> 00:11:10,133
+The firms neither admitted nor
+denied the findings.
+
+229
+00:11:11,333 --> 00:11:15,665
+Part 6 So, Why Does Your Bank
+Pay You Almost Nothing?
+
+230
+00:11:15,904 --> 00:11:19,824
+Let's go back to our ten thousand
+dollars, and follow it one last time.
+
+231
+00:11:19,824 --> 00:11:21,264
+You hand it to your bank.
+
+232
+00:11:21,264 --> 00:11:25,184
+The bank lends some of it out, buys
+government bonds with some, and parks
+
+233
+00:11:25,184 --> 00:11:26,594
+some at the Federal Reserve.
+
+234
+00:11:26,754 --> 00:11:28,754
+Every one of those earns more than you do.
+
+235
+00:11:28,754 --> 00:11:30,274
+The bank keeps the gap.
+
+236
+00:11:30,274 --> 00:11:34,674
+And the bigger the gap, and the longer
+you stay, the more it keeps.
+
+237
+00:11:35,074 --> 00:11:37,692
+Your bank pays you about a
+dollar a year to hold it.
+
+238
+00:11:37,852 --> 00:11:41,292
+It can earn close to four hundred on that
+same money, without lending it
+
+239
+00:11:41,292 --> 00:11:42,292
+to anyone.
+
+240
+00:11:42,252 --> 00:11:45,236
+And a lot more, if it lends it
+out on a credit card.
+
+241
+00:11:45,396 --> 00:11:49,636
+Part of that gap pays for branches, apps,
+insurance and the risk of running
+
+242
+00:11:49,636 --> 00:11:50,636
+a bank.
+
+243
+00:11:50,356 --> 00:11:51,796
+And part of it is profit.
+
+244
+00:11:51,796 --> 00:11:55,386
+That's also why banks that don't
+have branches often pay more.
+
+245
+00:11:55,546 --> 00:12:00,106
+They spend less on buildings, and they need
+to give people a reason to move.
+
+246
+00:12:00,426 --> 00:12:03,386
+So, why does your bank pay
+you almost nothing?
+
+247
+00:12:03,386 --> 00:12:05,466
+Not because your money is worth nothing.
+
+248
+00:12:05,466 --> 00:12:06,628
+It's worth a lot.
+
+249
+00:12:06,628 --> 00:12:09,748
+It's because the bank knows
+most money doesn't move.
+
+250
+00:12:09,748 --> 00:12:11,188
+Not when rates go up.
+
+251
+00:12:11,188 --> 00:12:13,828
+Not when a better account
+opens at the same bank.
+
+252
+00:12:13,828 --> 00:12:16,916
+Not even when the bank sends
+you an email about it.
+
+253
+00:12:17,236 --> 00:12:21,076
+The rate on your savings account
+isn't a fixed fact of nature.
+
+254
+00:12:21,076 --> 00:12:22,116
+It's a price.
+
+255
+00:12:22,116 --> 00:12:26,379
+And like any price, it's set by what
+people are willing to accept.
+
+256
+00:12:26,699 --> 00:12:29,739
+This isn't a recommendation of
+any bank or account.
+
+257
+00:12:29,739 --> 00:12:31,179
+But here's the takeaway.
+
+258
+00:12:31,179 --> 00:12:33,019
+A savings account is a loan.
+
+259
+00:12:33,019 --> 00:12:34,619
+From you, to your bank.
+
+260
+00:12:34,619 --> 00:12:37,194
+The only question is the interest rate.
+
+261
+00:12:37,994 --> 00:12:42,314
+Next time, we follow the money behind
+one of Europe's biggest frauds.
+
+262
+00:12:42,314 --> 00:12:45,995
+A German payments company that said it had
+almost two billion euros in the
+
+263
+00:12:45,995 --> 00:12:46,995
+bank.
+
+264
+00:12:46,394 --> 00:12:47,394
+It didn't.
+
+265
+00:12:47,254 --> 00:12:51,094
+And if you want the other side of the
+economy, the ships, planes and rockets
+
+266
+00:12:51,094 --> 00:12:55,494
+behind everything you buy, check out our
+sister channel, Cargo and Capital.
+
+267
+00:12:55,974 --> 00:12:57,659
+This is Billions and Bulls.
+
+268
+00:12:57,659 --> 00:12:59,899
+This video explains a business.
+
+269
+00:12:59,899 --> 00:13:01,659
+It is not financial advice.
+
+270
+00:13:01,659 --> 00:13:04,305
+Subscribe, and let's keep
+following the money.

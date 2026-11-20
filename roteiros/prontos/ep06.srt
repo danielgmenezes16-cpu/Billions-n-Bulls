@@ -1,0 +1,1201 @@
+1
+00:00:00,333 --> 00:00:03,133
+Who Pays When You Buy Now, Pay Later?
+
+2
+00:00:03,373 --> 00:00:05,453
+Cyber Monday, 2025.
+
+3
+00:00:05,453 --> 00:00:09,533
+In a single day, Americans spent more than
+one billion dollars online with
+
+4
+00:00:09,533 --> 00:00:11,053
+buy now, pay later.
+
+5
+00:00:11,053 --> 00:00:12,230
+A record.
+
+6
+00:00:12,710 --> 00:00:13,910
+Pay in four.
+
+7
+00:00:13,910 --> 00:00:14,910
+No interest.
+
+8
+00:00:14,550 --> 00:00:16,230
+No fees, if you pay on time.
+
+9
+00:00:16,230 --> 00:00:18,889
+It sounds like a loan where
+nobody gets paid.
+
+10
+00:00:19,449 --> 00:00:23,769
+But one of these companies went public in
+2025 at a value of about fifteen
+
+11
+00:00:23,769 --> 00:00:24,969
+billion dollars.
+
+12
+00:00:24,969 --> 00:00:26,969
+Somebody is paying for all of this.
+
+13
+00:00:26,969 --> 00:00:30,192
+So we're going to follow one
+purchase, and find out who.
+
+14
+00:00:30,352 --> 00:00:32,272
+This is Billions and Bulls.
+
+15
+00:00:32,272 --> 00:00:34,192
+Let's follow the money.
+
+16
+00:00:35,072 --> 00:00:37,472
+Part 1 Four Little Payments
+
+17
+00:00:37,472 --> 00:00:39,712
+Say you want a four-hundred-dollar jacket.
+
+18
+00:00:39,712 --> 00:00:41,574
+At checkout, you see a new button.
+
+19
+00:00:41,814 --> 00:00:43,494
+Pay in four.
+
+20
+00:00:43,814 --> 00:00:45,814
+You pay one hundred dollars today.
+
+21
+00:00:45,814 --> 00:00:49,334
+Then one hundred dollars every two
+weeks, three more times.
+
+22
+00:00:49,334 --> 00:00:51,814
+Six weeks later, the jacket is paid off.
+
+23
+00:00:51,814 --> 00:00:52,814
+No interest.
+
+24
+00:00:52,534 --> 00:00:53,534
+No credit card.
+
+25
+00:00:53,738 --> 00:00:57,338
+Often, just a quick check that
+takes a few seconds.
+
+26
+00:00:57,738 --> 00:00:59,258
+The idea isn't new.
+
+27
+00:00:59,258 --> 00:01:02,487
+Stores have sold things in
+installments for more than a century.
+
+28
+00:01:02,647 --> 00:01:06,647
+In the 1850s, the Singer company sold its
+sewing machines for a few dollars
+
+29
+00:01:06,647 --> 00:01:07,647
+a month.
+
+30
+00:01:07,367 --> 00:01:11,127
+Families who could never pay the full
+price at once suddenly could.
+
+31
+00:01:11,127 --> 00:01:13,939
+Furniture, pianos and cars followed.
+
+32
+00:01:14,179 --> 00:01:16,019
+What's new is the speed.
+
+33
+00:01:16,019 --> 00:01:17,619
+And the scale.
+
+34
+00:01:18,099 --> 00:01:21,939
+The modern version took off in the 2010s,
+with companies like Klarna from
+
+35
+00:01:21,939 --> 00:01:25,884
+Sweden, Afterpay from Australia, and
+Affirm from the United States.
+
+36
+00:01:25,884 --> 00:01:31,404
+In 2021, the payments company Square, now
+called Block, agreed to buy Afterpay
+
+37
+00:01:31,404 --> 00:01:35,732
+in a deal reportedly worth about
+twenty-nine billion dollars.
+
+38
+00:01:35,732 --> 00:01:40,292
+According to the Consumer Financial
+Protection Bureau, buy now, pay later
+
+39
+00:01:40,292 --> 00:01:44,692
+loans in the United States went from
+about two billion dollars in 2019 to
+
+40
+00:01:44,692 --> 00:01:47,412
+more than twenty-four billion in 2021.
+
+41
+00:01:47,572 --> 00:01:49,332
+And it kept growing.
+
+42
+00:01:49,332 --> 00:01:54,612
+Over the 2025 holiday season, Adobe says
+Americans spent a record twenty
+
+43
+00:01:54,612 --> 00:01:58,149
+billion dollars online with
+buy now, pay later.
+
+44
+00:01:58,628 --> 00:02:00,548
+It's not just a US thing.
+
+45
+00:02:00,548 --> 00:02:04,948
+In the UK, the Financial Conduct Authority
+says almost eleven million adults
+
+46
+00:02:04,948 --> 00:02:06,708
+used it in 2024.
+
+47
+00:02:07,748 --> 00:02:09,963
+And it's not just jackets anymore.
+
+48
+00:02:09,963 --> 00:02:15,162
+In a 2026 survey by LendingTree,
+twenty-nine percent of buy now, pay later
+
+49
+00:02:15,162 --> 00:02:17,962
+users said they had used it
+to buy groceries.
+
+50
+00:02:18,602 --> 00:02:19,826
+So here's the puzzle.
+
+51
+00:02:19,986 --> 00:02:24,546
+If you pay exactly four hundred dollars
+for a four-hundred-dollar jacket,
+
+52
+00:02:24,546 --> 00:02:26,307
+where does the money come from?
+
+53
+00:02:26,307 --> 00:02:29,987
+The first answer is someone you
+never see at checkout.
+
+54
+00:02:31,245 --> 00:02:33,325
+Part 2 The Store Pays
+
+55
+00:02:33,325 --> 00:02:37,885
+When you click pay in four, the buy now,
+pay later company pays the store
+
+56
+00:02:37,885 --> 00:02:38,885
+right away.
+
+57
+00:02:38,740 --> 00:02:39,940
+Not in four parts.
+
+58
+00:02:39,940 --> 00:02:40,940
+All at once.
+
+59
+00:02:40,900 --> 00:02:42,660
+Minus a fee.
+
+60
+00:02:42,980 --> 00:02:45,220
+That fee is the heart of the business.
+
+61
+00:02:45,220 --> 00:02:46,930
+It's called the merchant discount.
+
+62
+00:02:46,930 --> 00:02:51,650
+In its 2022 report, the CFPB found that
+the average merchant fee was about
+
+63
+00:02:51,650 --> 00:02:54,173
+three point four percent in 2019.
+
+64
+00:02:54,173 --> 00:02:57,853
+As more companies joined the market, it
+fell to about two and a half percent
+
+65
+00:02:57,853 --> 00:02:59,293
+by 2021.
+
+66
+00:02:59,293 --> 00:03:02,639
+Depending on the store and the
+plan, it can be higher.
+
+67
+00:03:03,119 --> 00:03:07,519
+On our four-hundred-dollar jacket, two
+and a half percent is ten dollars.
+
+68
+00:03:07,679 --> 00:03:09,039
+Paid by the store.
+
+69
+00:03:09,039 --> 00:03:13,119
+And for longer plans with zero percent
+interest, the store usually pays
+
+70
+00:03:13,119 --> 00:03:14,119
+more.
+
+71
+00:03:13,847 --> 00:03:17,688
+Someone has to cover the cost of
+waiting a whole year for the money.
+
+72
+00:03:17,688 --> 00:03:22,006
+When the shopper pays no interest,
+that someone is often the store.
+
+73
+00:03:22,326 --> 00:03:24,646
+Remember our episode on credit cards?
+
+74
+00:03:24,646 --> 00:03:27,126
+Stores already pay to accept cards.
+
+75
+00:03:27,126 --> 00:03:32,045
+So why would a store pay a similar fee,
+or a bigger one, to offer this?
+
+76
+00:03:32,684 --> 00:03:36,284
+Because, according to the companies
+selling it, people buy more.
+
+77
+00:03:36,284 --> 00:03:39,564
+Affirm tells merchants they can
+see much bigger orders.
+
+78
+00:03:39,564 --> 00:03:43,785
+One figure it has used is a seventy
+percent lift in average order value.
+
+79
+00:03:43,785 --> 00:03:48,745
+A Klarna executive has claimed twenty
+percent more sales completed at checkout.
+
+80
+00:03:48,745 --> 00:03:51,465
+Those numbers come from the
+companies themselves.
+
+81
+00:03:51,465 --> 00:03:53,326
+But the logic is simple.
+
+82
+00:03:53,486 --> 00:03:57,726
+A four-hundred-dollar jacket feels a lot
+cheaper when the screen says one
+
+83
+00:03:57,726 --> 00:03:58,926
+hundred.
+
+84
+00:03:59,326 --> 00:04:02,766
+For Klarna, the biggest name in this
+market, that's where most of the money
+
+85
+00:04:02,766 --> 00:04:03,766
+comes from.
+
+86
+00:04:03,433 --> 00:04:07,672
+In the year before its IPO, Klarna said
+about three quarters of its revenue
+
+87
+00:04:07,672 --> 00:04:12,073
+came from transaction and service fees,
+most of it paid by merchants.
+
+88
+00:04:12,596 --> 00:04:16,596
+So in the classic pay in four, the
+shopper pays nothing extra.
+
+89
+00:04:16,596 --> 00:04:18,916
+The store pays to make the sale easier.
+
+90
+00:04:18,916 --> 00:04:22,916
+And just like with card fees, that cost
+becomes part of what the store charges
+
+91
+00:04:22,916 --> 00:04:24,077
+everyone.
+
+92
+00:04:24,557 --> 00:04:27,277
+There's also a simple competitive reason.
+
+93
+00:04:27,277 --> 00:04:31,437
+Once one store in a market offers four
+easy payments, the store next door
+
+94
+00:04:31,437 --> 00:04:33,313
+feels it has to offer them too.
+
+95
+00:04:33,552 --> 00:04:37,152
+Nobody wants to be the only shop where a
+four-hundred-dollar jacket still
+
+96
+00:04:37,152 --> 00:04:39,792
+costs four hundred dollars today.
+
+97
+00:04:40,192 --> 00:04:43,090
+But the store's fee is only
+one part of the story.
+
+98
+00:04:43,330 --> 00:04:47,810
+Because someone still has to hand over the
+four hundred dollars on day one.
+
+99
+00:04:48,690 --> 00:04:52,051
+Part 3 Where the Money Really Comes From
+
+100
+00:04:52,051 --> 00:04:54,054
+Here's the thing about pay in four.
+
+101
+00:04:54,054 --> 00:04:55,733
+The store gets paid today.
+
+102
+00:04:55,733 --> 00:04:57,413
+You pay over six weeks.
+
+103
+00:04:57,413 --> 00:05:00,453
+In between, someone has to
+put up the cash.
+
+104
+00:05:00,773 --> 00:05:02,854
+Sometimes it's the company's own money.
+
+105
+00:05:02,854 --> 00:05:04,123
+Often, it's borrowed.
+
+106
+00:05:04,363 --> 00:05:06,203
+Lines of credit from big banks.
+
+107
+00:05:06,203 --> 00:05:09,963
+Or investors who buy bundles of these
+loans, the same way investors buy
+
+108
+00:05:09,963 --> 00:05:11,403
+bundles of mortgages.
+
+109
+00:05:11,403 --> 00:05:15,243
+In the United States, many of these loans
+aren't even made by the app you
+
+110
+00:05:15,243 --> 00:05:16,243
+see.
+
+111
+00:05:15,811 --> 00:05:20,451
+They're made by partner banks in the
+background, and then passed on.
+
+112
+00:05:20,451 --> 00:05:23,971
+That's why interest rates matter
+so much to this business.
+
+113
+00:05:23,971 --> 00:05:28,035
+When rates were near zero, borrowing the
+cash for six weeks cost almost
+
+114
+00:05:28,035 --> 00:05:29,035
+nothing.
+
+115
+00:05:28,675 --> 00:05:31,875
+When rates went up, the cash in the
+middle became expensive.
+
+116
+00:05:31,875 --> 00:05:34,755
+And the free part of the
+business got squeezed.
+
+117
+00:05:35,396 --> 00:05:36,946
+Klarna went a step further.
+
+118
+00:05:36,946 --> 00:05:40,946
+It has a banking license in Sweden, and
+it takes deposits from savers.
+
+119
+00:05:40,946 --> 00:05:44,305
+Part of the money you borrow at checkout
+can come from someone else's savings
+
+120
+00:05:44,305 --> 00:05:45,320
+account.
+
+121
+00:05:45,800 --> 00:05:48,280
+And then there's the other
+half of the business.
+
+122
+00:05:48,280 --> 00:05:50,360
+The part that isn't free.
+
+123
+00:05:50,680 --> 00:05:52,671
+Not every plan is pay in four.
+
+124
+00:05:52,671 --> 00:05:56,751
+For bigger purchases, these
+companies also offer longer loans.
+
+125
+00:05:56,751 --> 00:05:57,751
+Twelve months.
+
+126
+00:05:57,631 --> 00:05:58,831
+Twenty-four months.
+
+127
+00:05:58,831 --> 00:05:59,951
+Sometimes longer.
+
+128
+00:05:59,951 --> 00:06:01,586
+And those can come with interest.
+
+129
+00:06:01,746 --> 00:06:06,466
+Affirm says its rates go up to
+thirty-six percent a year.
+
+130
+00:06:06,706 --> 00:06:08,306
+Here's what that can look like.
+
+131
+00:06:08,306 --> 00:06:12,386
+Take a twelve-hundred-dollar laptop, paid
+over twelve months at thirty percent
+
+132
+00:06:12,386 --> 00:06:13,386
+a year.
+
+133
+00:06:12,977 --> 00:06:16,497
+By our math, that's about two
+hundred dollars in interest.
+
+134
+00:06:16,497 --> 00:06:19,377
+The same laptop, with the same
+button at checkout.
+
+135
+00:06:19,377 --> 00:06:21,297
+Just a different plan.
+
+136
+00:06:21,617 --> 00:06:24,883
+For Affirm, this is now the
+biggest part of the money.
+
+137
+00:06:25,043 --> 00:06:30,003
+In its 2025 fiscal year, Affirm reported
+about one point six billion dollars
+
+138
+00:06:30,003 --> 00:06:31,283
+in interest income.
+
+139
+00:06:31,283 --> 00:06:34,487
+Its fees from merchants were about
+eight hundred and eighty million.
+
+140
+00:06:34,646 --> 00:06:38,086
+It also earned about three hundred and
+eighty million dollars by selling
+
+141
+00:06:38,086 --> 00:06:39,846
+loans to investors.
+
+142
+00:06:40,487 --> 00:06:43,766
+So there are really two businesses
+hiding behind the same button.
+
+143
+00:06:43,766 --> 00:06:45,948
+The free one, paid for by stores.
+
+144
+00:06:46,187 --> 00:06:48,987
+And the paid one, paid for by borrowers.
+
+145
+00:06:49,707 --> 00:06:50,707
+Quick thing.
+
+146
+00:06:50,587 --> 00:06:53,307
+If you like videos that follow
+the money, subscribe.
+
+147
+00:06:53,307 --> 00:06:54,307
+It's free.
+
+148
+00:06:54,107 --> 00:06:57,707
+And you can pay for it in four
+installments of zero.
+
+149
+00:06:58,715 --> 00:07:01,515
+Part 4 The People Who Pay Late
+
+150
+00:07:01,515 --> 00:07:03,435
+Now, the obvious suspect.
+
+151
+00:07:03,435 --> 00:07:04,635
+Late fees.
+
+152
+00:07:04,635 --> 00:07:07,676
+If you miss a payment, many
+plans charge a fee.
+
+153
+00:07:07,676 --> 00:07:12,724
+In its 2022 report, the CFPB found
+typical late fees of around seven to
+
+154
+00:07:12,724 --> 00:07:13,724
+eight dollars.
+
+155
+00:07:13,684 --> 00:07:17,124
+Some companies charge no late fees at all.
+
+156
+00:07:17,124 --> 00:07:20,468
+You might think late fees are the secret
+engine of the whole industry.
+
+157
+00:07:20,628 --> 00:07:22,628
+The data says they're not.
+
+158
+00:07:22,628 --> 00:07:27,588
+In a 2025 report, the CFPB looked at
+data from six big providers.
+
+159
+00:07:27,588 --> 00:07:31,648
+In 2023, only about four percent of
+loans were charged a late fee.
+
+160
+00:07:31,648 --> 00:07:35,727
+And late fees brought in less than one
+fifth of one percent of the money
+
+161
+00:07:35,727 --> 00:07:37,808
+that went through these companies.
+
+162
+00:07:38,207 --> 00:07:39,872
+Losses were going down, too.
+
+163
+00:07:39,872 --> 00:07:43,232
+The same report found that the share of
+loans that were never paid back
+
+164
+00:07:43,232 --> 00:07:44,832
+fell in 2023.
+
+165
+00:07:45,792 --> 00:07:48,032
+So late fees aren't where the money is.
+
+166
+00:07:48,032 --> 00:07:50,749
+But late payments are
+still a warning sign.
+
+167
+00:07:50,909 --> 00:07:56,029
+In LendingTree's 2026 survey,
+forty-seven percent of buy now, pay later
+
+168
+00:07:56,029 --> 00:07:59,381
+users said they had paid late at
+least once in the past year.
+
+169
+00:07:59,621 --> 00:08:02,981
+Most said they were only a
+few days behind.
+
+170
+00:08:03,541 --> 00:08:07,221
+The bigger worry is something
+critics call phantom debt.
+
+171
+00:08:07,221 --> 00:08:08,901
+Each plan looks small.
+
+172
+00:08:08,901 --> 00:08:10,262
+One hundred dollars here.
+
+173
+00:08:10,262 --> 00:08:11,262
+Fifty there.
+
+174
+00:08:11,432 --> 00:08:14,706
+But people can have several at once,
+with different companies.
+
+175
+00:08:14,866 --> 00:08:18,786
+And for years, most of those loans
+didn't show up on credit reports.
+
+176
+00:08:18,786 --> 00:08:23,986
+So no lender, and sometimes not even the
+borrower, could see the full picture.
+
+177
+00:08:24,386 --> 00:08:26,007
+That's starting to change.
+
+178
+00:08:26,007 --> 00:08:31,047
+In 2025, FICO launched new credit scores
+that include buy now, pay later
+
+179
+00:08:31,047 --> 00:08:32,047
+data.
+
+180
+00:08:31,687 --> 00:08:33,767
+Paying on time could help a score.
+
+181
+00:08:33,767 --> 00:08:35,242
+Paying late could hurt it.
+
+182
+00:08:35,402 --> 00:08:39,162
+Whether lenders actually use those
+new scores is up to them.
+
+183
+00:08:39,162 --> 00:08:44,122
+But the days of completely invisible
+installment loans may be ending.
+
+184
+00:08:44,522 --> 00:08:46,706
+To be fair, there's another side.
+
+185
+00:08:46,866 --> 00:08:52,066
+For someone who pays on time, pay in
+four really can cost nothing.
+
+186
+00:08:52,066 --> 00:08:55,906
+Compared with a credit card that charges
+more than twenty percent interest,
+
+187
+00:08:55,906 --> 00:08:57,948
+it can even be the cheaper option.
+
+188
+00:08:58,107 --> 00:09:00,347
+The risk isn't the price.
+
+189
+00:09:00,347 --> 00:09:03,227
+It's how easy it is to say yes.
+
+190
+00:09:04,187 --> 00:09:06,521
+Part 5 Rules That Came and Went
+
+191
+00:09:06,681 --> 00:09:10,761
+For years, buy now, pay later
+lived in a gap in the rules.
+
+192
+00:09:10,761 --> 00:09:12,361
+It wasn't quite a credit card.
+
+193
+00:09:12,361 --> 00:09:14,713
+It wasn't quite a traditional loan.
+
+194
+00:09:15,274 --> 00:09:20,473
+In May 2024, the CFPB decided it was
+close enough to a credit card.
+
+195
+00:09:20,473 --> 00:09:24,160
+It said these companies had to give
+users some of the same protections.
+
+196
+00:09:24,400 --> 00:09:28,320
+Like the right to dispute a charge, and
+to get refunds handled properly.
+
+197
+00:09:28,320 --> 00:09:32,320
+A year later, under new leadership,
+the CFPB withdrew that rule.
+
+198
+00:09:32,320 --> 00:09:34,597
+And said it wouldn't issue a new one.
+
+199
+00:09:34,916 --> 00:09:36,996
+The UK went the other way.
+
+200
+00:09:36,996 --> 00:09:42,597
+Since July 15, 2026, buy now, pay later
+companies there must be regulated
+
+201
+00:09:42,597 --> 00:09:44,454
+by the Financial Conduct Authority.
+
+202
+00:09:44,454 --> 00:09:47,894
+They have to check whether customers can
+afford what they're borrowing.
+
+203
+00:09:47,894 --> 00:09:51,734
+They also have to give clearer
+information up front, and help customers
+
+204
+00:09:51,734 --> 00:09:53,426
+who fall into financial trouble.
+
+205
+00:09:53,426 --> 00:09:59,186
+The FCA says the UK market was worth about
+thirteen billion pounds in 2024.
+
+206
+00:10:00,226 --> 00:10:03,906
+So, depending on where you live, the same
+button can come with very different
+
+207
+00:10:03,906 --> 00:10:04,906
+protections.
+
+208
+00:10:04,828 --> 00:10:07,867
+In London, the lender has to ask
+if you can afford it.
+
+209
+00:10:07,867 --> 00:10:11,227
+In New York, that's mostly
+up to the company.
+
+210
+00:10:11,467 --> 00:10:13,548
+Meanwhile, the business kept changing.
+
+211
+00:10:13,548 --> 00:10:14,737
+Even Apple tried it.
+
+212
+00:10:14,897 --> 00:10:18,657
+Apple Pay Later launched in the
+United States in 2023.
+
+213
+00:10:18,657 --> 00:10:22,817
+About a year later, Apple shut it down, and
+moved to offering other companies'
+
+214
+00:10:22,817 --> 00:10:24,905
+installment plans instead.
+
+215
+00:10:25,385 --> 00:10:30,346
+In 2021, at the height of the boom, Klarna
+was valued at more than forty-five
+
+216
+00:10:30,346 --> 00:10:31,506
+billion dollars.
+
+217
+00:10:31,506 --> 00:10:35,826
+When it finally went public in New York
+in September 2025, it was valued
+
+218
+00:10:35,826 --> 00:10:37,426
+at about fifteen billion.
+
+219
+00:10:37,426 --> 00:10:39,026
+A third of its old price.
+
+220
+00:10:39,026 --> 00:10:42,950
+On its first day of trading, the shares
+still jumped about fifteen percent.
+
+221
+00:10:42,950 --> 00:10:46,790
+The business was smaller than the
+hype, but it was real.
+
+222
+00:10:46,870 --> 00:10:48,710
+Investors had learned something.
+
+223
+00:10:48,710 --> 00:10:51,910
+Lending money for free is a great
+business when interest rates are near
+
+224
+00:10:51,910 --> 00:10:52,910
+zero.
+
+225
+00:10:52,492 --> 00:10:55,931
+When rates go up, the money
+you lend costs more.
+
+226
+00:10:55,931 --> 00:10:59,371
+And the store's fee has to
+cover a lot more.
+
+227
+00:11:00,251 --> 00:11:02,448
+Part 6 So, Who Pays?
+
+228
+00:11:02,607 --> 00:11:05,567
+Let's go back to our
+four-hundred-dollar jacket.
+
+229
+00:11:06,047 --> 00:11:07,967
+You pay four hundred dollars.
+
+230
+00:11:07,967 --> 00:11:10,207
+Not a cent more, if you pay on time.
+
+231
+00:11:10,207 --> 00:11:13,728
+The store pays a fee, maybe ten
+dollars, maybe more.
+
+232
+00:11:13,888 --> 00:11:17,088
+And that cost gets spread into
+its prices for everyone.
+
+233
+00:11:17,088 --> 00:11:21,968
+Banks, investors and savers put up the
+cash, and get paid back with interest.
+
+234
+00:11:21,968 --> 00:11:23,874
+And some shoppers pay late fees.
+
+235
+00:11:24,034 --> 00:11:26,274
+But less than you'd think.
+
+236
+00:11:26,274 --> 00:11:28,727
+The real money is on the other
+side of the button.
+
+237
+00:11:28,886 --> 00:11:30,087
+The longer loans.
+
+238
+00:11:30,087 --> 00:11:31,366
+The ones with interest.
+
+239
+00:11:31,366 --> 00:11:35,046
+And in the hope that once you've said yes
+to four little payments, you'll
+
+240
+00:11:35,046 --> 00:11:36,966
+say yes again.
+
+241
+00:11:37,286 --> 00:11:39,557
+That's the quiet shift in this business.
+
+242
+00:11:39,557 --> 00:11:42,116
+The apps don't just sit at
+checkout anymore.
+
+243
+00:11:42,116 --> 00:11:44,116
+They want to be where you start shopping.
+
+244
+00:11:44,116 --> 00:11:48,159
+A place to browse deals, track orders,
+and split the next purchase.
+
+245
+00:11:48,319 --> 00:11:51,839
+Every time you open the app, the store's
+fee, and the chance of a longer
+
+246
+00:11:51,839 --> 00:11:54,239
+loan, come with you.
+
+247
+00:11:54,319 --> 00:11:56,880
+So, who pays when you buy now, pay later?
+
+248
+00:11:57,120 --> 00:11:58,560
+Mostly, the store.
+
+249
+00:11:58,560 --> 00:12:01,920
+And, through the store,
+everyone who shops there.
+
+250
+00:12:02,000 --> 00:12:03,760
+Is that a bad deal?
+
+251
+00:12:03,760 --> 00:12:05,201
+Not necessarily.
+
+252
+00:12:05,201 --> 00:12:09,920
+For a careful shopper, pay in four can be
+a free, short loan that a credit
+
+253
+00:12:09,920 --> 00:12:11,280
+card would charge for.
+
+254
+00:12:11,280 --> 00:12:13,836
+For a store, it can mean more sales.
+
+255
+00:12:13,836 --> 00:12:18,155
+The trouble starts when four little
+payments turn into twelve, across five
+
+256
+00:12:18,155 --> 00:12:21,595
+different apps, and nobody, not
+even you, is keeping count.
+
+257
+00:12:23,103 --> 00:12:25,983
+Buy now, pay later doesn't
+make things cheaper.
+
+258
+00:12:25,983 --> 00:12:27,664
+It makes them easier to buy.
+
+259
+00:12:27,664 --> 00:12:30,769
+And that's exactly what the
+store is paying for.
+
+260
+00:12:31,568 --> 00:12:36,448
+Next time, we follow the money behind one
+of the fastest fortunes ever lost.
+
+261
+00:12:36,448 --> 00:12:40,368
+A man who reportedly built a fortune of
+around twenty billion dollars, and
+
+262
+00:12:40,368 --> 00:12:41,962
+lost it in two days.
+
+263
+00:12:42,122 --> 00:12:46,202
+And if you want the other side of the
+economy, the ships, planes and rockets
+
+264
+00:12:46,202 --> 00:12:50,602
+behind everything you buy, check out our
+sister channel, Cargo and Capital.
+
+265
+00:12:51,082 --> 00:12:52,773
+This is Billions and Bulls.
+
+266
+00:12:52,773 --> 00:12:55,013
+This video explains a business.
+
+267
+00:12:55,013 --> 00:12:56,773
+It is not financial advice.
+
+268
+00:12:56,773 --> 00:12:59,421
+Subscribe, and let's keep
+following the money.
