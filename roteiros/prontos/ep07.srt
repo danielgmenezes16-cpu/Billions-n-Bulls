@@ -1,0 +1,1254 @@
+1
+00:00:00,333 --> 00:00:03,533
+Where Did Wirecard's $2 Billion Go?
+
+2
+00:00:03,773 --> 00:00:05,373
+June 18, 2020.
+
+3
+00:00:05,373 --> 00:00:09,279
+A German payments company is supposed
+to publish its annual results.
+
+4
+00:00:09,759 --> 00:00:14,959
+Instead, its auditors say they can't
+confirm one point nine billion euros.
+
+5
+00:00:14,959 --> 00:00:17,359
+About two point one billion dollars.
+
+6
+00:00:17,359 --> 00:00:20,647
+Cash the company says is sitting in
+two banks in the Philippines.
+
+7
+00:00:20,647 --> 00:00:23,847
+The banks say they never had it.
+
+8
+00:00:23,927 --> 00:00:28,557
+Two years earlier, this company was worth
+about twenty-four billion euros.
+
+9
+00:00:28,717 --> 00:00:32,557
+It had replaced one of Germany's biggest
+banks in the country's top stock
+
+10
+00:00:32,557 --> 00:00:33,557
+index.
+
+11
+00:00:33,277 --> 00:00:36,477
+One week after that
+announcement, it was bankrupt.
+
+12
+00:00:36,477 --> 00:00:38,321
+So where did the money go?
+
+13
+00:00:38,481 --> 00:00:40,801
+We're going to follow it,
+account by account.
+
+14
+00:00:40,801 --> 00:00:42,561
+This is Billions and Bulls.
+
+15
+00:00:42,561 --> 00:00:44,481
+Let's follow the money.
+
+16
+00:00:45,521 --> 00:00:48,348
+Part 1 The Company That Replaced a Bank
+
+17
+00:00:48,668 --> 00:00:51,948
+Wirecard started in 1999, near Munich.
+
+18
+00:00:51,948 --> 00:00:54,188
+Its job was simple to describe.
+
+19
+00:00:54,188 --> 00:00:58,028
+When you pay online, somebody has to move
+the money from your card to the
+
+20
+00:00:58,028 --> 00:00:59,028
+shop.
+
+21
+00:00:58,754 --> 00:01:01,074
+Wirecard did that.
+
+22
+00:01:01,074 --> 00:01:03,714
+Picture a pair of sneakers
+for one hundred euros.
+
+23
+00:01:03,714 --> 00:01:05,268
+You type in your card number.
+
+24
+00:01:05,268 --> 00:01:09,268
+In the background, a processor passes the
+payment between the shop, your
+
+25
+00:01:09,268 --> 00:01:13,348
+bank and the card network, checks it for
+fraud, and makes sure the shop
+
+26
+00:01:13,348 --> 00:01:14,348
+gets paid.
+
+27
+00:01:14,228 --> 00:01:16,403
+For that, it keeps a small fee.
+
+28
+00:01:16,563 --> 00:01:20,083
+Repeat that millions of times a
+day, and you have a business.
+
+29
+00:01:20,563 --> 00:01:24,323
+Its first big customers, according to the
+German magazine Der Spiegel, were
+
+30
+00:01:24,323 --> 00:01:26,928
+mostly adult websites and online gambling.
+
+31
+00:01:27,248 --> 00:01:29,888
+Businesses that many banks
+didn't want to touch.
+
+32
+00:01:29,888 --> 00:01:34,688
+In 2002, an Austrian consultant named Markus
+Braun put money into the struggling
+
+33
+00:01:34,688 --> 00:01:37,408
+company and became its chief executive.
+
+34
+00:01:38,009 --> 00:01:40,729
+Wirecard didn't go public the usual way.
+
+35
+00:01:40,729 --> 00:01:45,289
+In 2005, it merged into a small listed
+company that ran telephone advice
+
+36
+00:01:45,289 --> 00:01:46,289
+hotlines.
+
+37
+00:01:46,178 --> 00:01:50,738
+A shortcut onto the stock market, with
+fewer questions than a normal listing.
+
+38
+00:01:51,298 --> 00:01:52,658
+Then it grew.
+
+39
+00:01:52,658 --> 00:01:53,658
+Fast.
+
+40
+00:01:53,378 --> 00:01:57,502
+It bought companies in Asia, India,
+Brazil and the United States.
+
+41
+00:01:57,662 --> 00:02:00,622
+It got a banking license and
+issued its own cards.
+
+42
+00:02:00,622 --> 00:02:04,302
+On its own accounts, revenue went from
+about four hundred eighty million
+
+43
+00:02:04,302 --> 00:02:08,766
+euros in 2013 to more than
+two billion in 2018.
+
+44
+00:02:09,006 --> 00:02:11,806
+Profit grew almost as fast.
+
+45
+00:02:11,966 --> 00:02:14,286
+Some of those deals looked expensive.
+
+46
+00:02:14,286 --> 00:02:18,606
+In 2015, Wirecard paid about three hundred
+forty million euros for a group
+
+47
+00:02:18,606 --> 00:02:20,395
+of payment businesses in India.
+
+48
+00:02:20,395 --> 00:02:24,634
+A US nonprofit research group later
+concluded, from the filings, that at
+
+49
+00:02:24,634 --> 00:02:29,752
+least one hundred seventy-five million euros
+of that never reached the sellers.
+
+50
+00:02:30,152 --> 00:02:35,193
+In September 2018, Wirecard joined the
+DAX, Germany's index of its thirty
+
+51
+00:02:35,193 --> 00:02:36,792
+biggest listed companies.
+
+52
+00:02:36,792 --> 00:02:40,273
+It took the place of Commerzbank, one
+of the country's largest banks.
+
+53
+00:02:40,433 --> 00:02:44,753
+A tech company from a Munich suburb, worth
+about twenty-four billion euros.
+
+54
+00:02:44,753 --> 00:02:48,113
+Germany finally had its own fintech star.
+
+55
+00:02:48,433 --> 00:02:50,033
+Braun was the face of it.
+
+56
+00:02:50,033 --> 00:02:54,203
+He owned about seven percent of the
+company, and in September 2018 his shares
+
+57
+00:02:54,203 --> 00:02:57,003
+were worth more than one
+point six billion euros.
+
+58
+00:02:57,003 --> 00:03:01,883
+In 2017, he told investors that Wirecard used
+the latest artificial intelligence
+
+59
+00:03:01,883 --> 00:03:03,271
+to analyze its data.
+
+60
+00:03:03,431 --> 00:03:07,671
+According to later reporting, staff were
+often stitching customer data together
+
+61
+00:03:07,671 --> 00:03:09,031
+in spreadsheets.
+
+62
+00:03:09,831 --> 00:03:11,671
+Here's the thing about payments, though.
+
+63
+00:03:11,671 --> 00:03:14,853
+A processor keeps only a small
+slice of each sale.
+
+64
+00:03:14,853 --> 00:03:18,773
+To earn billions, you need an
+enormous number of payments.
+
+65
+00:03:18,773 --> 00:03:21,974
+So where were Wirecard's coming from?
+
+66
+00:03:22,853 --> 00:03:25,463
+Part 2 Partners Nobody Could See
+
+67
+00:03:25,623 --> 00:03:30,103
+A big part of the answer was a business
+most investors never saw up close.
+
+68
+00:03:30,103 --> 00:03:33,143
+Wirecard called it third-party acquiring.
+
+69
+00:03:33,863 --> 00:03:36,513
+The idea, in Wirecard's words, was this.
+
+70
+00:03:36,513 --> 00:03:40,673
+In some countries, Wirecard didn't have
+the licenses to process payments
+
+71
+00:03:40,673 --> 00:03:41,673
+itself.
+
+72
+00:03:41,474 --> 00:03:44,193
+So it used local partner
+companies that did.
+
+73
+00:03:44,193 --> 00:03:48,501
+The partners handled the payments, and
+Wirecard got a share of the fees.
+
+74
+00:03:49,062 --> 00:03:50,982
+Three partners mattered most.
+
+75
+00:03:50,982 --> 00:03:53,141
+One in Dubai, called Al Alam.
+
+76
+00:03:53,141 --> 00:03:55,221
+One in Singapore, called Senjo.
+
+77
+00:03:55,221 --> 00:03:57,793
+And one in the
+Philippines, called PayEasy.
+
+78
+00:03:57,953 --> 00:04:02,273
+According to reporting by the Financial
+Times in 2019, those three partners
+
+79
+00:04:02,273 --> 00:04:04,913
+brought in about half of
+Wirecard's revenue.
+
+80
+00:04:04,913 --> 00:04:07,553
+And almost all of its profit.
+
+81
+00:04:08,113 --> 00:04:09,222
+There was a catch.
+
+82
+00:04:09,222 --> 00:04:12,822
+The money from this business didn't sit
+in Wirecard's own bank accounts.
+
+83
+00:04:12,822 --> 00:04:17,382
+It sat in escrow accounts, held by a
+trustee, supposedly as a safety cushion
+
+84
+00:04:17,382 --> 00:04:18,766
+for the partners' payments.
+
+85
+00:04:18,926 --> 00:04:22,846
+Wirecard counted that cash on
+its balance sheet anyway.
+
+86
+00:04:23,167 --> 00:04:24,606
+Think of it like this.
+
+87
+00:04:24,606 --> 00:04:28,366
+You run a shop, and you tell your bank
+you made a big profit last year.
+
+88
+00:04:28,366 --> 00:04:30,335
+The bank asks to see the cash.
+
+89
+00:04:30,494 --> 00:04:32,174
+You say it isn't in your account.
+
+90
+00:04:32,174 --> 00:04:34,494
+It's with a friend
+overseas, for safekeeping.
+
+91
+00:04:34,494 --> 00:04:36,734
+Here's a letter from your friend.
+
+92
+00:04:37,054 --> 00:04:40,579
+For years, Wirecard's auditors
+worked a bit like that bank.
+
+93
+00:04:40,739 --> 00:04:43,379
+Each year, they needed proof
+that the cash was real.
+
+94
+00:04:43,379 --> 00:04:45,006
+And each year, they got letters.
+
+95
+00:04:45,006 --> 00:04:49,245
+A court in Singapore later found that one of
+these trustees, a small corporate
+
+96
+00:04:49,245 --> 00:04:53,245
+services firm, had sent letters
+confirming that it held almost one point
+
+97
+00:04:53,245 --> 00:04:55,328
+one billion euros for Wirecard.
+
+98
+00:04:55,487 --> 00:04:57,327
+The letters were false.
+
+99
+00:04:57,727 --> 00:05:02,367
+By 2019, according to Wirecard, the
+escrow cash sat in the Philippines,
+
+100
+00:05:02,367 --> 00:05:06,761
+in accounts at two of the country's largest
+banks, managed by a local trustee.
+
+101
+00:05:07,081 --> 00:05:09,161
+One point nine billion euros.
+
+102
+00:05:09,161 --> 00:05:13,242
+That number would become the most famous
+hole in German corporate history.
+
+103
+00:05:13,242 --> 00:05:17,117
+But before anyone looked inside it, the
+people who asked questions had to
+
+104
+00:05:17,117 --> 00:05:19,677
+get past Wirecard first.
+
+105
+00:05:20,717 --> 00:05:23,197
+Part 3 Shooting the Messenger
+
+106
+00:05:23,277 --> 00:05:24,371
+The doubts were old.
+
+107
+00:05:24,371 --> 00:05:29,091
+In 2008, a German shareholder group
+publicly questioned Wirecard's balance
+
+108
+00:05:29,091 --> 00:05:30,091
+sheet.
+
+109
+00:05:29,571 --> 00:05:33,891
+In 2015, writers at the Financial Times
+started asking how the numbers fit
+
+110
+00:05:33,891 --> 00:05:34,891
+together.
+
+111
+00:05:34,478 --> 00:05:39,438
+In 2016, a report from a then-unknown group
+called Zatarra accused the company
+
+112
+00:05:39,438 --> 00:05:41,118
+of fraud and money laundering.
+
+113
+00:05:41,118 --> 00:05:43,118
+The shares fell.
+
+114
+00:05:43,358 --> 00:05:45,803
+Wirecard's answer was always the same.
+
+115
+00:05:45,963 --> 00:05:49,643
+The critics were short sellers, people
+betting on the price to fall, and
+
+116
+00:05:49,643 --> 00:05:51,563
+they were lying to make money.
+
+117
+00:05:51,563 --> 00:05:55,483
+Germany's financial regulator,
+BaFin, opened investigations.
+
+118
+00:05:55,483 --> 00:05:57,243
+Into the critics.
+
+119
+00:05:57,753 --> 00:05:59,754
+And the pressure went further.
+
+120
+00:05:59,754 --> 00:06:03,976
+Wirecard hired a former Libyan
+intelligence chief to look into its critics.
+
+121
+00:06:04,136 --> 00:06:08,216
+Researchers at Citizen Lab, at the
+University of Toronto, later found that
+
+122
+00:06:08,216 --> 00:06:11,976
+journalists, short sellers and investors
+who questioned Wirecard had been
+
+123
+00:06:11,976 --> 00:06:16,217
+targeted by a hacking-for-hire group, some
+of them almost daily for months.
+
+124
+00:06:16,217 --> 00:06:18,777
+Wirecard denied any wrongdoing.
+
+125
+00:06:19,408 --> 00:06:24,448
+Then, in January 2019, the Financial Times
+reported that a senior Wirecard
+
+126
+00:06:24,448 --> 00:06:28,770
+manager in Singapore was suspected of
+forging and backdating contracts.
+
+127
+00:06:28,929 --> 00:06:32,689
+The material came from inside the
+company, from a lawyer in Singapore who
+
+128
+00:06:32,689 --> 00:06:34,770
+would later go public as
+the whistleblower.
+
+129
+00:06:34,770 --> 00:06:37,730
+Wirecard called the story
+false and defamatory.
+
+130
+00:06:37,730 --> 00:06:40,170
+The shares dropped sharply anyway.
+
+131
+00:06:40,730 --> 00:06:42,729
+Here's where the story gets strange.
+
+132
+00:06:42,729 --> 00:06:47,849
+In February 2019, BaFin banned new bets
+against Wirecard's shares for two
+
+133
+00:06:47,849 --> 00:06:48,849
+months.
+
+134
+00:06:48,489 --> 00:06:50,526
+It said it wasn't taking sides.
+
+135
+00:06:50,526 --> 00:06:53,246
+In April, BaFin filed a
+criminal complaint.
+
+136
+00:06:53,246 --> 00:06:54,686
+Not against Wirecard.
+
+137
+00:06:54,686 --> 00:06:58,818
+Against the two Financial Times reporters,
+for alleged market manipulation.
+
+138
+00:06:58,818 --> 00:07:03,297
+That case was dropped in 2020,
+with no evidence found.
+
+139
+00:07:03,377 --> 00:07:05,131
+Investors kept believing.
+
+140
+00:07:05,131 --> 00:07:10,170
+In 2019, the Japanese investment group
+SoftBank put about nine hundred million
+
+141
+00:07:10,170 --> 00:07:11,770
+euros into Wirecard.
+
+142
+00:07:11,770 --> 00:07:15,690
+Most banking analysts stayed
+positive until early 2020.
+
+143
+00:07:16,288 --> 00:07:20,288
+To be fair to those investors, it
+wasn't a crazy bet on paper.
+
+144
+00:07:20,288 --> 00:07:22,545
+Online payments really were booming.
+
+145
+00:07:22,705 --> 00:07:25,185
+The audited accounts said the
+profits were real.
+
+146
+00:07:25,185 --> 00:07:28,625
+And short sellers do make money
+when a share price falls.
+
+147
+00:07:28,625 --> 00:07:32,225
+So their warnings came with a motive, and
+many people chose to believe the
+
+148
+00:07:32,225 --> 00:07:33,751
+company instead.
+
+149
+00:07:34,071 --> 00:07:38,471
+If you're enjoying the story so far,
+subscribing helps the channel a lot.
+
+150
+00:07:38,471 --> 00:07:42,989
+Because next, an outside auditor
+finally got permission to look.
+
+151
+00:07:43,869 --> 00:07:46,589
+Part 4 Seven Days in June
+
+152
+00:07:46,589 --> 00:07:51,469
+To settle the doubts, Wirecard hired a
+second accounting firm, KPMG, for
+
+153
+00:07:51,469 --> 00:07:52,907
+a special investigation.
+
+154
+00:07:52,907 --> 00:07:57,146
+On April 28, 2020, KPMG
+published its report.
+
+155
+00:07:57,146 --> 00:08:01,386
+It said it could not verify the profits
+from the partner business for 2016,
+
+156
+00:08:01,386 --> 00:08:03,317
+2017 and 2018.
+
+157
+00:08:03,476 --> 00:08:05,317
+It hadn't received enough documents.
+
+158
+00:08:05,317 --> 00:08:09,156
+The shares fell twenty-six
+percent in a day.
+
+159
+00:08:09,237 --> 00:08:13,652
+Wirecard's regular auditor, EY, now did
+something it hadn't done before.
+
+160
+00:08:13,812 --> 00:08:16,932
+It went to the banks in the
+Philippines and asked them directly.
+
+161
+00:08:16,932 --> 00:08:20,292
+On June 18, 2020, the answer arrived.
+
+162
+00:08:20,292 --> 00:08:23,835
+The one point nine billion euros
+could not be confirmed.
+
+163
+00:08:23,995 --> 00:08:26,955
+The company said someone had tried
+to deceive its auditors.
+
+164
+00:08:26,955 --> 00:08:30,795
+The shares lost more than
+sixty percent that day.
+
+165
+00:08:30,875 --> 00:08:34,207
+The two banks were BDO and the Bank
+of the Philippine Islands.
+
+166
+00:08:34,447 --> 00:08:38,047
+Both said Wirecard was not their client,
+and that the documents carrying
+
+167
+00:08:38,047 --> 00:08:39,487
+their names were fake.
+
+168
+00:08:39,487 --> 00:08:41,727
+The Philippine central bank went further.
+
+169
+00:08:41,727 --> 00:08:45,516
+It said none of the money had ever entered
+the country's financial system.
+
+170
+00:08:45,675 --> 00:08:50,155
+One bank suspended an employee whose
+signature appeared on one of the documents.
+
+171
+00:08:50,155 --> 00:08:54,795
+The other said it believed one of its own
+officers had faked a bank certificate.
+
+172
+00:08:55,319 --> 00:08:57,079
+Now the week moves fast.
+
+173
+00:08:57,079 --> 00:08:59,239
+June 19, Braun resigns.
+
+174
+00:08:59,239 --> 00:09:04,199
+June 22, Wirecard says the money most
+likely doesn't exist, and Braun is
+
+175
+00:09:04,199 --> 00:09:05,199
+arrested.
+
+176
+00:09:04,839 --> 00:09:06,321
+He denies any wrongdoing.
+
+177
+00:09:06,641 --> 00:09:09,841
+June 25, Wirecard files for insolvency.
+
+178
+00:09:09,841 --> 00:09:12,641
+The first company in the
+DAX ever to go bust.
+
+179
+00:09:12,641 --> 00:09:16,001
+The man brought in as interim chief
+executive had joined the company the
+
+180
+00:09:16,001 --> 00:09:17,397
+evening before he took over.
+
+181
+00:09:17,557 --> 00:09:20,037
+He stayed eighty-five days.
+
+182
+00:09:20,437 --> 00:09:22,277
+One person was already gone.
+
+183
+00:09:22,277 --> 00:09:26,197
+Jan Marsalek, the chief operating
+officer, who ran the partner business
+
+184
+00:09:26,197 --> 00:09:27,197
+in Asia.
+
+185
+00:09:26,997 --> 00:09:29,139
+He was fired, and he disappeared.
+
+186
+00:09:29,139 --> 00:09:33,139
+He was later traced to Belarus, and
+then reportedly to Moscow.
+
+187
+00:09:33,139 --> 00:09:37,699
+In 2025, a court in London convicted members
+of a spy ring working for Russia.
+
+188
+00:09:37,699 --> 00:09:39,914
+Prosecutors said Marsalek had directed it.
+
+189
+00:09:40,073 --> 00:09:42,713
+He is still wanted by German police.
+
+190
+00:09:43,914 --> 00:09:46,313
+Part 5 Following the Real Money
+
+191
+00:09:46,313 --> 00:09:48,073
+So, back to our question.
+
+192
+00:09:48,073 --> 00:09:51,388
+Where did the one point nine
+billion euros go?
+
+193
+00:09:51,868 --> 00:09:56,108
+The short answer, according to the insolvency
+administrator and the prosecutors,
+
+194
+00:09:56,108 --> 00:09:57,108
+is nowhere.
+
+195
+00:09:57,068 --> 00:09:58,193
+It was never there.
+
+196
+00:09:58,193 --> 00:10:02,593
+The administrator, Michael Jaffé, found
+no trace of the money and no sign
+
+197
+00:10:02,593 --> 00:10:04,964
+that the partner business
+ever really existed.
+
+198
+00:10:04,964 --> 00:10:09,204
+Oliver Bellenhaus, who ran Wirecard's unit
+in Dubai and became a key witness
+
+199
+00:10:09,204 --> 00:10:11,764
+for the prosecution, put it
+this way in court.
+
+200
+00:10:11,764 --> 00:10:14,244
+The numbers were synthetic fictions.
+
+201
+00:10:14,797 --> 00:10:17,117
+But that doesn't mean no money was lost.
+
+202
+00:10:17,117 --> 00:10:18,397
+Real money was.
+
+203
+00:10:18,397 --> 00:10:21,037
+It just came from somewhere else.
+
+204
+00:10:21,037 --> 00:10:23,225
+Follow the cash that actually existed.
+
+205
+00:10:23,465 --> 00:10:27,706
+Wirecard had borrowed about one point
+seven five billion euros from a group
+
+206
+00:10:27,706 --> 00:10:29,305
+of around fifteen banks.
+
+207
+00:10:29,305 --> 00:10:32,106
+It had sold five hundred
+million euros in bonds.
+
+208
+00:10:32,106 --> 00:10:35,110
+And SoftBank had put in about
+nine hundred million.
+
+209
+00:10:35,270 --> 00:10:37,750
+That was real money, from real lenders.
+
+210
+00:10:37,750 --> 00:10:41,670
+And according to Jaffé's testimony,
+Wirecard burned through about one point
+
+211
+00:10:41,670 --> 00:10:45,561
+one billion euros of it over the
+years, just to keep running.
+
+212
+00:10:46,121 --> 00:10:47,481
+The banks felt it.
+
+213
+00:10:47,481 --> 00:10:51,241
+Commerzbank, the same bank Wirecard had
+pushed out of the DAX, reportedly
+
+214
+00:10:51,241 --> 00:10:54,761
+set aside about one hundred seventy-five
+million euros for its share of
+
+215
+00:10:54,761 --> 00:10:55,761
+the loans.
+
+216
+00:10:55,561 --> 00:10:57,191
+ING, about the same.
+
+217
+00:10:57,350 --> 00:11:01,350
+One bank reportedly sold its slice, about
+one hundred twenty million euros,
+
+218
+00:11:01,350 --> 00:11:03,910
+for around eighteen cents on the euro.
+
+219
+00:11:04,390 --> 00:11:07,706
+In other words, the fake profits
+weren't hiding a pile of cash.
+
+220
+00:11:07,866 --> 00:11:10,106
+They were hiding a business
+that was losing it.
+
+221
+00:11:10,106 --> 00:11:13,706
+Prosecutors say the made-up numbers were
+used to keep the banks lending.
+
+222
+00:11:13,706 --> 00:11:16,906
+They put the damage at about
+three billion euros.
+
+223
+00:11:17,466 --> 00:11:19,240
+And then there are the shareholders.
+
+224
+00:11:19,399 --> 00:11:23,399
+A company once worth twenty-four billion
+euros was suddenly worth almost
+
+225
+00:11:23,399 --> 00:11:24,399
+nothing.
+
+226
+00:11:24,120 --> 00:11:28,266
+Creditors have filed claims of about
+fifteen point four billion euros.
+
+227
+00:11:28,266 --> 00:11:32,266
+The insolvency estate holds roughly
+six hundred fifty million.
+
+228
+00:11:32,266 --> 00:11:36,505
+And in 2025, Germany's highest civil
+court ruled that shareholders stand
+
+229
+00:11:36,505 --> 00:11:38,593
+behind ordinary creditors in line.
+
+230
+00:11:38,832 --> 00:11:43,872
+About fifty thousand shareholders who filed
+claims are expected to get nothing.
+
+231
+00:11:44,192 --> 00:11:46,707
+What was left of the real
+business was sold off.
+
+232
+00:11:46,787 --> 00:11:50,547
+The Spanish bank Santander bought
+Wirecard's core technology.
+
+233
+00:11:50,547 --> 00:11:53,507
+Units from Brazil to Asia
+went to other buyers.
+
+234
+00:11:53,507 --> 00:11:56,947
+That money goes to the
+creditors, not the shareholders.
+
+235
+00:11:58,276 --> 00:12:00,596
+Part 6 So, Where Did It Go?
+
+236
+00:12:00,596 --> 00:12:02,985
+So let's put the money back together.
+
+237
+00:12:03,545 --> 00:12:07,545
+The one point nine billion euros
+never sat in the Philippines.
+
+238
+00:12:07,545 --> 00:12:11,145
+It existed on paper, in contracts and
+bank letters that turned out to be
+
+239
+00:12:11,145 --> 00:12:12,145
+false.
+
+240
+00:12:11,987 --> 00:12:16,307
+The money that really disappeared came from
+lenders, bondholders and shareholders.
+
+241
+00:12:16,307 --> 00:12:18,841
+Some of it paid for a company
+that was losing money.
+
+242
+00:12:19,001 --> 00:12:22,921
+Some of it, a Munich court found in a
+civil case, went out as loans that
+
+243
+00:12:22,921 --> 00:12:24,565
+should never have been approved.
+
+244
+00:12:24,565 --> 00:12:28,272
+That court ordered Braun and two other
+former executives to pay one hundred
+
+245
+00:12:28,272 --> 00:12:30,805
+forty million euros in damages.
+
+246
+00:12:31,445 --> 00:12:32,944
+What about the watchdogs?
+
+247
+00:12:33,104 --> 00:12:37,344
+Germany's audit regulator fined EY five
+hundred thousand euros and banned
+
+248
+00:12:37,344 --> 00:12:41,584
+it from taking new audit clients among
+large listed companies for two years.
+
+249
+00:12:41,584 --> 00:12:44,025
+EY says it has learned from the case.
+
+250
+00:12:44,185 --> 00:12:47,945
+The head of BaFin, who had defended the
+regulator, later called the scandal
+
+251
+00:12:47,945 --> 00:12:52,025
+a complete disaster, and left in 2021.
+
+252
+00:12:52,185 --> 00:12:54,650
+And some people did make
+money from the fall.
+
+253
+00:12:54,809 --> 00:12:58,569
+Short sellers who had bet against the
+shares, the same people Wirecard had
+
+254
+00:12:58,569 --> 00:13:01,770
+called liars, profited when
+the price collapsed.
+
+255
+00:13:02,249 --> 00:13:06,030
+In Singapore, at least four people
+have been sentenced so far.
+
+256
+00:13:06,030 --> 00:13:11,069
+In January 2026, the man whose firm sent
+those false letters about the escrow
+
+257
+00:13:11,069 --> 00:13:13,321
+money got ten years in prison.
+
+258
+00:13:13,801 --> 00:13:18,201
+In Munich, Markus Braun has been on
+trial since December 2022.
+
+259
+00:13:18,282 --> 00:13:20,521
+More than two hundred ninety
+days of hearings.
+
+260
+00:13:20,521 --> 00:13:22,841
+A verdict is expected around
+the end of this year.
+
+261
+00:13:22,841 --> 00:13:24,775
+Braun denies all the charges.
+
+262
+00:13:24,775 --> 00:13:28,775
+He says he was deceived by Marsalek and
+others, and that he kept most of
+
+263
+00:13:28,775 --> 00:13:30,855
+his own fortune in Wirecard shares.
+
+264
+00:13:30,855 --> 00:13:34,320
+Until a court decides, he is
+presumed innocent.
+
+265
+00:13:34,640 --> 00:13:37,200
+The missing two billion was
+never in a bank.
+
+266
+00:13:37,200 --> 00:13:38,560
+It was in a spreadsheet.
+
+267
+00:13:38,560 --> 00:13:42,450
+The money that really vanished belonged
+to the people who believed it.
+
+268
+00:13:43,170 --> 00:13:47,410
+Next time, the button at checkout that
+splits everything into four payments.
+
+269
+00:13:47,410 --> 00:13:49,330
+Pay in four, no interest.
+
+270
+00:13:49,330 --> 00:13:50,439
+So who's paying?
+
+271
+00:13:50,599 --> 00:13:54,439
+And if you want the other side of the
+economy, the ships, planes and rockets
+
+272
+00:13:54,439 --> 00:13:59,080
+behind everything you buy, check out our
+sister channel, Cargo and Capital.
+
+273
+00:13:59,559 --> 00:14:01,240
+This is Billions and Bulls.
+
+274
+00:14:01,240 --> 00:14:03,480
+This video explains a business.
+
+275
+00:14:03,480 --> 00:14:05,240
+It is not financial advice.
+
+276
+00:14:05,240 --> 00:14:07,887
+Subscribe, and let's keep
+following the money.
