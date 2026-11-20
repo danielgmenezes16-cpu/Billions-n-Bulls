@@ -32,7 +32,7 @@ add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions 
 add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE TIGER CUB', textSide: 'center', object: 'none', heroSize: 160, heroUnderline: true}));
 add('His name is Sung Kook Hwang', card({id: 'p1-name', apoio: 'Sung Kook Hwang. On Wall Street:', hero: 'BILL', textSide: 'left', object: 'none', heroSize: 240}));
 add('He learned the business', photo('p1-nyse', {apoio: '1990s, Tiger Management (Julian Robertson):', hero: 'THE TIGER CUBS'}));
-add('In 2001, he started', card({id: 'p1-asia', apoio: '2001, with Robertson’s backing:', hero: 'TIGER ASIA', complemento: 'China, Japan, Korea. And for years, it did very well.', textSide: 'right', object: 'chart', heroSize: 160}));
+add('In 2001, he started', card({id: 'p1-asia', apoio: '2001, with Robertson’s backing:', hero: 'TIGER ASIA', complemento: 'China, Japan, Korea. And for years, it did very well.', textSide: 'center', object: 'none', heroSize: 160}));
 add('Then, in 2012, it ran into trouble', (s) => (
 	<DocLinesShot id="p1-sec" start={s} title="2012" titleAt={s + 4} source="Sources: SEC (2012); Corporate Crime Reporter"
 		lines={[
@@ -56,7 +56,7 @@ add('According to prosecutors, between March 2020', (s) => (
 			{label: 'MARCH 2021', value: 35, display: '$35B', at: c.f('thirty-five billion'), highlight: true},
 		]} />
 ));
-add('How do you grow that fast', card({id: 'p2-borrow', apoio: 'Not just by picking good stocks.', hero: 'BY BORROWING', complemento: 'A lot.', textSide: 'left', object: 'coin', heroSize: 170}));
+add('How do you grow that fast', card({id: 'p2-borrow', apoio: 'Not just by picking good stocks.', hero: 'BY BORROWING', complemento: 'A lot.', textSide: 'center', object: 'none', heroSize: 170}));
 add('And the tool Archegos used', card({id: 'p2-swap', apoio: 'A very boring name:', hero: 'TOTAL RETURN SWAP', textSide: 'center', object: 'none', heroSize: 130, heroUnderline: true}));
 add('Here\'s how it works', (s) => (
 	<RouteShot2 id="p2-how" start={s} goAt={c.f('If it goes up')} backAt={c.f('If it goes down')}
@@ -170,7 +170,7 @@ add('Credit Suisse lost about five', (s) => (
 		]} />
 ));
 add('At Credit Suisse, the damage', photo('p3-zurich', {tone: 'navy', apoio: 'Executives out, dividend cut, new capital (reportedly).', hero: 'ONE MORE CRACK', complemento: 'Two years later: Credit Suisse collapsed'}));
-add('Not everyone lost, though', card({id: 'p5-viac', apoio: 'ViacomCBS sold its new shares at $85:', hero: 'BILLIONS RAISED', complemento: 'days before the crash', textSide: 'right', object: 'coin', heroSize: 140}));
+add('Not everyone lost, though', card({id: 'p5-viac', apoio: 'ViacomCBS sold its new shares at $85:', hero: 'BILLIONS RAISED', complemento: 'days before the crash', textSide: 'center', object: 'none', heroSize: 140}));
 add('But there were other people', (s) => (
 	<DocLinesShot id="p5-others" start={s} title="Also on the losing side" titleAt={s + 4}
 		lines={[

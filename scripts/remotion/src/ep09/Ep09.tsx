@@ -19,7 +19,7 @@ const {c, add, card, photo} = E;
 const CNN = 'Source: CNN, November 17, 2026';
 
 // ---------------- Abertura ----------------
-add('What Is One CEO Worth', card({id: 'o-title', apoio: 'What is', hero: 'ONE CEO WORTH?', complemento: 'Nvidia just found out', textSide: 'left', object: 'coin', heroSize: 130, heroUnderline: true, objectSlide: true}));
+add('What Is One CEO Worth', card({id: 'o-title', apoio: 'What is', hero: 'ONE CEO WORTH?', complemento: 'Nvidia just found out', textSide: 'left', object: 'coin', heroSize: 121, heroUnderline: true, objectSlide: true}));
 add('November 12, 2026', photo('o-chip', {apoio: 'November 12, 2026. After 33 years, the man who started Nvidia', hero: 'RESIGNS AS CEO', complemento: 'effective immediately'}));
 add('In the days around that announcement', (s) => (
 	<StatsShot id="o-drop" start={s} title="Nvidia, in the days around the resignation" titleAt={s + 4} source={CNN}

@@ -77,7 +77,7 @@ add('The Swiss regulator later found', (s) => (
 ));
 add('Then came 2021', card({id: 'p2-2021', apoio: 'Then came', hero: '2021', complemento: 'The year it all got expensive.', textSide: 'center', object: 'none', heroSize: 240, dark: true}));
 add('In March, Credit Suisse froze', card({id: 'p2-greensill', apoio: 'March 2021, Greensill-linked funds:', hero: '$10B FROZEN', complemento: '1,000+ investors stuck', textSide: 'left', object: 'none', heroSize: 160}));
-add('Just weeks after that', card({id: 'p2-archegos', apoio: 'Archegos implodes. Credit Suisse books', hero: 'CHF 4.4 BILLION', complemento: 'and warns of more losses', textSide: 'right', object: 'chart', heroSize: 140}));
+add('Just weeks after that', card({id: 'p2-archegos', apoio: 'Archegos implodes. Credit Suisse books', hero: 'CHF 4.4 BILLION', complemento: 'and warns of more losses', textSide: 'center', object: 'none', heroSize: 140}));
 add('Other banks lost money', card({id: 'p2-most', apoio: 'Other banks lost money on Archegos too. None lost as much as', hero: 'CREDIT SUISSE', complemento: "that's a story for its own episode", textSide: 'center', object: 'none', heroSize: 130}));
 add('In January 2022', card({id: 'p2-chair', apoio: 'January 2022:', hero: 'CHAIRMAN RESIGNS', complemento: 'reportedly after breaking COVID rules', textSide: 'left', object: 'none', heroSize: 140}));
 add('And in June 2022', photo('p2-court', {apoio: 'June 2022, Bulgarian cocaine gang case:', hero: 'CONVICTED', complemento: 'reportedly a first for a major Swiss bank'}));
@@ -162,7 +162,7 @@ add('The Swiss state also offered', (s) => (
 			{label: 'GOVERNMENT, NEXT', value: 9, display: '9B', at: c.f('next nine billion'), highlight: true},
 		]} />
 ));
-add('And the Swiss National Bank promised', card({id: 'p4-100', apoio: 'Extra loans, backed by the government:', hero: 'CHF 100 BILLION', textSide: 'left', object: 'coin', heroSize: 150, dark: true}));
+add('And the Swiss National Bank promised', card({id: 'p4-100', apoio: 'Extra loans, backed by the government:', hero: 'CHF 100 BILLION', textSide: 'center', object: 'none', heroSize: 150, dark: true}));
 add('There were other options', card({id: 'p4-options', apoio: 'Reportedly considered: taking over Credit Suisse itself.', hero: 'NATIONALIZE IT?', complemento: 'A sale to UBS looked like the smaller risk.', textSide: 'left', object: 'none', heroSize: 140, dark: true}));
 add('Remember 2008', (s) => (
 	<TimelineShot id="p4-flip" start={s} dark title="The roles flip"
@@ -260,7 +260,7 @@ add('A Swiss parliamentary inquiry', (s) => (
 ));
 add('So, how does a one hundred', card({id: 'p6-q', apoio: 'So, how does a 167-year-old bank', hero: 'DIE IN A WEEKEND?', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
 add('It doesn\'t', card({id: 'p6-funeral', apoio: "It doesn't. The weekend was", hero: 'ONLY THE FUNERAL', textSide: 'center', object: 'none', heroSize: 130, dark: true}));
-add('The money left over years', card({id: 'p6-years', apoio: 'The money left over years.', hero: 'ONE CLIENT AT A TIME', textSide: 'left', object: 'coin', heroSize: 120}));
+add('The money left over years', card({id: 'p6-years', apoio: 'The money left over years.', hero: 'ONE CLIENT AT A TIME', textSide: 'center', object: 'none', heroSize: 120}));
 add('A bank runs on money', card({id: 'p6-trust', apoio: 'A bank runs on money. Money runs on trust.', hero: 'TRUST LEAVES, MONEY FOLLOWS', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true, dark: true}));
 
 // ---------------- Fechamento ----------------

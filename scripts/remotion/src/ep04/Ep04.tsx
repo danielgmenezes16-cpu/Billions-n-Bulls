@@ -19,7 +19,7 @@ const FDIC = 'Source: FDIC national rates (Oct. 19, 2026)';
 const NY = 'Source: New York Attorney General (May 2025)';
 
 // ---------------- Abertura ----------------
-add('Why Your Bank Pays', card({id: 'o-title', apoio: 'Why your bank pays you', hero: 'ALMOST NOTHING', textSide: 'left', object: 'coin', heroSize: 150, heroUnderline: true, objectSlide: true}));
+add('Why Your Bank Pays', card({id: 'o-title', apoio: 'Why your bank pays you', hero: 'ALMOST NOTHING', textSide: 'left', object: 'coin', heroSize: 121, heroUnderline: true, objectSlide: true}));
 add('Put ten thousand dollars', photo('o-piggy', {apoio: '$10,000 in a big bank savings account, one year:', hero: '~$1', zoom: [1.04, 1.14]}));
 add('That same year, your bank', photo('o-fed', {apoio: 'Your bank, parking money at the Fed:', hero: '3.9% · $390', complemento: 'overnight, with zero risk'}));
 add('So where do the other', card({id: 'o-gap', apoio: 'Where do the other', hero: '$389 GO?', complemento: 'And why do so few people ask?', textSide: 'center', object: 'none', heroSize: 170, heroUnderline: true}));
@@ -27,7 +27,7 @@ add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions 
 
 // ---------------- Parte 1 — The One-Dollar Account ----------------
 add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE ONE-DOLLAR ACCOUNT', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true}));
-add('Let\'s start with the numbers', card({id: 'p1-numbers', apoio: "Let's start with the numbers.", hero: 'STRANGER THAN THEY SOUND', textSide: 'left', object: 'chart', heroSize: 100}));
+add('Let\'s start with the numbers', card({id: 'p1-numbers', apoio: "Let's start with the numbers.", hero: 'STRANGER THAN THEY SOUND', textSide: 'center', object: 'none', heroSize: 100}));
 add('In 2026, rate trackers', photo('p1-branch', {apoio: 'Standard savings at the biggest U.S. banks, per rate trackers:', hero: '0.01%', complemento: '10 cents a year per $1,000'}));
 add('Across all American banks', card({id: 'p1-fdic', apoio: 'U.S. national average savings rate (FDIC):', hero: '0.38%', complemento: 'On $10,000: about $38 a year', textSide: 'left', object: 'chart', heroSize: 210}));
 add('Now look at the rate', photo('p1-screens', {apoio: 'Fed benchmark rate, Sept. 2026 (held in Oct.):', hero: '3.75–4%', tone: 'navy'}));
@@ -53,7 +53,7 @@ add('That gap isn\'t an accident', card({id: 'p1-business', apoio: "That gap isn
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: 'WHERE YOUR DEPOSIT GOES', textSide: 'center', object: 'none', heroSize: 115, heroUnderline: true}));
 add('When you put money in the bank', card({id: 'p2-lender', apoio: "Legally, you're", hero: 'LENDING IT TO THE BANK', complemento: 'The bank owes you the money back, whenever you ask.', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 add('Some of it becomes loans', photo('p2-house', {apoio: 'Some of it becomes loans:', hero: 'MORTGAGES, CARS, BUSINESSES'}));
-add('And credit cards', card({id: 'p2-cards', apoio: 'Credit card accounts that pay interest (Fed data):', hero: '21–22%', complemento: 'On $10,000: $2,100 a year, if borrowers pay', textSide: 'right', object: 'card', heroSize: 190}));
+add('And credit cards', card({id: 'p2-cards', apoio: 'Credit card accounts that pay interest (Fed data):', hero: '21–22%', complemento: 'On $10,000: $2,100 a year, if borrowers pay', textSide: 'center', object: 'none', heroSize: 190}));
 add('Some of it goes into government bonds', (s) => (
 	<RouteShot2 id="p2-route" start={s} goAt={s + 6}
 		nodes={[
@@ -78,7 +78,7 @@ add('Economists have measured this', (s) => (
 			{label: 'Widest where few banks compete', at: c.f('only a few banks compete'), highlight: true},
 		]} />
 ));
-add('People in the industry have a polite name', card({id: 'p3-sticky', apoio: 'A polite name for money that stays put:', hero: 'STICKY DEPOSITS', complemento: 'cheap, stable, and they don’t run', textSide: 'right', object: 'coin', heroSize: 140, heroUnderline: true}));
+add('People in the industry have a polite name', card({id: 'p3-sticky', apoio: 'A polite name for money that stays put:', hero: 'STICKY DEPOSITS', complemento: 'cheap, stable, and they don’t run', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
 add('Analysts even have a number', (s) => (
 	<BarsShot id="p3-beta" start={s} horizontal title="The deposit beta: how much of a Fed rise reaches savers" titleAt={s + 4} source="Illustrative scale"
 		bars={[

@@ -22,7 +22,7 @@ const AFFIRM = 'Source: Affirm, Form 10-K, fiscal 2025';
 add('Who Pays When You Buy', card({id: 'o-title', apoio: 'Buy now, pay later.', hero: 'WHO PAYS?', textSide: 'left', object: 'card', heroSize: 180, heroUnderline: true, objectSlide: true}));
 add('Cyber Monday, 2025', photo('o-cyber', {apoio: 'Cyber Monday 2025, buy now, pay later in one day:', hero: '$1 BILLION+', complemento: 'a record, Adobe says'}));
 add('Pay in four. No interest', photo('o-app', {apoio: 'Pay in four. No interest. No fees, if on time.', hero: 'A FREE LOAN?'}));
-add('But one of these companies', card({id: 'o-15b', apoio: 'One of these companies went public in 2025 at about', hero: '$15 BILLION', complemento: 'Somebody is paying.', textSide: 'right', object: 'chart', heroSize: 150}));
+add('But one of these companies', card({id: 'o-15b', apoio: 'One of these companies went public in 2025 at about', hero: '$15 BILLION', complemento: 'Somebody is paying.', textSide: 'center', object: 'none', heroSize: 150}));
 add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions & Bulls.', hero: "LET'S FOLLOW THE MONEY", textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
 
 // ---------------- Parte 1 — Four Little Payments ----------------
@@ -113,7 +113,7 @@ add('Here\'s the thing about pay in four', (s) => (
 		]} />
 ));
 add('That\'s why interest rates matter', photo('p3-bank', {apoio: 'Rates near zero: the cash in the middle was cheap. Then rates went up.', hero: 'SQUEEZED'}));
-add('Klarna went a step further', card({id: 'p3-deposits', apoio: 'Klarna has a banking license in Sweden:', hero: 'SAVERS FUND IT', complemento: 'deposits help pay for checkout loans', textSide: 'left', object: 'coin', heroSize: 140}));
+add('Klarna went a step further', card({id: 'p3-deposits', apoio: 'Klarna has a banking license in Sweden:', hero: 'SAVERS FUND IT', complemento: 'deposits help pay for checkout loans', textSide: 'center', object: 'none', heroSize: 140}));
 add('And then there\'s the other half', photo('p3-laptop', {apoio: 'Longer plans: 12, 24 months. Affirm says rates go up to', hero: '36% A YEAR'}));
 add('Here\'s what that can look like', (s) => (
 	<SplitShot id="p3-laptop-math" start={s} title="$1,200 laptop, 12 months at 30% a year" titleAt={s + 4} total={1404} totalLabel="$1,404" source="Our calculation: fixed monthly payments"

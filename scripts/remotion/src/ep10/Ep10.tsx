@@ -19,7 +19,7 @@ const TOTO = 'Typical split: Serkan Toto (industry consultant). Our calculation 
 const TT = 'Source: Take-Two (proxy statement, earnings releases)';
 
 // ---------------- Abertura ----------------
-add('Who Gets Rich When You', card({id: 'o-title', apoio: 'When you buy GTA 6,', hero: 'WHO GETS RICH?', textSide: 'left', object: 'coin', heroSize: 170, heroUnderline: true, objectSlide: true}));
+add('Who Gets Rich When You', card({id: 'o-title', apoio: 'When you buy GTA 6,', hero: 'WHO GETS RICH?', textSide: 'left', object: 'coin', heroSize: 121, heroUnderline: true, objectSlide: true}));
 add('November 19, 2026', photo('o-controller', {apoio: 'November 19, 2026. After 13 years and two delays:', hero: 'GTA 6 IS OUT'}));
 add('The standard edition costs', card({id: 'o-price', apoio: 'Standard edition:', hero: '$79.99', complemento: '$10 above the usual big-game price', textSide: 'right', object: 'coin', heroSize: 200}));
 add('The last one in the series', card({id: 'o-gta5', apoio: 'GTA V, first day, 2013:', hero: '$815.7 MILLION', complemento: 'a record', textSide: 'left', object: 'chart', heroSize: 140}));
@@ -64,7 +64,7 @@ add('And then there\'s the price', (s) => (
 		]} />
 ));
 add('It\'s also a test for the whole industry', card({id: 'p1-test', apoio: 'A price ceiling, once broken,', hero: 'RARELY GOES BACK DOWN', textSide: 'center', object: 'none', heroSize: 110, heroUnderline: true}));
-add('Now, let\'s take one of those', card({id: 'p1-follow', apoio: 'One $80 copy. The moment you click buy,', hero: 'THAT MONEY SPLITS UP', textSide: 'left', object: 'coin', heroSize: 110}));
+add('Now, let\'s take one of those', card({id: 'p1-follow', apoio: 'One $80 copy. The moment you click buy,', hero: 'THAT MONEY SPLITS UP', textSide: 'center', object: 'none', heroSize: 110}));
 
 // ---------------- Parte 2 — The Console's Cut ----------------
 add('Part 2', card({id: 'p2-title', apoio: 'Part 2', hero: "THE CONSOLE'S CUT", textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
@@ -118,7 +118,7 @@ add('If you\'re enjoying the story so far', (s) => (
 add('Part 4', card({id: 'p4-title', apoio: 'Part 4', hero: 'INSIDE TAKE-TWO', textSide: 'center', object: 'none', heroSize: 160, heroUnderline: true}));
 add('So Take-Two ends up with', card({id: 'p4-profit', apoio: 'Take-Two ends up with $40–$56 per copy. Is that profit?', hero: 'NOT EVEN CLOSE', textSide: 'center', object: 'none', heroSize: 140, heroUnderline: true}));
 add('First, that money has to pay for the game itself', photo('p4-devs', {apoio: 'Years of development, in studios across several countries. Cost of GTA 6:', hero: 'NEVER DISCLOSED'}));
-add('For comparison, Grand Theft Auto Five', card({id: 'p4-cost', apoio: 'GTA V development cost, reportedly:', hero: '~$137 MILLION', complemento: 'GTA 6: widely expected to cost far more', textSide: 'right', object: 'chart', heroSize: 140}));
+add('For comparison, Grand Theft Auto Five', card({id: 'p4-cost', apoio: 'GTA V development cost, reportedly:', hero: '~$137 MILLION', complemento: 'GTA 6: widely expected to cost far more', textSide: 'center', object: 'none', heroSize: 140}));
 add('Then there\'s marketing', (s) => (
 	<DocLinesShot id="p4-costs" start={s} title="What the publisher's share still has to pay for" titleAt={s + 4}
 		lines={[

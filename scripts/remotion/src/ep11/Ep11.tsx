@@ -18,7 +18,7 @@ const {c, add, card, photo} = E;
 const ALPHA = 'Source: Alphabet, third-quarter 2026 results';
 
 // ---------------- Abertura ----------------
-add('Why Google Lost', card({id: 'o-title', apoio: 'Why Google lost', hero: '$500 BILLION', complemento: 'in one day', textSide: 'left', object: 'coin', heroSize: 150, heroUnderline: true, objectSlide: true}));
+add('Why Google Lost', card({id: 'o-title', apoio: 'Why Google lost', hero: '$500 BILLION', complemento: 'in one day', textSide: 'left', object: 'coin', heroSize: 141, heroUnderline: true, objectSlide: true}));
 add('October 29, 2026', photo('o-trading', {apoio: 'October 29, 2026. Alphabet, the company behind Google and YouTube:', hero: '−12.6% IN A DAY', complemento: 'its worst day in more than 20 years as a public company'}));
 add('Around five hundred billion dollars', (s) => (
 	<CounterShot id="o-500" start={s} label="Alphabet market value lost on October 29, 2026" labelAt={s + 4} from={0} to={500} countAt={c.f('five hundred billion')} prefix="~$" suffix="B" sub="one of the biggest one-day losses ever" subAt={c.f('One of the biggest')} source="Sources: NBC News; Fortune/AP" />

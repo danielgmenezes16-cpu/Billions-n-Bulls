@@ -9,7 +9,8 @@ Imita epkit/cues.ts e avisa quando:
   tem palavras fora da ordem da narração: o sincronizador casa uma delas mais adiante e empurra o resto;
 - uma cena (fora a primeira) começa dentro do título falado (a frase dela também aparece no título);
 - o apoio de um card() passa de 62 caracteres (o card não quebra linha e o texto vaza pelas bordas);
-- um card() usa o objeto 'receipt' ou 'phone' fora do ep. 1 (os dois têm texto fixo do ep. 1).
+- um card() usa o objeto 'receipt' ou 'phone' fora do ep. 1 (os dois têm texto fixo do ep. 1);
+- num card() com objeto ao lado, o texto passa da largura que cabe antes do objeto ou da borda.
 """
 import json
 import re
@@ -82,6 +83,21 @@ def check(ep):
         get = lambda key: (lambda m: unq(m) if m else '')(re.search(key + r':\s*(?:' + STR + ')', props))
         apoio, hero, comp = get('apoio'), get('hero'), get('complemento')
         obj = re.search(r"object:\s*'(\w+)'", props)
+        side = re.search(r"textSide:\s*'(\w+)'", props)
+        hs = re.search(r'heroSize:\s*(\d+)', props)
+        hs = int(hs.group(1)) if hs else 120
+        if obj and side and obj.group(1) != 'none' and side.group(1) in ('left', 'right'):
+            # largura estimada (Inter Bold em caixa alta ~0,6 em por letra; apoio e complemento ~22 px por letra)
+            hero_w, apoio_w, comp_w = len(hero) * hs * 0.6, len(apoio) * 22, len(comp) * 22
+            if side.group(1) == 'right':
+                lim = 880  # texto começa em ~900 px e deriva para a direita (o que passa disso sai da tela)
+            elif obj.group(1) == 'chart':
+                lim = 1400  # as barras ficam embaixo, à direita
+            else:
+                lim = 1020  # moeda ou cartão na altura do texto, a partir de ~1230 px no fim da cena
+            for nome, w in (('destaque', hero_w), ('apoio', apoio_w), ('complemento', comp_w)):
+                if w > lim:
+                    problems.append(f'card "{s["phrase"]}": {nome} com ~{w:.0f} px ao lado do objeto "{obj.group(1)}" (limite ~{lim}); encurtar, reduzir heroSize ou usar textSide center + object none')
         if obj and obj.group(1) in ('receipt', 'phone') and ep != 'ep01':
             problems.append(f'card "{s["phrase"]}": objeto "{obj.group(1)}" tem texto fixo do ep. 1 (TRADE CONFIRMATION / Market order); usar coin, chart, card ou none')
         if len(apoio) > 62:

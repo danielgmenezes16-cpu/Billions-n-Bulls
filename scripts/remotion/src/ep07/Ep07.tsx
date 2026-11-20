@@ -18,7 +18,7 @@ const {c, add, card, photo} = E;
 const WIKI = 'Source: Wirecard filings (via Wikipedia)';
 
 // ---------------- Abertura ----------------
-add('Where Did Wirecard\'s', card({id: 'o-title', apoio: 'Wirecard:', hero: 'WHERE DID $2 BILLION GO?', textSide: 'left', object: 'coin', heroSize: 130, heroUnderline: true, objectSlide: true}));
+add('Where Did Wirecard\'s', card({id: 'o-title', apoio: "Where did Wirecard's", hero: '$2 BILLION GO?', textSide: 'left', object: 'coin', heroSize: 120, heroUnderline: true, objectSlide: true}));
 add('June 18, 2020', photo('o-papers', {apoio: 'June 18, 2020. A German payments company was due to publish', hero: 'ITS ANNUAL RESULTS'}));
 add('Instead, its auditors say', card({id: 'o-missing', apoio: "Its auditors can't confirm", hero: '€1.9 BILLION', complemento: 'about $2.1 billion, "in two banks in the Philippines"', textSide: 'center', object: 'none', heroSize: 190}));
 add('The banks say they never had it', card({id: 'o-never', apoio: 'The banks say:', hero: 'WE NEVER HAD IT', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true}));
@@ -35,7 +35,7 @@ add('This is Billions and Bulls', card({id: 'o-brand', apoio: 'This is Billions 
 
 // ---------------- Parte 1 — The Company That Replaced a Bank ----------------
 add('Part 1', card({id: 'p1-title', apoio: 'Part 1', hero: 'THE COMPANY THAT REPLACED A BANK', textSide: 'center', object: 'none', heroSize: 100, heroUnderline: true}));
-add('Wirecard started in 1999', card({id: 'p1-start', apoio: 'When you pay online, somebody has to move', hero: 'THE MONEY', complemento: 'from your card to the shop', textSide: 'right', object: 'card', heroSize: 110}));
+add('Wirecard started in 1999', card({id: 'p1-start', apoio: 'When you pay online, somebody has to move', hero: 'THE MONEY', complemento: 'from your card to the shop', textSide: 'center', object: 'none', heroSize: 110}));
 add('Picture a pair of sneakers', (s) => (
 	<RouteShot2 id="p1-route" start={s} goAt={c.f('a processor passes the payment')} stamp={{text: 'A SMALL FEE', at: c.f('it keeps a small fee')}}
 		nodes={[
@@ -85,7 +85,7 @@ add('Three partners mattered most', (s) => (
 		]} />
 ));
 add('According to reporting by the Financial Times in 2019', photo('p2-dubai', {apoio: 'Those three partners, the FT reported in 2019:', hero: 'HALF THE REVENUE', complemento: 'and almost all the profit'}));
-add('There was a catch', card({id: 'p2-escrow', apoio: "The money didn't sit in Wirecard's accounts. It sat in", hero: 'ESCROW', complemento: 'held by a trustee, and counted as cash anyway', textSide: 'left', object: 'coin', heroSize: 190}));
+add('There was a catch', card({id: 'p2-escrow', apoio: "The money didn't sit in Wirecard's accounts. It sat in", hero: 'ESCROW', complemento: 'held by a trustee, and counted as cash anyway', textSide: 'center', object: 'none', heroSize: 190}));
 add('Think of it like this', (s) => (
 	<RouteShot2 id="p2-friend" start={s} goAt={c.f('with a friend overseas')} stamp={{text: 'JUST A LETTER', at: c.f("Here's a letter from your friend")}}
 		nodes={[
@@ -122,7 +122,7 @@ add('Here\'s where the story gets strange', (s) => (
 			{year: '2020', label: 'Dropped: no evidence', at: c.f('That case was dropped')},
 		]} />
 ));
-add('Investors kept believing', card({id: 'p3-softbank', apoio: '2019: SoftBank puts in about', hero: '€900 MILLION', complemento: 'most analysts stayed positive until early 2020', textSide: 'left', object: 'coin', heroSize: 160, dark: true}));
+add('Investors kept believing', card({id: 'p3-softbank', apoio: '2019: SoftBank puts in about', hero: '€900 MILLION', complemento: 'most analysts stayed positive until early 2020', textSide: 'center', object: 'none', heroSize: 160, dark: true}));
 add('To be fair to those investors', card({id: 'p3-fair', apoio: 'Booming payments. Audited accounts. Critics with a motive.', hero: 'EASY TO BELIEVE', textSide: 'center', object: 'none', heroSize: 150, heroUnderline: true, dark: true}));
 add('If you\'re enjoying the story so far', (s) => (
 	<SubscribeShot2 id="p3-sub" start={s} dark free="It's free." line1="No escrow needed." line2="No letters from friends overseas."
