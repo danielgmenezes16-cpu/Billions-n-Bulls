@@ -148,7 +148,7 @@ add('None of this is illegal or unusual', (s) => (
 		lines={[
 			{label: 'Illegal or unusual?', value: 'no', at: c.f('illegal or unusual')},
 			{label: 'Bonds', value: 'paid back, with interest', at: c.f('Bonds have to be paid')},
-			{label: '10-year Treasury, Oct. 2026', value: 'above 5%, highest since 2002', at: c.f('above five percent'), highlight: true},
+			{label: '10-year Treasury', value: 'above 5%, highest since 2002', at: c.f('above five percent'), highlight: true},
 		]} />
 ));
 add('So the question investors ask has changed', card({id: 'p4-question', apoio: "No longer, how much cash will Google return? It's", hero: 'WHEN WILL ALL THIS PAY OFF?', textSide: 'center', object: 'none', heroSize: 95, heroUnderline: true}));
