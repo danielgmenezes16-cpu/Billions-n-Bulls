@@ -103,7 +103,7 @@ add('Then, on November 11', (s) => (
 ));
 add('The board moved fast', card({id: 'p2-kress', apoio: 'Kress becomes interim CEO. And for the first time, Nvidia gets', hero: 'A SEPARATE BOARD CHAIR', textSide: 'center', object: 'none', heroSize: 105, heroUnderline: true, dark: true}));
 add('Kress isn\'t a household name', card({id: 'p2-cv', apoio: 'Before Nvidia: finance jobs at Cisco and Microsoft for almost', hero: '25 YEARS', textSide: 'center', object: 'none', heroSize: 190, heroUnderline: true, dark: true}));
-add('The reaction was split', card({id: 'p2-letter', apoio: 'An open letter asking the board to bring Huang back:', hero: '170,000+ SIGNATURES', complemento: 'and several tech leaders backed him in public', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
+add('The reaction was split', card({id: 'p2-letter', apoio: 'An open letter asking the board to bring Huang back:', hero: '170,000+ SIGNATURES', complemento: 'several tech leaders publicly backed him', textSide: 'center', object: 'none', heroSize: 120, heroUnderline: true, dark: true}));
 add('On November 17, Huang said', (s) => (
 	<TimelineShot id="p2-return" start={s} dark title="November 17" source="Sources: CNN; NPR"
 		events={[

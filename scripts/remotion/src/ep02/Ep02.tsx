@@ -138,7 +138,7 @@ add('Add it all up', (s) => (
 			{value: '$20.1B', label: 'net income', at: c.f('net income was'), ring: 0.5},
 		]} />
 ));
-add('Spread across all those payments', card({id: 'p2-28c', apoio: 'For every $100 on its network:', hero: '~28¢', complemento: 'Our calculation: $40.0B ÷ $14.2T', textSide: 'left', object: 'coin', heroSize: 230, heroUnderline: true}));
+add('Spread across all those payments', card({id: 'p2-28c', apoio: "That's roughly", hero: '~28¢', complemento: 'per $100 on its network ($40.0B ÷ $14.2T)', textSide: 'left', object: 'coin', heroSize: 230, heroUnderline: true}));
 add('So if the store loses', card({id: 'p2-rest', apoio: 'The store loses ~$3. Visa takes a fraction.', hero: 'WHERE DOES THE REST GO?', textSide: 'center', object: 'none', heroSize: 100}));
 
 // ---------------- Parte 3 — The Fee Visa Sets, but Doesn't Keep ----------------

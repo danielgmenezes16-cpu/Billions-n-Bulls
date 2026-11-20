@@ -10,7 +10,8 @@ Imita epkit/cues.ts e avisa quando:
 - uma cena (fora a primeira) começa dentro do título falado (a frase dela também aparece no título);
 - o apoio de um card() passa de 62 caracteres (o card não quebra linha e o texto vaza pelas bordas);
 - um card() usa o objeto 'receipt' ou 'phone' fora do ep. 1 (os dois têm texto fixo do ep. 1);
-- num card() com objeto ao lado, o texto passa da largura que cabe antes do objeto ou da borda.
+- num card() com objeto ao lado, o texto passa da largura que cabe antes do objeto ou da borda;
+- a última palavra de um card() entra a menos de 0,5 s do fim da cena (mal dá para ler).
 """
 import json
 import re
@@ -125,6 +126,10 @@ def check(ep):
         late = [w for (p, t), (_, w) in zip(cues, words) if t > s['t1']]
         if late and not (hero_t is not None and hero_t > s['t1'] - 0.8):
             problems.append(f'card "{s["phrase"]}": palavras depois do fim da cena: {" ".join(late)}')
+        elif cues and not late and cues[-1][1] > s['t1'] - 0.5:
+            # palavras que não estão na narração entram 0,18 s depois da anterior: várias no fim do card mal aparecem
+            problems.append(f'card "{s["phrase"]}": a última palavra ("{words[-1][1]}") fica só {s["t1"] - cues[-1][1]:.2f} s na tela; '
+                            'pôr o texto na ordem e com as palavras da narração, ou tirar as que ela não fala')
     print(f'{ep}: ' + ('ok' if not problems else f'{len(problems)} problema(s)'))
     for p in problems:
         print('  -', p)
